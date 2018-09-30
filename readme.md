@@ -11,9 +11,7 @@ Prueba
 - Para subirlo le damos al símbolo del 'tick' y confirmamos cambios. Se quedarán listos para la subida.<br>
 - Finalmente para subirlos nos vamos a la barra inferior azul que indicará que hay un archivo listo para subirse. Le hacemos clic y listo.
 
-
-
-
+<br><br><br>
 
 https://github.com/jesusdc99/mundocoches/
 

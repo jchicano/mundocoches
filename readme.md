@@ -1,4 +1,4 @@
-# MundoCoches
+# MundoCoches :oncoming_automobile:
 Prueba
 
 ## Cómo configurar VS Code con GitHub
@@ -14,6 +14,8 @@ Prueba
 - Finalmente para subirlos nos vamos a la barra inferior azul que indicará que hay un archivo listo para subirse. Le hacemos clic y listo.
 
 <br><br><br>
+
+/play nyan
 
 https://github.com/jesusdc99/mundocoches/
 

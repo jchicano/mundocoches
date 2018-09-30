@@ -8,6 +8,8 @@ Prueba
 - Ya tendremos los archivos del repositorio descargados.<br>
 - Si hacemos cualquier cambio nos aparecerá un número en el icono del control de versiones con el número de archivos modificados.<br>
 - Si queremos subir un archivo nos vamos a cambios, lo agregamos con el símbolo `+` a la cola de confirmaciones.<br>
+- Para subirlo le damos al símbolo del 'tick' y confirmamos cambios. Se quedarán listos para la subida a la rama mostrada abajo a la izquierda.<br>
+- Para cambiar la rama hacemos clic en el nombre de la rama actual y seleccionamos una de la lista.<br>
 - Para subirlo le damos al símbolo del 'tick' y confirmamos cambios. Se quedarán listos para la subida.<br>
 - Finalmente para subirlos nos vamos a la barra inferior azul que indicará que hay un archivo listo para subirse. Le hacemos clic y listo.
 

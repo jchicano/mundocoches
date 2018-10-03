@@ -1,4 +1,5 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MundoCoches logo" src="https://github.com/Microsoft/MS-DOS/blob/master/msdos-logo.png">
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MundoCoches logo" src="https://github.com/jesusdc99/mundocoches/tree/master/img/test.png">
+
 
 # MundoCoches :earth_africa::oncoming_automobile:
 Prueba
@@ -16,6 +17,8 @@ Prueba
 - Finalmente para subirlos nos vamos a la barra inferior azul que indicará que hay un archivo listo para subirse. Le hacemos clic y listo.
 
 <br><br><br>
+
+https://github.com/Microsoft/MS-DOS/blob/master/msdos-logo.png
 
 https://github.com/jesusdc99/mundocoches/
 

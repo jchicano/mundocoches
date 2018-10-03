@@ -26,4 +26,11 @@ https://github.com/jesusdc99/mundocoches/
 
 https://bitbucket.org/jesusdc99/mundocoches/
 
-https://startbootstrap.com/template-overviews/grayscale/
+#### Otros enlaces:
+
+https://startbootstrap.com/template-overviews/grayscale/<br>
+
+http://www.paletton.com/palette.php?uid=13N0u0kl-4Fb-8Rh86Cqr2Zxr1p<br>
+
+
+<br><br>

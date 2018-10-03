@@ -4,6 +4,8 @@
 # MundoCoches :earth_africa::oncoming_automobile:
 Prueba
 
+<br>
+
 ## Cómo configurar VS Code con GitHub
 - Una vez abierto Code pulsamos **Ctrl+Shift+P** y escribimos git clone y pulsamos intro.<br>
 - Pegamos la URL del repositorio `https://github.com/jesusdc99/mundocoches/` y volvemos a pulsar intro.<br>

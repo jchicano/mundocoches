@@ -1,5 +1,5 @@
 body {
-  background: #D7F7FE;
+  background: #0A0E19;
   font-family: 'Fira Sans', sans-serif;
   color: #222;
 }
@@ -13,7 +13,7 @@ body {
   max-width: 65em;
   margin: 0 auto;
 }
-
+/*No se usa actualmente*/
 .header {
   background: #FF6067;
   color: white;
@@ -60,13 +60,14 @@ h3 {
 }
 
 .main-nav {
-  background: #F7EE1A;
+  background: #151D33;
   color: white;
   width: 100%;
   position: fixed;
 }
 .main-nav a {
-  color: #1A577F;
+  /*color: #1A577F;*/
+  color: rgb(189,189,189);
   text-decoration: none;
 }
 .main-nav ul, .main-nav li {
@@ -87,8 +88,9 @@ h3 {
   text-transform: uppercase;
 }
 .main-nav ul a:hover, .main-nav ul a:focus {
-  background: #fbf795;
-  color: #419cd8;
+  background: #222A42;
+  /*color: #419cd8;*/
+  color: white;
 }
 .main-nav ul .mobile-button a {
   position: absolute;
@@ -123,7 +125,7 @@ h3 {
 
 .full-bleed {
   background-size: cover;
-  min-height: 300px;
+  min-height: 600px;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -135,7 +137,7 @@ h3 {
   }
 }
 .cool-photo {
-  background-image: url(img/bg-masterhead.jpg);
+  background-image: url(../img/bienvenido.jpg);
 }
 /*No se usa de momento*/
 .cool-photo2 {

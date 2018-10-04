@@ -32,6 +32,8 @@ https://startbootstrap.com/template-overviews/grayscale/<br>
 
 http://www.paletton.com/palette.php?uid=13N0u0kl-4Fb-8Rh86Cqr2Zxr1p<br>
 
+paleta2: http://www.paletton.com/palette.php?uid=13N0u0klz9Bdghdhjcep%2B6Cvx3C<br>
+
 http://www.monolinea.com/projects/styleguide/<br>
 
 

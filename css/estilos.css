@@ -1,6 +1,40 @@
-
-
 /* ===============================================================
-                        ESTILOS MOSAICO
+                        ESTILOS HOVER
 =============================================================== */
 
+  .column a img {
+      background-color: black;
+  }
+
+  .column a img:hover {
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+  .noticias {background-image: url(../img/noticias.jpg);}
+
+/*----------------*/
+  
+
+/*Zoom a las imagenes - no sirve*/
+
+.zoom img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; 
+}
+
+.zoom:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+       

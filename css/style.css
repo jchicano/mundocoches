@@ -1,5 +1,5 @@
 body {
-  background: #0A0E19;
+  background: #fff;
   font-family: 'Fira Sans', sans-serif;
   color: #222;
 }
@@ -63,7 +63,6 @@ h3 {
   background: #151D33;
   color: white;
   width: 100%;
-  position: fixed;
 }
 .main-nav a {
   /*color: #1A577F;*/

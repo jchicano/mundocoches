@@ -43,4 +43,27 @@
   padding-right: 20px;
 }
 
+.item {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+
+/*********************************************************************/
+
+.noticias {
+  background-image: url('../img/noticias.jpg');
+  width:550px; height: 350px;
+}
+
+
 

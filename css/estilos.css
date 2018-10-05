@@ -1,0 +1,46 @@
+/* ===============================================================
+                        ESTILOS HOVER
+=============================================================== */
+
+  .column a img:hover {
+    filter: brightness(50%);
+    background-size: cover;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+  }
+
+
+/*----------------*/
+  
+
+/*Zoom a las imagenes - no sirve*/
+
+.zoom img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; 
+}
+
+.zoom:hover img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/**/
+
+
+.text-block {
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+

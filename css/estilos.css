@@ -60,6 +60,10 @@
 
 /*********************************************************************/
 
+.noticias {
+  background-image: url('../img/noticias.jpg');
+  width:550px; height: 350px;
+}
 
 
 

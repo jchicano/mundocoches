@@ -42,12 +42,13 @@ body {
 .site-title, h1, h2, h3 {
   font-family: "Righteous", sans-serif;
   font-size: 2.625em;
-  color: #024654;
+  /*color: #024654;*/
+  color: #222A42;
 }
 
 h3 {
   font-size: 2em;
-  color: #f7686e;
+  color: #024654;
 }
 
 .site-title {
@@ -156,15 +157,16 @@ h3 {
 .columns .item {
   padding: 1.5625em;
   max-width: 47%;
-  background: #b1dbf0;
-  color: #1A577F;
-  border-bottom: 5px solid #F7EE1A;
+  background: #eeeeee;
+  /*color: #1A577F;*/
+  color: #024654;
+  border-bottom: 5px solid #151D33;
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
 }
 .columns .item .item-title {
-  color: #011d23;
+  color: #3A435C;
   font-size: 24px;
   margin: 0 0 5px 0;
   font-family: "Righteous", sans-serif;
@@ -173,8 +175,8 @@ h3 {
   max-width: 100%;
 }
 .columns .item:hover, .columns .item:focus {
-  background: #e8f4fa;
-  border-bottom-color: #FF6067;
+  background: #dddddd;
+  border-bottom-color: #222A42;
 }
 .columns .item:hover .social, .columns .item:focus .social {
   position: absolute;

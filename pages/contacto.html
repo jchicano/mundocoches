@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MundoCoches</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+
+
+<body>
+	
+<section id="contact-form-section" class="form-content-wrap" >
+<div class="container">
+	<div class="row">
+		<div class="tab-content">
+			<div class="col-sm-12">
+				<div class="item-wrap">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="item-content colBottomMargin">
+								<div class="item-info" align="center">
+									<h2 class="item-title text-center">Contacto</h2>									
+								</div><!--End item-info -->	
+							</div><!--End item-content -->
+						</div><!--End col -->
+						<div class="col-md-12">
+							
+						<form id="contactForm" name="contactform" data-toggle="validator" class="popup-form">
+										<div class="row" align="center">
+											<div id="msgContactSubmit" class="hidden"></div>
+											
+											<div class="form-group col-sm-6" >
+												<div class="help-block with-errors"></div>
+												<input name="fname" id="fname" placeholder="Tu nombre*" class="form-control" type="text" required data-error="Por favor ingresa tu nombre"> 
+												<div class="input-group-icon"><i class="fa fa-user"></i></div>
+											</div><!-- end form-group -->
+											<div class="form-group col-sm-6">
+												<div class="help-block with-errors"></div>
+												<input name="email" id="email" placeholder="Tu E-mail*" pattern=".*@\w{2,}\.\w{2,}" class="form-control" type="email" required data-error="Por favor ingresa un correo electrónico válido">
+												<div class="input-group-icon"><i class="fa fa-envelope"></i></div>
+											</div><!-- end form-group -->
+											<div class="form-group col-sm-6">
+												<div class="help-block with-errors"></div>
+												<input name="phone" id="phone" placeholder="Teléfono*" class="form-control" type="text" required data-error="Por favor ingresa tu número de teléfono">
+												<div class="input-group-icon"><i class="fa fa-phone"></i></div> 
+											</div><!-- end form-group -->
+											<div class="form-group col-sm-6">
+												<div class="help-block with-errors"></div>
+												<input name="subject" id="subject" placeholder="Asunto*" class="form-control" type="text" required data-error="Por favor ingresa el asunto">
+												<div class="input-group-icon"><i class="fa fa-book"></i></div> 
+											</div><!-- end form-group -->
+											<div class="form-group col-sm-12">
+												<div class="help-block with-errors"></div>
+												<textarea rows="3" name="message" id="message" placeholder="Escribe tu comentario aquí*" class="form-control" required data-error="Por favor ingresa un mensaje"></textarea>
+												<div class="textarea input-group-icon"><i class="fa fa-pencil"></i></div>
+											</div><!-- end form-group -->
+											
+											<div class="form-group last col-sm-12">
+													<button type="submit" id="submit" class="btn btn-custom"><i class='fa fa-envelope'></i>Volver</button>
+												</div><!-- end form-group -->
+
+											<div class="form-group last col-sm-12">
+												<button type="submit" id="submit" class="btn btn-custom"><i class='fa fa-envelope'></i>Enviar</button>
+											</div><!-- end form-group -->	
+									
+											<span class="sub-text">* Campos requeridos</span>
+											<div class="clearfix"></div>
+										</div><!-- end row -->
+									</form><!-- end form -->		
+						</div>
+					</div><!--End row -->
+					<!-- Popup end -->							
+				</div><!-- end item-wrap -->
+			</div><!--End col -->
+		</div><!--End tab-content -->
+	</div><!--End row -->
+</div><!--End container -->
+</section>
+	
+	<footer class="footer">
+			<div class="container" align="center">
+			  <p>MundoCoches &copy; 2018-19</p>
+			</div>
+		  </footer>
+		  
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="js/index.js"></script>
+
+	
+</body>
+</html>

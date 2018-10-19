@@ -23,9 +23,8 @@ https://github.com/jesusdc99/mundocoches/
 
 https://bitbucket.org/jesusdc99/mundocoches/
 
-<<<<<<< HEAD
 https://startbootstrap.com/template-overviews/grayscale/
-=======
+
 #### Otros enlaces:
 
 https://startbootstrap.com/template-overviews/grayscale/<br>
@@ -42,4 +41,3 @@ http://www.monolinea.com/projects/styleguide/<br>
 
 
 <br><br>
->>>>>>> 1be51744547260dd457030a400db949c112d8658

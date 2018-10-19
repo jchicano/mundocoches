@@ -1,5 +1,6 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MundoCoches logo" src="https://ii.yuki.la/4/61/d4102a91a3e2d018543848f1d814e1b894e014e3932eb9c0d90435a48ad73614.gif">
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MundoCoches logo" src="img/favicon.png">
 
+<!--https://ii.yuki.la/4/61/d4102a91a3e2d018543848f1d814e1b894e014e3932eb9c0d90435a48ad73614.gif-->
 
 # MundoCoches :earth_africa::oncoming_automobile:
 Prueba
@@ -30,11 +31,15 @@ https://bitbucket.org/jesusdc99/mundocoches/
 
 https://startbootstrap.com/template-overviews/grayscale/<br>
 
+https://html5up.net/<br>
+
 http://www.paletton.com/palette.php?uid=13N0u0kl-4Fb-8Rh86Cqr2Zxr1p<br>
 
 paleta2: http://www.paletton.com/palette.php?uid=13N0u0klz9Bdghdhjcep%2B6Cvx3C<br>
 
 http://www.monolinea.com/projects/styleguide/<br>
+
+
 
 
 <br><br>

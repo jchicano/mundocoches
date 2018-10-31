@@ -1,15 +1,15 @@
 <?php
 	switch ($_SERVER["SCRIPT_NAME"]) {
-		case "/php-template/about.php":
-			$CURRENT_PAGE = "About"; 
-			$PAGE_TITLE = "About Us";
+		case "/plantilla.php":
+			$CURRENT_PAGE = "Plantilla"; 
+			$PAGE_TITLE = "Plantilla de prueba";
 			break;
-		case "/php-template/contact.php":
-			$CURRENT_PAGE = "Contact"; 
-			$PAGE_TITLE = "Contact Us";
+		case "/marcas.php":
+			$CURRENT_PAGE = "Marcas"; 
+			$PAGE_TITLE = "Marcas de coches";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";
-			$PAGE_TITLE = "Welcome to my homepage!";
+			$PAGE_TITLE = "MundoCoches";
 	}
 ?>

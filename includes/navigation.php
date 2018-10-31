@@ -27,7 +27,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="plantilla.html">Plantilla</a>
+              <a class="nav-link js-scroll-trigger" href="plantilla.php">Plantilla</a>
             </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="">Noticias</a>

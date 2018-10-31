@@ -2,6 +2,6 @@
 <html lang="en">
 <?php include('../head.php'); ?>
 <body>
-<?php include('../menu.php'); ?>
+<?php include('../body.php'); ?>
 </body>
 </html>

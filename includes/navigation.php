@@ -1,3 +1,19 @@
+<!-- CODIGO ORIGINAL DEL FRAMEWORK
+<div class="container">
+	<ul class="nav nav-pills">
+	  <li class="nav-item">
+	    <a class="nav-link <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>" href="index.php">Home</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link <?php if ($CURRENT_PAGE == "About") {?>active<?php }?>" href="about.php">About Us</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="contact.php">Contact</a>
+	  </li>
+	</ul>
+</div>
+-->
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
@@ -10,6 +26,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="plantilla.html">Plantilla</a>
+            </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="">Noticias</a>
         </li>

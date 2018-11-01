@@ -6,14 +6,14 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: #222A42;/*Modificado*/
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.75);
 }
 
 #mainNav .navbar-toggler:focus {
@@ -27,7 +27,7 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(#222A42, 80%);/*Modificado*/
   outline: none;
   background-color: transparent;
 }
@@ -54,35 +54,35 @@
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(34, 42, 66, 0.8);/*Modificado*/
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(57, 66, 90, 0.5);/*Modificado*/
   }
   #mainNav .nav-link:active {
     color: white;
   }
-  #mainNav.navbar-shrink {
-    background-color: #fff;
+  #mainNav.navbar-shrink {/*Esta clase se usa cuando hacemos scroll y la barra deja de ser transparente*/
+    background-color: #222A42;/*Modificado*/
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: white;/*Modificado*/
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: rgba(255, 255, 255, 0.75);/*Modificado*/
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: rgba(255, 255, 255, 0.5);/*Modificado*/
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: rgba(255, 255, 255, 0.75);/*Modificado*/
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid rgba(255, 255, 255, 0.75);
   }
 }
 

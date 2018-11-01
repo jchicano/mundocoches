@@ -57,10 +57,10 @@
     color: rgba(34, 42, 66, 0.8);/*Modificado*/
   }
   #mainNav .nav-link:hover {
-    color: rgba(57, 66, 90, 0.5);/*Modificado*/
+    color: rgba(57, 66, 90, 0.55);/*Modificado*/
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: rgba(57, 66, 90, 0.75);/*Modificado*/
   }
   #mainNav.navbar-shrink {/*Esta clase se usa cuando hacemos scroll y la barra deja de ser transparente*/
     background-color: #222A42;/*Modificado*/

@@ -14,9 +14,17 @@
 <meta name="description" content="Esta es la página web de MundoCoches">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
+<?php if ($CURRENT_PAGE == "Index") { ?>
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="icon" href="img/favicon.png">
+<?php }
+	else { ?>
+	<link rel="manifest" href="../site.webmanifest">
+	<link rel="icon" href="../img/favicon.png">
+<?php
+	}
+?>
 
-<link rel="manifest" href="site.webmanifest">
-<link rel="icon" href="img/favicon.png">
 
 <!-- Bootstrap core CSS -->
 <?php if ($CURRENT_PAGE == "Index") { ?>
@@ -30,7 +38,14 @@
 
 
 <!-- Custom fonts for this template -->
-<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<?php if ($CURRENT_PAGE == "Index") { ?>
+	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<?php }
+	else { ?>
+		<link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<?php
+	}
+?>
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 

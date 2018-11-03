@@ -10,7 +10,7 @@
 
 <!-- CONTENIDO -->
 
-<body class="bg-light">
+<body class="bg-light"><!--Modificado-->
   <div class="container bg-light">
       <!-- AUDI -->
       <section id="projects" class="projects-section bg-light">
@@ -54,7 +54,7 @@
       <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="../img/analisis/mercedes_amg_c_43_4matic.jpg" alt="">
+            <img class="img-fluid" src="../img/analisis/merche.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">

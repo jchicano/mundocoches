@@ -40,7 +40,7 @@
         </li>
         <li class="nav-item">
 					<?php if ($CURRENT_PAGE == "Index") { ?>
-						<a class="nav-link" href="analisis/index.php">Análisis</a>
+						<a class="nav-link" href="analisis/">Análisis</a>
 					<?php }
 						else { ?>
 							<a class="nav-link" href="#">Análisis</a>

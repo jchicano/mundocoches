@@ -67,7 +67,7 @@
 
 <!-- Estilos CSS propios -->
 <?php if ($CURRENT_PAGE == "Index") { ?>
-	<link href="estilos.css">
+	<link href="estilos.css"> <!--Modificado, he quitado el atributo rel-->
 <?php }
 	else { ?>
 		<link href="../estilos.css">

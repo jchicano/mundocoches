@@ -12,6 +12,10 @@
 			$CURRENT_PAGE = "Analisis"; 
 			$PAGE_TITLE = "Análisis de coches";
 			break;
+		case "/accesoris/index.php":
+			$CURRENT_PAGE = "Accesorios"; 
+			$PAGE_TITLE = "Accesorios de coches";
+			break;
 		default:
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "MundoCoches";

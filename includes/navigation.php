@@ -49,7 +49,14 @@
 					?>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#">Accesorios</a>
+          <?php if ($CURRENT_PAGE == "Index") { ?>
+            <a class="nav-link js-scroll-trigger" href="#">Accesorios</a>
+          <?php }
+            else { ?>
+              <a class="nav-link" href="#">Accesorios</a>
+          <?php
+            }
+          ?>  
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">About</a>

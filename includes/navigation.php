@@ -33,26 +33,36 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="">Noticias</a>
+          <?php if ($CURRENT_PAGE != "Noticias") { ?>
+          <a class="nav-link js-scroll-trigger" href="noticias/">Noticias</a>
+					<?php } else { ?>
+							<a class="nav-link" href="#">Noticias</a>
+					<?php
+						}
+					?>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#">Marcas</a>
+          <?php if ($CURRENT_PAGE != "Noticias") { ?>
+          <a class="nav-link js-scroll-trigger" href="marcas/">Marcas</a>
+					<?php } else { ?>
+          <a class="nav-link" href="#">Marcas</a>
+					<?php
+						}
+					?>
         </li>
         <li class="nav-item">
-					<?php if ($CURRENT_PAGE == "Index") { ?>
+					<?php if ($CURRENT_PAGE != "Analisis") { //Modificado ?>
 						<a class="nav-link" href="analisis/">Análisis</a>
-					<?php }
-						else { ?>
+					<?php } else { ?>
 							<a class="nav-link" href="#">Análisis</a>
 					<?php
 						}
 					?>
         </li>
         <li class="nav-item">
-          <?php if ($CURRENT_PAGE == "Index") { ?>
+          <?php if ($CURRENT_PAGE != "Accesorios") { ?>
             <a class="nav-link js-scroll-trigger" href="accesorios/">Accesorios</a>
-          <?php }
-            else { ?>
+          <?php } else { ?>
               <a class="nav-link" href="#">Accesorios</a>
           <?php
             }

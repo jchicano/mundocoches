@@ -12,7 +12,7 @@
 			$CURRENT_PAGE = "Analisis"; 
 			$PAGE_TITLE = "Análisis de coches";
 			break;
-		case "/accesoris/index.php":
+		case "/accesorios/index.php":
 			$CURRENT_PAGE = "Accesorios"; 
 			$PAGE_TITLE = "Accesorios de coches";
 			break;

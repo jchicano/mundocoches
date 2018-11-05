@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <?php if ($CURRENT_PAGE != "Noticias") { ?>
+          <?php if ($CURRENT_PAGE == "Index") { ?>
           <a class="nav-link js-scroll-trigger" href="noticias/">Noticias</a>
 					<?php } else { ?>
 							<a class="nav-link" href="#">Noticias</a>
@@ -42,7 +42,7 @@
 					?>
         </li>
         <li class="nav-item">
-          <?php if ($CURRENT_PAGE != "Noticias") { ?>
+          <?php if ($CURRENT_PAGE == "Index") { ?>
           <a class="nav-link js-scroll-trigger" href="marcas/">Marcas</a>
 					<?php } else { ?>
           <a class="nav-link" href="#">Marcas</a>
@@ -51,16 +51,19 @@
 					?>
         </li>
         <li class="nav-item">
-					<?php if ($CURRENT_PAGE != "Analisis") { //Modificado ?>
+					<?php if ($CURRENT_PAGE == "Index") { //La pagina es index ?>
 						<a class="nav-link" href="analisis/">Análisis</a>
-					<?php } else { ?>
+					<?php } else if ($CURRENT_PAGE != "Analisis" && substr($CURRENT_PAGE, 0, 8) === "analisis") { //La pagina es una subpagina de alguna categoria (analisis/audi/) ?>
 							<a class="nav-link" href="#">Análisis</a>
 					<?php
-						}
+						} else { //La pagina es analisis/index ?>
+              <a class="nav-link" href="#">Análisis</a>
+          <?php
+            }
 					?>
         </li>
         <li class="nav-item">
-          <?php if ($CURRENT_PAGE != "Accesorios") { ?>
+          <?php if ($CURRENT_PAGE == "Index") { ?>
             <a class="nav-link js-scroll-trigger" href="accesorios/">Accesorios</a>
           <?php } else { ?>
               <a class="nav-link" href="#">Accesorios</a>

@@ -4,7 +4,11 @@
 			$CURRENT_PAGE = "Plantilla"; 
 			$PAGE_TITLE = "Plantilla de prueba";
 			break;
-		case "/marcas.php":
+		case "/noticias/index.php":
+			$CURRENT_PAGE = "Noticias"; 
+			$PAGE_TITLE = "Noticias de coches";
+			break;
+		case "/marcas/index.php":
 			$CURRENT_PAGE = "Marcas"; 
 			$PAGE_TITLE = "Marcas de coches";
 			break;

@@ -1,4 +1,6 @@
-<?php include("../includes/a_config.php");?>
+<?php $CURRENT_PAGE = "Analisis extendido"; ?>
+<?php $PAGE_TITLE = "Análisis | Audi A5 Sportback"; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,9 +24,8 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                    <h4 class="text-white">Audi A5</h4>
+                    <h4 class="text-white">Titulo</h4>
                     <p class="mb-0 text-white-50">ANALISISANALISISANALISISANALISISANALISISANALISISANALISISANALISISANALISISANALISISANALISIS</p>
-                  
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
               </div>

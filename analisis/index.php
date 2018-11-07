@@ -22,7 +22,7 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <a href="audi/analisis-a5-sportback.php?titulo=Audi A5 Sportback, a fondo">
+                  <a href="analisis-a5-sportback.php">
                     <h4 class="text-white">Audi A5 Sportback, a fondo</h4>
                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   </a>

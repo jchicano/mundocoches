@@ -6,19 +6,19 @@
 			break;
 		case "/noticias/index.php":
 			$CURRENT_PAGE = "Noticias"; 
-			$PAGE_TITLE = "Noticias de coches";
+			$PAGE_TITLE = "MundoCoches | Noticias";
 			break;
 		case "/marcas/index.php":
 			$CURRENT_PAGE = "Marcas"; 
-			$PAGE_TITLE = "Marcas de coches";
+			$PAGE_TITLE = "MundoCoches | Marcas";
 			break;
 		case "/analisis/index.php":
 			$CURRENT_PAGE = "Analisis"; 
-			$PAGE_TITLE = "Análisis de coches";
+			$PAGE_TITLE = "MundoCoches | Análisis";
 			break;
 		case "/accesorios/index.php":
 			$CURRENT_PAGE = "Accesorios"; 
-			$PAGE_TITLE = "Accesorios de coches";
+			$PAGE_TITLE = "MundoCoches | Accesorios";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";

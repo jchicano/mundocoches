@@ -2,7 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("../includes/head-tag-contents.php");?>
+  <?php include("../includes/head-tag-contents.php");?>
+  
+  <style>
+    .general {
+      
+    }
+  </style>
 </head>
 <body>
 
@@ -11,7 +17,50 @@
 <!-- CONTENIDO -->
 
 <body class="bg-light"><!--Modificado-->
-  <div class="container bg-light">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<div class="container bg-light">
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">

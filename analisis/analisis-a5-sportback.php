@@ -13,7 +13,19 @@
 <!-- CONTENIDO -->
 
 <body class="bg-light"><!--Modificado-->
+<header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0">Audi A5 Sportback</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Tu blog de noticias del motor</h2>
+        <a href="#about" class="js-scroll-trigger">
+          <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
+        </a>
+      </div>
+    </div>
+  </header>
   <div class="container bg-light">
+
       <!--  -->
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">

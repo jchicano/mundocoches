@@ -24,4 +24,10 @@
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "MundoCoches";
 	}
+	/*
+	if(preg_match("/\/analisis/analisis-+/",$_SERVER["SCRIPT_NAME"])){
+		echo "SI FUNCIONA";
+	}
+	substr();
+	*/
 ?>

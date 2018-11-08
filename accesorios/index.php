@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("../includes/head-tag-contents.php");?>
+  <?php include("../includes/head-tag-contents.php");?>
+  <link rel="stylesheet" href="../css/imgMosaico.css">
 </head>
 <body>
 
@@ -12,63 +13,37 @@
 
 <body class="bg-light"><!--Modificado-->
   <div class="container bg-light">
-      <!-- AUDI -->
-      <section id="projects" class="projects-section bg-light">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../img/accesorios/audiacc.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Audi A5 Sportback, accesorios</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- BMW -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../img/accesorios/bmwacc.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">BMW M2 Competition, accesorios</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- MERCEDES -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="../img/accesorios/mercedesacc.jpg" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Mercedes AMG C 43 4MATIC, accesorios</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <section id="projects" class="projects-section bg-light">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <ul id="galeria2">
+          <!-- PRIMERA LÍNEA DE 5 IMÁGENES -->
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/bmwacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a>
+          </li>
+          
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/bmwacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a> 
+          </li>
+
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/bmwacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a>
+          </li>
+
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/bmwacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a>
+          </li>
+
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/bmwacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a>
+          </li>
+
+          <!-- SEGUNDA LÍNEA DE 5 IMÁGENES -->
+          <li>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/audiacc.jpg" /><span style="text-decoration:none;">El título o leyenda</span></a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </div>
 </body>
 

@@ -4,7 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("../includes/head-tag-contents.php");?>
+  <?php include("../includes/head-tag-contents.php");?>
+  <link rel="stylesheet" href="../css/analisis/a5-sportback.css">
 </head>
 <body>
 

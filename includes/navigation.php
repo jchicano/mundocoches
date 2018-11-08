@@ -34,7 +34,9 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
-          <a class="nav-link js-scroll-trigger" href="noticias/">Noticias</a>
+          <a class="nav-link" href="noticias/">Noticias</a>
+          <?php } else if ($CURRENT_PAGE == "Noticias") {?>
+							<a class="nav-link active" href="#">Noticias</a>
 					<?php } else { ?>
 							<a class="nav-link" href="#">Noticias</a>
 					<?php
@@ -43,7 +45,9 @@
         </li>
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
-          <a class="nav-link js-scroll-trigger" href="marcas/">Marcas</a>
+          <a class="nav-link" href="marcas/">Marcas</a>
+          <?php } else if ($CURRENT_PAGE == "Marcas") {?>
+							<a class="nav-link active" href="#">Marcas</a>
 					<?php } else { ?>
           <a class="nav-link" href="#">Marcas</a>
 					<?php
@@ -53,10 +57,10 @@
         <li class="nav-item">
 					<?php if ($CURRENT_PAGE == "Index") { //La pagina es index ?>
 						<a class="nav-link" href="analisis/">Análisis</a>
-					<?php } else if ($CURRENT_PAGE != "Analisis" && substr($CURRENT_PAGE, 0, 8) === "analisis") { //La pagina es una subpagina de alguna categoria (analisis/audi/) ?>
-							<a class="nav-link" href="#">Análisis</a>
+					<?php } else if ($CURRENT_PAGE == "Analisis") {?>
+							<a class="nav-link active" href="#">Análisis</a>
 					<?php
-						} else { //La pagina es analisis/index ?>
+						} else { //La pagina no es index ni analisis ?>
               <a class="nav-link" href="#">Análisis</a>
           <?php
             }
@@ -64,12 +68,15 @@
         </li>
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
-            <a class="nav-link js-scroll-trigger" href="accesorios/">Accesorios</a>
+            <a class="nav-link" href="accesorios/">Accesorios</a>
+            <?php } else if ($CURRENT_PAGE == "Accesorios") {?>
+							<a class="nav-link active" href="#">Accesorios</a>
           <?php } else { ?>
               <a class="nav-link" href="#">Accesorios</a>
           <?php
             }
-          ?>  
+          ?>
+        <?php if ($CURRENT_PAGE == "Index") { ?>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -80,6 +87,7 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
         </li>
+        <?php } ?>
       </ul>
     </div>
   </div>

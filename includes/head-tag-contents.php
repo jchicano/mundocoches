@@ -67,10 +67,10 @@
 
 <!-- Estilos CSS propios -->
 <?php if ($CURRENT_PAGE == "Index") { ?>
-	<link rel="stylesheet" href="css/estilos.css">
+	<link href="css/estilos.css" rel="stylesheet">
 <?php }
 	else { ?>
-		<link rel="stylesheet" href="../css/estilos.css">
+		<link href="../css/estilos.css" rel="stylesheet">
 <?php
 	}
 ?>

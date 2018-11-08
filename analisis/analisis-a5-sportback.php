@@ -9,16 +9,11 @@
 <body>
 
 <?php include("../includes/navigation.php");?>
-<style>
-.masterhead-a5{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/analisis/a5-masterhead.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/analisis/a5-masterhead.jpg");
-}
-</style>
+
 <!-- CONTENIDO -->
 
 <body class="bg-light"><!--Modificado-->
-<header class="masthead masterhead-a5">
+<header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">Audi A5 Sportback</h1>

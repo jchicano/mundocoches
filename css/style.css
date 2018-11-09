@@ -1,6 +1,6 @@
 body {
-  background: #fff;
-  font-family: 'Fira Sans', sans-serif;
+  background: #D7F7FE;
+  font-family: "Nunito", sans-serif;
   color: #222;
 }
 
@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-  max-width: 65em;
+  max-width: 75em;
   margin: 0 auto;
 }
-/*No se usa actualmente*/
+
 .header {
   background: #FF6067;
   color: white;
@@ -40,15 +40,14 @@ body {
 }
 
 .site-title, h1, h2, h3 {
-  font-family: "Righteous", sans-serif;
+  font-family: "Pacifico", sans-serif;
   font-size: 2.625em;
-  /*color: #024654;*/
-  color: #222A42;
+  color: #024654;
 }
 
 h3 {
   font-size: 2em;
-  color: #024654;
+  color: #f7686e;
 }
 
 .site-title {
@@ -61,13 +60,11 @@ h3 {
 }
 
 .main-nav {
-  background: #151D33;
+  background: #F7EE1A;
   color: white;
-  width: 100%;
 }
 .main-nav a {
-  /*color: #1A577F;*/
-  color: rgb(189,189,189);
+  color: #1A577F;
   text-decoration: none;
 }
 .main-nav ul, .main-nav li {
@@ -88,9 +85,8 @@ h3 {
   text-transform: uppercase;
 }
 .main-nav ul a:hover, .main-nav ul a:focus {
-  background: #222A42;
-  /*color: #419cd8;*/
-  color: white;
+  background: #fbf795;
+  color: #419cd8;
 }
 .main-nav ul .mobile-button a {
   position: absolute;
@@ -109,8 +105,8 @@ h3 {
     width: 100%;
   }
   .main-nav ul.open li.mobile-button a {
-    background: #151D33;
-    color: white;
+    background: #fbf78d;
+    color: #0e3447;
   }
   .main-nav ul.open a {
     position: static;
@@ -125,7 +121,7 @@ h3 {
 
 .full-bleed {
   background-size: cover;
-  min-height: 600px;
+  min-height: 300px;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -137,11 +133,14 @@ h3 {
   }
 }
 .cool-photo {
-  background-image: url(../img/bienvenido.jpg);
+  //background-image: url(http://lorempixel.com/1300/400/abstract);
+    background-image: url(http://placekitten.com/1300/400);
+
 }
-/*No se usa de momento*/
+
 .cool-photo2 {
-  background-image: url(../img/panoramica.jpg);
+  background-image: url(http://lorempixel.com/1300/400/food);
+background-image: url(http://placekitten/1300/400);
 }
 
 .post {
@@ -157,16 +156,15 @@ h3 {
 .columns .item {
   padding: 1.5625em;
   max-width: 47%;
-  background: #eeeeee;
-  /*color: #1A577F;*/
-  color: #024654;
-  border-bottom: 5px solid #151D33;
+  background: #b1dbf0;
+  color: #1A577F;
+  border-bottom: 5px solid #F7EE1A;
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
 }
 .columns .item .item-title {
-  color: #3A435C;
+  color: #011d23;
   font-size: 24px;
   margin: 0 0 5px 0;
   font-family: "Righteous", sans-serif;
@@ -175,8 +173,8 @@ h3 {
   max-width: 100%;
 }
 .columns .item:hover, .columns .item:focus {
-  background: #dddddd;
-  border-bottom-color: #222A42;
+  background: #e8f4fa;
+  border-bottom-color: #FF6067;
 }
 .columns .item:hover .social, .columns .item:focus .social {
   position: absolute;
@@ -222,18 +220,14 @@ h3 {
 }
 
 .footer {
-  background: #151D33;
+  background: #FF6067;
   color: white;
   padding: 0.9375em;
   text-align: center;
   font-size: 0.8125em;
 }
 .footer a {
-  color: #151D33;
+  color: #F7EE1A;
   text-decoration: none;
   border-bottom: 1px solid;
 }
-
-/*Propiedades de los enlaces de las noticias (Index)*/
-.item a {text-decoration:none;}
-.item a:visited {color: #024654;}

@@ -132,13 +132,13 @@
       <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="../img/analisis/citroen_c4.jpg" alt="">
+            <img class="img-fluid" src="../img/analisis/dacia_duster.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Dacia C4</h4>
+                  <h4 class="text-white">Dacia Duster</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
@@ -170,13 +170,13 @@
       <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="../img/analisis/volkswagen_golf.jpg" alt="">
+            <img class="img-fluid" src="../img/analisis/seat_ibiza.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Seat Golf</h4>
+                  <h4 class="text-white">Seat Ibiza</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>

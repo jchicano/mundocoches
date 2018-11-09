@@ -201,7 +201,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: rgb(57, 66, 90); /*Modificado*/
     border-width: .25rem;
     width: 30%;
   }

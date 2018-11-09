@@ -11,7 +11,7 @@
 
 <!-- CONTENIDO -->
 
-<body class="bg-light"><!--Modificado-->
+<body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
     <section id="projects" class="projects-section bg-light">
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -51,7 +51,7 @@
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/paradel.jpg" /><span style="text-decoration:none;">Paragolpes delanteros</span></a>
+            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/paradel.jpg" /><span style="text-decoration:none;">Paragolpes delantero</span></a>
           </li>
 
           <li>

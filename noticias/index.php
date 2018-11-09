@@ -10,7 +10,7 @@
 
 <!-- CONTENIDO -->
 
-<body class="bg-light"><!--Modificado-->
+<body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">

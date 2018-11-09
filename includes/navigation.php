@@ -19,11 +19,11 @@
   <div class="container">
     <?php if($CURRENT_PAGE == "Index") { ?>
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="img/logo.png" alt="" width="50%">
+      <img src="img/logo.png" alt="MundoCoches" width="50%">
     </a>
     <?php } else { ?>
-    <a class="navbar-brand js-scroll-trigger" href="../index.php">
-      <img src="../img/logo.png" alt="" width="50%">
+    <a class="navbar-brand" href="../index.php">
+      <img src="../img/logo.png" alt="MundoCoches" height="56px">
     </a>
     <?php } ?>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,20 +34,24 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
-          <a class="nav-link" href="noticias/">Noticias</a>
-          <?php } else if ($CURRENT_PAGE == "Noticias") {?>
-							<a class="nav-link active" href="#">Noticias</a>
+            <a class="nav-link" href="noticias/">Noticias</a>
+          <?php } else if ($CURRENT_PAGE == "Noticias") { ?>
+            <a class="nav-link active" href="#">Noticias</a>
+          <?php } else if ($CURRENT_PAGE != "Noticias") { ?><!-- -->
+            <a class="nav-link" href="../noticias/">Noticias</a>
 					<?php } else { ?>
-							<a class="nav-link" href="#">Noticias</a>
+            <a class="nav-link" href="#">Noticias</a>
 					<?php
 						}
 					?>
         </li>
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
-          <a class="nav-link" href="marcas/">Marcas</a>
-          <?php } else if ($CURRENT_PAGE == "Marcas") {?>
-							<a class="nav-link active" href="#">Marcas</a>
+            <a class="nav-link" href="marcas/">Marcas</a>
+          <?php } else if ($CURRENT_PAGE == "Marcas") { ?>
+            <a class="nav-link active" href="#">Marcas</a>
+          <?php } else if ($CURRENT_PAGE != "Marcas") { ?><!-- -->
+            <a class="nav-link" href="../marcas/">Marcas</a>
 					<?php } else { ?>
           <a class="nav-link" href="#">Marcas</a>
 					<?php
@@ -57,11 +61,12 @@
         <li class="nav-item">
 					<?php if ($CURRENT_PAGE == "Index") { //La pagina es index ?>
 						<a class="nav-link" href="analisis/">Análisis</a>
-					<?php } else if ($CURRENT_PAGE == "Analisis") {?>
-							<a class="nav-link active" href="#">Análisis</a>
-					<?php
-						} else { //La pagina no es index ni analisis ?>
-              <a class="nav-link" href="#">Análisis</a>
+					<?php } else if ($CURRENT_PAGE == "Analisis") { ?>
+            <a class="nav-link active js-scroll-trigger" href="#page-top">Análisis</a>
+          <?php } else if ($CURRENT_PAGE != "Analisis") { ?><!-- -->
+            <a class="nav-link" href="../analisis/">Análisis</a>
+					<?php	} else { //La pagina no es index ni analisis ?>
+            <a class="nav-link" href="#">Análisis</a>
           <?php
             }
 					?>
@@ -69,10 +74,12 @@
         <li class="nav-item">
           <?php if ($CURRENT_PAGE == "Index") { ?>
             <a class="nav-link" href="accesorios/">Accesorios</a>
-            <?php } else if ($CURRENT_PAGE == "Accesorios") {?>
-							<a class="nav-link active" href="#">Accesorios</a>
+          <?php } else if ($CURRENT_PAGE == "Accesorios") { ?>
+            <a class="nav-link active" href="#">Accesorios</a>
+          <?php } else if ($CURRENT_PAGE != "Accesorios") { ?><!-- -->
+            <a class="nav-link" href="../accesorios/">Accesorios</a>
           <?php } else { ?>
-              <a class="nav-link" href="#">Accesorios</a>
+            <a class="nav-link" href="#">Accesorios</a>
           <?php
             }
           ?>

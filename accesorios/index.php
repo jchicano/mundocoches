@@ -3,17 +3,28 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
-  <link rel="stylesheet" href="../css/imgMosaico.css">
+  <link rel="stylesheet" href="../css/accesorios/imgMosaico.css">
+  <link rel="stylesheet" href="../css/accesorios/scrollAcc.css">
 </head>
 <body>
 
 <?php include("../includes/navigation.php");?>
 
 <!-- CONTENIDO -->
-
 <body class="bg-light" id="page-top"><!--Modificado-->
+  <header class="masthead-acc">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0">  Accesorios</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+        <a href="#scroll" class="js-scroll-trigger">
+          <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
+        </a>
+      </div>
+    </div>
+  </header>
   <div class="container bg-light">
-    <section id="projects" class="projects-section bg-light">
+    <section id="scroll" class="projects-section bg-light">
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <ul id="galeria2">
           <!-- PRIMERA LÍNEA DE 5 IMÁGENES -->

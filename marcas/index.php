@@ -7,13 +7,13 @@
   <style>
     a {
       transition: filter .5s ease-in-out;
-      -webkit-filter: grayscale(0%);
-      filter: grayscale(0%);
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
     }
 
     a:hover {
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
     }
   </style>
 </head>
@@ -31,9 +31,9 @@
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
-            <div class="project-text w-75 my-auto text-center text-lg-left">
-              <h4 class="text-white">GAMA ALTA</h4>
-              <hr class="d-none d-lg-block mb-0 ml-0">
+            <div class="project-text w-100 my-auto text-center text-lg-left">
+              <h4 class="text-white text-center">GAMA ALTA</h4>
+              <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
         </div>
@@ -63,9 +63,9 @@
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-75 my-auto text-center text-lg-left">
-                <h4 class="text-white">GAMA MEDIA</h4>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white text-center">GAMA MEDIA</h4>
+                <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
         </div>
@@ -95,9 +95,9 @@
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-75 my-auto text-center text-lg-left">
-                <h4 class="text-white">GAMA BAJA</h4>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white text-center">GAMA BAJA</h4>
+                <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
         </div>

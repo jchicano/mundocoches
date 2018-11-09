@@ -3,11 +3,16 @@
 
 }
 
-/* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA === */
+/* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-izda{
     padding-right: 40px !important;
 }
 
 .caja-texto{
     margin: 0 0 40px;
+}
+
+/* === ESTILO DE BORDE PARA LAS SECCIONES DE LOS ANALISIS === */
+.reducirMargenSuperior{
+    margin-top:-300px;
 }

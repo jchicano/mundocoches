@@ -36,7 +36,7 @@
           <?php if ($CURRENT_PAGE == "Index") { ?>
             <a class="nav-link" href="noticias/">Noticias</a>
           <?php } else if ($CURRENT_PAGE == "Noticias") { ?>
-            <a class="nav-link active" href="#">Noticias</a>
+            <a class="nav-link active js-scroll-trigger" href="#page-top">Noticias</a>
           <?php } else if ($CURRENT_PAGE != "Noticias") { ?><!-- -->
             <a class="nav-link" href="../noticias/">Noticias</a>
 					<?php } else { ?>
@@ -49,7 +49,7 @@
           <?php if ($CURRENT_PAGE == "Index") { ?>
             <a class="nav-link" href="marcas/">Marcas</a>
           <?php } else if ($CURRENT_PAGE == "Marcas") { ?>
-            <a class="nav-link active" href="#">Marcas</a>
+            <a class="nav-link active js-scroll-trigger" href="#page-top">Marcas</a>
           <?php } else if ($CURRENT_PAGE != "Marcas") { ?><!-- -->
             <a class="nav-link" href="../marcas/">Marcas</a>
 					<?php } else { ?>
@@ -75,7 +75,7 @@
           <?php if ($CURRENT_PAGE == "Index") { ?>
             <a class="nav-link" href="accesorios/">Accesorios</a>
           <?php } else if ($CURRENT_PAGE == "Accesorios") { ?>
-            <a class="nav-link active" href="#">Accesorios</a>
+            <a class="nav-link active js-scroll-trigger" href="#page-top">Accesorios</a>
           <?php } else if ($CURRENT_PAGE != "Accesorios") { ?><!-- -->
             <a class="nav-link" href="../accesorios/">Accesorios</a>
           <?php } else { ?>

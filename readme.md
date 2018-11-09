@@ -1,11 +1,7 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="MundoCoches logo" src="img/favicon.png">
 
-<!--https://ii.yuki.la/4/61/d4102a91a3e2d018543848f1d814e1b894e014e3932eb9c0d90435a48ad73614.gif-->
-
 # MundoCoches :earth_africa::oncoming_automobile:
 Prueba
-
-<br>
 
 ## Cómo configurar VS Code con GitHub
 - Una vez abierto Code pulsamos **Ctrl+Shift+P** y escribimos git clone y pulsamos intro.<br>
@@ -21,11 +17,13 @@ Prueba
 
 <br><br><br>
 
-https://github.com/Microsoft/MS-DOS/blob/master/msdos-logo.png
+
 
 https://github.com/jesusdc99/mundocoches/
 
 https://bitbucket.org/jesusdc99/mundocoches/
+
+https://startbootstrap.com/template-overviews/grayscale/
 
 #### Otros enlaces:
 
@@ -39,6 +37,7 @@ paleta2: http://www.paletton.com/palette.php?uid=13N0u0klz9Bdghdhjcep%2B6Cvx3C<b
 
 http://www.monolinea.com/projects/styleguide/<br>
 
+https://stackoverflow.com/a/2790919/10387022 <br>
 
 
 

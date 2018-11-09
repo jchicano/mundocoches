@@ -124,7 +124,7 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Direcció </h4>
+            <h4 class="text-uppercase m-0">Dirección</h4>
             <hr class="my-4">
             <div class="small text-black-50">4923 Market Street, Orlando FL</div>
           </div>

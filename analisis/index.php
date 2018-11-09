@@ -94,13 +94,13 @@
       <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
-            <img class="img-fluid" src="../img/analisis/citroen_c4.jpg" alt="">
+            <img class="img-fluid" src="../img/analisis/renault_megane.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Renault</h4>
+                  <h4 class="text-white">Renault Megane</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>
@@ -113,13 +113,70 @@
       <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
+            <img class="img-fluid" src="../img/analisis/volkswagen_golf.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Volkswagen Golf</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DACIA -->
+      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/citroen_c4.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">VOLKSWAGEN</h4>
+                  <h4 class="text-white">Dacia C4</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HYUNDAI -->
+      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="../img/analisis/hyundai_i30.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Hyundai i30</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SEAT -->
+      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="../img/analisis/volkswagen_golf.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Seat Golf</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 ml-0">
                 </div>

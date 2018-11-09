@@ -27,7 +27,23 @@
   </header>
   <div class="container bg-light">
 
-      <!--  -->
+  <section id="scroll" class="projects-section bg-light">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class="col-lg-8">
+        <h1>Diseño y calidad</h1>
+        <br>
+        Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+      </div>
+      <div class="col-lg-4">
+      Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+      </div>
+    </div>
+  </section>
+
+
+
+
+      <!--
       <section id="scroll" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
@@ -46,6 +62,7 @@
           </div>
         </div>
       </section>
+      -->
   </div>
 </body>
 

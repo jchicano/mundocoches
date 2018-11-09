@@ -235,7 +235,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid rgb(57, 66, 90);/*Modificado*/
 }
 
 .contact-section .card h4 {
@@ -246,7 +246,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: rgb(57, 66, 90);/*Modificado*/
   border-width: 0.25rem;
   width: 3rem;
 }

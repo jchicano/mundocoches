@@ -34,7 +34,7 @@
         </div>
       </section>
       <!-- BMW -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/bmw_m2_competition.jpg" alt="">
@@ -53,7 +53,7 @@
         </div>
       </section>
       <!-- BMW -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/merche.jpg" alt="">
@@ -72,7 +72,7 @@
         </div>
       </section>
         <!-- CITROEN -->
-        <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+        <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/citroen_c4.jpg" alt="">
@@ -91,7 +91,7 @@
         </div>
       </section>
       <!-- RENAULT -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/renault_megane.jpg" alt="">
@@ -110,7 +110,7 @@
         </div>
       </section>
       <!-- VOLKSWAGEN -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/volkswagen_golf.jpg" alt="">
@@ -129,7 +129,7 @@
         </div>
       </section>
       <!-- DACIA -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/dacia_duster.jpg" alt="">
@@ -148,7 +148,7 @@
         </div>
       </section>
       <!-- HYUNDAI -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/hyundai_i30.jpg" alt="">
@@ -167,7 +167,7 @@
         </div>
       </section>
       <!-- SEAT -->
-      <section id="projects" class="projects-section bg-light" style="margin-top:-300px">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-6">
             <img class="img-fluid" src="../img/analisis/seat_ibiza.jpg" alt="">

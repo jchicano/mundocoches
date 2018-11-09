@@ -18,7 +18,7 @@
 
 <!-- CONTENIDO -->
 
-<body class="bg-light"><!--Modificado-->
+<body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
     <section id="projects" class="projects-section bg-light">
     <!-- Row  -->
@@ -37,15 +37,15 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Mercedes-Benz -->
-        <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg" width="100%" alt="">
+        <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
       </div>
       <div class="col-md-4">
         <!-- BMW -->
-        <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg" alt="">
+        <img class="img-fluid" src="../img/marcas/bmw-logo.jpg">
       </div>
       <div class="col-md-4">
         <!-- Audi -->
-        <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg" alt="">
+        <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
       </div>
     </div>
     <div class="row">

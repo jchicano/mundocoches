@@ -3,4 +3,11 @@
 
 }
 
+/* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA === */
+.contenedor-izda{
+    padding-right: 40px !important;
+}
 
+.caja-texto{
+    margin: 0 0 40px;
+}

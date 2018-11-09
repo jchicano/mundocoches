@@ -37,7 +37,7 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Mercedes-Benz -->
-        <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
+        <img class="img-fluid" src="../img/marcas/audi-logo.jpg">
       </div>
       <div class="col-md-4">
         <!-- BMW -->
@@ -62,13 +62,16 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        Citroën
+        <!-- Citroën -->
+        <img class="img-fluid" src="../img/marcas/citroen-logo.jpg">
       </div>
       <div class="col-md-4">
-        Renault
+        <!-- Renault -->
+        <img class="img-fluid" src="../img/marcas/renault-logo.jpg">
       </div>
       <div class="col-md-4">
-        Wolkswagen
+        <!-- Volkswagen -->
+        <img class="img-fluid" src="../img/marcas/vw-logo.jpg">
       </div>
     </div>
     <div class="row">
@@ -85,13 +88,16 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        Dacia
+        <!-- Dacia -->
+        <img class="img-fluid" src="../img/marcas/dacia-logo.jpg">
       </div>
       <div class="col-md-4">
-        Hyundai
+        <!-- Hyundai -->
+        <img class="img-fluid" src="../img/marcas/hyundai-logo.jpg">
       </div>
       <div class="col-md-4">
-        SEAT
+        <!-- SEAT -->
+        <img class="img-fluid" src="../img/marcas/seat-logo.jpg">
       </div>
     </div>
     </section>

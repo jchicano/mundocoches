@@ -69,13 +69,13 @@
     </div>
 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-12 contenedor-izda"> contenedor-izda
-        <div class="card text-center w-50 float-left">
-          <img class="card-img-top" src="../img/analisis/a5_cuadro_instrumentos.jpg" alt="Cuadro de instrumentos digital">
-          <div class="card-body">
-            <p class="card-text">El cuadro de instrumentos completamente digital es muy recomendable.</p>
+      <div class="col-lg-12">
+          <div class="card text-center w-100 "><!-- class:float-left -->
+            <img class="card-img-top" src="../img/analisis/a5_cuadro_instrumentos.jpg" alt="Cuadro de instrumentos digital">
+            <div class="card-body">
+              <p class="card-text">El cuadro de instrumentos completamente digital es muy recomendable.</p>
+            </div>
           </div>
-        </div>
         <p>
           El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el 2.0 TDI de 190 CV, con tracción delantera y cambio
           automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
@@ -94,14 +94,12 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-        
         <p>
-          Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
-          confort, automático, dinámico e individual. Bajo mi punto de vista con el modo eficiente y el modo dinámico (también los
-          podrían llamar tranquilo y emocionante) sería suficiente. Es un coche que en autopista se siente glorioso, aplomado,
-          confortable y con una sensación de calidad general que conquista. En curvas no va nada mal, con un reglaje de la suspensión
-          que evita desagradables balanceos: no obstante, no se siente del todo cómodo y si vas muy al límite el subviraje hace algún
-          que otro amago. Si vas a hacer mucha curva, yo invertiría algo más de dinero en el sistema de tracción integral quattro.
+          Dentro del segmento de las berlinas de diseño coupé y tamaño medio, el Audi A5 Sportback es uno de los modelos más
+          interesantes que existen en la actualidad. Tiene un diseño muy deportivo, es amplio por dentro y tiene un gran maletero,
+          lo que le convierte en un vehículo versátil y, sobre todo, es un coche ideal para viajar en él. Un coupé que supera a sus
+          rivales –el Mercedes Clase C Coupé y del BMW Serie 4 Gran Coupé– en aspectos como refinamiento y elevado confort de marcha.
+          Muy recomendado.
         </p>
       </div>
     </div>

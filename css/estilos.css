@@ -8,6 +8,12 @@
     padding-right: 40px !important;
 }
 
+/* === SEPARACIÓN A LA IZQUIERDA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
+.contenedor-dcha{
+    padding-left: 40px !important;
+}
+
+/* === SEPARACIÓN SUPERIOR ENCIMA DEL DIV DE TEXTO === */
 .caja-texto{
     margin: 0 0 40px;
 }

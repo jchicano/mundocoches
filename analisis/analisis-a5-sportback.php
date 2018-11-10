@@ -47,19 +47,94 @@
       </div>
       <div class="col-lg-4">
         <div>
-        Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+          Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
         </div>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-      Su buena anchura –en torno a los 141 centímetros– y una gran altura libre al techo –alrededor de 101 centímetros– hacen que
-      los dos ocupantes delanteros gocen de un gran espacio. Detrás, las cotas son inferiores. Sobre todo en la altura libre al
-      techo, una medida donde este A5 Sportback sólo ofrece 90 centímetros. Esto hace que las plazas traseras estén destinadas
-      principalmente a niños. A cambio, tenemos dos nuevas cualidades que son positivas. La primera es la existencia de puertas
-      traseras, característica que facilita enormemente entrar y salir del vehículo. Y la segunda es el comodísimo portón que da
-      acceso a un gran maletero. En este sentido, la capacidad de carga del A5 Sportback es buena –480 litros– y, además, bajo el
-      piso del mismo existe una rueda de repuesto.
+        <p>
+          Su buena anchura –en torno a los 141 centímetros– y una gran altura libre al techo –alrededor de 101 centímetros– hacen que
+          los dos ocupantes delanteros gocen de un gran espacio. Detrás, las cotas son inferiores. Sobre todo en la altura libre al
+          techo, una medida donde este A5 Sportback sólo ofrece 90 centímetros. Esto hace que las plazas traseras estén destinadas
+          principalmente a niños.
+        </p>
+        <p>
+          A cambio, tenemos dos nuevas cualidades que son positivas. La primera es la existencia de puertas
+          traseras, característica que facilita enormemente entrar y salir del vehículo. Y la segunda es el comodísimo portón que da
+          acceso a un gran maletero. En este sentido, la capacidad de carga del A5 Sportback es buena –480 litros– y, además, bajo el
+          piso del mismo existe una rueda de repuesto.
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12 contenedor-izda"> contenedor-izda
+        <div class="card text-center w-50 float-left">
+          <img class="card-img-top" src="../img/analisis/a5_cuadro_instrumentos.jpg" alt="Cuadro de instrumentos digital">
+          <div class="card-body">
+            <p class="card-text">El cuadro de instrumentos completamente digital es muy recomendable.</p>
+          </div>
+        </div>
+        <p>
+          El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el 2.0 TDI de 190 CV, con tracción delantera y cambio
+          automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
+          Arranco y el motor no es todo lo refinado que la envoltura merece. En frío suena algo tosco, como la mayoría de motores
+          diésel del <a href="../marcas">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
+          ofrece 400 Nm desde solamente las 1.750 vueltas, así que la respuesta inicial es buena. Acelera de cero a cien en 7,9
+          segundos.
+          Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
+          confort, automático, dinámico e individual. Bajo mi punto de vista con el modo eficiente y el modo dinámico (también los
+          podrían llamar tranquilo y emocionante) sería suficiente. Es un coche que en autopista se siente glorioso, aplomado,
+          confortable y con una sensación de calidad general que conquista. En curvas no va nada mal, con un reglaje de la suspensión
+          que evita desagradables balanceos: no obstante, no se siente del todo cómodo y si vas muy al límite el subviraje hace algún
+          que otro amago. Si vas a hacer mucha curva, yo invertiría algo más de dinero en el sistema de tracción integral quattro.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12">
+        
+        <p>
+          Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
+          confort, automático, dinámico e individual. Bajo mi punto de vista con el modo eficiente y el modo dinámico (también los
+          podrían llamar tranquilo y emocionante) sería suficiente. Es un coche que en autopista se siente glorioso, aplomado,
+          confortable y con una sensación de calidad general que conquista. En curvas no va nada mal, con un reglaje de la suspensión
+          que evita desagradables balanceos: no obstante, no se siente del todo cómodo y si vas muy al límite el subviraje hace algún
+          que otro amago. Si vas a hacer mucha curva, yo invertiría algo más de dinero en el sistema de tracción integral quattro.
+        </p>
+      </div>
+    </div>
+
+
+    <!--<div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12 w-50">
+        <div class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="../img/analisis/audi_a5_sportback.jpg" alt="Primera imagen">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Segunda imagen">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Tercera imagen">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>-->
       </div>
     </div>
   </section>

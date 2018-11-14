@@ -15,7 +15,7 @@
   <header class="masthead-acc">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">  Accesorios</h1>
+        <h1 class="mx-auto my-0">Accesorios</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -29,7 +29,7 @@
         <ul id="galeria2">
           <!-- PRIMERA LÍNEA DE 5 IMÁGENES -->
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/paradel.jpg" /><span style="text-decoration:none;">Paragolpes delantero</span></a>
+            <a href="paragolpes.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/paradel.jpg" /><span style="text-decoration:none;">Paragolpes delantero</span></a>
           </li>
 
           <li>

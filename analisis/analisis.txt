@@ -28,3 +28,11 @@ Hyundai i30
 
 
 Seat
+
+tabla informacion:
+sacarlo de motor.es
+cilindrada
+cv
+cm3
+
+precio

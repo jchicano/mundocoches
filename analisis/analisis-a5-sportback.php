@@ -41,7 +41,7 @@
             no sea particularmente favorable para el día a día.
           </p>
           <p>
-            Sin embargo, <a href="../marcas/">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
+            Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
             cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
             por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
             del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
@@ -87,7 +87,7 @@
             El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el <b>2.0 TDI de 190 CV</b>, con tracción delantera y
             cambio automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
             Al arrancar se puede observar que el motor no es todo lo refinado que la envoltura merece. En frío suena algo tosco, como la mayoría de motores
-            diésel del <a href="../marcas">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
+            diésel del <a href="../marcas/volkswagen.php">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
             ofrece 400 Nm desde solamente las 1.750 vueltas, así que la respuesta inicial es buena. Acelera de cero a cien en 7,9
             segundos.
             Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
@@ -121,7 +121,7 @@
         Dentro del segmento de las berlinas de diseño coupé y tamaño medio, el Audi A5 Sportback es uno de
         los modelos más interesantes que existen en la actualidad. Tiene un diseño muy deportivo, es amplio por dentro y tiene un
         gran maletero, lo que le convierte en un vehículo versátil y, sobre todo, es un coche ideal para viajar en él. Un coupé que
-        supera a sus rivales –el <a href="../marcas/">Mercedes</a> Clase C Coupé y del <a href="../marcas/">BMW</a> Serie 4 Gran Coupé– en aspectos como refinamiento y elevado
+        supera a sus rivales –el <a href="../marcas/mercedes.php">Mercedes</a> Clase C Coupé y del <a href="../marcas/bmw.php">BMW</a> Serie 4 Gran Coupé– en aspectos como refinamiento y elevado
         confort de marcha. Muy recomendado.
       </p>
       </div>

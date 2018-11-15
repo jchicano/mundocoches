@@ -1,9 +1,5 @@
 <?php
 	switch ($_SERVER["SCRIPT_NAME"]) {
-		case "/plantilla.php":
-			$CURRENT_PAGE = "Plantilla"; 
-			$PAGE_TITLE = "Plantilla de prueba";
-			break;
 		case "/noticias/index.php":
 			$CURRENT_PAGE = "Noticias"; 
 			$PAGE_TITLE = "MundoCoches | Noticias";

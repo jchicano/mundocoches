@@ -5,12 +5,12 @@
 
 /* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-izda{
-    padding-right: 40px !important;
+    margin-right: 40px !important;
 }
 
 /* === SEPARACIÓN A LA IZQUIERDA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-dcha{
-    padding-left: 40px !important;
+    margin-left: 40px !important;
 }
 
 /* === SEPARACIÓN SUPERIOR ENCIMA DEL DIV DE TEXTO === */
@@ -21,4 +21,15 @@
 /* === ESTILO DE BORDE PARA LAS SECCIONES DE LOS ANALISIS === */
 .reducirMargenSuperior{
     margin-top:-300px;
+}
+
+/* === QUITAMOS LOS MARGENES CUANDO SE ACTIVA EL MODO RESPONSIVE === */
+
+@media (max-width: 991px) { /* Pixeles del tamano lg */
+    .contenedor-izda{
+        margin-right: 0px !important;
+    }
+    .contenedor-dcha{
+        margin-left: 0px !important;
+    }
 }

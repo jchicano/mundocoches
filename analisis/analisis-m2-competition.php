@@ -1,11 +1,11 @@
 <?php $CURRENT_PAGE = "Analisis extendido"; ?>
-<?php $PAGE_TITLE = "Análisis | Audi A5 Sportback"; ?>
+<?php $PAGE_TITLE = "Análisis | BMW M2 Competition"; ?>
 
 <!DOCTYPE html>
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
-  <link rel="stylesheet" href="../css/analisis/a5-sportback.css">
+  <link rel="stylesheet" href="../css/analisis/m2-competition.css">
 </head>
 <body>
 
@@ -17,7 +17,7 @@
 <header class="masthead-a5">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Audi A5 Sportback</h1>
+        <h1 class="mx-auto my-0">BMW M2 Competition</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -35,17 +35,15 @@
       <div class="col-lg-8">
           <div class="contenedor-izda caja-texto">
           
-          <p>
-            Cuando los fabricantes apuestan por el diseño en un coche, en numerosas ocasiones, el confort de marcha queda mermado.
-            Una línea de techo coupé, unas suspensiones incómodas… hacen que la experiencia de conducir un coche con carácter deportivo
-            no sea particularmente favorable para el día a día.
-          </p>
-          <p>
-            Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
-            cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
-            por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
-            del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
-          </p>
+            <p>
+              <a href="../marcas/bmw.php">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos, un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
+            </p>
+            <p>
+              Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
+              cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
+              por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
+              del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
+            </p>
           </div>
       </div>
       <div class="col-lg-4">

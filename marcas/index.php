@@ -26,7 +26,7 @@
 <body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
     <section id="projects" class="projects-section bg-light">
-    <!-- Row  -->
+    <!-- Gama alta  -->
     <div class="row">
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
@@ -42,7 +42,7 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Mercedes-Benz -->
-        <a href="#">
+        <a href="audi.php">
           <img class="img-fluid" src="../img/marcas/audi-logo.jpg">
         </a>
       </div>
@@ -59,6 +59,7 @@
         </a>
       </div>
     </div>
+    <!-- Gama media -->
     <div class="row">
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
@@ -91,6 +92,7 @@
         </a>
       </div>
     </div>
+    <!-- Gama baja -->
     <div class="row">
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">

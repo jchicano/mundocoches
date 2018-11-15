@@ -30,20 +30,20 @@
   <section id="scroll" class="projects-section bg-light">
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-        <h2>Supera las espectativas</h2>
+        <h2>Diseño y calidad</h2>
       </div>
       <div class="col-lg-8">
           <div class="contenedor-izda caja-texto">
           
-          <p>
-            <a href="../marcas/">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos, un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
-          </p>
-          <p>
-            Sin embargo, <a href="../marcas/">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
-            cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
-            por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
-            del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
-          </p>
+            <p>
+              <a href="../marcas/bmw.php">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos, un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
+            </p>
+            <p>
+              Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
+              cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
+              por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
+              del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
+            </p>
           </div>
       </div>
       <div class="col-lg-4">
@@ -85,7 +85,7 @@
             El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el <b>2.0 TDI de 190 CV</b>, con tracción delantera y
             cambio automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
             Al arrancar se puede observar que el motor no es todo lo refinado que la envoltura merece. En frío suena algo tosco, como la mayoría de motores
-            diésel del <a href="../marcas">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
+            diésel del <a href="../marcas/volkswagen.php">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
             ofrece 400 Nm desde solamente las 1.750 vueltas, así que la respuesta inicial es buena. Acelera de cero a cien en 7,9
             segundos.
             Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
@@ -119,7 +119,7 @@
         Dentro del segmento de las berlinas de diseño coupé y tamaño medio, el Audi A5 Sportback es uno de
         los modelos más interesantes que existen en la actualidad. Tiene un diseño muy deportivo, es amplio por dentro y tiene un
         gran maletero, lo que le convierte en un vehículo versátil y, sobre todo, es un coche ideal para viajar en él. Un coupé que
-        supera a sus rivales –el <a href="../marcas/">Mercedes</a> Clase C Coupé y del <a href="../marcas/">BMW</a> Serie 4 Gran Coupé– en aspectos como refinamiento y elevado
+        supera a sus rivales –el <a href="../marcas/mercedes.php">Mercedes</a> Clase C Coupé y del <a href="../marcas/bmw.php">BMW</a> Serie 4 Gran Coupé– en aspectos como refinamiento y elevado
         confort de marcha. Muy recomendado.
       </p>
       </div>

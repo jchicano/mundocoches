@@ -5,12 +5,12 @@
 
 /* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-izda{
-    margin-right: 40px !important;
+    padding-right: 40px !important;
 }
 
 /* === SEPARACIÓN A LA IZQUIERDA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-dcha{
-    margin-left: 40px !important;
+    padding-left: 40px !important;
 }
 
 /* === SEPARACIÓN SUPERIOR ENCIMA DEL DIV DE TEXTO === */
@@ -27,9 +27,9 @@
 
 @media (max-width: 991px) { /* Pixeles del tamano lg */
     .contenedor-izda{
-        margin-right: 0px !important;
+        padding-right: 0px !important;
     }
     .contenedor-dcha{
-        margin-left: 0px !important;
+        padding-left: 0px !important;
     }
 }

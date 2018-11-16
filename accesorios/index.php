@@ -33,32 +33,32 @@
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/paratra.jpg" /><span style="text-decoration:none;">Paragolpes trasero</span></a>
+            <a href="paragolpest.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/paratra.jpg" /><span style="text-decoration:none;">Paragolpes trasero</span></a>
           </li>
           
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/aleron.jpg" /><span style="text-decoration:none;">Alerones</span></a> 
+            <a href="aleron.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/aleron.jpg" /><span style="text-decoration:none;">Alerones</span></a> 
           </li>
 
           <li>                                                                          
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/volantes.jpg" /><span style="text-decoration:none;">Volantes</span></a>
+            <a href="volante.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/volantes.jpg" /><span style="text-decoration:none;">Volantes</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/asiento.jpg" /><span style="text-decoration:none;">Asientos</span></a>
+            <a href="asiento.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/asiento.jpg" /><span style="text-decoration:none;">Asientos</span></a>
           </li>
 
           <!-- SEGUNDA LÍNEA DE 5 IMÁGENES -->
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/faros.jpg" /><span style="text-decoration:none;">Faros</span></a>
+            <a href="faro.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/faros.jpg" /><span style="text-decoration:none;">Faros</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/kitturbo.jpg" /><span style="text-decoration:none;">Kits turbo</span></a>
+            <a href="turbo.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/kitturbo.jpg" /><span style="text-decoration:none;">Kits turbo</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/llantas.jpg" /><span style="text-decoration:none;">Llantas</span></a>
+            <a href="llanta.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/llantas.jpg" /><span style="text-decoration:none;">Llantas</span></a>
           </li>
 
           <li>

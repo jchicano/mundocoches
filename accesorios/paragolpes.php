@@ -10,6 +10,22 @@
 </head>
 <body>
 
+<style>
+  .masthead-pd {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../img/accesorios/pd.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../img/accesorios/pd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+</style>
+
 <?php include("../includes/navigation.php");?>
 
 <!-- CONTENIDO -->
@@ -35,12 +51,13 @@
           </li>
 
           <li>
-            <a href="https://www.google.es/search?q=bmw+paragolpes+delantero&oq=bmw+paragolpes+delantero&aqs=chrome..69i57j69i60l3j0l2.8990j0j9&sourceid=chrome&ie=UTF-8" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a>
+            <a href="https://www.google.es/search?q=volkswagen+paragolpes+delantero&oq=volkswagen+paragolpes+delantero&aqs=chrome..69i57j0l5.7150j0j7&sourceid=chrome&ie=UTF-8" 
+            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
           </li>
           
           <li>
-            <a href="#" title=""><img width="230" height="190" alt="" src="../img/accesorios/audi.jpg" /><span style="text-decoration:none;">AUDI</span></a> 
+            <a href="https://www.google.es/search?q=seat+paragolpes+delantero&oq=seat+paragolpes+delantero&aqs=chrome..69i57j0l5.6687j0j9&sourceid=chrome&ie=UTF-8"
+             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
           </li>
         </ul>
       </div>

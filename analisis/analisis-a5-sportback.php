@@ -28,25 +28,22 @@
   <div class="container bg-light">
 
   <section id="scroll" class="projects-section bg-light">
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-12">
         <h2>Diseño y calidad</h2>
       </div>
-      <div class="col-lg-8">
-          <div class="contenedor-izda caja-texto">
-          
-          <p>
-            Cuando los fabricantes apuestan por el diseño en un coche, en numerosas ocasiones, el confort de marcha queda mermado.
-            Una línea de techo coupé, unas suspensiones incómodas… hacen que la experiencia de conducir un coche con carácter deportivo
-            no sea particularmente favorable para el día a día.
-          </p>
-          <p>
-            Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
-            cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
-            por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
-            del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
-          </p>
-          </div>
+      <div class="col-lg-8 contenedor-izda">
+        <p>
+          Cuando los fabricantes apuestan por el diseño en un coche, en numerosas ocasiones, el confort de marcha queda mermado.
+          Una línea de techo coupé, unas suspensiones incómodas… hacen que la experiencia de conducir un coche con carácter deportivo
+          no sea particularmente favorable para el día a día.
+        </p>
+        <p>
+          Sin embargo, <a href="../marcas/audi.php">Audi</a> ha demostrado que unir estas cualidades –combinar un diseño atractivo con un interior versátil y
+          cómodo– es completamente compatible. Y lo ha hecho con el Audi A5 Sportback, una variante coupé del A4 que se caracteriza
+          por sus cinco puertas –portón incluido– y porque es uno de los coupés más vendidos en España. Una vez que estamos dentro
+          del modelo, lo primero que nos llama la atención es que es razonablemente amplio, principalmente en las plazas delanteras.
+        </p>
       </div>
       <div class="col-lg-4">
         <div>
@@ -73,30 +70,31 @@
         </p>
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-6 caja-texto">
-          <div class="card text-center w-100 "><!-- class:float-left -->
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+      <div class="col-lg-6">
+        <div class="card text-center w-100 "><!-- class:float-left -->
             <img class="card-img-top" src="../img/analisis/a5_cuadro_instrumentos.jpg" alt="Cuadro de instrumentos digital">
             <div class="card-body">
               <p class="card-text">El cuadro de instrumentos completamente digital es muy recomendable.</p>
             </div>
           </div>
-        </div>
+      </div>
       <div class="col-lg-6 contenedor-dcha">
-          <p>
-            El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el <b>2.0 TDI de 190 CV</b>, con tracción delantera y
-            cambio automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
-            Al arrancar se puede observar que el motor no es todo lo refinado que la envoltura merece. En frío suena algo tosco, como la mayoría de motores
-            diésel del <a href="../marcas/volkswagen.php">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
-            ofrece 400 Nm desde solamente las 1.750 vueltas, así que la respuesta inicial es buena. Acelera de cero a cien en 7,9
-            segundos.
-            Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
-            confort, automático, dinámico e individual.
-          </p>
+        <p>
+          El Audi A5 Sportback 2017 de pruebas monta un motor archiconocido: el <b>2.0 TDI de 190 CV</b>, con tracción delantera y
+          cambio automático DSG de siete velocidades. Una combinación que parece ganadora de primeras, al menos en la lista de ventas.
+          Al arrancar se puede observar que el motor no es todo lo refinado que la envoltura merece. En frío suena algo tosco, como la mayoría de motores
+          diésel del <a href="../marcas/volkswagen.php">Grupo Volkswagen</a>. Echo a rodar y la verdad es que el motor de primeras se siente bien:
+          ofrece 400 Nm desde solamente las 1.750 vueltas, así que la respuesta inicial es buena. Acelera de cero a cien en 7,9
+          segundos.
+          Su comportamiento dinámico tiene poco que reprochar. El Audi Drive Select cuenta con cinco modos de conducción: eficiente,
+          confort, automático, dinámico e individual.
+        </p>
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-12 caja-texto">
+
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+      <div class="col-lg-12">
         <p>
           Bajo mi punto de vista con el modo eficiente y el modo dinámico (también los
           podrían llamar tranquilo y emocionante) sería suficiente. Es un coche que en autopista se siente glorioso, aplomado,

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <?php include("../includes/head-tag-contents.php");?>
+  <?php include("../includes/head-tag-contents.php"); ?>
   <link rel="stylesheet" href="../css/analisis/m2-competition.css">
 </head>
 <body>

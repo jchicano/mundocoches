@@ -1,5 +1,5 @@
-<?php $CURRENT_PAGE = "Paragolpes Delantero"; ?>
-<?php $PAGE_TITLE = "Accesorios | Paragolpes Delantero"; ?>
+<?php $CURRENT_PAGE = "Asientos"; ?>
+<?php $PAGE_TITLE = "Accesorios | Asientos"; ?>
 
 <!DOCTYPE html>
 <html>
@@ -17,8 +17,8 @@
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../img/accesorios/pd.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../img/accesorios/pd.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../img/accesorios/asi.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../img/accesorios/asi.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -33,7 +33,7 @@
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Paragolpes Delantero</h1>
+        <h1 class="mx-auto my-0">Asientos</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -46,18 +46,18 @@
       <div class="row no-gutters mb-5 mb-lg-0">
         <ul id="galeriaacc">
           <li>
-            <a href="https://www.google.es/search?q=paragolpes+delantero+mercedes&oq=paragolpes+delantero+mercedes&aqs=chrome..69i57j0l5.8351j0j7&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+            <a href="https://en.recaro.com/"
+             title=""><img width="230" height="190" alt="" src="../img/accesorios/recaro.jpg" /><span style="text-decoration:none;">RECARO</span></a>
           </li>
 
           <li>
-            <a href="https://www.google.es/search?q=volkswagen+paragolpes+delantero&oq=volkswagen+paragolpes+delantero&aqs=chrome..69i57j0l5.7150j0j7&sourceid=chrome&ie=UTF-8" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
+            <a href="https://www.sparco-official.com/es/?gclid=EAIaIQobChMIwYCQ8sXY3gIVq5ztCh0mHQ8ZEAAYASAAEgKByvD_BwE" 
+            title=""><img width="230" height="190" alt="" src="../img/accesorios/sparco.jpg" /><span style="text-decoration:none;">SPARCO</span></a>
           </li>
           
           <li>
-            <a href="https://www.google.es/search?q=seat+paragolpes+delantero&oq=seat+paragolpes+delantero&aqs=chrome..69i57j0l5.6687j0j9&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
+            <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
+             title=""><img width="230" height="190" alt="" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
           </li>
         </ul>
       </div>

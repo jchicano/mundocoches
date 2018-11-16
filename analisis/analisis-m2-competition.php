@@ -248,13 +248,10 @@ popup.init()
     </div>
   </section>
   </div>
-</body>
 
 <?php include("../includes/footer.php");?>
 
 <?php include("../includes/body-tag-contents.php");?>
-
-</body>
 
 </body>
 </html>

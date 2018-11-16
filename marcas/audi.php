@@ -4,6 +4,20 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
+<style>
+    .letrero {
+        background: #000;
+        color: #FFF;
+        opacity: .8;
+        text-align: center;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .letrero:hover{
+        text-decoration: none;
+    }
+</style>
 </head>
 <body>
 
@@ -32,18 +46,21 @@
         <!-- A5 Sportback -->
         <a href="a5_sportback.php">
           <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg">
+          <div class="letrero">A5 Sportback</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- BMW -->
+        <!-- RS7 Sportback -->
         <a href="#">
-          <img class="img-fluid" src="../img/marcas/bmw-logo.jpg">
+          <img class="img-fluid" src="../img/marcas/audi_rs7_sportback_01.jpg">
+          <div class="letrero">RS7 Sportback</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- Audi -->
+        <!-- R8 Coupe -->
         <a href="#">
-          <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
+          <img class="img-fluid" src="../img/marcas/audi_r8_coupe_01.jpg">
+          <div class="letrero">R8 Coupe</div>
         </a>
       </div>
     </div>

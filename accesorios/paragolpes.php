@@ -14,7 +14,7 @@
 
 <!-- CONTENIDO -->
 <body class="bg-light"><!--Modificado-->
-  <header class="masthead-acc">
+  <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">Paragolpes Delantero</h1>
@@ -25,30 +25,22 @@
       </div>
     </div>
   </header>
-  <div class="container bg-light">
+  <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <ul id="galeria2">
+      <div class="row no-gutters mb-5 mb-lg-0">
+        <ul id="galeriaacc">
           <li>
             <a href="https://www.google.es/search?q=paragolpes+delantero+mercedes&oq=paragolpes+delantero+mercedes&aqs=chrome..69i57j0l5.8351j0j7&sourceid=chrome&ie=UTF-8"
-             title=""><img width="200" height="160" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
           </li>
 
           <li>
             <a href="https://www.google.es/search?q=bmw+paragolpes+delantero&oq=bmw+paragolpes+delantero&aqs=chrome..69i57j69i60l3j0l2.8990j0j9&sourceid=chrome&ie=UTF-8" 
-            title=""><img width="200" height="160" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a>
+            title=""><img width="230" height="190" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a>
           </li>
           
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/audi.jpg" /><span style="text-decoration:none;">AUDI</span></a> 
-          </li>
-
-          <li>                                                                          
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/volantes.jpg" /><span style="text-decoration:none;">Volantes</span></a>
-          </li>
-
-          <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/asiento.jpg" /><span style="text-decoration:none;">Asientos</span></a>
+            <a href="#" title=""><img width="230" height="190" alt="" src="../img/accesorios/audi.jpg" /><span style="text-decoration:none;">AUDI</span></a> 
           </li>
         </ul>
       </div>

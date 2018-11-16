@@ -1,5 +1,5 @@
-<?php $CURRENT_PAGE = "Paragolpes Delantero"; ?>
-<?php $PAGE_TITLE = "Accesorios | Paragolpes Delantero"; ?>
+<?php $CURRENT_PAGE = "Llantas"; ?>
+<?php $PAGE_TITLE = "Accesorios | Llantas"; ?>
 
 <!DOCTYPE html>
 <html>
@@ -17,8 +17,8 @@
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../img/accesorios/pd.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../img/accesorios/pd.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../../img/accesorios/tire.jpg");
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../../img/accesorios/tire.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -33,7 +33,7 @@
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Paragolpes Delantero</h1>
+        <h1 class="mx-auto my-0">Llantas</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -46,18 +46,18 @@
       <div class="row no-gutters mb-5 mb-lg-0">
         <ul id="galeriaacc">
           <li>
-            <a href="https://www.google.es/search?q=paragolpes+delantero+mercedes&oq=paragolpes+delantero+mercedes&aqs=chrome..69i57j0l5.8351j0j7&sourceid=chrome&ie=UTF-8"
+            <a href="https://www.mercedes-benz.es/vans/es/marco-polo/marco-polo-activity/equipment"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
           </li>
 
           <li>
-            <a href="https://www.google.es/search?q=volkswagen+paragolpes+delantero&oq=volkswagen+paragolpes+delantero&aqs=chrome..69i57j0l5.7150j0j7&sourceid=chrome&ie=UTF-8" 
+            <a href="https://store.volkswagen.es/accesorios-volkswagen?utm_source=Adwords&utm_medium=cpc&utm_campaign=Volkswagen%20Store&gclid=EAIaIQobChMI3IjU1s3Y3gIViRrTCh2qcwcHEAAYASAAEgLVN_D_BwE" 
             title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
           </li>
           
           <li>
-            <a href="https://www.google.es/search?q=seat+paragolpes+delantero&oq=seat+paragolpes+delantero&aqs=chrome..69i57j0l5.6687j0j9&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
+            <a href="https://www.bmw.es/es/topics/accesorios-servicios/accesorios/buscador-de-accesorios/llantas-de-aleaci%C3%B3n-ligera.html?bmw=sea:BMW%20//%20PV%20//%20ACCESORIOS:brand:google:ad:NA:c:bmw%20PV:BMW%20//%20PV%20//%20ACCESORIOS%20//%20LLANTAS%20//%20BR:%2Bllantas%20%2Bbmw:NA:NA&scp=true"
+             title=""><img width="230" height="190" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a> 
           </li>
         </ul>
       </div>

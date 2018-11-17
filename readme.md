@@ -37,8 +37,8 @@ paleta2: http://www.paletton.com/palette.php?uid=13N0u0klz9Bdghdhjcep%2B6Cvx3C<b
 
 http://www.monolinea.com/projects/styleguide/<br>
 
-https://stackoverflow.com/a/2790919/10387022 <br>
+https://stackoverflow.com/a/2790919/10387022<br>
 
-
+https://bootsnipp.com/snippets/QoZeX<br>
 
 <br><br>

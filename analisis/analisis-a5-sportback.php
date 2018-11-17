@@ -133,19 +133,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-1.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-1.jpg" alt="" />
             <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-2.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-2.jpg" alt="" />
             <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-3.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-3.jpg" alt="" />
             <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
           </figure>
         </div>
@@ -153,19 +153,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-4.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-4.jpg" alt="" />
             <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-5.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-5.jpg" alt="" />
             <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-6.jpg" alt="" />
+            <img src="../img/analisis/gallery/a5-6.jpg" alt="" />
             <!--<figcaption>Highlands <small>United States</small></figcaption>-->
           </figure>
         </div>

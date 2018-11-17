@@ -9,7 +9,6 @@
 
   <link rel="stylesheet" href="../css/analisis/galeria-imagenes.css">
 
-
 </head>
 <body>
 
@@ -105,7 +104,7 @@
 
     <!-- INICIO GALERIA -->
     <div class="gallery">
-      <div class="row">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
             <img src="../img/analisis/gallery/m2-1.jpg" alt="" />
@@ -125,7 +124,7 @@
           </figure>
         </div>
       </div>
-      <div class="row">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
             <img src="../img/analisis/gallery/m2-4.jpg" alt="" />

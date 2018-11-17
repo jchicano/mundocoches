@@ -6,6 +6,9 @@
 <head>
   <?php include("../includes/head-tag-contents.php"); ?>
   <link rel="stylesheet" href="../css/analisis/a5-sportback.css">
+
+  <link rel="stylesheet" href="../css/analisis/galeria-imagenes.css">
+
 </head>
 <body>
 
@@ -124,6 +127,65 @@
       </p>
       </div>
     </div>
+
+    <!-- INICIO GALERIA -->
+    <div class="gallery">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-1.jpg" alt="" />
+            <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-2.jpg" alt="" />
+            <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-3.jpg" alt="" />
+            <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
+          </figure>
+        </div>
+      </div>
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-4.jpg" alt="" />
+            <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-5.jpg" alt="" />
+            <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
+          </figure>
+        </div>
+        <div class="col-lg-4">
+          <figure>
+            <img src="../img/analisis/gallery/m2-6.jpg" alt="" />
+            <!--<figcaption>Highlands <small>United States</small></figcaption>-->
+          </figure>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
+        <symbol id="close" viewBox="0 0 18 18">
+          <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
+            S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
+            l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
+            c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
+            s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
+        </symbol>
+      </svg>
+      
+      <?php include("../includes/gallery-script.php");?>
+      
+    </div>
+    <!-- FIN GALERIA -->
+
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <hr class="my-4 w-100">
       <div class="col-lg-12">

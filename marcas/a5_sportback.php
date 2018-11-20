@@ -40,6 +40,33 @@
         </div>
       </div>
     </div>
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+      <div class="col-lg-12">
+        <h2>Lemoyne | Scarlett Meadows - Bayou NWA - Bluewater Marsh</h2>
+      </div>
+      <div class="col-lg-8 contenedor-izda">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos 
+          vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient 
+          placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat 
+          platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos 
+          vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient 
+          placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat 
+          platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos 
+          vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient 
+          placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat 
+          platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
+        </div>
+      </div>
+    </div>
     </section>
   </div>
 </body>

@@ -41,4 +41,6 @@ https://stackoverflow.com/a/2790919/10387022<br>
 
 https://bootsnipp.com/snippets/QoZeX<br>
 
+https://www.seleniumhq.org/ Para realizar pruebas en las distintas páginas del proyecto<br>
+
 <br><br>

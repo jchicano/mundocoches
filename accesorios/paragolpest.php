@@ -43,8 +43,8 @@
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
-      <div class="row no-gutters mb-5 mb-lg-0">
-        <ul id="galeriaacc">
+      <ul id="galeriaacc">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <li>
             <a href="https://www.google.es/search?q=paragolpes+trasero+mercedes&oq=paragolpes+trasero+mercedes&aqs=chrome..69i57.7231j0j7&sourceid=chrome&ie=UTF-8"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
@@ -59,8 +59,8 @@
             <a href="https://www.google.es/search?ei=9IPuW6HfGMGGatbTmbAC&q=paragolpes+trasero+seat&oq=paragolpes+trasero+seat&gs_l=psy-ab.3...16628.17265..17474...0.0..0.63.234.4......0....1..gws-wiz.MhTtjgUGoGE"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
           </li>
-        </ul>
-      </div>
+        </div>
+      </ul>
     </section>
   </div>
 </body>

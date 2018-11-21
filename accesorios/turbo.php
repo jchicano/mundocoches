@@ -43,8 +43,8 @@
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
-      <div class="row no-gutters mb-5 mb-lg-0">
-        <ul id="galeriaacc">
+      <ul id="galeriaacc">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <li>
             <a href="https://www.google.es/search?ei=F4vuW-rYBIiPlwShnImAAQ&q=kit+turbo+mercedes&oq=kit+turbo+mercedes&gs_l=psy-ab.3..0l2j0i22i30l8.153533.158152..158346...0.0..0.92.1422.18......0....1..gws-wiz.......0i71j0i131j0i67.25sPJnd82_k"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
@@ -59,8 +59,8 @@
             <a href="https://www.google.es/search?q=kit+turbo+audi&oq=kit+turbo+audi&aqs=chrome..69i57j0l5.4159j0j4&sourceid=chrome&ie=UTF-8"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/audi.svg" /><span style="text-decoration:none;">AUDI</span></a> 
           </li>
-        </ul>
-      </div>
+        </div>
+      </ul>
     </section>
   </div>
 </body>

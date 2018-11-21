@@ -43,8 +43,8 @@
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
-      <div class="row no-gutters mb-5 mb-lg-0">
-        <ul id="galeriaacc">
+      <ul id="galeriaacc">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <li>
             <a href="https://www.google.es/search?ei=8oruW5GGCIuQlwT6m7XIBQ&q=faros+mercedes&oq=faros+mercedes&gs_l=psy-ab.3.0.0l10.2723.4303..4417...0.0..0.86.240.3......0....1..gws-wiz.......0i71j0i8i7i30j0i13.XdkK2aJOXQ4"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
@@ -59,8 +59,8 @@
             <a href="https://www.google.es/search?ei=CIvuW8i-Cc-IlwSb96-wDQ&q=faros+seat&oq=faros+seat&gs_l=psy-ab.3..0l10.13072.13723..14126...0.0..0.80.300.4......0....1..gws-wiz.......0i71.CO9JeLHebSA"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
           </li>
-        </ul>
-      </div>
+        </div>  
+      </ul>
     </section>
   </div>
 </body>

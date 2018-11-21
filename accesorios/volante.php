@@ -43,8 +43,8 @@
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
-      <div class="row no-gutters mb-5 mb-lg-0">
-        <ul id="galeriaacc">
+      <ul id="galeriaacc">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <li>
             <a href="https://www.momo.com/"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/momo.jpg" /><span style="text-decoration:none;">MOMO</span></a>
@@ -59,8 +59,8 @@
             <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
              title=""><img width="230" height="190" alt="" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
           </li>
-        </ul>
-      </div>
+        </div>
+      </ul>
     </section>
   </div>
 </body>

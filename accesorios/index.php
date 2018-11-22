@@ -108,7 +108,7 @@
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/frenos.jpg" /><span style="text-decoration:none;">Frenos</span></a>
+            <a href="freno.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/frenos.jpg" /><span style="text-decoration:none;">Frenos</span></a>
           </li>
 
           <li>

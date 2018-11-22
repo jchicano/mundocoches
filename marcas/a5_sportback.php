@@ -4,19 +4,7 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
-  
-  <style>
-    a {
-      transition: filter .5s ease-in-out;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
 
-    a:hover {
-      filter: grayscale(0%);
-      -webkit-filter: grayscale(0%);
-    }
-  </style>
 </head>
 <body>
 
@@ -40,9 +28,55 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
-      <div class="col-lg-12">
-        <img class="img-fluid w-100" src="../img/marcas/audi-a5-sportback-ft.jpg">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12 text-center">
+        <img class="img-fluid w-50" src="../img/marcas/audi-a5-sportback-ft.jpg">
+      </div>
+    </div>
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12 text-center">
+        <br><h2 class="text-dark text-center">Ficha técnica</h2>
+        
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <th scope="row">Combusible</th>
+              <td>Gasolina</td>
+            </tr>
+            <tr>
+              <th scope="row">Consumo urbano</th>
+              <td>6,9</td>
+            </tr>
+            <tr>
+              <th scope="row">Consumo extraurbano</th>
+              <td>4,5</td>
+            </tr>
+            <tr>
+              <th scope="row">Consumo mixto</th>
+              <td>5,4</td>
+            </tr>
+            <tr>
+              <th scope="row">Cilindros</th>
+              <td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">CO2</th>
+              <td>124 g/Km</td>
+            </tr>
+            <tr>
+              <th scope="row">Puertas</th>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Plazas</th>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Maletero</th>
+              <td>480 L</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     </section>

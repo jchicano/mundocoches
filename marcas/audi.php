@@ -58,7 +58,7 @@
       </div>
       <div class="col-md-4">
         <!-- R8 Coupe -->
-        <a href="#">
+        <a href="r8_coupe.php">
           <img class="img-fluid" src="../img/marcas/audi_r8_coupe_01.jpg">
           <div class="letrero">R8 Coupe</div>
         </a>

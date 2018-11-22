@@ -50,10 +50,10 @@
         </a>
       </div>
       <div class="col-md-4">
-        <!-- RS7 Sportback -->
-        <a href="#">
-          <img class="img-fluid" src="../img/marcas/audi_rs7_sportback_01.jpg">
-          <div class="letrero">RS7 Sportback</div>
+        <!-- A7 Sportback -->
+        <a href="a7_sportback.php">
+          <img class="img-fluid" src="../img/marcas/audi_a7_sportback_01.jpg">
+          <div class="letrero">A7 Sportback</div>
         </a>
       </div>
       <div class="col-md-4">

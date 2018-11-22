@@ -75,6 +75,18 @@
               <th scope="row">Maletero</th>
               <td>480 L</td>
             </tr>
+            <tr>
+              <th scope="row">Tracción</th>
+              <td>Delantera</td>
+            </tr>
+            <tr>
+              <th scope="row">Cambio</th>
+              <td>Automático</td>
+            </tr>
+            <tr>
+              <th scope="row">Nº velocidades</th>
+              <td>6</td>
+            </tr>
           </tbody>
         </table>
       </div>

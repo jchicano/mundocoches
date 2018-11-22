@@ -89,6 +89,9 @@
         <h2>Conclusión</h2>
       </div>
       <div class="col-lg-12">
+        <p>
+          Bajo nuestra opinión es uno de los mejores M que te puedes comprar a día de hoy, ya que es el que mejor relación ofrece entre prestaciones y diversión al volante de toda la gama M –el siguiente escalón es un BMW M4 de 431 CV, desde 94.650 euros–. Un coche que recuerda en detalles de su conducción a coches tan memorables como el primer BMW M3 o el 1M. Y con personalidad más que de sobra como pasar por encima de aquellos que lo minusvaloren diciendo que es ‘el M pequeño’. Vale, cuesta 10.000 euros más que el M2 saliente, una cifra nada despreciable. Pero te aseguro que merece la pena.
+        </p>
       <!--<p>
         Dentro del segmento de las berlinas de diseño coupé y tamaño medio, el Audi A5 Sportback es uno de
         los modelos más interesantes que existen en la actualidad. Tiene un diseño muy deportivo, es amplio por dentro y tiene un

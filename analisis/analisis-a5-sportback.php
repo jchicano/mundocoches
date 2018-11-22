@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<?php include("../includes/navigation.php");?>
+<?php include("../includes/navigation.php"); ?>
 
 <!-- CONTENIDO -->
 

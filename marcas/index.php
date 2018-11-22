@@ -41,7 +41,7 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        <!-- Mercedes-Benz -->
+        <!-- Audi -->
         <a href="audi.php">
           <img class="img-fluid" src="../img/marcas/audi-logo.jpg">
         </a>
@@ -53,8 +53,8 @@
         </a>
       </div>
       <div class="col-md-4">
-        <!-- Audi -->
-        <a href="#">
+        <!-- Mercedes-Benz -->
+        <a href="mercedes.php">
           <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
         </a>
       </div>

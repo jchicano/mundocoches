@@ -50,7 +50,7 @@
       </div>
       <div class="col-xl-4 col-lg-5">
         <div class="featured-text text-center text-lg-left">
-          <h4>Shoreline</h4>
+          <h4>Nuestra pasión</h4>
           <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
         </div>
       </div>
@@ -124,7 +124,7 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Address</h4>
+            <h4 class="text-uppercase m-0">Dirección</h4>
             <hr class="my-4">
             <div class="small text-black-50">4923 Market Street, Orlando FL</div>
           </div>
@@ -148,22 +148,22 @@
         <div class="card py-4 h-100">
           <div class="card-body text-center">
             <i class="fas fa-mobile-alt text-primary mb-2"></i>
-            <h4 class="text-uppercase m-0">Phone</h4>
+            <h4 class="text-uppercase m-0">Teléfono</h4>
             <hr class="my-4">
-            <div class="small text-black-50">+1 (555) 902-8832</div>
+            <div class="small text-black-50">+34 (555) 902-8832</div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="social d-flex justify-content-center">
-      <a href="#" class="mx-2">
+      <a href="https://twitter.com/" target="_blank" class="mx-2">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="#" class="mx-2">
+      <a href="https://facebook.com/" target="_blank" class="mx-2">
         <i class="fab fa-facebook-f"></i>
       </a>
-      <a href="#" class="mx-2">
+      <a href="https://github.com/jesusdc99/mundocoches/" target="_blank" class="mx-2">
         <i class="fab fa-github"></i>
       </a>
     </div>

@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<?php include("../includes/navigation.php");?>
+<?php include("../includes/navigation.php"); ?>
 
 <!-- CONTENIDO -->
 
@@ -89,19 +89,12 @@
         <h2>Conclusión</h2>
       </div>
       <div class="col-lg-12">
-      <!--<p>
-        Dentro del segmento de las berlinas de diseño coupé y tamaño medio, el Audi A5 Sportback es uno de
-        los modelos más interesantes que existen en la actualidad. Tiene un diseño muy deportivo, es amplio por dentro y tiene un
-        gran maletero, lo que le convierte en un vehículo versátil y, sobre todo, es un coche ideal para viajar en él. Un coupé que
-        supera a sus rivales –el <a href="../marcas/mercedes.php">Mercedes</a> Clase C Coupé y del <a href="../marcas/bmw.php">BMW</a> Serie 4 Gran Coupé– en aspectos como refinamiento y elevado
-        confort de marcha. Muy recomendado.
-      </p>-->
-      <p>
-
-      </p>
+        <p>
+          Bajo nuestra opinión es uno de los mejores M que te puedes comprar a día de hoy, ya que es el que mejor relación ofrece entre prestaciones y diversión al volante de toda la gama M –el siguiente escalón es un BMW M4 de 431 CV, desde 94.650 euros–. Un coche que recuerda en detalles de su conducción a coches tan memorables como el primer BMW M3 o el 1M. Y con personalidad más que de sobra como pasar por encima de aquellos que lo minusvaloren diciendo que es ‘el M pequeño’. Vale, cuesta 10.000 euros más que el M2 saliente, una cifra nada despreciable. Pero te aseguro que merece la pena.
+        </p>
       </div>
     </div>
-
+    <hr class="my-4 w-100">
     <!-- INICIO GALERIA -->
     <div class="gallery">
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">

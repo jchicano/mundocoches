@@ -48,7 +48,7 @@
       </div>
       <div class="col-md-4">
         <!-- BMW -->
-        <a href="#">
+        <a href="bmw.php">
           <img class="img-fluid" src="../img/marcas/bmw-logo.jpg">
         </a>
       </div>

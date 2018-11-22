@@ -34,7 +34,7 @@
     }
   }
   
-  @media (min-width: 992px) {
+  @media (min-width: 991px) {
     .masthead-a5 {
       height: 100vh;
       padding: 0;

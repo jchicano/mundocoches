@@ -47,4 +47,3 @@ https://www.seleniumhq.org/ Para realizar pruebas en las distintas páginas del 
 <br><br>
 
 
-<a href="index.php">Ir al sitio</a>

@@ -44,6 +44,4 @@ https://bootsnipp.com/snippets/QoZeX<br>
 https://www.seleniumhq.org/ Para realizar pruebas en las distintas páginas del proyecto<br>
 
 
-https://bootsnipp.com/snippets/featured/animated-3d-social-icon-in-css3 POsible redes sociales?
-
 <br><br>

@@ -1,5 +1,35 @@
+/* === ESTILO BOTÓN DE SUSCRIPCION DE CORREO === */
+.btnSubscribe{
 
-.accesorios{
-    height: 300px !important;
 }
 
+/* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
+.contenedor-izda{
+    padding-right: 40px !important;
+}
+
+/* === SEPARACIÓN A LA IZQUIERDA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
+.contenedor-dcha{
+    padding-left: 40px !important;
+}
+
+/* === SEPARACIÓN SUPERIOR ENCIMA DEL DIV DE TEXTO === */
+.caja-texto{
+    margin: 0 0 40px;
+}
+
+/* === ESTILO DE BORDE PARA LAS SECCIONES DE LOS ANALISIS === */
+.reducirMargenSuperior{
+    margin-top:-300px;
+}
+
+/* === QUITAMOS LOS MARGENES CUANDO SE ACTIVA EL MODO RESPONSIVE === */
+
+@media (max-width: 991px) { /* Pixeles del tamano lg */
+    .contenedor-izda{
+        padding-right: 0px !important;
+    }
+    .contenedor-dcha{
+        padding-left: 0px !important;
+    }
+}

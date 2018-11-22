@@ -15,7 +15,7 @@
 <body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
     <section id="projects" class="projects-section bg-light">
-    <!-- AUDI  -->
+    <!-- BMW  -->
     <div class="row">
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">

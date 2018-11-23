@@ -15,18 +15,18 @@
       <!-- AUDI -->
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
+                <div class="project-text w-100 my-auto text-right text-justify">
                   <a href="analisis-a5-sportback.php">
                     <h4 class="text-white">Audi A5 Sportback, a fondo</h4>
                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   </a>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
+                  <hr class="d-none d-lg-block mb-0 ml-0 pull-right">
                 </div>
               </div>
             </div>
@@ -36,13 +36,13 @@
       <!-- BMW -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/bmw_m2_competition.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
+                <div class="project-text w-100 my-auto text-right text-justify">
                   <a href="analisis-m2-competition.php">
                     <h4 class="text-white">Análisis del BMW M2 Competition</h4>
                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>

@@ -49,9 +49,38 @@
         </p>
       </div>
       <div class="col-lg-4">
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipiscing elit cum viverra vivamus diam, sem tempor luctus primis. Morbi himenaeos vulputate orci pretium nostra in turpis convallis, interdum condimentum lacinia rhoncus a volutpat ullamcorper, taciti parturient placerat elementum hac quis curae. Cum torquent ultrices enim magnis aptent senectus gravida cubilia sed, sodales placerat platea class quam mus viverra pulvinar etiam, euismod donec porta nibh ac lacus leo nec.
-        </div>
+        <!--Tabla informativa-->
+        <table class="table table-sm">
+          <thead>
+            <tr>
+              <th class="text-center" colspan="2" scope="col">Audi A5 Sportback</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Combustible</td>
+              <td class="text-right">Gasolina</td>
+            </tr>
+            <tr>
+              <td> Nº cilindros</td>
+              <td class="text-right">4</td>
+            </tr>
+            <tr>
+              <td>Cambio</td>
+              <td class="text-right">Automático</td>
+            </tr>
+            <tr>
+              <td>Nº plazas</td>
+              <td class="text-right">5</td>
+            </tr>
+            <tr>
+              <td>Tracción</td>
+              <td class="text-right">Trasera</td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="../marcas/a5_sportback.php">Más información...</a>
+        <!---->
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">

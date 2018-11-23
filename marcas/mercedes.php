@@ -1,5 +1,5 @@
 <?php $CURRENT_PAGE = "Marcas principales"; ?>
-<?php $PAGE_TITLE = "Marcas | Audi"; ?>
+<?php $PAGE_TITLE = "Marcas | Mercedes-Benz"; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,13 +28,13 @@
 <body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
     <section id="projects" class="projects-section bg-light">
-    <!-- AUDI  -->
+    <!-- MERCEDES-BENZ  -->
     <div class="row">
       <div class="col-md-12">
         <div class="bg-black text-center h-100 project">
           <div class="d-flex h-100">
             <div class="project-text w-100 my-auto text-center text-lg-left">
-              <h4 class="text-white text-center">AUDI</h4>
+              <h4 class="text-white text-center">MERCEDES-BENZ</h4>
               <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
             </div>
           </div>
@@ -43,24 +43,24 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        <!-- A5 Sportback -->
-        <a href="a5_sportback.php">
-          <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg">
-          <div class="letrero">A5 Sportback</div>
+        <!-- AMG C 43 4MATIC -->
+        <a href="amg_c43.php">
+          <img class="img-fluid" src="../img/analisis/merche.jpg">
+          <div class="letrero">AMG C 43 4MATIC</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- A7 Sportback -->
-        <a href="a7_sportback.php">
-          <img class="img-fluid" src="../img/marcas/audi_a7_sportback_01.jpg">
-          <div class="letrero">A7 Sportback</div>
+        <!-- Clase A 180 -->
+        <a href="clase_a180.php">
+          <img class="img-fluid" src="../img/marcas/mercedes-clase-a180-01.jpg">
+          <div class="letrero">Clase A 180</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- R8 Coupe -->
-        <a href="r8_coupe.php">
-          <img class="img-fluid" src="../img/marcas/audi_r8_coupe_01.jpg">
-          <div class="letrero">R8 Coupe</div>
+        <!-- Clase GLA 180 -->
+        <a href="clase_gla180.php">
+          <img class="img-fluid" src="../img/marcas/mercedes-clase-gla180-01.jpg">
+          <div class="letrero">Clase GLA 180</div>
         </a>
       </div>
     </div>

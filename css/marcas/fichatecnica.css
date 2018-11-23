@@ -1,0 +1,10 @@
+.margen {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  
+  @media (max-width: 992px){
+    .margen {
+        padding: 0px;
+    }
+  }

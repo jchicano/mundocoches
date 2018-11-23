@@ -4,7 +4,7 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
-
+  <link rel="stylesheet" href="../css/marcas/fichatecnica.css">
 </head>
 <body>
 
@@ -29,12 +29,10 @@
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-12 text-center">
-        <img class="img-fluid w-50" src="../img/marcas/audi-a5-sportback-ft.jpg">
+      <div class="col-lg-6 text-center">
+        <img class="img-fluid margen w-100" src="../img/marcas/audi-a5-sportback-ft.jpg">
       </div>
-    </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-6 text-center">
         <br><h2 class="text-dark text-center">Ficha técnica</h2>
         
         <table class="table table-hover">
@@ -77,11 +75,11 @@
             </tr>
             <tr>
               <th scope="row">Tracción</th>
-              <td>Delantera</td>
+              <td>Trasera</td>
             </tr>
             <tr>
               <th scope="row">Cambio</th>
-              <td>Automático</td>
+              <td>Manual o Automático</td>
             </tr>
             <tr>
               <th scope="row">Nº velocidades</th>

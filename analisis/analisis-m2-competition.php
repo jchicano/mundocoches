@@ -55,19 +55,19 @@
             </tr>
             <tr>
               <td> Nº cilindros</td>
-              <td class="text-right">4</td>
+              <td class="text-right">6</td>
             </tr>
             <tr>
               <td>Cambio</td>
-              <td class="text-right">Manual o automático</td>
+              <td class="text-right">Manual</td>
             </tr>
             <tr>
-              <td>Puertas</td>
-              <td class="text-right">2</td>
-            </tr>
-            <tr>
-              <td>Plazas</td>
+              <td>Nº plazas</td>
               <td class="text-right">4</td>
+            </tr>
+            <tr>
+              <td>Tracción</td>
+              <td class="text-right">Trasera</td>
             </tr>
           </tbody>
         </table>

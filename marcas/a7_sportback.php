@@ -30,7 +30,7 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12 text-center">
-        <img class="img-fluid w-50" src="../img/marcas/audi-a7-sportback-ft.jpg">
+        <img class="img-fluid w-100" src="../img/marcas/audi-a7-sportback-ft.jpg">
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">

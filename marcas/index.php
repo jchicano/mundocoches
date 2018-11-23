@@ -7,13 +7,13 @@
   <style>
     a {
       transition: filter .5s ease-in-out;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
     }
 
     a:hover {
-      filter: grayscale(0%);
-      -webkit-filter: grayscale(0%);
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
     }
   </style>
 </head>
@@ -75,19 +75,19 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Citroën -->
-        <a href="#">
+        <a href="citroen.php">
           <img class="img-fluid" src="../img/marcas/citroen-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Renault -->
-        <a href="#">
+        <a href="renault.php">
           <img class="img-fluid" src="../img/marcas/renault-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Volkswagen -->
-        <a href="#">
+        <a href="volkswagen.php">
           <img class="img-fluid" src="../img/marcas/vw-logo.jpg">
         </a>
       </div>

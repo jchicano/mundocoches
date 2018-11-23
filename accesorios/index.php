@@ -112,7 +112,7 @@
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/neumatico.jpg" /><span style="text-decoration:none;">Neumáticos</span></a>
+            <a href="neumaticos.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/neumatico.jpg" /><span style="text-decoration:none;">Neumáticos</span></a>
           </li>
         </div>
       </ul>
@@ -134,23 +134,23 @@
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <!-- TERCERA LÍNEA DE 5 IMÁGENES -->
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/pantallas.jpg" /><span style="text-decoration:none;">Pantallas Multimedia</span></a>
+            <a href="pantalla.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/pantallas.jpg" /><span style="text-decoration:none;">Pantallas Multimedia</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/trasera.jpg" /><span style="text-decoration:none;">Cámara trasera</span></a>
+            <a href="ctrasera.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/trasera.jpg" /><span style="text-decoration:none;">Cámara trasera</span></a>
           </li>
 
           <li>                                                                          
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/soporte.jpg" /><span style="text-decoration:none;">Soporte para móvil</span></a>
+            <a href="soporte.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/soporte.jpg" /><span style="text-decoration:none;">Soporte para móvil</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/aceite.jpg" /><span style="text-decoration:none;">Cambio de aceite</span></a>
+            <a href="aceite.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/aceite.jpg" /><span style="text-decoration:none;">Cambio de aceite</span></a>
           </li>
 
           <li>
-            <a href="#" title=""><img width="200" height="160" alt="" src="../img/accesorios/limpia.jpg" /><span style="text-decoration:none;">Limpieza</span></a>
+            <a href="limpia.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/limpia.jpg" /><span style="text-decoration:none;">Limpieza</span></a>
           </li>
         </div>
       </ul>

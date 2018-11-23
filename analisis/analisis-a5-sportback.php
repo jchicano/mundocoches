@@ -67,15 +67,15 @@
             </tr>
             <tr>
               <td>Cambio</td>
-              <td class="text-right">Manual o automático</td>
+              <td class="text-right">Automático</td>
             </tr>
             <tr>
-              <td>Puertas</td>
+              <td>Nº plazas</td>
               <td class="text-right">5</td>
             </tr>
             <tr>
-              <td>Plazas</td>
-              <td class="text-right">5</td>
+              <td>Tracción</td>
+              <td class="text-right">Trasera</td>
             </tr>
           </tbody>
         </table>

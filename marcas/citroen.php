@@ -43,24 +43,24 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        <!-- AMG C 43 4MATIC -->
-        <a href="amg_c43.php">
-          <img class="img-fluid" src="../img/analisis/merche.jpg">
+        <!-- C4 -->
+        <a href="c4.php">
+          <img class="img-fluid" src="../img/marcas/citroen-c4-01.jpg">
           <div class="letrero">C4</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- Clase A 180 -->
-        <a href="clase_a180.php">
-          <img class="img-fluid" src="../img/marcas/mercedes-clase-a180-01.jpg">
-          <div class="letrero">Clase A 180</div>
+        <!-- C4 CACTUS -->
+        <a href="c4_cactus.php">
+          <img class="img-fluid" src="../img/marcas/citroen-c4-cactus-01.jpg">
+          <div class="letrero">C4 Cactus</div>
         </a>
       </div>
       <div class="col-md-4">
-        <!-- Clase GLA 180 -->
-        <a href="clase_gla180.php">
-          <img class="img-fluid" src="../img/marcas/mercedes-clase-gla180-01.jpg">
-          <div class="letrero">Clase GLA 180</div>
+        <!-- c3 -->
+        <a href="c3.php">
+          <img class="img-fluid" src="../img/marcas/citroen-c3-01.jpg">
+          <div class="letrero">C3</div>
         </a>
       </div>
     </div>

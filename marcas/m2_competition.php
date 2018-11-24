@@ -43,11 +43,11 @@
             </tr>
             <tr>
               <th scope="row">Consumo urbano</th>
-              <td>-</td>
+              <td>14,1</td>
             </tr>
             <tr>
               <th scope="row">Consumo extraurbano</th>
-              <td>-</td>
+              <td>7,6</td>
             </tr>
             <tr>
               <th scope="row">Consumo mixto</th>

@@ -108,19 +108,19 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Dacia -->
-        <a href="#">
+        <a href="dacia.php">
           <img class="img-fluid" src="../img/marcas/dacia-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Hyundai -->
-        <a href="#">
+        <a href="hyundai.php">
           <img class="img-fluid" src="../img/marcas/hyundai-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- SEAT -->
-        <a href="#">
+        <a href="seat.php">
           <img class="img-fluid" src="../img/marcas/seat-logo.jpg">
         </a>
       </div>

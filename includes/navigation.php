@@ -86,13 +86,13 @@
         <?php if ($CURRENT_PAGE == "Index") { ?>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
         </li>
+        <!--<li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Reciente</a>
+        </li>-->
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          <a class="nav-link js-scroll-trigger" href="#signup">Contacto</a>
         </li>
         <?php } ?>
       </ul>

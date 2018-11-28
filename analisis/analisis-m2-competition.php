@@ -89,7 +89,7 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-6">
         <div class="card text-center w-100 "><!-- class:float-left -->
-            <img class="card-img-top" src="../img/analisis/m2_interior.jpg" alt="Cuadro de instrumentos digital">
+            <img class="card-img-top" src="../img/analisis/m2_interior.jpg" alt="Habitáculo interior">
             <div class="card-body">
               <p class="card-text">El habitáculo interior está muy bien rematado.</p>
             </div>
@@ -106,7 +106,7 @@
         
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
           En el interior encontramos nuevos umbrales para las puertas, unos asientos tipo baquet opcionales, el botón de arranque pasa a ser rojo y hay un nuevo acabado para los textiles del habitáculo, con Alcántara, con costuras contrastadas en azul o naranja y el logo de BMW M se encuentra ahora presente en los retrovisores.

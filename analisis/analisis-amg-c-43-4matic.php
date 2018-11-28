@@ -1,5 +1,5 @@
 <?php $CURRENT_PAGE = "Analisis extendido"; ?>
-<?php $PAGE_TITLE = "Análisis | BMW M2 Competition"; ?>
+<?php $PAGE_TITLE = "Análisis | Mercedes AMG C43 4MATIC"; ?>
 
 <!DOCTYPE html>
 <html>
@@ -33,11 +33,11 @@
   <section id="scroll" class="projects-section bg-light">
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-12">
-        <h2>Mucho más que un deportivo</h2>
+        <h2>Más potente y mejor equipado que nunca</h2>
       </div>
       <div class="col-lg-8 contenedor-izda">
         <p>
-          <a href="../marcas/bmw.php">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos, un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
+          En <a href="../marcas/mercedes.php">Mercedes</a> se han dado cuenta de que, en ocasiones, los términos medios tienen sentido y el C 43 4Matic Coupé se ha encargado de reiterarlo desde que llegó al mercado en 2016. Con la misma estética que el salvaje C 63 de 476 CV y un comportamiento dinámico muy superior al del tranquilo C 300, el C 43 se ha convertido en la alternativa ideal para aquellos que buscaban un <b>punto medio</b> entre la lógica y la locura; sobre todo ahora que acaba de someterse a una pequeña actualización.
         </p>
       </div>
       <div class="col-lg-4">
@@ -45,7 +45,7 @@
         <table class="table table-sm">
           <thead>
             <tr>
-              <th class="text-center" colspan="2" scope="col">BMW M2 Competition</th>
+              <th class="text-center" colspan="2" scope="col">Mercedes AMG C 43 MATIC</th>
             </tr>
           </thead>
           <tbody>
@@ -59,57 +59,51 @@
             </tr>
             <tr>
               <td>Cambio</td>
-              <td class="text-right">Manual</td>
+              <td class="text-right">Automático</td>
             </tr>
             <tr>
               <td>Nº plazas</td>
-              <td class="text-right">4</td>
+              <td class="text-right">5</td>
             </tr>
             <tr>
               <td>Tracción</td>
-              <td class="text-right">Trasera</td>
+              <td class="text-right">Integral</td>
             </tr>
           </tbody>
         </table>
-        <a href="../marcas/m2_competition.php">Más información...</a>
+        <a href="../marcas/amg_c43.php">Más información...</a>
         <!---->
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-        <h2>Exterior e interior</h2>
+        <h2>Interior y exterior</h2>
       </div>
       <div class="col-lg-12">
         <p>
-          El BMW M2 Competition cuenta con una parrilla de mayores dimensiones para favorecer la refrigeración del propulsor y el nuevo splitter delantero ayuda a recircular el aire para seguir enfriando dicho propulsor. 
-          Junto a la parrilla de mayores dimensiones, el nuevo “labio” delantero y las nuevas llantas hay un acabado en negro brillante para ciertos detalles y aparece una nueva insignia así como dos nuevos colores, el Sunset Orange y el Hockenheim Silver, este último específico de este modelo. Un cambio especialmente relevante es la aparición de unos nuevos retrovisores, con el diseño clásico de los BMW M3.
+          Basta con apretar el botón de Start para percartarse de los cambios; el V6 cobra vida con un bramido mucho más sonoro que en el modelo precedente. Las unidades dispuestas por Mercedes-AMG para la toma de contacto incluyen el equipo de escape AMG Performance –1.791 euros– y lo cierto es que suenan de maravilla, tanto que no tienen nada que envidiar al estruendoso y bronco V8, especialmente cuando pulsamos el botón que abre las válvulas de escape para hacer el máximo "ruido" posible. Con semejante sinfonía, es fácil perdonar que las cuatro salidas de escape sean falsas...
         </p>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-6">
         <div class="card text-center w-100 "><!-- class:float-left -->
-            <img class="card-img-top" src="../img/analisis/m2_interior.jpg" alt="Cuadro de instrumentos digital">
+            <img class="card-img-top" src="../img/analisis/c43_interior.jpg" alt="Instrumentacion digital">
             <div class="card-body">
-              <p class="card-text">El habitáculo interior está muy bien rematado.</p>
+              <p class="card-text">La instrumentación digital es abundante.</p>
             </div>
           </div>
       </div>
       <div class="col-lg-6 contenedor-dcha">
         <p>
-          Este coche recurre al motor del BMW M4, de 6 cilindros en línea, de doble turbo y de 3 litros de cubicaje, para dar vida a este BMW M2 más deportivo, proponiéndonos una potencia de <b>410 caballos</b> entre 5.250 rpm y 7.000 rpm y un par de 550 Nm disponible entre las 2.350 rpm y las 5.200 rpm.
-          Para poner en contexto esta potencia debemos tener en cuenta que el BMW M2 “convencional” desarrolla una potencia de 370 caballos con un par de 465 Nm, el BMW M4, como el M3, desarrolla 431 caballos y un par de 550 Nm.
+          Con el modo de conducción Sport+ seleccionado, también es inevitable apagar el excepcional equipo de sonido Burmester para deleitarse con los <b>petardeos</b> que se producen en cada cambio de marcha. La transmisión automática AMG Speedshift TCT 9G de nueve velocidades ha sido optimizada con una gestión electrónica que logra transiciones más rápidas entre marchas. También es posible manejar manualmente la caja de cambios a través de las levas situadas detrás del volante, aunque, con el pie a fondo, lo ideal es centrarse en la carretera y dejar que la caja automática haga su trabajo, porque el V6 biturbo empuja con unos contundentes 520 Nm desde apenas 2.500 rpm. Los 390 CV hacen que nos olvidemos de que estamos al volante de una versión de acceso a la gama, mientras que la tracción total 4Matic, ayudada por los neumáticos ContiSport Contact 6, garantiza la máxima motricidad en cada curva.
         </p>
-        <p>
-          El nuevo BMW M2 Competition sigue siendo un coche de propulsión, de tracción trasera y podemos configurarlo tanto con cambio manual como con el cambio automático DCT M de doble embrague y 7 velocidades, marcando un 0 a 100 km/h de 4.2 segundos en el caso del automático y de 4.4 segundos con el cambio manual, con un consumo medio de entre 9.2 y 10 l/100 km en función de la configuración.
-        </p>
-        
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
-          En el interior encontramos nuevos umbrales para las puertas, unos asientos tipo baquet opcionales, el botón de arranque pasa a ser rojo y hay un nuevo acabado para los textiles del habitáculo, con Alcántara, con costuras contrastadas en azul o naranja y el logo de BMW M se encuentra ahora presente en los retrovisores.
+          A la hora de circular de forma más tranquila, el Drive Select, mediante el programa Comfort, cambia el carácter del conjunto de manera radical. Con este modo de conducción seleccionado y las válvulas de escape en su posición menos ruidosa, el coupé alemán es resulta tan cómodo y confortable como se espera de un Mercedes. La suspensión variable es menos firme que en los modos Sport y Sport+, la respuesta del acelerador es menos reactiva y la dirección pierde dureza.
         </p>
       </div>
     </div>
@@ -119,7 +113,7 @@
       </div>
       <div class="col-lg-12">
         <p>
-          Bajo nuestra opinión es uno de los mejores M que te puedes comprar a día de hoy, ya que es el que mejor relación ofrece entre prestaciones y diversión al volante de toda la gama M –el siguiente escalón es un BMW M4 de 431 CV, desde 94.650 euros–. Un coche que recuerda en detalles de su conducción a coches tan memorables como el primer BMW M3 o el 1M. Y con personalidad más que de sobra como pasar por encima de aquellos que lo minusvaloren diciendo que es ‘el M pequeño’. Vale, cuesta 10.000 euros más que el M2 saliente, una cifra nada despreciable. Pero te aseguro que merece la pena.
+          Los Mercedes-AMG C43 4MATIC poseen un volante específico AMG y una suspensión adaptativa, integrada plenamente en el control de chasis adaptativo – llámalo selector de modos de conducción – AMG DRIVE SELECT. Es un buen esfuerzo por parte de Mercedes-AMG, tratando de conferir un carácter más deportivo y agresivo a esta berlina que, por nuestra parte, nos ha encantado.
         </p>
       </div>
     </div>
@@ -129,19 +123,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-1.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-1.jpg" alt="" />
             <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-2.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-2.jpg" alt="" />
             <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-3.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-3.jpg" alt="" />
             <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
           </figure>
         </div>
@@ -149,19 +143,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-4.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-4.jpg" alt="" />
             <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-5.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-5.jpg" alt="" />
             <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/m2-6.jpg" alt="" />
+            <img src="../img/analisis/gallery/c43-6.jpg" alt="" />
             <!--<figcaption>Highlands <small>United States</small></figcaption>-->
           </figure>
         </div>

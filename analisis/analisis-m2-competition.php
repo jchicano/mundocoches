@@ -190,7 +190,7 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="../noticias/">Ya se sabe el precio del Audi A3</a>
+            <a href="../noticias/">Noticias</a>
           </li>
           <li>
             <a href="../analisis/">Más análisis...</a>

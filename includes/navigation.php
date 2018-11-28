@@ -19,11 +19,11 @@
   <div class="container">
     <?php if($CURRENT_PAGE == "Index") { ?>
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="img/logo.png" alt="MundoCoches" width="50%">
+      <img src="img/logo.png" alt="MundoCoches" width="149.42px" height="42.69px">
     </a>
     <?php } else { ?>
     <a class="navbar-brand" href="../index.php">
-      <img src="../img/logo.png" alt="MundoCoches" height="56px">
+      <img src="../img/logo.png" alt="MundoCoches" width="149.42px" height="42.69px">
     </a>
     <?php } ?>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

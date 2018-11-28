@@ -89,6 +89,20 @@
         </table>
       </div>
     </div>
+
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <hr class="my-4 w-100">
+      <div class="col-lg-12">
+        <h3>Relacionado</h3>
+      </div>
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="../analisis/analisis-i30.php">Análisis del i30</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     </section>
   </div>
 </body>

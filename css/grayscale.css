@@ -158,12 +158,12 @@
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #007bff; /*Modificado*/
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: rgb(57, 66, 90) !important; /*Modificado*/
 }
 
 .about-section {
@@ -187,7 +187,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid rgb(57, 66, 90);/*Modificado*/
   }
 }
 

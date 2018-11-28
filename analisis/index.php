@@ -71,6 +71,7 @@
                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   </a>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">28/11/2018</p>
                 </div>
               </div>
             </div>
@@ -90,6 +91,7 @@
                   <h4 class="text-white">Analizamos el Citroën C4</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">28/11/2018</p>
                 </div>
               </div>
             </div>
@@ -109,6 +111,7 @@
                   <h4 class="text-white">Así luce el Renault Megane</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">29/11/2018</p>
                 </div>
               </div>
             </div>
@@ -128,6 +131,7 @@
                   <h4 class="text-white">Volkswagen Golf, a fondo</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">29/11/2018</p>
                 </div>
               </div>
             </div>
@@ -147,6 +151,7 @@
                   <h4 class="text-white">Dacia Duster, a prueba</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">29/11/2018</p>
                 </div>
               </div>
             </div>
@@ -166,6 +171,7 @@
                   <h4 class="text-white">Hyundai i30, impresiones</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">30/11/2018</p>
                 </div>
               </div>
             </div>
@@ -185,6 +191,7 @@
                   <h4 class="text-white">Analizamos el Seat Ibiza</h4>
                   <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">30/11/2018</p>
                 </div>
               </div>
             </div>

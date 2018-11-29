@@ -16,8 +16,8 @@
 <header class="masthead">
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0">MundoCoches</h1>
-      <h2 class="text-white-50 mx-auto mt-2 mb-5">Tu blog de noticias del motor</h2>
+      <h1 class="mx-auto my-0 desaparecer-movil">MundoCoches</h1>
+      <h2 class="text-white-50 mx-auto mt-2 mb-5 desaparecer-movil">Tu blog de noticias del motor</h2>
       <a href="#about" class="js-scroll-trigger">
         <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
       </a>
@@ -38,25 +38,38 @@
     <img src="img/amg_gt.png" class="img-fluid" alt="">
   </div>
 </section>
-
-<!-- Projects Section -->
+<!--
+<!-- Projects Section 
 <section id="projects" class="projects-section bg-light">
   <div class="container">
 
-    <!-- Featured Project Row -->
+    <!-- Featured Project Row 
     <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-      <div class="col-xl-8 col-lg-7">
+      <div class="col-lg-12">
+        <h2 class="caja-texto">Noticias recientes</h2>
+      </div>
+      <div class="col-xl-7 col-lg-6 ">
+        <img class="img-fluid mb-3 " src="img/bg-masthead.jpg" alt="">
+      </div>
+      <div class="col-xl-5 col-lg-6">
+        <div class="featured-text text-center text-lg-left">
+          <h4>Presentado el Audi A3</h4>
+          <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+        </div>
+      </div>
+
+      <div class="col-xl-7 col-lg-6">
         <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
       </div>
-      <div class="col-xl-4 col-lg-5">
+      <div class="col-xl-5 col-lg-6">
         <div class="featured-text text-center text-lg-left">
-          <h4>Nuestra pasión</h4>
+          <h4>Presentado el Audi A3</h4>
           <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
         </div>
       </div>
     </div>
-
-    <!-- Project One Row -->
+<!--
+     Project One Row 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-lg-6">
         <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
@@ -74,7 +87,7 @@
       </div>
     </div>
 
-    <!-- Project Two Row -->
+     Project Two Row 
     <div class="row justify-content-center no-gutters">
       <div class="col-lg-6">
         <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
@@ -91,10 +104,10 @@
         </div>
       </div>
     </div>
-
+->
   </div>
 </section>
-
+-->
 <!-- Signup Section -->
 <section id="signup" class="signup-section">
   <div class="container">

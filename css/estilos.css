@@ -39,9 +39,9 @@
     .desaparecer-movil{
         display: none;
     }
+    .prueba-movil{
+        font-size: 130% !important;
+    }
     
 }
 
-.prueba-movil{
-    overflow: scroll;
-}

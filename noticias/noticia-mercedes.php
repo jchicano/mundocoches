@@ -21,7 +21,7 @@
         <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0">Mercedes-Benz Clase B, desvelado en París</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">Heey</h2>
             <a href="#scroll" class="js-scroll-trigger">
             <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
             </a>
@@ -91,6 +91,42 @@
                     </div>
                 </div>
                 </div>
+
+        </div>
+        </div>
+
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+        <div class="col-lg-6 contenedor-izda">
+        <p>
+        Unos meses después del lanzamiento comercial, estarán disponibles los asientos traseros correderos que permitirán aumentar o reducir el
+        maletero en pro o en contra del bienestar de los ocupantes de la segunda fila. La capacidad de carga variará de los 455 a los 705 litros
+        dependiendo de la posición de la segunda fila. Si se abaten los respaldos la capacidad aumentará hasta los 1.540 litros totales. El diseño
+        interior nos muestra un nuevo salpicadero completamente rediseñado donde destaca ante todo el sistema multimedia MBUX compuesto por dos 
+        pantallas, una para el cuadro de instrumentos y otra para el sistema multimedia (táctil). Estas pantallas podrán ser de 7 o 10,2 pulgadas
+        y podrán combinarse dependiendo del nivel de acabado elegido o del sistema de infoentretenimiento. Es decir, hay 3 combinaciones posibles:
+        7” y 7”, 7” y 10,2” y 10,2” y 10,2”.La gama mecánica está compuesta por un motor de gasolina de 1.3 litros con potencias de 136 y 163 CV y
+        dos diésel: un 1.6 de 116 CV y un 2.0 disponible con 150 y 190 CV. Un total de 5 variantes posibles todas ellas asociadas al cambio 
+        automático de doble embrague en el momento del lanzamiento. Más adelante llegarán las versiones manuales.
+        </p>
+                <div class="mx-auto col-lg-8 contenedor-izda">
+                <div class="card text-center w-100 ">
+                    <img class="card-img-top" src="../img/noticias/mercedes2.jpg" alt="">
+                    <div class="card-body">
+                    <p class="card-subtitle">Tres motores diésel y dos de gasolina, con potencias que van desde los 116 CV a los 190 CV. En el lanzamiento todos ellos con cambio automático de doble embrague.</p>
+                    </div>
+                </div>
+                </div>
+        
+        <p>
+        Los clientes podrán encargar el nuevo Clase B a partir de diciembre de 2018, aunque las primeras unidades se entregarán a partir de febrero de 2019.
+        </p>
+        </div>
+        </div>
+
+
+        
+
+
 
     </div>
     </div>

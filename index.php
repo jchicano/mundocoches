@@ -16,8 +16,8 @@
 <header class="masthead">
   <div class="container d-flex h-100 align-items-center">
     <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0 desaparecer-movil">MundoCoches</h1>
-      <h2 class="text-white-50 mx-auto mt-2 mb-5 desaparecer-movil">Tu blog de noticias del motor</h2>
+      <h1 class="mx-auto my-0 bajar-tamano-movil">MundoCoches</h1>
+      <h2 class="text-white-50 mx-auto mt-2 mb-5 bajar-tamano-subtitulo-movil">Tu blog de noticias del motor</h2>
       <a href="#about" class="js-scroll-trigger">
         <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
       </a>

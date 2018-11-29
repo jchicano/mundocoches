@@ -39,8 +39,11 @@
     .desaparecer-movil{
         display: none;
     }
-    .prueba-movil{
+    .bajar-tamano-movil{ /*Clase para disminuir el tamaño del titulo h1 de la cabecera*/
         font-size: 130% !important;
+    }
+    .bajar-tamano-subtitulo-movil{/*Clase para disminuir el tamaño del subtitulo de la cabecera, se usa de momento solo en el index*/
+        font-size: 80% !important;
     }
     
 }

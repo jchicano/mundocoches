@@ -39,8 +39,11 @@
     .desaparecer-movil{
         display: none;
     }
-    .prueba-movil{
+    .bajar-tamano-movil{
         font-size: 130% !important;
+    }
+    .bajar-tamano-subtitulo-movil{
+        font-size: 80% !important;
     }
     
 }

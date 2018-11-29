@@ -7,15 +7,14 @@
 <head>
     <?php include("../includes/head-tag-contents.php");?>
     <link href="../css/grayscale.css" rel="stylesheet">
-
+    <link href="../css/normalize.css" rel="stylesheet">
 </head>
-<body>
 
 <?php include("../includes/navigation.php");?>
 
 <!-- CONTENIDO -->
 
-<body>
+<body class="bg-light" id="page-top">
 <section id="scroll" class="projects-section bg-light">
     <header class="masthead-a5">
         <div class="container d-flex h-100 align-items-center">

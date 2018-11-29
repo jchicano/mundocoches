@@ -20,7 +20,7 @@
   <header class="masthead-a5">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Mercedes AMG C 43 4MATIC</h1>
+        <h1 class="mx-auto my-0 bajar-tamano-movil">Mercedes AMG C 43 4MATIC</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>

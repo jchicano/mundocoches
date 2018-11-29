@@ -31,4 +31,13 @@
     .contenedor-dcha{
         padding-left: 0px !important;
     }
+
+}
+
+/* === CLASE PARA ELIMINAR LOS TITULOS EN LAS CABECEERAS CON IMAGENES === */
+@media (max-width: 500px) { /* Pixeles a los que aproximadamente aparece una barra blanca por el rebosamiento de un div */
+    .desaparecer-movil{
+        display: none;
+    }
+    
 }

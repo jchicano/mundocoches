@@ -41,3 +41,7 @@
     }
     
 }
+
+.prueba-movil{
+    overflow: scroll;
+}

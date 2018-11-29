@@ -102,7 +102,7 @@
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    padding: 1.5rem 1.5rem 1.25rem;/*2rem 1.5rem*/;
+    padding: 1rem 1rem 1rem;/*2rem 1.5rem*/;
     border: 0px !important;
     color: white/*rgba(34, 42, 66, 0.8);/*Modificado*/
   }
@@ -120,7 +120,7 @@
   }
   #mainNav.navbar-shrink .nav-link {
     color: white;/*Modificado*/
-    padding: 1.5rem 1.5rem 1.25rem;
+    padding: 1rem 1rem 1rem;/* Modificado */
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {

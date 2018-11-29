@@ -19,7 +19,7 @@
 <body class="bg-light"><!--Modificado-->
   <header class="masthead-a5">
     <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
+      <div class="mx-auto text-center prueba-movil">
         <h1 class="mx-auto my-0">BMW M2 Competition</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">

@@ -37,7 +37,7 @@
             compuesta por dos motores de gasolina y tres diésel, con potencias que van desde los 116 a los 190 CV. Se pone
             a la venta en diciembre y las primeras entregas llegarán en febrero de 2019.
         </p>
-                <div class="col-lg-8 contenedor-izda">
+                <div class="mx-auto col-lg-8 contenedor-izda">
                 <div class="card text-center w-100 ">
                     <img class="card-img-top" src="../img/noticias/merche.jpg" alt="Merche">
                     <div class="card-body">
@@ -59,7 +59,7 @@
             se ofrecerán de serie los faros LED High Performance y en opción los faros Multibeam LED con regulación automática según el tráfico.
         </p>
             
-                <div class="col-lg-8 contenedor-izda">
+                <div class="mx-auto col-lg-8 contenedor-izda">
                 <div class="card text-center w-100 ">
                     <img class="card-img-top" src="../img/noticias/interiorMercedes.jpg" alt="">
                     <div class="card-body">
@@ -83,7 +83,7 @@
         así una mejor visibilidad de la carretera y una postura más cómoda y menos “rácing”.
         </p>
             
-                <div class="col-lg-8 contenedor-izda">
+                <div class="mx-auto col-lg-8 contenedor-izda">
                 <div class="card text-center w-100 ">
                     <img class="card-img-top" src="../img/noticias/maleteroMercedes.jpg" alt="">
                     <div class="card-body">
@@ -95,14 +95,7 @@
     </div>
     </div>
     </div>
-     
 
-
-        
-        
-
-
-    
 </body>
 <?php include("../includes/footer.php");?>
 <?php include("../includes/body-tag-contents.php");?>

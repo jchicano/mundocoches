@@ -5,7 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("../includes/head-tag-contents.php");?>
+    <?php include("../includes/head-tag-contents.php");?>
+    <link href="../css/grayscale.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -59,7 +61,7 @@
             
                 <div class="col-lg-8 contenedor-izda">
                 <div class="card text-center w-100 ">
-                    <img class="card-img-top" src="../img/noticias/interiorMercedes.jpg" alt="interiorMercedes">
+                    <img class="card-img-top" src="../img/noticias/interiorMercedes.jpg" alt="">
                     <div class="card-body">
                     <p class="card-subtitle">El sistema multimedia MBUX está compuesto de dos pantallas: una para el cuadro de instrumentos y otra para el infoentretenimiento.</p>
                     </div>
@@ -68,9 +70,31 @@
         </div>
         </div>
 
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
+        <div class="col-lg-6 contenedor-izda">
+        <p>
+        En la parte trasera se instalan algunos elementos que acentúan la anchura del vehículo, como los nuevos grupos ópticos más estilizados, 
+        los reflectores desplazados hacia abajo integrados en el parachoques y la sección inferior de éste en color negro, con un difusor y un 
+        listón cromado. En la parte superior encontramos un spoiler de techo acompañado de deflectores negros situados en los laterales de la 
+        luneta trasera que mejoran el flujo de aire. Gracias a sus nuevas formas y a los nuevos elementos aerodinámicos, el Clase B mejora su
+        coeficiente Cx hasta los 0,24. El renovado interior ofrece, según Mercedes, una habitabilidad mejorada respecto al modelo precedente. 
+        Todo ello gracias, en parte, a la nueva geometría de los asientos y a la línea de cintura más baja, de esta forma los ocupantes 
+        experimentarán una mayor sensación de amplitud. El conductor ocupa una posición 90 milímetros más alta respecto al Clase A ofreciendo
+        así una mejor visibilidad de la carretera y una postura más cómoda y menos “rácing”.
+        </p>
+            
+                <div class="col-lg-8 contenedor-izda">
+                <div class="card text-center w-100 ">
+                    <img class="card-img-top" src="../img/noticias/maleteroMercedes.jpg" alt="">
+                    <div class="card-body">
+                    <p class="card-subtitle">La segunda fila será corredera y ampliara la capacidad del maletero de los 455 a los 705 litros. Con los respaldos abatidos se logran 1.540 litros totales.</p>
+                    </div>
+                </div>
+                </div>
 
-
-    
+    </div>
+    </div>
+    </div>
      
 
 
@@ -81,7 +105,6 @@
     
 </body>
 <?php include("../includes/footer.php");?>
-
 <?php include("../includes/body-tag-contents.php");?>
 </html>
 

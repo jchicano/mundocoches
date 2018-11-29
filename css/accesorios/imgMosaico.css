@@ -1,14 +1,77 @@
+#principal { 
+  margin:0 auto; 
+}
+
+.contenedorfoto { 
+  float:left; 
+  width:210px; 
+  height:180px; 
+  margin: 10px; 
+  padding:5px; 
+  background-color:#f5f7f9; 
+  border-right: #a5a7aa solid 1px; 
+  border-bottom: #a5a7aa solid 1px; 
+  text-align:center; 
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+  
   #galeria2{
     width:100%;
     margin:10px 5px;
-    padding:0
+    padding:0;
   }
 
   #galeria2 li{
-    height:160px; /*el mismo alto que la imagen*/
-    width:200px;/*el mismo ancho que la imagen*/
+    height:250px; /*el mismo alto que la imagen*/
+    width:280px;/*el mismo ancho que la imagen*/
     display:block;
-    margin:0 20px 20px 0; /*separación de cada elemento*/
+    margin:10px 20px 20px 0; /*separación de cada elemento*/
     padding:0;
     border:1px solid #ccc; /*el ancho, estilo y color de borde*/
     float:left;
@@ -28,15 +91,15 @@
   }
 
   #galeria2 li img{
-    width:200px;/*ancho de la imagen*/
-    height:160px; /*alto de la imagen*/
+    width:280px;/*ancho de la imagen*/
+    height:250px; /*alto de la imagen*/
     margin:0;
     padding:0;
     border:none
   }
 
   #galeria2 span{
-    width:200px;
+    width:280px;
     left:1px; /*el mismo ancho que el borde*/
     margin:0;
     padding:3px 0 3px 0;

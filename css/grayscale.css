@@ -103,6 +103,7 @@
     -webkit-transition: none;
     transition: none;
     padding: 1.5rem 1.5rem 1.25rem;/*2rem 1.5rem*/;
+    border: 0px !important;
     color: white/*rgba(34, 42, 66, 0.8);/*Modificado*/
   }
   #mainNav .nav-link:hover {

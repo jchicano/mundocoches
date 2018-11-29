@@ -16,19 +16,20 @@
 <!-- CONTENIDO -->
 
 <body>
-
+<section id="scroll" class="projects-section bg-light">
     <header class="masthead-a5">
         <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
             <h1 class="mx-auto my-0">Mercedes-Benz Clase B, desvelado en París</h1>
-            <h2 class="text-white-50 mx-auto mt-2 mb-5">Heey</h2>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
             <a href="#scroll" class="js-scroll-trigger">
             <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
             </a>
         </div>
         </div>
     </header>
-        <section id="scroll" class="projects-section bg-light">
+</section>
+        <section id="scroll">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">                   
         <div class="col-lg-6 contenedor-izda">
         <p>
@@ -122,15 +123,13 @@
         </p>
         </div>
         </div>
-
+    </section>
 
         
 
 
 
-    </div>
-    </div>
-    </div>
+    
 
 </body>
 <?php include("../includes/footer.php");?>

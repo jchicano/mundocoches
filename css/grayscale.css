@@ -86,6 +86,51 @@
   }
 }
 
+@media (max-width: 990px){
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: #222A42;/* Modificado */
+    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 1rem 1rem 1rem;/*2rem 1.5rem*/;
+    border: 0px !important;
+    color: white/*rgba(34, 42, 66, 0.8);/*Modificado*/
+  }
+  #mainNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75)/*rgba(57, 66, 90, 0.55);/*Modificado*/
+  }
+  #mainNav .nav-link:active {
+    color: rgba(255, 255, 255, 0.5)/*rgba(57, 66, 90, 0.75);/*Modificado*/
+  }
+  #mainNav.navbar-shrink {/*Esta clase se usa cuando hacemos scroll y la barra deja de ser transparente*/
+    background-color: #222A42;/*Modificado*/
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616;
+  }
+  #mainNav.navbar-shrink .nav-link {
+    color: white;/*Modificado*/
+    padding: 1rem 1rem 1rem;/* Modificado */
+    border-bottom: 0.25rem solid transparent;
+  }
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);/*Modificado*/
+  }
+  #mainNav.navbar-shrink .nav-link:active {
+    color: rgba(255, 255, 255, 0.5);/*Modificado*/
+  }
+}
+
 .masthead {
   position: relative;
   width: 100%;

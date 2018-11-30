@@ -46,7 +46,7 @@
                 <div class="project-text w-100 my-auto text-center text-lg-right">
                   <a href="analisis-m2-competition.php">
                     <h4 class="text-white">Análisis del BMW M2 Competition</h4>
-                    <p class="mb-0 text-white-50">BMW ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo.</p>
+                    <p class="mb-0 text-white-50">BMW ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente...</p>
                   </a>
                   <hr class="d-none d-lg-block mb-0 mr-0">
                   <p class="mt-3 mb-0 text-white-50">25/11/2018</p>
@@ -68,7 +68,7 @@
                 <div class="project-text w-100 my-auto text-center text-lg-right">
                   <a href="analisis-amg-c-43-4matic.php">
                     <h4 class="text-white">Review del Mercedes AMG C 43 4MATIC</h4>
-                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                    <p class="mb-0 text-white-50">En Mercedes se han dado cuenta de que, en ocasiones, los términos medios tienen sentido y el C 43 4Matic Coupé se ha encargado de...</p>
                   </a>
                   <hr class="d-none d-lg-block mb-0 mr-0">
                   <p class="mt-3 mb-0 text-white-50">28/11/2018</p>

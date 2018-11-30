@@ -1,5 +1,5 @@
-<?php $CURRENT_PAGE = "Noticia 2"; ?>
-<?php $PAGE_TITLE = "Noticia Dacia"; ?>
+<?php $CURRENT_PAGE = "Noticia 3"; ?>
+<?php $PAGE_TITLE = "Noticia Hyundai"; ?>
 
 <?php include("../includes/a_config.php");?>
 <!DOCTYPE html>

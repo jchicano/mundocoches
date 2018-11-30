@@ -83,8 +83,8 @@
           <?php
             }
           ?>
-        <?php if ($CURRENT_PAGE == "Index") { ?>
         </li>
+        <?php if ($CURRENT_PAGE == "Index") { ?>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
         </li>
@@ -94,7 +94,17 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#signup">Contacto</a>
         </li>
-        <?php } ?>
+        <?php } else { ?>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="../index.php#about">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="../index.php#signup">Contacto</a>
+        </li>
+        <?php
+          }
+        ?>
+        </li>
       </ul>
     </div>
   </div>

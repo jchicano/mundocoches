@@ -79,7 +79,7 @@
         </div>
       </section>
         <!-- CITROEN -->
-        <section id="projects" class="projects-section bg-light reducirMargenSuperior">
+      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/citroen_c4.jpg" alt="">

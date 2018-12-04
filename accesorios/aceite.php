@@ -6,6 +6,8 @@
 <head>
 
   <style>
+
+    /*FONDO SCROLL ES IGUAL PARA LOS DEMÁS ACCESORIOS*/
     .masthead-pd {
       position: relative;
       width: 100%;
@@ -31,6 +33,7 @@
 
 <!-- CONTENIDO -->
 <body class="bg-light"><!--Modificado-->
+  <!--Movimiento scroll es igual para los demás accesorios-->
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
@@ -42,6 +45,7 @@
       </div>
     </div>
   </header>
+
   <div class="container bg-light align-items-center justify-content-center ">
     <section id="scroll" class="projects-section bg-light">
       <ul id="galeriaacc">

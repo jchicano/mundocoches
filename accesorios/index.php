@@ -3,22 +3,7 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
-  <link rel="stylesheet" href="../css/accesorios/imgMosaico.css">
-  <link rel="stylesheet" href="../css/accesorios/scrollAcc.css">
-
-  <!--<style>
-    a {
-      transition: filter .5s ease-in-out;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-    }
-
-    a:hover {
-      filter: grayscale(0%);
-      -webkit-filter: grayscale(0%);
-    }
-  </style>-->
-
+  <link rel="stylesheet" href="../css/accesorios/gridMos.css">
 </head>
 <body>
 
@@ -26,136 +11,179 @@
 
 <!-- CONTENIDO -->
 <body class="bg-light" id="page-top"><!--Modificado-->
-  <header class="masthead-acc">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Accesorios</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-        <a href="#scroll" class="js-scroll-trigger">
-          <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
-        </a>
-      </div>
-    </div>
-  </header>
+  <div class="container bg-light">
+    <!--SEPARADOR ENTRE MENÚ Y GRID-->
+    <section id="projects" class="projects-section bg-light">
 
-    <div class="container bg-light">
-      <section id="scroll" class="projects-section bg-light">
+          <div class="grid">
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white text-center">ESTÉTICA</h4>
-                <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
+            <a href="faro.php" style="background-image:url(../img/accesorios/faros.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG1">
+                <div class="content">
+                FAROS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/faros.jpg)">
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </a>
 
-      <ul id="galeria2">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <!-- PRIMERA LÍNEA DE 5 IMÁGENES -->
-          <li>
-            <a href="paragolpes.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/paradel.jpg" /><span style="text-decoration:none;">Paragolpes delantero</span></a>
-          </li>
-
-          <li>
-            <a href="paragolpest.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/paratra.jpg" /><span style="text-decoration:none;">Paragolpes trasero</span></a>
-          </li>
-          
-          <li>
-            <a href="aleron.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/aleron.jpg" /><span style="text-decoration:none;">Alerones</span></a> 
-          </li>
-
-          <li>                                                                          
-            <a href="volante.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/volantes.jpg" /><span style="text-decoration:none;">Volantes</span></a>
-          </li>
-
-          <li>
-            <a href="asiento.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/asiento.jpg" /><span style="text-decoration:none;">Asientos</span></a>
-          </li>
-        </div>
-      </ul>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white text-center">COMPETICIÓN</h4>
-                <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
+            <a href="asiento.php" style="background-image:url(../img/accesorios/asiento.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG2">
+                <div class="content">
+                ASIENTOS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/asiento.jpg)">
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </a>
 
-      <ul id="galeria2">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <!-- SEGUNDA LÍNEA DE 5 IMÁGENES -->
-          <li>
-            <a href="faro.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/faros.jpg" /><span style="text-decoration:none;">Faros</span></a>
-          </li>
-
-          <li>
-            <a href="turbo.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/kitturbo.jpg" /><span style="text-decoration:none;">Kits turbo</span></a>
-          </li>
-
-          <li>
-            <a href="llanta.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/llantas.jpg" /><span style="text-decoration:none;">Llantas</span></a>
-          </li>
-
-          <li>
-            <a href="freno.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/frenos.jpg" /><span style="text-decoration:none;">Frenos</span></a>
-          </li>
-
-          <li>
-            <a href="neumaticos.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/neumatico.jpg" /><span style="text-decoration:none;">Neumáticos</span></a>
-          </li>
-        </div>
-      </ul>
- 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white text-center">TECNOLOGÍA/RECAMBIOS</h4>
-                <hr style="width:100%;" class="d-none d-lg-block mb-0 ml-0">
+            <a href="llanta.php" style="background-image:url(../img/accesorios/llantas.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG3">
+                <div class="content">
+                LLANTAS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/llantas.jpg)">
+                </div>
               </div>
-            </div>
+            </a>
+
+            <a href="pantalla.php" style="background-image:url(../img/accesorios/pantallas.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG4">
+                <div class="content">
+                PANTALLAS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/pantallas.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="volante.php" style="background-image:url(../img/accesorios/volantes.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG5">
+                <div class="content">
+                VOLANTES
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/volantes.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="aleron.php" style="background-image:url(../img/accesorios/aleron.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG6">
+                <div class="content">
+                ALERONES
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/aleron.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="turbo.php" style="background-image:url(../img/accesorios/kitturbo.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG7">
+                <div class="content">
+                KIT TURBO
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/kitturbo.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="ctrasera.php" style="background-image:url(../img/accesorios/trasera.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG8">
+                <div class="content">
+                CÁMARAS TRASERAS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/trasera.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="freno.php" style="background-image:url(../img/accesorios/frenos.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG9">
+                <div class="content">
+                FRENOS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/frenos.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="paragolpes.php" style="background-image:url(../img/accesorios/paradel.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG10">
+                <div class="content">
+                PARAGOLPES DELANTERO
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/paradel.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="neumaticos.php" style="background-image:url(../img/accesorios/neumatico.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG11">
+                <div class="content">
+                NEUMÁTICOS
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/neumatico.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="paragolpest.php" style="background-image:url(../img/accesorios/paratra.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG12">
+                <div class="content">
+                PARAGOLPES TRASERO
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/paratra.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="soporte.php" style="background-image:url(../img/accesorios/soporte.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG13">
+                <div class="content">
+                SOPORTES PARA MÓVILES
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/soporte.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="limpia.php" style="background-image:url(../img/accesorios/limpia.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG14">
+                <div class="content">
+                LIMPIEZA
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/limpia.jpg)">
+                </div>
+              </div>
+            </a>
+
+            <a href="aceite.php" style="background-image:url(../img/accesorios/aceite.jpg); text-decoration:none; color:black;" class="item">
+              <div class="parentBG15">
+                <div class="content">
+                CAMBIO DE ACEITE
+                </div>
+                <!--MISMO FONDO-->
+                <div class="bG" style="background-image:url(../img/accesorios/aceite.jpg)">
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
-
-      <ul id="galeria2">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <!-- TERCERA LÍNEA DE 5 IMÁGENES -->
-          <li>
-            <a href="pantalla.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/pantallas.jpg" /><span style="text-decoration:none;">Pantallas Multimedia</span></a>
-          </li>
-
-          <li>
-            <a href="ctrasera.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/trasera.jpg" /><span style="text-decoration:none;">Cámara trasera</span></a>
-          </li>
-
-          <li>                                                                          
-            <a href="soporte.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/soporte.jpg" /><span style="text-decoration:none;">Soporte para móvil</span></a>
-          </li>
-
-          <li>
-            <a href="aceite.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/aceite.jpg" /><span style="text-decoration:none;">Cambio de aceite</span></a>
-          </li>
-
-          <li>
-            <a href="limpia.php" title=""><img width="200" height="160" alt="" src="../img/accesorios/limpia.jpg" /><span style="text-decoration:none;">Limpieza</span></a>
-          </li>
-        </div>
-      </ul>
-    </section>
-  </div>
+    </section> 
+  </div>  
 </body>
 
 <?php include("../includes/footer.php");?>

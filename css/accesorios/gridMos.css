@@ -1,0 +1,483 @@
+/*Clase principal grid*/
+.grid {
+    display: grid;
+    /*Líneas*/
+    grid-template-rows: 
+      repeat(11, 180px);
+    /*Columnas*/
+    grid-template-columns: 
+      repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+
+
+  /*Clase item más hijos (15 en total)*/
+  .item:nth-child(1) {
+    grid-row: 1 / 4;
+  }
+  
+  .item:nth-child(2) {
+    /*columna número/dimensión*/
+    grid-column: 2 / 4;
+    /*línea número/dimensión*/
+    grid-row: 1 / 3;
+  }
+  
+  .item:nth-child(3) {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+  }
+  
+  .item:nth-child(4) {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  
+  .item:nth-child(5) {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+  }
+
+  .item:nth-child(6) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
+  }
+
+  .item:nth-child(7) {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+  }
+
+  .item:nth-child(8) {
+    grid-column: 2 / 3;
+    grid-row: 6 / 6;
+  }
+
+  .item:nth-child(9) {
+    grid-column: 3 / 4;
+    grid-row: 8 / 6;
+  }
+
+  .item:nth-child(10) {
+    grid-column: 2 / 3;
+    grid-row: 9 / 7;
+  }
+
+  .item:nth-child(11) {
+    grid-column: 1 / 2;
+    grid-row: 11 / 8;
+  }
+
+  .item:nth-child(12) {
+    grid-column: 2 / 4;
+    grid-row: 11 / 9;
+  }
+
+  .item:nth-child(13) {
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+  }
+
+  .item:nth-child(14) {
+    grid-column: 1 / 2;
+    grid-row: 12 / 11;
+  }
+
+  .item:nth-child(15) {
+    grid-column: 2 / 4;
+    grid-row: 12 / 11;
+  }
+  
+  .grid {
+    margin:20px auto;
+    max-width:1000px;
+    /*Fondo para el grid de imágenes*/
+    background-size: cover;
+    /*Bordes curvados*/
+    border-radius: 4px;
+    /*Color de fondo de la tabla y caja*/
+    border: 2px solid #000;
+    box-shadow: 0 0 8px #000;
+    position: relative;
+    overflow: hidden;
+    color: #000;
+  }
+  
+  /*Fondo de subclase item*/
+  .grid .item { 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*transition:.3s;
+    border-radius:4px;*/
+  }
+  
+  /*Subclases de item (15 en total + 15 para hover)*/
+
+  .item .parentBG1 {
+    /*numéro y dimensión de las columnas y líneas del hover que hará que aparezca el texto al pasar el ratón o al mantener pulsado el dedo(durante 1 segundo) sobre la imágen
+    el número y la dimensión debe de ser la misma que la de los hijos de item*/
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    /*position ralativa para que el hover escondido en el centro vaya hacia arriba ya que si se pone abajo se mezcla con las otras imágenes*/
+    position: relative;
+    /*Que ocupe todo el ancho de la imagen*/
+    width: 100%;
+    bottom: 0;
+    /*Sombreado*/
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    /*tipo de hover*/
+    transform: translateY(100%);
+    /*tiempo de transición*/
+    transition: 0.5s;
+    /*Hover oculto*/
+    opacity: 0;
+  }
+
+  .item .parentBG2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG3 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG4 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .item .parentBG5 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG6 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG7 {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG8 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 6;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG9 {
+    grid-column: 3 / 4;
+    grid-row: 8 / 6;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG10 {
+    grid-column: 2 / 3;
+    grid-row: 9 / 7;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG11 {
+    grid-column: 1 / 2;
+    grid-row: 11 / 8;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG12 {
+    grid-column: 2 / 4;
+    grid-row: 11 / 9;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+    .item .parentBG13 {
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG14 {
+    grid-column: 1 / 2;
+    grid-row: 12 / 11;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .item .parentBG15 {
+    grid-column: 2 / 4;
+    grid-row: 12 / 11;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 0 8px #000;
+    z-index: 1;
+    overflow: hidden;
+    transform: translateY(100%);
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  /*hover de item para todas sus subclases*/
+  .item:hover .parentBG1 {
+    /*numéro y dimensión de las columnas y líneas del hover que hará que aparezca el texto al pasar el ratón o al mantener pulsado el dedo(durante 1 segundo) sobre la imágen
+    el número y la dimensión debe de ser la misma que la de los hijos de item*/
+    grid-column: 3 / 5;
+    grid-row: 1 / 4;
+    /*tipo de hover*/
+    transform: translate(0);
+    /*Mostrar hover*/
+    opacity: 1;
+  }
+
+  .item:hover .parentBG2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG3 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG4 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG5 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG6 {
+    grid-column: 1 / 2;
+    grid-row: 5 / 8;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG7 {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG8 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 6;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG9 {
+    grid-column: 3 / 4;
+    grid-row: 8 / 6;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG10 {
+    grid-column: 2 / 3;
+    grid-row: 9 / 7;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG11 {
+    grid-column: 1 / 2;
+    grid-row: 11 / 8;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG12 {
+    grid-column: 2 / 4;
+    grid-row: 11 / 9;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG13 {
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG14 {
+    grid-column: 1 / 2;
+    grid-row: 12 / 11;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item:hover .parentBG15 {
+    grid-column: 2 / 4;
+    grid-row: 12 / 11;
+    transform: translate(0);
+    opacity: 1;
+  }
+
+  .item .content {
+    /*Color de fondo para el hover (transparente)*/
+    background-color: rgba(254, 254, 254, 0.7);
+    /*Grosor*/
+    padding: 30px;
+    /*Fuente*/
+    font-family: 'Varela Round';
+    /*Texto Centrado*/
+    text-align: center;
+  }
+
+  .item .bG {
+    /*Imagén de fondo para el hover (la misma que la principal)*/
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    z-index: -1;
+    /*Para que se transparente*/
+    filter: blur(50px);
+  }
+
+ /* .grid .item:hover {
+    filter:blur(2px) brightness(60%);
+    box-shadow:0 0 16px red;
+  }
+
+  .grid .dentro {
+    position:absolute;
+    z-index:1;
+    top:30%;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .grid .dentro:hover {
+    opacity:1;
+  }*/

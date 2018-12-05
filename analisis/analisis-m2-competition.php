@@ -37,7 +37,10 @@
       </div>
       <div class="col-lg-8 contenedor-izda">
         <p>
-          <a href="../marcas/bmw.php">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos, un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
+          <a href="../marcas/bmw.php">BMW</a> ha cumplido con los pronósticos y ha rizado el rizo del BMW Serie 2 para dejarnos con
+          un BMW M2 aún más potente, con un BMW M2 aún más deportivo. Llega el BMW M2 Competition, un BMW M2 con más de 400 caballos,
+          un BMW M2 que hereda la mecánica de su hermano mayor, el motor de 6 cilindros del BMW M3 y del BMW M4. Hora de conocer
+          todos los detalles del nuevo BMW M2 Competition, ¿qué nos ofrece el nuevo deportivo de BMW?
         </p>
       </div>
       <div class="col-lg-4">
@@ -81,8 +84,12 @@
       </div>
       <div class="col-lg-12">
         <p>
-          El BMW M2 Competition cuenta con una parrilla de mayores dimensiones para favorecer la refrigeración del propulsor y el nuevo splitter delantero ayuda a recircular el aire para seguir enfriando dicho propulsor. 
-          Junto a la parrilla de mayores dimensiones, el nuevo “labio” delantero y las nuevas llantas hay un acabado en negro brillante para ciertos detalles y aparece una nueva insignia así como dos nuevos colores, el Sunset Orange y el Hockenheim Silver, este último específico de este modelo. Un cambio especialmente relevante es la aparición de unos nuevos retrovisores, con el diseño clásico de los BMW M3.
+          El BMW M2 Competition cuenta con una parrilla de mayores dimensiones para favorecer la refrigeración del propulsor y el
+          nuevo splitter delantero ayuda a recircular el aire para seguir enfriando dicho propulsor. Junto a la parrilla de mayores
+          dimensiones, el nuevo “labio” delantero y las nuevas llantas hay un acabado en negro brillante para ciertos detalles y
+          aparece una nueva insignia así como dos nuevos colores, el Sunset Orange y el Hockenheim Silver, este último específico
+          de este modelo. Un cambio especialmente relevante es la aparición de unos nuevos retrovisores, con el diseño clásico de
+          los BMW M3.
         </p>
       </div>
     </div>
@@ -97,19 +104,26 @@
       </div>
       <div class="col-lg-6 contenedor-dcha">
         <p>
-          Este coche recurre al motor del BMW M4, de 6 cilindros en línea, de doble turbo y de 3 litros de cubicaje, para dar vida a este BMW M2 más deportivo, proponiéndonos una potencia de <b>410 caballos</b> entre 5.250 rpm y 7.000 rpm y un par de 550 Nm disponible entre las 2.350 rpm y las 5.200 rpm.
-          Para poner en contexto esta potencia debemos tener en cuenta que el BMW M2 “convencional” desarrolla una potencia de 370 caballos con un par de 465 Nm, el BMW M4, como el M3, desarrolla 431 caballos y un par de 550 Nm.
+          Este coche recurre al motor del BMW M4, de 6 cilindros en línea, de doble turbo y de 3 litros de cubicaje, para dar vida a
+          este BMW M2 más deportivo, proponiéndonos una potencia de <b>410 caballos</b> entre 5.250 rpm y 7.000 rpm y un par de 550
+          Nm disponible entre las 2.350 rpm y las 5.200 rpm. Para poner en contexto esta potencia debemos tener en cuenta que el BMW
+          M2 “convencional” desarrolla una potencia de 370 caballos con un par de 465 Nm, el BMW M4, como el M3, desarrolla 431
+          caballos y un par de 550 Nm.
         </p>
         <p>
-          El nuevo BMW M2 Competition sigue siendo un coche de propulsión, de tracción trasera y podemos configurarlo tanto con cambio manual como con el cambio automático DCT M de doble embrague y 7 velocidades, marcando un 0 a 100 km/h de 4.2 segundos en el caso del automático y de 4.4 segundos con el cambio manual, con un consumo medio de entre 9.2 y 10 l/100 km en función de la configuración.
+          El nuevo BMW M2 Competition sigue siendo un coche de propulsión, de tracción trasera y podemos configurarlo tanto con
+          cambio manual como con el cambio automático DCT M de doble embrague y 7 velocidades, marcando un 0 a 100 km/h de 4.2
+          segundos en el caso del automático y de 4.4 segundos con el cambio manual, con un consumo medio de entre 9.2 y 10 l/100 km
+          en función de la configuración.
         </p>
-        
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
-          En el interior encontramos nuevos umbrales para las puertas, unos asientos tipo baquet opcionales, el botón de arranque pasa a ser rojo y hay un nuevo acabado para los textiles del habitáculo, con Alcántara, con costuras contrastadas en azul o naranja y el logo de BMW M se encuentra ahora presente en los retrovisores.
+          En el interior encontramos nuevos umbrales para las puertas, unos asientos tipo baquet opcionales, el botón de arranque
+          pasa a ser rojo y hay un nuevo acabado para los textiles del habitáculo, con Alcántara, con costuras contrastadas en azul
+          o naranja y el logo de BMW M se encuentra ahora presente en los retrovisores.
         </p>
       </div>
     </div>
@@ -119,7 +133,11 @@
       </div>
       <div class="col-lg-12">
         <p>
-          Bajo nuestra opinión es uno de los mejores M que te puedes comprar a día de hoy, ya que es el que mejor relación ofrece entre prestaciones y diversión al volante de toda la gama M –el siguiente escalón es un BMW M4 de 431 CV, desde 94.650 euros–. Un coche que recuerda en detalles de su conducción a coches tan memorables como el primer BMW M3 o el 1M. Y con personalidad más que de sobra como pasar por encima de aquellos que lo minusvaloren diciendo que es ‘el M pequeño’. Vale, cuesta 10.000 euros más que el M2 saliente, una cifra nada despreciable. Pero te aseguro que merece la pena.
+          Bajo nuestra opinión es uno de los mejores M que te puedes comprar a día de hoy, ya que es el que mejor relación ofrece
+          entre prestaciones y diversión al volante de toda la gama M –el siguiente escalón es un BMW M4 de 431 CV, desde 94.650
+          euros–. Un coche que recuerda en detalles de su conducción a coches tan memorables como el primer BMW M3 o el 1M. Y con
+          <b>personalidad</b> más que de sobra como pasar por encima de aquellos que lo minusvaloren diciendo que es ‘el M pequeño’.
+          Vale, cuesta 10.000 euros más que el M2 saliente, una cifra nada despreciable. Pero te aseguro que merece la pena.
         </p>
       </div>
     </div>

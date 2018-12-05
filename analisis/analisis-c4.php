@@ -97,7 +97,7 @@
         <div class="card text-center w-100 "><!-- class:float-left -->
             <img class="card-img-top" src="../img/analisis/c4_interior.jpg" alt="Instrumentacion digital">
             <div class="card-body">
-              <p class="card-text">CAMBIAR TEXTO</p>
+              <p class="card-text">Este coche viene muy bien equipado.</p>
             </div>
           </div>
       </div>
@@ -138,19 +138,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-1.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-1.jpg" alt="" />
             <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-2.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-2.jpg" alt="" />
             <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-3.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-3.jpg" alt="" />
             <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
           </figure>
         </div>
@@ -158,19 +158,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-4.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-4.jpg" alt="" />
             <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-5.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-5.jpg" alt="" />
             <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c43-6.jpg" alt="" />
+            <img src="../img/analisis/gallery/c4-6.jpg" alt="" />
             <!--<figcaption>Highlands <small>United States</small></figcaption>-->
           </figure>
         </div>

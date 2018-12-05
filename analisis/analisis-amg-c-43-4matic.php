@@ -184,7 +184,7 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="../noticias/">Noticias</a>
+            <a href="../noticias/noticia-mercedes.php">Mercedes-Benz Clase B, desvelado en París</a>
           </li>
           <li>
             <a href="../analisis/">Más análisis...</a>

@@ -95,7 +95,7 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-6">
         <div class="card text-center w-100 "><!-- class:float-left -->
-            <img class="card-img-top" src="../img/analisis/c43_interior.jpg" alt="Instrumentacion digital">
+            <img class="card-img-top" src="../img/analisis/c4_interior.jpg" alt="Instrumentacion digital">
             <div class="card-body">
               <p class="card-text">CAMBIAR TEXTO</p>
             </div>
@@ -109,19 +109,16 @@
         <p>
           Precisamente, dicha consola fue objeto de recientes mejoras, mediante la eliminación de varios botones, para dar mayor protagonismo a la pantalla táctil de 7 pulgadas, con la cual se controla la navegación, la radio, el teléfono, así como múltiples ajustes posibles en el vehículo.
           El cuadro de instrumentación del conductor combina elementos digitales y analógicos y un volante con mandos centralizados por zonas.
-        </p>
-        <p>
           Las tapicerías están disponibles en diferentes telas y acabados, así como en cuero.
-          Dependiendo del acabado elegido, este compacto va añadiendo un práctico conjunto de sistemas de ayuda a la conducción, así como un surtido de elementos destinados al confort.
         </p>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
-        Este equipamiento incluye la ayuda a la salida en pendiente (Hill Assist), el sistema de alerta del ángulo muerto, el control de tracción inteligente, climatizador automático bi-zonal, sensores de lluvia y luminosidad, sensores de aparcamiento trasero, etc.
-        La conectividad también tiene presencia en la versión Feel Edition de este modelo, gracia al sistema Connect Box, el cual incluye una guía de mantenimiento virtual, el sistema de llamada de emergencia y un módulo de conducción ecológica. Esta versión también cuenta con acceso y arranque manos libres, y freno de mano eléctrico.
-        Por cierto, no podemos ignorar que en el acabado más alto, el asiento del conductor también incluye función con masaje, algo prácticamente insólito en los modelos de esta categoría.
+          Este equipamiento incluye la ayuda a la salida en pendiente (Hill Assist), el sistema de alerta del ángulo muerto, el control de tracción inteligente, climatizador automático bi-zonal, sensores de lluvia y luminosidad, sensores de aparcamiento trasero, etc.
+          La conectividad también tiene presencia en la versión Feel Edition de este modelo, gracia al sistema Connect Box, el cual incluye una guía de mantenimiento virtual, el sistema de llamada de emergencia y un módulo de conducción ecológica. Esta versión también cuenta con acceso y arranque manos libres, y freno de mano eléctrico.
+          Por cierto, no podemos ignorar que en el acabado más alto, el asiento del conductor también incluye función con masaje, algo prácticamente insólito en los modelos de esta categoría.
         </p>
       </div>
     </div>
@@ -131,7 +128,7 @@
       </div>
       <div class="col-lg-12">
         <p>
-        Nos encontramos ante un coche redondo. De esos que no se venden, sino que se despachan, porque es una fenomenal compra a ciegas. Es el típico coche que la gente que no sabe de coches se compra por tranquilidad y seguridad… y la verdad es que aciertan. En este caso concreto, ya con ayuda de ofertas por estar cerca de su final comercial, el C4 puede seguir siendo el coche más vendido, o uno de los que más, pues no falla en nada, ni nada desentona en él. Cuenta con buenos motores, un espacio y una habitabilidad a prueba de pruebas, fácil de entender y conducir y, encima, su precio es muy coherente. Con estos mimbres, definitivamente, no es de extrañar que haya sido el coche más vendido en España en el año 2016.
+          Nos encontramos ante un coche redondo. De esos que no se venden, sino que se despachan, porque es una fenomenal compra a ciegas. Es el típico coche que la gente que no sabe de coches se compra por tranquilidad y seguridad... y la verdad es que aciertan. En este caso concreto, ya con ayuda de ofertas por estar cerca de su final comercial, el C4 puede seguir siendo el coche más vendido, o uno de los que más, pues no falla en nada, ni nada desentona en él. Cuenta con buenos motores, un espacio y una habitabilidad a prueba de pruebas, fácil de entender y conducir y, encima, su precio es muy coherente. Con estos mimbres, definitivamente, no es de extrañar que haya sido el coche más vendido en España en el período 2016/2017.
         </p>
       </div>
     </div>
@@ -202,7 +199,7 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="../noticias/">Noticias</a>
+            <a href="../noticias/noticia-BMW.php">El nuevo BMW M3 podría lucir más o menos así</a>
           </li>
           <li>
             <a href="../analisis/">Más análisis...</a>

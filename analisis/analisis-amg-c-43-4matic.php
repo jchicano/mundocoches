@@ -37,7 +37,11 @@
       </div>
       <div class="col-lg-8 contenedor-izda">
         <p>
-          En <a href="../marcas/mercedes.php">Mercedes</a> se han dado cuenta de que, en ocasiones, los términos medios tienen sentido y el C 43 4Matic Coupé se ha encargado de reiterarlo desde que llegó al mercado en 2016. Con la misma estética que el salvaje C 63 de 476 CV y un comportamiento dinámico muy superior al del tranquilo C 300, el C 43 se ha convertido en la alternativa ideal para aquellos que buscaban un <b>punto medio</b> entre la lógica y la locura; sobre todo ahora que acaba de someterse a una pequeña actualización.
+          En <a href="../marcas/mercedes.php">Mercedes</a> se han dado cuenta de que, en ocasiones, los términos medios tienen
+          sentido y el C 43 4Matic Coupé se ha encargado de reiterarlo desde que llegó al mercado en 2016. Con la misma estética
+          que el salvaje C 63 de 476 CV y un comportamiento dinámico muy superior al del tranquilo C 300, el C 43 se ha convertido
+          en la alternativa ideal para aquellos que buscaban un <b>punto medio</b> entre la lógica y la locura; sobre todo ahora
+          que acaba de someterse a una pequeña actualización.
         </p>
       </div>
       <div class="col-lg-4">
@@ -81,7 +85,11 @@
       </div>
       <div class="col-lg-12">
         <p>
-          Basta con apretar el botón de Start para percartarse de los cambios; el V6 cobra vida con un bramido mucho más sonoro que en el modelo precedente. Las unidades dispuestas por Mercedes-AMG para la toma de contacto incluyen el equipo de escape AMG Performance –1.791 euros– y lo cierto es que suenan de maravilla, tanto que no tienen nada que envidiar al estruendoso y bronco V8, especialmente cuando pulsamos el botón que abre las válvulas de escape para hacer el máximo "ruido" posible. Con semejante sinfonía, es fácil perdonar que las cuatro salidas de escape sean falsas...
+          Basta con apretar el botón de Start para percartarse de los cambios; el V6 cobra vida con un bramido mucho más sonoro que
+          en el modelo precedente. Las unidades dispuestas por Mercedes-AMG para la toma de contacto incluyen el equipo de escape
+          AMG Performance –1.791 euros– y lo cierto es que suenan de maravilla, tanto que no tienen nada que envidiar al estruendoso
+          y bronco V8, especialmente cuando pulsamos el botón que abre las válvulas de escape para hacer el máximo "ruido" posible.
+          Con semejante sinfonía, es fácil perdonar que las cuatro salidas de escape sean falsas...
         </p>
       </div>
     </div>
@@ -96,14 +104,24 @@
       </div>
       <div class="col-lg-6 contenedor-dcha">
         <p>
-          Con el modo de conducción Sport+ seleccionado, también es inevitable apagar el excepcional equipo de sonido Burmester para deleitarse con los <b>petardeos</b> que se producen en cada cambio de marcha. La transmisión automática AMG Speedshift TCT 9G de nueve velocidades ha sido optimizada con una gestión electrónica que logra transiciones más rápidas entre marchas. También es posible manejar manualmente la caja de cambios a través de las levas situadas detrás del volante, aunque, con el pie a fondo, lo ideal es centrarse en la carretera y dejar que la caja automática haga su trabajo, porque el V6 biturbo empuja con unos contundentes 520 Nm desde apenas 2.500 rpm. Los 390 CV hacen que nos olvidemos de que estamos al volante de una versión de acceso a la gama, mientras que la tracción total 4Matic, ayudada por los neumáticos ContiSport Contact 6, garantiza la máxima motricidad en cada curva.
+          Con el modo de conducción Sport+ seleccionado, también es inevitable apagar el excepcional equipo de sonido Burmester para
+          deleitarse con los <b>petardeos</b> que se producen en cada cambio de marcha. La transmisión automática AMG Speedshift TCT
+          9G de nueve velocidades ha sido optimizada con una gestión electrónica que logra transiciones más rápidas entre marchas.
+          También es posible manejar manualmente la caja de cambios a través de las levas situadas detrás del volante, aunque, con el
+          pie a fondo, lo ideal es centrarse en la carretera y dejar que la caja automática haga su trabajo, porque el V6 biturbo
+          empuja con unos contundentes 520 Nm desde apenas 2.500 rpm. Los 390 CV hacen que nos olvidemos de que estamos al volante
+          de una versión de acceso a la gama, mientras que la tracción total 4Matic, ayudada por los neumáticos ContiSport Contact
+          6, garantiza la máxima motricidad en cada curva.
         </p>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
-          A la hora de circular de forma más tranquila, el Drive Select, mediante el programa Comfort, cambia el carácter del conjunto de manera radical. Con este modo de conducción seleccionado y las válvulas de escape en su posición menos ruidosa, el coupé alemán es resulta tan cómodo y confortable como se espera de un Mercedes. La suspensión variable es menos firme que en los modos Sport y Sport+, la respuesta del acelerador es menos reactiva y la dirección pierde dureza.
+          A la hora de circular de forma más tranquila, el Drive Select, mediante el programa Comfort, cambia el carácter del
+          conjunto de manera radical. Con este modo de conducción seleccionado y las válvulas de escape en su posición menos
+          ruidosa, el coupé alemán es resulta tan cómodo y confortable como se espera de un Mercedes. La suspensión variable es
+          menos firme que en los modos Sport y Sport+, la respuesta del acelerador es menos reactiva y la dirección pierde dureza.
         </p>
       </div>
     </div>
@@ -113,7 +131,10 @@
       </div>
       <div class="col-lg-12">
         <p>
-          Los Mercedes-AMG C43 4MATIC poseen un volante específico AMG y una suspensión adaptativa, integrada plenamente en el control de chasis adaptativo – llámalo selector de modos de conducción – AMG DRIVE SELECT. Es un buen esfuerzo por parte de Mercedes-AMG, tratando de conferir un carácter más deportivo y agresivo a esta berlina que, por nuestra parte, nos ha encantado.
+          Los Mercedes-AMG C43 4MATIC poseen un volante específico AMG y una suspensión adaptativa, integrada plenamente en el
+          control de chasis adaptativo – llámalo selector de modos de conducción – AMG DRIVE SELECT. Es un buen esfuerzo por parte
+          de Mercedes-AMG, tratando de conferir un carácter <b>más deportivo y agresivo</b> a esta berlina que, por nuestra parte,
+          nos ha encantado.
         </p>
       </div>
     </div>

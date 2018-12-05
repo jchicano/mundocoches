@@ -31,39 +31,41 @@
 
 <!-- CONTENIDO -->
 <body class="bg-light"><!--Modificado-->
-  <header class="masthead-pd">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 bajar-tamano-movil">Volantes</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-        <a href="#scroll" class="js-scroll-trigger">
-          <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
-        </a>
-      </div>
-    </div>
-  </header>
-  <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.momo.com/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/momo.jpg" /><span style="text-decoration:none;">MOMO</span></a>
-          </li>
-
-          <li>
-            <a href="https://www.sparco-official.com/es/?gclid=EAIaIQobChMIwYCQ8sXY3gIVq5ztCh0mHQ8ZEAAYASAAEgKByvD_BwE" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/sparco.jpg" /><span style="text-decoration:none;">SPARCO</span></a>
-          </li>
-          
-          <li>
-            <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
-          </li>
+    <header class="masthead-pd">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0">Volantes</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+          <a href="#scroll" class="js-scroll-trigger">
+            <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
+          </a>
         </div>
-      </ul>
-    </section>
-  </div>
+      </div>
+    </header>
+    <div class="container bg-light align-items-center justify-content-center ">
+      <div class="container bg-light"> 
+        <section id="scroll" class="projects-section bg-light">
+          <ul id="galeriaacc">
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+                <a href="https://www.momo.com/"
+                title=""><img class="center" src="../img/accesorios/momo.jpg" /><span style="text-decoration:none;">MOMO</span></a>
+              </li>
+
+              <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+                <a href="https://www.sparco-official.com/es/?gclid=EAIaIQobChMIwYCQ8sXY3gIVq5ztCh0mHQ8ZEAAYASAAEgKByvD_BwE" 
+                title=""><img class="center" src="../img/accesorios/sparco.jpg" /><span style="text-decoration:none;">SPARCO</span></a>
+              </li>
+              
+              <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+                <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
+                title=""><img class="center" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
+              </li>
+            </div>   
+          </ul>
+        </section>
+      </div>  
+    </div>
 </body>
 
 <?php include("../includes/footer.php");?>

@@ -199,7 +199,7 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="../noticias/noticia-BMW.php">El nuevo BMW M3 podría lucir más o menos así</a>
+            <a href="../noticias/">Más noticias...</a>
           </li>
           <li>
             <a href="../analisis/">Más análisis...</a>

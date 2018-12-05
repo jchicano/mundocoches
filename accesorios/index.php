@@ -14,9 +14,9 @@
   <div class="container bg-light">
     <!--SEPARADOR ENTRE MENÚ Y GRID-->
     <section id="projects" class="projects-section bg-light">
-
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-20">
           <div class="grid">
-
             <a href="faro.php" style="background-image:url(../img/accesorios/faros.jpg); text-decoration:none; color:black;" class="item">
               <div class="parentBG1">
                 <div class="content">
@@ -181,7 +181,9 @@
                 </div>
               </div>
             </a>
-          </div>
+            </div>
+        </div>
+      </div>
     </section> 
   </div>  
 </body>

@@ -23,6 +23,11 @@
     margin-top:-300px;
 }
 
+/* === ESTILO DE LINEA INFERIOR DE LOS ENLACES, USADO ACTUALMENTE EN EL INDEX DE LOS ANALISIS === */
+.enlace-blanco{
+    text-decoration-color: white !important;
+}
+
 /* === QUITAMOS LOS MARGENES CUANDO SE ACTIVA EL MODO RESPONSIVE === */
 @media (max-width: 991px) { /* Pixeles del tamano lg */
     .contenedor-izda{

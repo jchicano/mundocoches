@@ -20,7 +20,7 @@
   <header class="masthead-megane">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 bajar-tamano-movil">Citroën C4</h1>
+        <h1 class="mx-auto my-0 bajar-tamano-movil">Renault Megane</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -47,7 +47,7 @@
         <table class="table table-sm">
           <thead>
             <tr>
-              <th class="text-center" colspan="2" scope="col">Citroën C4</th>
+              <th class="text-center" colspan="2" scope="col">Renault Megane</th>
             </tr>
           </thead>
           <tbody>
@@ -138,19 +138,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-1.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-1.jpg" alt="" />
             <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-2.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-2.jpg" alt="" />
             <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-3.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-3.jpg" alt="" />
             <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
           </figure>
         </div>
@@ -158,19 +158,19 @@
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-4.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-4.jpg" alt="" />
             <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-5.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-5.jpg" alt="" />
             <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
           </figure>
         </div>
         <div class="col-lg-4">
           <figure>
-            <img src="../img/analisis/gallery/c4-6.jpg" alt="" />
+            <img src="../img/analisis/gallery/megane-6.jpg" alt="" />
             <!--<figcaption>Highlands <small>United States</small></figcaption>-->
           </figure>
         </div>

@@ -33,13 +33,16 @@
   <section id="scroll" class="projects-section bg-light">
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-12">
-        <h2>Todo un éxito</h2>
+        <h2>Un compacto lleno de talento</h2>
       </div>
       <div class="col-lg-8 contenedor-izda">
         <p>
-          El Citroën C4 ha sido uno de los compactos más vendidos de los últimos años. De hecho, el año pasado recibió el Premio Estrella Luike, al haber conseguido alzarse como el modelo de más ventas en España.
-          No obstante, conviene señalar que, en el cómputo, se incluyeron las variantes C4 Picasso y Grand Picasso, así como el C4 Cactus, los cuales no comparten plataforma con el modelo C4 original.
-          La generación actual data del año 2010, si bien ha sido objeto de múltiples actualizaciones. La última tuvo lugar este mismo año 2016, lo cual le ha permitido mantenerse en la palestra pese al empuje de otros competidores como el <a href="../marcas/leon.php">Seat León</a>, <a href="../marcas/ibiza.php">Seat Ibiza</a> o <a href="../marcas/golf.php">Volkswagen Golf</a>.
+          No se puede negar que <a href="../marcas/renault.php">Renault</a> ha echado el resto y más en esta cuarta generación de su
+          berlina media Megane en carrocería 5 puertas, un coche con vocación de triunfador, fabricado en España (Palencia) con una
+          importante ganancia en calidad y tecnología. Diseño, confort, funcionalidad, versatilidad, prestaciones y una gama muy
+          completa y bien equipado tecnológicamente, junto a una <b>seguridad</b> activa y pasiva de primer nivel, han sido armas
+          suficientes para que este automóvil nos enamore. Un coche convincente y con muy buena relación precio/equipamiento,
+          pudiéndose decir que es bastante buena.
         </p>
       </div>
       <div class="col-lg-4">
@@ -73,7 +76,7 @@
             </tr>
           </tbody>
         </table>
-        <a href="../marcas/c4.php">Más información...</a>
+        <a href="../marcas/megane.php">Más información...</a>
         <!---->
       </div>
     </div>

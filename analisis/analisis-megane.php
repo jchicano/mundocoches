@@ -86,12 +86,14 @@
       </div>
       <div class="col-lg-12">
         <p>
-          El Citroën C4 tiene una longitud de 4,329 metros. Su anchura es de 1,789 metros y alcanza una altura de 1,489 metros; ligeramente más largo que el Volkswagen Golf y un poco más corto que el <a href="../marcas/megane.php">Renault Mégane</a>. Es decir, es un compacto puro.
-          Ahora bien, cuenta con uno de los maleteros más grandes de su categoría, el cual dispone de 408 litros de capacidad, los cuales pueden ser ampliados hasta 1.183, abatiendo los asientos traseros en proporción 60:40.
+          Si el nuevo Renault Mégane convence por fuera, por dentro también ha logrado seducirnos. Está entre los más amplios de su
+          categoría y el diseño es atractivo, con buenos materiales en líneas generales (algunos plásticos de la consola central
+          desentonan). El habitáculo ha sido completamente rediseñado e incorpora nuevas tecnologías, como la posibilidad de elegir
+          entre cinco ambientes luminosos, que se reflejarán tanto en la consola central como en los paneles de puertas delanteras
+          y traseras y al cuadro de instrumentos.
         </p>
         <p>
-          En el diseño exterior destacan los faros delanteros de conducción diurna con LEDs, así como el efecto 3D de los faros traseros.
-          Las líneas del C4 son suaves y, de vez en cuando, encontramos elementos cromados, que contribuyen a aportar cierta elegancia.
+          También destaca el sistema R Link 2 con una pantalla de 8,7 pulgadas situada en posición vertical, ya empleada en el Espace y el <a href="../marcas/talisman.php">Talismán</a>. Desde esa gran pantalla, que está rodeada por un marco en negro mate, donde se llegan a apreciar las huellas de los dedos, se controlan las funciones de la radio y el climatizador, acciones algo engorrosas porque necesitas realizar más acciones que si se hiciera mediante botones. Entre las muchas funciones que incluye también está el Multi Sense, un selector de perfiles de conducción que permite configurar diferentes parámetros del vehículo a nuestro antojo, como la respuesta del motor, la dureza de la dirección, o el sonido.
         </p>
       </div>
     </div>
@@ -106,22 +108,26 @@
       </div>
       <div class="col-lg-6 contenedor-dcha">
         <p>
-          El salpicadero ha mantenido la misma línea práctica a lo largo de los últimos años.
-          Por un lado, cuenta con numerosos huecos portaobjetos, incluyendo los cajones bajos los asientos, la guantera iluminada, así como los espacios en las puertas y la propia consola central.
+          Dispone de cuatro modos predeterminados: Eco, Neutro, Confort y Sport, además de uno personalizable. Sin lugar a dudas en
+          la prueba del Renault Mégane se ha podido comprobar que el más divertido es el modo Sport (como casi siempre), en el que
+          desde el primer momento notas una sensibilidad del acelerador mucho más acentuada y un tacto de dirección que me gusta
+          mucho más que por ejemplo la del modo Confort.
         </p>
         <p>
-          Precisamente, dicha consola fue objeto de recientes mejoras, mediante la eliminación de varios botones, para dar mayor protagonismo a la pantalla táctil de 7 pulgadas, con la cual se controla la navegación, la radio, el teléfono, así como múltiples ajustes posibles en el vehículo.
-          El cuadro de instrumentación del conductor combina elementos digitales y analógicos y un volante con mandos centralizados por zonas.
-          Las tapicerías están disponibles en diferentes telas y acabados, así como en cuero.
+          Entre las <b>múltiples opciones y acabados</b> del Renault Mégane me ha sorprendido gratamente el equipamiento que puede
+          llevar, como la apertura sin llave y sin botón, solo por proximidad, aviso por cambio de carril, head-up display e,
+          incluso, ¡función masaje!. Todo un lujo para un coche de su categoría y segmento.
         </p>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
       <div class="col-lg-12">
         <p>
-          Este equipamiento incluye la ayuda a la salida en pendiente (Hill Assist), el sistema de alerta del ángulo muerto, el control de tracción inteligente, climatizador automático bi-zonal, sensores de lluvia y luminosidad, sensores de aparcamiento trasero, etc.
-          La conectividad también tiene presencia en la versión Feel Edition de este modelo, gracia al sistema Connect Box, el cual incluye una guía de mantenimiento virtual, el sistema de llamada de emergencia y un módulo de conducción ecológica. Esta versión también cuenta con acceso y arranque manos libres, y freno de mano eléctrico.
-          Por cierto, no podemos ignorar que en el acabado más alto, el asiento del conductor también incluye función con masaje, algo prácticamente insólito en los modelos de esta categoría.
+          En carretera, la potencia es suficiente para mover con alegría al nuevo Renault Mégane. Pese a haber crecido en tamaño y en
+          equipamiento, su peso es idéntico al de la generación anterior (el bastidor es 90 kg más ligero gracias al uso de aceros de
+          alta resistencia y aleaciones ligeras). El cambio tiene un selector con unos recorridos correctos y suficiente precisión y
+          unas marchas tirando a largas para reducir el consumo. De todos modos, gracias al turbo, el motor tiene suficiente par como
+          para mantener unas recuperaciones aceptables.
         </p>
       </div>
     </div>
@@ -131,7 +137,10 @@
       </div>
       <div class="col-lg-12">
         <p>
-          Nos encontramos ante un coche redondo. De esos que no se venden, sino que se despachan, porque es una fenomenal compra a ciegas. Es el típico coche que la gente que no sabe de coches se compra por tranquilidad y seguridad... y la verdad es que aciertan. En este caso concreto, ya con ayuda de ofertas por estar cerca de su final comercial, el C4 puede seguir siendo el coche más vendido, o uno de los que más, pues no falla en nada, ni nada desentona en él. Cuenta con buenos motores, un espacio y una habitabilidad a prueba de pruebas, fácil de entender y conducir y, encima, su precio es muy coherente. Con estos mimbres, definitivamente, no es de extrañar que haya sido el coche más vendido en España en el período 2016/2017.
+          En definitiva, <a href="../marcas/renault.php">Renault</a> entra de lleno a luchar con los mejores compactos del mercado
+          sin el menor complejo y se desmarca con un producto muy competitivo. Si estás pensando en cambiar de coche y buscas uno
+          del segmento C (compactos) deberías tenerlo entre tus candidatos, junto con el <a href="../marcas/leon.php">Seat León</a>
+          o el mismísimo <a href="../marcas/golf.php">Volkswagen Golf</a>.
         </p>
       </div>
     </div>

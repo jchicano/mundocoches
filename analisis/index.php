@@ -78,7 +78,7 @@
           </div>
         </div>
       </section>
-        <!-- CITROEN --><!--
+      <!-- CITROEN -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -88,7 +88,7 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <a href="analisis-amg-c-43-4matic.php" class="enlace-blanco">
+                  <a href="analisis-c4.php" class="enlace-blanco">
                     <h4 class="text-white">Analizamos el Citroën C4</h4>
                     <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                   </a>
@@ -100,7 +100,7 @@
           </div>
         </div>
       </section>
-      <!-- RENAULT --><!--
+      <!-- RENAULT -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -122,7 +122,7 @@
           </div>
         </div>
       </section>
-      <!-- VOLKSWAGEN --><!--
+      <!-- VOLKSWAGEN -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -144,7 +144,7 @@
           </div>
         </div>
       </section>
-      <!-- DACIA --><!--
+      <!-- DACIA -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -166,7 +166,7 @@
           </div>
         </div>
       </section>
-      <!-- HYUNDAI --><!--
+      <!-- HYUNDAI -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -188,7 +188,7 @@
           </div>
         </div>
       </section>
-      <!-- SEAT --><!--
+      <!-- SEAT -->
       <section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
@@ -209,7 +209,7 @@
             </div>
           </div>
         </div>
-      </section>-->
+      </section>
   </div>
 
 <?php include("../includes/footer.php");?>

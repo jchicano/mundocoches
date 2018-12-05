@@ -1,11 +1,11 @@
 <?php $CURRENT_PAGE = "Analisis extendido"; ?>
-<?php $PAGE_TITLE = "Análisis | Citroën C4"; ?>
+<?php $PAGE_TITLE = "Análisis | Renault Megane"; ?>
 
 <!DOCTYPE html>
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php"); ?>
-  <link rel="stylesheet" href="../css/analisis/c4.css">
+  <link rel="stylesheet" href="../css/analisis/megane.css">
 
   <link rel="stylesheet" href="../css/analisis/galeria-imagenes.css">
 
@@ -17,7 +17,7 @@
 <!-- CONTENIDO -->
 
 <body class="bg-light"><!--Modificado-->
-  <header class="masthead-c4">
+  <header class="masthead-megane">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 bajar-tamano-movil">Citroën C4</h1>

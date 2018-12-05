@@ -17,7 +17,7 @@
 <!-- CONTENIDO -->
 
 <body class="bg-light"><!--Modificado-->
-  <header class="masthead-a5">
+  <header class="masthead-m2">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 bajar-tamano-movil">BMW M2 Competition</h1>

@@ -95,7 +95,7 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
       <div class="col-lg-6">
         <div class="card text-center w-100 "><!-- class:float-left -->
-            <img class="card-img-top" src="../img/analisis/c4_interior.jpg" alt="Instrumentacion digital">
+            <img class="card-img-top" src="../img/analisis/c4_interior.jpg" alt="Equipacion">
             <div class="card-body">
               <p class="card-text">Este coche viene muy bien equipado.</p>
             </div>

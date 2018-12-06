@@ -102,7 +102,7 @@
         <div class="card text-center w-100 "><!-- class:float-left -->
             <img class="card-img-top" src="../img/analisis/megane_interior.jpg" alt="Interior">
             <div class="card-body">
-              <p class="card-text">El interior es muy vistoso.</p>
+              <p class="card-text">El interior dek Megane es muy vistoso.</p>
             </div>
           </div>
       </div>

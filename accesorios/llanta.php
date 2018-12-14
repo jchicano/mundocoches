@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.mercedes-benz.es/vans/es/marco-polo/marco-polo-activity/equipment"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.mercedes-benz.es/vans/es/marco-polo/marco-polo-activity/equipment"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+            </li>
 
-          <li>
-            <a href="https://store.volkswagen.es/accesorios-volkswagen?utm_source=Adwords&utm_medium=cpc&utm_campaign=Volkswagen%20Store&gclid=EAIaIQobChMI3IjU1s3Y3gIViRrTCh2qcwcHEAAYASAAEgLVN_D_BwE" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
-          </li>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://store.volkswagen.es/accesorios-volkswagen?utm_source=Adwords&utm_medium=cpc&utm_campaign=Volkswagen%20Store&gclid=EAIaIQobChMI3IjU1s3Y3gIViRrTCh2qcwcHEAAYASAAEgLVN_D_BwE" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.bmw.es/es/topics/accesorios-servicios/accesorios/buscador-de-accesorios/llantas-de-aleaci%C3%B3n-ligera.html?bmw=sea:BMW%20//%20PV%20//%20ACCESORIOS:brand:google:ad:NA:c:bmw%20PV:BMW%20//%20PV%20//%20ACCESORIOS%20//%20LLANTAS%20//%20BR:%2Bllantas%20%2Bbmw:NA:NA&scp=true"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.bmw.es/es/topics/accesorios-servicios/accesorios/buscador-de-accesorios/llantas-de-aleaci%C3%B3n-ligera.html?bmw=sea:BMW%20//%20PV%20//%20ACCESORIOS:brand:google:ad:NA:c:bmw%20PV:BMW%20//%20PV%20//%20ACCESORIOS%20//%20LLANTAS%20//%20BR:%2Bllantas%20%2Bbmw:NA:NA&scp=true"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/bmw.jpg" /><span style="text-decoration:none;">BMW</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

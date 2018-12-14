@@ -46,7 +46,6 @@
   
     <div class="row">
       <div class="col-lg-12">
-      <a href="videos/mundocoches-trailer.mp4">Video</a>
 <!-- Comienzo video -->    
 <video class='js-player' poster="img/videos/miniatura-trailer.png" controls playsinline>
   <source src="videos/mundocoches-trailer.mp4" type="video/mp4">

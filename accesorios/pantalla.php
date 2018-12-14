@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.pioneer-car.eu/es/es"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/pioneer.jpg" /><span style="text-decoration:none;">PIONEER</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.pioneer-car.eu/es/es"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/pioneer.jpg" /><span style="text-decoration:none;">PIONEER</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.alpine.es/p/Products/head-units5" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/alpine.jpg" /><span style="text-decoration:none;">ALPINE</span></a>
-          </li>
-          
-          <li>
-            <a href="https://es.jvc.com/car_electronics/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/jvc.jpg" /><span style="text-decoration:none;">JVC</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.alpine.es/p/Products/head-units5" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/alpine.jpg" /><span style="text-decoration:none;">ALPINE</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://es.jvc.com/car_electronics/"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/jvc.jpg" /><span style="text-decoration:none;">JVC</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

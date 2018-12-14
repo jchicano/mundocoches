@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://en.recaro.com/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/recaro.jpg" /><span style="text-decoration:none;">RECARO</span></a>
-          </li>
+    <div class="container bg-light"> 
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://en.recaro.com/"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/recaro.jpg" /><span style="text-decoration:none;">RECARO</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.sparco-official.com/es/?gclid=EAIaIQobChMIwYCQ8sXY3gIVq5ztCh0mHQ8ZEAAYASAAEgKByvD_BwE" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/sparco.jpg" /><span style="text-decoration:none;">SPARCO</span></a>
-          </li>
-          
-          <li>
-            <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.sparco-official.com/es/?gclid=EAIaIQobChMIwYCQ8sXY3gIVq5ztCh0mHQ8ZEAAYASAAEgKByvD_BwE" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/sparco.jpg" /><span style="text-decoration:none;">SPARCO</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="http://www.rallyshop-omp.com/sp?gclid=EAIaIQobChMIu7Wg9sXY3gIVy5ztCh1K0QiCEAAYASAAEgImg_D_BwE"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/omp.jpg" /><span style="text-decoration:none;">OMP</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

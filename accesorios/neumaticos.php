@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.pirelli.com/tyres/es-ar/turismo/home"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/pirelli.jpg" /><span style="text-decoration:none;">PIRELLI</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.pirelli.com/tyres/es-ar/turismo/home"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/pirelli.jpg" /><span style="text-decoration:none;">PIRELLI</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.michelin.es/" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/michelin.jpg" /><span style="text-decoration:none;">MICHELIN</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.dunlop.eu/es_es/consumer.html#/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/dunlop.jpg" /><span style="text-decoration:none;">DUNLOP</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.michelin.es/" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/michelin.jpg" /><span style="text-decoration:none;">MICHELIN</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.dunlop.eu/es_es/consumer.html#/"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/dunlop.jpg" /><span style="text-decoration:none;">DUNLOP</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include("includes/head-tag-contents.php");?>
+  <?php include("includes/head-tag-contents.php");?>
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
 </head>
 <body>
 
@@ -38,13 +39,26 @@
     <img src="img/amg_gt.png" class="img-fluid" alt="">
   </div>
 </section>
-<!--
-<!-- Projects Section 
+
+<!-- Projects Section -->
 <section id="projects" class="projects-section bg-light">
   <div class="container">
-
-    <!-- Featured Project Row 
-    <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+  
+    <div class="row">
+      <div class="col-lg-12">
+      <a href="videos/mundocoches-trailer.mp4">Video</a>
+<!-- Comienzo video -->    
+<video class='js-player' poster="img/videos/miniatura-trailer.png" controls playsinline>
+  <source src="videos/mundocoches-trailer.mp4" type="video/mp4">
+</video>
+<!-- Fin video -->
+      </div><!--Cierre col-->
+    </div><!--Cierre row-->
+    <script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+<!-- Fin HTML nuevo -->
+    <!-- Featured Project Row -->
+    <!--<div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-lg-12">
         <h2 class="caja-texto">Noticias recientes</h2>
       </div>
@@ -67,7 +81,7 @@
           <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
         </div>
       </div>
-    </div>
+    </div>-->
 <!--
      Project One Row 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -103,11 +117,11 @@
           </div>
         </div>
       </div>
-    </div>
-->
+    </div>-->
+
   </div>
 </section>
--->
+
 <!-- Signup Section -->
 <section id="signup" class="signup-section">
   <div class="container">

@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.amazon.es/Tel%C3%A9fono-Universal-Pulgadas-Salpicadero-Smartphones/dp/B0798FNZT4/ref=sr_1_6?ie=UTF8&qid=1542964542&sr=8-6&keywords=soporte+movil+al+coche"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/sp1.jpg" /><span style="text-decoration:none;">SOPORTE UNIVERSAL</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/Tel%C3%A9fono-Universal-Pulgadas-Salpicadero-Smartphones/dp/B0798FNZT4/ref=sr_1_6?ie=UTF8&qid=1542964542&sr=8-6&keywords=soporte+movil+al+coche"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/sp1.jpg" /><span style="text-decoration:none;">SOPORTE UNIVERSAL</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.amazon.es/Ventilaci%C3%B3n-Universal-Rotaci%C3%B3n-Smartphone-Dispositivo/dp/B01MR4L962/ref=sr_1_1_sspa?ie=UTF8&qid=1542963920&sr=8-1-spons&keywords=soporte+para+movil+coche&psc=1" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/sp2.jpg" /><span style="text-decoration:none;">IZUKU</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.amazon.es/POOPHUNS-Magn%C3%A9tico-Ajustables-Compatible-Dispositivos/dp/B07CC4QGK5/ref=sr_1_2_sspa?ie=UTF8&qid=1542963923&sr=8-2-spons&keywords=soporte+movil+coche&psc=1"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/sp3.jpg" /><span style="text-decoration:none;">POOPHUNS</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/Ventilaci%C3%B3n-Universal-Rotaci%C3%B3n-Smartphone-Dispositivo/dp/B01MR4L962/ref=sr_1_1_sspa?ie=UTF8&qid=1542963920&sr=8-1-spons&keywords=soporte+para+movil+coche&psc=1" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/sp2.jpg" /><span style="text-decoration:none;">IZUKU</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/POOPHUNS-Magn%C3%A9tico-Ajustables-Compatible-Dispositivos/dp/B07CC4QGK5/ref=sr_1_2_sspa?ie=UTF8&qid=1542963923&sr=8-2-spons&keywords=soporte+movil+coche&psc=1"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/sp3.jpg" /><span style="text-decoration:none;">POOPHUNS</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

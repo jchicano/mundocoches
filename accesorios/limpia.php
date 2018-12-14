@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.amazon.es/Favoto-Aspiradora-Multifuncional-Alimentaci%C3%B3n-Accesorios/dp/B07BKTX368/ref=sr_1_6?ie=UTF8&qid=1542967067&sr=8-6&keywords=kit+limpieza+coche"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/kit1.jpg" /><span style="text-decoration:none;">KIT 1</span></a>
-          </li>
+    <div class="container bg-light"> 
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/Favoto-Aspiradora-Multifuncional-Alimentaci%C3%B3n-Accesorios/dp/B07BKTX368/ref=sr_1_6?ie=UTF8&qid=1542967067&sr=8-6&keywords=kit+limpieza+coche"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/kit1.jpg" /><span style="text-decoration:none;">KIT 1</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.amazon.es/DEDC-Limpieza-Microfibra-Ventilaci%C3%B3n-Silicona/dp/B075V57B6H/ref=sr_1_3?ie=UTF8&qid=1542967067&sr=8-3&keywords=kit+limpieza+coche" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/kit2.jpg" /><span style="text-decoration:none;">KIT 2</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.amazon.es/Sonax-761541-cuidado-autom%C3%B3vil-piezas/dp/B00PWRCRK2/ref=sr_1_5?ie=UTF8&qid=1542967067&sr=8-5&keywords=kit+limpieza+coche"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/kit3.jpg" /><span style="text-decoration:none;">KIT 3</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/DEDC-Limpieza-Microfibra-Ventilaci%C3%B3n-Silicona/dp/B075V57B6H/ref=sr_1_3?ie=UTF8&qid=1542967067&sr=8-3&keywords=kit+limpieza+coche" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/kit2.jpg" /><span style="text-decoration:none;">KIT 2</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.amazon.es/Sonax-761541-cuidado-autom%C3%B3vil-piezas/dp/B00PWRCRK2/ref=sr_1_5?ie=UTF8&qid=1542967067&sr=8-5&keywords=kit+limpieza+coche"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/kit3.jpg" /><span style="text-decoration:none;">KIT 3</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

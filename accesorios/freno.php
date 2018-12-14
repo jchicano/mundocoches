@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.brembo.com/es/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/brembo.jpg" /><span style="text-decoration:none;">BREMBO</span></a>
-          </li>
+    <div class="container bg-light"> 
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.brembo.com/es/"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/brembo.jpg" /><span style="text-decoration:none;">BREMBO</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.ferodo.es/" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/ferodo.jpg" /><span style="text-decoration:none;">FERODO</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.trwaftermarket.com/es/turismo/sistemas-de-freno-de-disco/"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/trw.jpg" /><span style="text-decoration:none;">TRW</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.ferodo.es/" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/ferodo.jpg" /><span style="text-decoration:none;">FERODO</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.trwaftermarket.com/es/turismo/sistemas-de-freno-de-disco/"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/trw.jpg" /><span style="text-decoration:none;">TRW</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div> 
   </div>
 </body>
 

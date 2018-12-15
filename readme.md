@@ -43,6 +43,8 @@ https://bootsnipp.com/snippets/QoZeX<br>
 
 https://www.seleniumhq.org/ Para realizar pruebas en las distintas páginas del proyecto<br>
 
+https://github.com/sampotts/plyr<br>
+
 
 <br><br>
 

@@ -44,18 +44,40 @@
 <section id="projects" class="projects-section bg-light">
   <div class="container">
   
+
+
+
+
+
+
+
+
+
     <div class="row">
       <div class="col-lg-12">
-<!-- Comienzo video -->    
-<video class='js-player' poster="img/videos/miniatura-trailer.png" controls playsinline>
-  <source src="videos/mundocoches-trailer.mp4" type="video/mp4">
-</video>
+      <a href="videos/mundocoches-trailer-small.mp4">Video</a>
+<!-- Comienzo video -->
+<!--<video poster="img/videos/miniatura-trailer.png" id="player" playsinline controls>
+    <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
+    <source src="videos/mundocoches-trailer.webm" type="video/webm">
+</video>-->
+<div class="plyr__video-embed" id="player">
+    <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+</div>
 <!-- Fin video -->
       </div><!--Cierre col-->
     </div><!--Cierre row-->
-    <script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
-<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+    <script src="https://cdn.plyr.io/3.4.7/plyr.polyfilled.js"></script>
+    <script>const player = new Plyr('#player');</script>
 <!-- Fin HTML nuevo -->
+
+
+
+
+
+
+
+
     <!-- Featured Project Row -->
     <!--<div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-lg-12">

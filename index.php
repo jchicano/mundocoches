@@ -42,22 +42,9 @@
   </div>
 </section>
 
-<!-- Projects Section -->
-<section id="projects" class="projects-section bg-light">
-  <div class="container">
+
+
   
-
-
-
-
-
-
-
-
-
-    <div class="row">
-      <div class="col-lg-12">
-      <a href="videos/mundocoches-trailer-small.mp4">Video</a>
 <!-- Comienzo video -->
 <!--<video poster="img/videos/miniatura-trailer.png" id="player" playsinline controls>
     <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
@@ -67,19 +54,13 @@
     <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
 </div>
 <!-- Fin video -->
-      </div><!--Cierre col-->
-    </div><!--Cierre row-->
     <script src="https://cdn.plyr.io/3.4.7/plyr.polyfilled.js"></script>
     <script>const player = new Plyr('#player');</script>
 <!-- Fin HTML nuevo -->
 
 
 
-
-
-
-
-
+<!-- Projects Section -->
     <!-- Featured Project Row -->
     <!--<div class="row align-items-center no-gutters mb-4 mb-lg-5">
       <div class="col-lg-12">
@@ -142,8 +123,8 @@
       </div>
     </div>-->
 
-  </div>
-</section>
+
+
 
 <!-- Signup Section -->
 <section id="signup" class="signup-section">

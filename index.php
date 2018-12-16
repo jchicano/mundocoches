@@ -157,7 +157,7 @@
             <i class="fas fa-map-marked-alt text-primary mb-2"></i>
             <h4 class="text-uppercase m-0">Dirección</h4>
             <hr class="my-4">
-            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            <div class="small text-black-50">Actualmente no tenemos</div>
           </div>
         </div>
       </div>
@@ -181,7 +181,7 @@
             <i class="fas fa-mobile-alt text-primary mb-2"></i>
             <h4 class="text-uppercase m-0">Teléfono</h4>
             <hr class="my-4">
-            <div class="small text-black-50">+34 (555) 902-8832</div>
+            <div class="small text-black-50">Actualmente no tenemos</div>
           </div>
         </div>
       </div>

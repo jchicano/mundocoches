@@ -32,8 +32,10 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <h2 class="text-white mb-4">¿Quiénes somos?</h2>
-        <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-          <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+        <p class="text-white-50">
+          Somos un grupo de chavales de un Ciclo Formativo de Grado Superior de Desarrollo de Aplicaciones web que hemos hecho este proyecto
+          para que puedan evaluarnos en el módulo de Diseño de Interfaces Web.
+        </p>
       </div>
     </div>
     <img src="img/amg_gt.png" class="img-fluid" alt="">
@@ -205,12 +207,12 @@
     </div>
 
     <div class="social d-flex justify-content-center">
-      <a href="https://twitter.com/" target="_blank" class="mx-2">
+      <!--<a href="https://twitter.com/" target="_blank" class="mx-2">
         <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://facebook.com/" target="_blank" class="mx-2">
+      </a>-->
+      <!--<a href="https://facebook.com/" target="_blank" class="mx-2">
         <i class="fab fa-facebook-f"></i>
-      </a>
+      </a>-->
       <a href="https://github.com/jesusdc99/mundocoches/" target="_blank" class="mx-2">
         <i class="fab fa-github"></i>
       </a>

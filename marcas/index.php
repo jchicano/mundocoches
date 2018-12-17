@@ -7,13 +7,13 @@
   <style>
     a {
       transition: filter .5s ease-in-out;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
     }
 
     a:hover {
-      filter: grayscale(0%);
-      -webkit-filter: grayscale(0%);
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
     }
   </style>
 </head>
@@ -41,20 +41,20 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
-        <!-- Mercedes-Benz -->
+        <!-- Audi -->
         <a href="audi.php">
           <img class="img-fluid" src="../img/marcas/audi-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- BMW -->
-        <a href="#">
+        <a href="bmw.php">
           <img class="img-fluid" src="../img/marcas/bmw-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
-        <!-- Audi -->
-        <a href="#">
+        <!-- Mercedes-Benz -->
+        <a href="mercedes.php">
           <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
         </a>
       </div>
@@ -75,19 +75,19 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Citroën -->
-        <a href="#">
+        <a href="citroen.php">
           <img class="img-fluid" src="../img/marcas/citroen-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Renault -->
-        <a href="#">
+        <a href="renault.php">
           <img class="img-fluid" src="../img/marcas/renault-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Volkswagen -->
-        <a href="#">
+        <a href="volkswagen.php">
           <img class="img-fluid" src="../img/marcas/vw-logo.jpg">
         </a>
       </div>
@@ -108,19 +108,19 @@
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
       <div class="col-md-4">
         <!-- Dacia -->
-        <a href="#">
+        <a href="dacia.php">
           <img class="img-fluid" src="../img/marcas/dacia-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- Hyundai -->
-        <a href="#">
+        <a href="hyundai.php">
           <img class="img-fluid" src="../img/marcas/hyundai-logo.jpg">
         </a>
       </div>
       <div class="col-md-4">
         <!-- SEAT -->
-        <a href="#">
+        <a href="seat.php">
           <img class="img-fluid" src="../img/marcas/seat-logo.jpg">
         </a>
       </div>

@@ -34,7 +34,7 @@
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Paragolpes Delantero</h1>
+        <h1 class="mx-auto my-0 bajar-tamano-movil">Paragolpes Delantero</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.google.es/search?q=paragolpes+delantero+mercedes&oq=paragolpes+delantero+mercedes&aqs=chrome..69i57j0l5.8351j0j7&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?q=paragolpes+delantero+mercedes&oq=paragolpes+delantero+mercedes&aqs=chrome..69i57j0l5.8351j0j7&sourceid=chrome&ie=UTF-8"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.google.es/search?q=volkswagen+paragolpes+delantero&oq=volkswagen+paragolpes+delantero&aqs=chrome..69i57j0l5.7150j0j7&sourceid=chrome&ie=UTF-8" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.google.es/search?q=seat+paragolpes+delantero&oq=seat+paragolpes+delantero&aqs=chrome..69i57j0l5.6687j0j9&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?q=volkswagen+paragolpes+delantero&oq=volkswagen+paragolpes+delantero&aqs=chrome..69i57j0l5.7150j0j7&sourceid=chrome&ie=UTF-8" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?q=seat+paragolpes+delantero&oq=seat+paragolpes+delantero&aqs=chrome..69i57j0l5.6687j0j9&sourceid=chrome&ie=UTF-8"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div>
   </div>
 </body>
 

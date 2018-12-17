@@ -1,8 +1,3 @@
-/* === ESTILO BOTÓN DE SUSCRIPCION DE CORREO === */
-.btnSubscribe{
-
-}
-
 /* === SEPARACIÓN A LA DERECHA DEL TEXTO RESPECTO A LA COLUMNA EN LOS ANALISIS === */
 .contenedor-izda{
     padding-right: 40px !important;
@@ -13,18 +8,27 @@
     padding-left: 40px !important;
 }
 
-/* === SEPARACIÓN SUPERIOR ENCIMA DEL DIV DE TEXTO === */
+/* === SEPARACIÓN INFERIOR DEL DIV === */
 .caja-texto{
-    margin: 0 0 40px;
+    margin-bottom: 40px;
 }
 
-/* === ESTILO DE BORDE PARA LAS SECCIONES DE LOS ANALISIS === */
+/* === SEPARACIÓN SUPERIOR DEL DIV === */
+.separar-arriba{
+    margin-top: 40px;
+}
+
+/* === ESTILO DE MARGEN PARA LAS SECCIONES DE LOS ANALISIS === */
 .reducirMargenSuperior{
     margin-top:-300px;
 }
 
-/* === QUITAMOS LOS MARGENES CUANDO SE ACTIVA EL MODO RESPONSIVE === */
+/* === ESTILO DE LINEA INFERIOR DE LOS ENLACES, USADO ACTUALMENTE EN EL INDEX DE LOS ANALISIS === */
+.enlace-blanco{
+    text-decoration-color: white !important;
+}
 
+/* === QUITAMOS LOS MARGENES CUANDO SE ACTIVA EL MODO RESPONSIVE === */
 @media (max-width: 991px) { /* Pixeles del tamano lg */
     .contenedor-izda{
         padding-right: 0px !important;
@@ -32,4 +36,29 @@
     .contenedor-dcha{
         padding-left: 0px !important;
     }
+
 }
+
+/* === CLASE PARA ELIMINAR LOS TITULOS EN LAS CABECEERAS CON IMAGENES === */
+@media (max-width: 500px) { /* Pixeles a los que aproximadamente aparece una barra blanca por el rebosamiento de un div */
+    .desaparecer-movil{
+        display: none;
+    }
+    .bajar-tamano-movil{ /*Clase para disminuir el tamaño del titulo h1 de la cabecera*/
+        font-size: 130% !important;
+    }
+    .bajar-tamano-subtitulo-movil{/*Clase para disminuir el tamaño del subtitulo de la cabecera, se usa de momento solo en el index*/
+        font-size: 80% !important;
+    }
+    
+}
+
+/* === ESTILO DEL BOTON DE SUSCRIPCION AL CORREO === */
+.estirar-boton{
+    padding: 1rem 1rem;
+}
+
+/* === ESTILO DEL REPRODUCTOR DE VÍDEO === */
+/*.plyr {
+    border-radius: 4px;
+}*/

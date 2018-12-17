@@ -34,7 +34,7 @@
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Faros</h1>
+        <h1 class="mx-auto my-0 bajar-tamano-movil">Faros</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.google.es/search?ei=8oruW5GGCIuQlwT6m7XIBQ&q=faros+mercedes&oq=faros+mercedes&gs_l=psy-ab.3.0.0l10.2723.4303..4417...0.0..0.86.240.3......0....1..gws-wiz.......0i71j0i8i7i30j0i13.XdkK2aJOXQ4"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
-          </li>
+    <div class="container bg-light"> 
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?ei=8oruW5GGCIuQlwT6m7XIBQ&q=faros+mercedes&oq=faros+mercedes&gs_l=psy-ab.3.0.0l10.2723.4303..4417...0.0..0.86.240.3......0....1..gws-wiz.......0i71j0i8i7i30j0i13.XdkK2aJOXQ4"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.google.es/search?ei=94ruW8P3IcmOlwSC7qz4Dw&q=faros+volkswagen&oq=faros+volkswagen&gs_l=psy-ab.3..0l10.12687.15581..15839...0.0..0.77.730.10......0....1..gws-wiz.T6qlQJxbabc" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.google.es/search?ei=CIvuW8i-Cc-IlwSb96-wDQ&q=faros+seat&oq=faros+seat&gs_l=psy-ab.3..0l10.13072.13723..14126...0.0..0.80.300.4......0....1..gws-wiz.......0i71.CO9JeLHebSA"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
-          </li>
-        </div>  
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?ei=94ruW8P3IcmOlwSC7qz4Dw&q=faros+volkswagen&oq=faros+volkswagen&gs_l=psy-ab.3..0l10.12687.15581..15839...0.0..0.77.730.10......0....1..gws-wiz.T6qlQJxbabc" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?ei=CIvuW8i-Cc-IlwSb96-wDQ&q=faros+seat&oq=faros+seat&gs_l=psy-ab.3..0l10.13072.13723..14126...0.0..0.80.300.4......0....1..gws-wiz.......0i71.CO9JeLHebSA"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
+            </li>
+          </div>  
+        </ul>
+      </section>
+    </div> 
   </div>
 </body>
 

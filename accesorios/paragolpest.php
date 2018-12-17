@@ -34,7 +34,7 @@
   <header class="masthead-pd">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0">Paragolpes Trasero</h1>
+        <h1 class="mx-auto my-0 bajar-tamano-movil">Paragolpes Trasero</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
         <a href="#scroll" class="js-scroll-trigger">
           <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
@@ -43,26 +43,28 @@
     </div>
   </header>
   <div class="container bg-light align-items-center justify-content-center ">
-    <section id="scroll" class="projects-section bg-light">
-      <ul id="galeriaacc">
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <li>
-            <a href="https://www.google.es/search?q=paragolpes+trasero+mercedes&oq=paragolpes+trasero+mercedes&aqs=chrome..69i57.7231j0j7&sourceid=chrome&ie=UTF-8"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
-          </li>
+    <div class="container bg-light">
+      <section id="scroll" class="projects-section bg-light">
+        <ul id="galeriaacc">
+          <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?q=paragolpes+trasero+mercedes&oq=paragolpes+trasero+mercedes&aqs=chrome..69i57.7231j0j7&sourceid=chrome&ie=UTF-8"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/mercedes.jpg" /><span style="text-decoration:none;">MERCEDES-BENZ</span></a>
+            </li>
 
-          <li>
-            <a href="https://www.google.es/search?ei=yYPuW6ubCo_IaKTXt8gH&q=paragolpes+trasero+volkswagen&oq=paragolpes+trasero+volkswagen&gs_l=psy-ab.3...39102.42126..42522...0.0..0.68.646.10......0....1..gws-wiz.......0i71._gcpK5MBQSY" 
-            title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
-          </li>
-          
-          <li>
-            <a href="https://www.google.es/search?ei=9IPuW6HfGMGGatbTmbAC&q=paragolpes+trasero+seat&oq=paragolpes+trasero+seat&gs_l=psy-ab.3...16628.17265..17474...0.0..0.63.234.4......0....1..gws-wiz.MhTtjgUGoGE"
-             title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
-          </li>
-        </div>
-      </ul>
-    </section>
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?ei=yYPuW6ubCo_IaKTXt8gH&q=paragolpes+trasero+volkswagen&oq=paragolpes+trasero+volkswagen&gs_l=psy-ab.3...39102.42126..42522...0.0..0.68.646.10......0....1..gws-wiz.......0i71._gcpK5MBQSY" 
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/vol.jpg" /><span style="text-decoration:none;">VOLKSWAGEN</span></a>
+            </li>
+            
+            <li class="m-3"><!--SEPARACION ENTRE IMÁGENES -->
+              <a href="https://www.google.es/search?ei=9IPuW6HfGMGGatbTmbAC&q=paragolpes+trasero+seat&oq=paragolpes+trasero+seat&gs_l=psy-ab.3...16628.17265..17474...0.0..0.63.234.4......0....1..gws-wiz.MhTtjgUGoGE"
+              title=""><img width="230" height="190" alt="" src="../img/accesorios/seat.jpg" /><span style="text-decoration:none;">SEAT</span></a> 
+            </li>
+          </div>
+        </ul>
+      </section>
+    </div> 
   </div>
 </body>
 

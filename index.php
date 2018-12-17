@@ -44,14 +44,20 @@
 
 
 
-<!-- Utilizado color #58668d / rgb(58, 67, 92) para el reproductor de video para mejorar la visualización -->
+<!-- Utilizado color #58668d / rgb(88, 102, 141) para el reproductor de video para mejorar la visualización -->
 <!-- Comienzo video -->
 <!--<video poster="img/videos/miniatura-trailer.jpg" id="player" playsinline controls>
     <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
     <source src="videos/mundocoches-trailer.webm" type="video/webm">
 </video>-->
-<div class="plyr__video-embed" id="player">
-    <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="plyr__video-embed" id="player" style="margin-top:50px;margin-bottom:50px">
+          <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
+      </div>
+    </div>
+  </div>
 </div>
 <!-- Fin video -->
 <!-- Comienzo script -->

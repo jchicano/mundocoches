@@ -49,6 +49,12 @@
 	}
 ?>
 
+<!-- Scripts propios -->
+<?php if ($CURRENT_PAGE == "Index") { ?>
+    <script src="js/video.js"></script>
+    <script>const player = new Plyr('#player');</script>
+<?php } ?>
+
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;

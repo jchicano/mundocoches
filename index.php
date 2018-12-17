@@ -55,8 +55,7 @@
 </div>
 <!-- Fin video -->
 <!-- Comienzo script -->
-    <script src="js/video.js"></script>
-    <script>const player = new Plyr('#player');</script>
+    
 <!-- Fin script -->
 
 

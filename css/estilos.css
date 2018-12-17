@@ -53,8 +53,12 @@
     
 }
 
+/* === ESTILO DEL BOTON DE SUSCRIPCION AL CORREO === */
+.estirar-boton{
+    padding: 1rem 1rem;
+}
+
 /* === ESTILO DEL REPRODUCTOR DE VÍDEO === */
 /*.plyr {
     border-radius: 4px;
 }*/
-

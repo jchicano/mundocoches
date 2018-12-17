@@ -44,9 +44,7 @@
 
 
 
-<!--
-  Utilizado color #58668d / rgb(58, 67, 92) para el reproductor de video para mejorar la visualización
--->
+<!-- Utilizado color #58668d / rgb(58, 67, 92) para el reproductor de video para mejorar la visualización -->
 <!-- Comienzo video -->
 <!--<video poster="img/videos/miniatura-trailer.jpg" id="player" playsinline controls>
     <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
@@ -56,9 +54,10 @@
     <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
 </div>
 <!-- Fin video -->
+<!-- Comienzo script -->
     <script src="js/video.js"></script>
     <script>const player = new Plyr('#player');</script>
-<!-- Fin HTML nuevo -->
+<!-- Fin script -->
 
 
 

@@ -47,7 +47,7 @@
 <!-- Utilizado color #58668d / rgb(88, 102, 141) para el reproductor de video para mejorar la visualización -->
 <!-- Comienzo video -->
 <!--<video poster="img/videos/miniatura-trailer.jpg" id="player" playsinline controls>
-    <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
+    <source src="videos/mundocoches-trailer.mp4" type="video/mp4">
     <source src="videos/mundocoches-trailer.webm" type="video/webm">
 </video>-->
 <div class="plyr__video-embed" id="player">

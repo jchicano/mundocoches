@@ -205,7 +205,7 @@ a.plyr__control::before {
 }
 
 .plyr__control--overlaid {
-    background: rgba(58, 67, 92, .8);/*Modificado*/
+    background: rgba(88, 102, 141, .8);/*Modificado*/
     border: 0;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .15);

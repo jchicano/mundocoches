@@ -50,14 +50,8 @@
     <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
     <source src="videos/mundocoches-trailer.webm" type="video/webm">
 </video>-->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="plyr__video-embed" id="player" style="margin-top:50px;margin-bottom:50px">
-          <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
-      </div>
-    </div>
-  </div>
+<div class="plyr__video-embed" id="player">
+    <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
 </div>
 <!-- Fin video -->
 <!-- Comienzo script -->
@@ -144,7 +138,7 @@
 
         <form class="form-inline d-flex">
           <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Introduce tu correo...">
-          <button type="submit" class="btn btn-primary mx-auto">Suscribirse</button>
+          <button type="submit" class="btn btn-primary mx-auto estirar-boton">Suscribirse</button>
         </form>
 
       </div>

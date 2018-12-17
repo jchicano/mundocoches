@@ -3,7 +3,7 @@
 <html>
 <head>
   <?php include("includes/head-tag-contents.php");?>
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
+  <link rel="stylesheet" href="css/video.css">
 </head>
 <body>
 
@@ -46,7 +46,7 @@
 
   
 <!-- Comienzo video -->
-<!--<video poster="img/videos/miniatura-trailer.png" id="player" playsinline controls>
+<!--<video poster="img/videos/miniatura-trailer.jpg" id="player" playsinline controls>
     <source src="videos/mundocoches-trailer-small.mp4" type="video/mp4">
     <source src="videos/mundocoches-trailer.webm" type="video/webm">
 </video>-->

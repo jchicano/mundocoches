@@ -200,7 +200,7 @@ a.plyr__control::before {
 .plyr--video .plyr__control.plyr__tab-focus,
 .plyr--video .plyr__control:hover,
 .plyr--video .plyr__control[aria-expanded=true] {
-    background: #1aafff;
+    background: #3A435C;/*Modificado*/
     color: #fff
 }
 

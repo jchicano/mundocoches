@@ -10,17 +10,20 @@
 <body>
     <ul>
         <li>
-            <a href="">Jesús D.</a>
+            <a href="juego1.html">Jesús D.</a>
         </li>
         <li>
-            <a href="">Jaime C.</a>
+            <a href="#">Jaime C.</a>
         </li>
         <li>
-            <a href="">David A.</a>
+            <a href="#">David A.</a>
         </li>
         <li>
-            <a href="">David R.</a>
+            <a href="#">David R.</a>
         </li>
     </ul>
+    <h1>
+        <a href="../index.php">Volver</a>
+    </h1>
 </body>
 </html>

@@ -16,7 +16,7 @@
             <a href="#">Jaime C.</a>
         </li>
         <li>
-            <a href="#">David A.</a>
+            <a href="juego3.html">David A.</a>
         </li>
         <li>
             <a href="#">David R.</a>

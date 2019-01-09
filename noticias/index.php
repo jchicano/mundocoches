@@ -11,33 +11,36 @@
 
 <!-- CONTENIDO -->
 
+      <!--Noticia 1 -->
+
 <body class="bg-light" id="page-top"><!--Modificado-->
   <div class="container bg-light">
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+           <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/merche.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
                   <h4 class="text-white">Mercedes-Benz Clase B, desvelado en París</h4>
                   <p class="mb-0 text-white-50"><a href="noticia-mercedes.php">Click aquí para entrar en la noticia</a></p>
-                  <hr class="d-none d-lg-block mb-0 ml-0">
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                  <p class="mt-3 mb-0 text-white-50">1/11/2018</p>
                 </div>
               </div>
             </div>
-          </div>
+          </div>         
         </div>
      
       <!--Noticia 2 -->
       
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/daciaduster.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -52,10 +55,10 @@
 
       <!--Noticia 3 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/hyundai-i30N.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -71,10 +74,10 @@
 
       <!--Noticia 4 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/bmwm3.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -90,10 +93,10 @@
 
       <!--Noticia 5 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/vw-touran.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -108,10 +111,10 @@
 
       <!--Noticia 6 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <img class="img-fluid" src="../img/noticias/audi-a3.jpg" alt="">
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">

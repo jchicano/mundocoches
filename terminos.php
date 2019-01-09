@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php include_once("includes/head-tag-contents.php") ?>
-    <title>Document</title>
+    <title>Términos y condiciones</title>
 </head>
 <body>
     <h4>TÉRMINOS LEGALES DE MUNDOCOCHES</h4>
@@ -30,6 +30,9 @@
         MundoCoches no será responsable, ni indirectamente ni subsidiariamente, de los daños y perjuicios de cualquier naturaleza derivados de la utilización y contratación de los Contenidos y de los Servicios de terceros en el Portal así como de la falta de licitud, fiabilidad, utilidad, veracidad, exactitud, exhaustividad y actualidad de los mismos. Con carácter enunciativo, y en ningún caso limitativo, no será responsable por los daños y perjuicios de cualquier naturaleza derivados de a) la infracción de los derechos propiedad intelectual e industrial y el cumplimiento defectuoso o incumplimiento de los compromisos contractuales adquiridos por terceros; b) la realización de actos de competencia desleal y publicidad ilícita; c) la inadecuación y defraudación de las expectativas de los Servicios y Contenidos de los terceros; d) los vicios y defectos de toda clase de los Servicios y contenidos de terceros prestados a través de MundoCoches.byethost22.com<br>
         MundoCoches no será responsable, ni indirectamente ni subsidiariamente, de los daños y perjuicios de cualquier naturaleza causados al Usuario como consecuencia de la presencia de virus u otros elementos en los contenidos y Servicios prestados por terceros que puedan producir alteraciones en el sistema informático, documentos electrónicos o ficheros de los usuarios.<br>
         La exoneración de responsabilidad señalada en los párrafos anteriores será de aplicación en el caso de que MundoCoches no tenga conocimiento efectivo de que la actividad o la información almacenada es ilícita o de que lesiona bienes o derechos de un tercero susceptibles de indemnización, o si la tuviesen actúen con diligencia para retirar los datos y contenidos o hacer imposible el acceso a ellos.</p>
+
+        <h5><li>EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD</li></h5>
+        <p>MundoCoches no se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza que pudieran ocasionar, a título enunciativo y no limitativo: errores u omisiones en los contenidos de los textos publicados, falta de disponibilidad del portal o la transmisión de virus o programas maliciosos o lesivos en los contenidos, a pesar de haber adoptado todas las medidas tecnológicas necesarias para evitarlo. Asimismo, aunque se intenta en la medida de lo posible mantener la información actualizada, MundoCoches no puede garantizar la exactitud de la información que ofrece en el Sitio Web, que puede estar incompleta o contener errores, debido principalmente a la rápida evolución de la normativa de referencia. </p>
 
         <h5><li>DISPONIBILIDAD Y CONTINUIDAD DEL PORTAL Y LOS SERVICIOS</li></h5>
         <p>MundoCoches no garantiza la disponibilidad, acceso y continuidad del funcionamiento del Portal y de sus Servicios.<br>

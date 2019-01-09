@@ -10,6 +10,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h4>TÉRMINOS LEGALES DE MUNDOCOCHES</h4>
+    <ul>
+        <li>
+        Propiedad Intelectual
+        </li>
+        El Comité Champagne es el titular exclusivo de todos los derechos de propiedad intelectual relativos a las páginas. El acceso a las mismas no confiere ningún derecho a usuario de estos derechos de propiedad intelectual.
+        La reproducción de los documentos de estas páginas está autorizada a título informativo para uso privado o personal, cualquier reproducción o utilización de copias para otros fines está rigurosamente prohibida.
+    </ul>
 </body>
 </html>

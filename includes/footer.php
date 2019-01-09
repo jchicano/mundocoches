@@ -15,7 +15,7 @@
       </div>-->
     <!--</div>-->
     <p>Copyright &copy; <a href="juegos/">MundoCoches</a> 2018.</p>
-    <p><a href="politica.php">Política de privacidad</a> | <a href="#">Términos legales</a></p>
+    <p><a href="politica.php">Política de privacidad</a> | <a href="terminos.php">Términos legales</a></p>
 
   </div>
 </footer>

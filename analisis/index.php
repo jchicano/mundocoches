@@ -123,7 +123,7 @@
         </div>
       </section>
       <!-- VOLKSWAGEN -->
-      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
+      <!--<section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/volkswagen_golf.jpg" alt="">
@@ -143,9 +143,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- DACIA -->
-      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
+      <!--<section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/dacia_duster.jpg" alt="">
@@ -165,9 +165,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- HYUNDAI -->
-      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
+      <!--<section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/hyundai_i30.jpg" alt="">
@@ -187,9 +187,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- SEAT -->
-      <section id="projects" class="projects-section bg-light reducirMargenSuperior">
+      <!--<section id="projects" class="projects-section bg-light reducirMargenSuperior">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div class="col-lg-7">
             <img class="img-fluid" src="../img/analisis/seat_ibiza.jpg" alt="">
@@ -209,7 +209,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
   </div>
 
 <?php include("../includes/footer.php");?>

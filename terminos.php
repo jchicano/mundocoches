@@ -22,7 +22,40 @@
         <h5><li>LICENCIA</li></h5>
         <p>En este acto, el material mostrado u ofrecido en el Sitio Web, entre otros ejemplos, el material gráfico, los documentos, textos, imágenes, sonido, video, audio, las ilustraciones, el software y el código HTML (en conjunto, el “Contenido”) de MundoCoches tales como texto se encuentran bajo la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (BY-NC-SA)</a>.<br>
         Todas las marcas comerciales, las marcas de servicio y los logos (en adelante, las “Marcas”) mostrados en el Sitio Web son propiedad exclusiva de MundoCoches y de sus respectivos propietarios. 
-        El Usuario no podrá utilizar las Marcas en modo alguno sin la previa autorización por escrito para ello de MundoCoches y los respectivos propietarios.</p>
+        El Usuario no podrá utilizar las Marcas en modo alguno sin la previa autorización por escrito para ello de MundoCoches y los respectivos propietarios.<br>
+        Respecto a los contenidos de terceros:<br>
+        <table class="table table-sm" align="center" style="width:75%;">
+            <thead>
+                <tr>
+                <th scope="col">Nombre recurso</th>
+                <th scope="col">Página donde aparece</th>
+                <th scope="col">Fuente procedencia</th>
+                <th scope="col">Términos recurso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@mdo</td>
+                <td>@mdo</td>
+                </tr>
+            </tbody>
+            </table>
+        </p>
+
 
         <h5><li>CONTENIDOS Y SERVICIOS DE TERCEROS</li></h5>
         <p>MundoCoches no controla previamente, aprueba ni hace propios los contenidos, servicios, opiniones, comunicaciones datos, archivos, productos y cualquier clase de información de terceros, personas jurídicas o físicas, recogidos en el Portal. De igual forma, no garantiza la licitud, fiabilidad, utilidad, veracidad, exactitud, exhaustividad y actualidad de los contenidos, informaciones y Servicios de terceros en el Portal.<br>

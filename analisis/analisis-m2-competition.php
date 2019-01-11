@@ -215,7 +215,20 @@
           </li>
         </ul>
       </div>
-      
+      <hr class="my-4 w-100">
+      <div class="col-lg-12">
+        <h3>Fuente(s)</h3>
+      </div>
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.diariomotor.com/noticia/bmw-m2-competition/">https://www.diariomotor.com/noticia/bmw-m2-competition/</a>
+          </li>
+          <li>
+            <a href="https://www.autofacil.es/bmw/serie2/2018/08/01/bmw-m2-competition-ponemos-prueba/45664.html">https://www.autofacil.es/bmw/serie2/2018/08/01/bmw-m2-competition-ponemos-prueba/45664.html</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <!--   -->
 

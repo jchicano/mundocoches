@@ -20,11 +20,14 @@
         El presente Sitio Web está dirigido exclusivamente a personas residentes en España. Los Usuarios residentes o domiciliados en otro país que deseen acceder y utilizar el Sitio Web, lo harán bajo su propio riesgo y responsabilidad, por lo que deberán asegurarse de que dichos accesos y/o usos cumplen con la legislación aplicable en su país.</p>
         
         <h5><li>LICENCIA</li></h5>
-        <p>En este acto, el material mostrado u ofrecido en el Sitio Web, entre otros ejemplos, el material gráfico, los documentos, textos, imágenes, sonido, video, audio, las ilustraciones, el software y el código HTML (en conjunto, el “Contenido”) de MundoCoches tales como texto se encuentran bajo la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (BY-NC-SA)</a>.<br>
+        <p>En este acto, el material mostrado u ofrecido en el Sitio Web, entre otros ejemplos, el material gráfico, los documentos, textos, imágenes, sonido, video, audio, las ilustraciones, el software y el código HTML (en conjunto, el “Contenido”) de MundoCoches tales como texto se encuentran bajo la <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (BY-NC-SA)</a>.<br>
         Todas las marcas comerciales, las marcas de servicio y los logos (en adelante, las “Marcas”) mostrados en el Sitio Web son propiedad exclusiva de MundoCoches y de sus respectivos propietarios. 
         El Usuario no podrá utilizar las Marcas en modo alguno sin la previa autorización por escrito para ello de MundoCoches y los respectivos propietarios.<br>
-        Respecto a los contenidos de terceros:<br>
-        <table class="table table-sm" align="center" style="width:75%;">
+        Respecto a los contenidos de terceros:
+        <a class="btn btn-primary" data-toggle="collapse" href="#mostrarTabla" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Mostrar
+        </a>
+        <table id="mostrarTabla" class="table table-sm collapse" align="center" style="width:75%;">
             <thead>
                 <tr>
                 <th scope="col">Nombre recurso</th>
@@ -35,22 +38,40 @@
             </thead>
             <tbody>
                 <tr>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                    <td>bg-masthead.jpg</td>
+                    <td>index.php</td>
+                    <td>http://motorsport.ie</td>
+                    <td>Sin restricciones</td>
                 </tr>
                 <tr>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>@mdo</td>
+                    <td>amg_gt.png</td>
+                    <td>index.php</td>
+                    <td>http://mbrazbor.com</td>
+                    <td>Sin restricciones</td>
                 </tr>
                 <tr>
-                <td>Larry the Bird</td>
-                <td>@twitter</td>
-                <td>@mdo</td>
-                <td>@mdo</td>
+                    <td>fondo-suscripcion-min.jpg</td>
+                    <td>index.php</td>
+                    <td>https://www.pexels.com</td>
+                    <td>Gratuito para uso privado y comercial, no se requiere la atribución</td>
+                </tr>
+                <tr>
+                    <td>audi_a5_sportback.jpg</td>
+                    <td>analisis/index.php</td>
+                    <td>http://www.media.audiusa.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>asiento.jpg</td>
+                    <td>accesorios/index.php</td>
+                    <td>http://www.discuss.com.hk</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>Resto de contenido</td>
+                    <td>*</td>
+                    <td>*</td>
+                    <td>Sin restricciones/No especificado</td>
                 </tr>
             </tbody>
             </table>

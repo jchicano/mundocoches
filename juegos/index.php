@@ -19,7 +19,7 @@
             <a href="juego3.html">David A.</a>
         </li>
         <li>
-            <a href="juego4.html">David R.</a>
+            <a href="juego4-2.html">David R.</a>
         </li>
     </ul>
     <h1>

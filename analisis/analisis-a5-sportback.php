@@ -239,10 +239,10 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="https://www.topgear.es/pruebas/prueba-audi-a5-sportback-2017-99944">https://www.topgear.es/pruebas/prueba-audi-a5-sportback-2017-99944</a>
+            <a href="https://www.topgear.es/pruebas/prueba-audi-a5-sportback-2017-99944">Enlace 1</a>
           </li>
           <li>
-            <a href="https://www.diariodesevilla.es/motor/prueba-audi-a5-sportback-2-tfsi-quattro-s-tronic-2017-novedades-motor_0_1157884773.html">https://www.diariodesevilla.es/motor/prueba-audi-a5-sportback-2-tfsi-quattro-s-tronic-2017-novedades-motor_0_1157884773.html</a>
+            <a href="https://www.diariodesevilla.es/motor/prueba-audi-a5-sportback-2-tfsi-quattro-s-tronic-2017-novedades-motor_0_1157884773.html">Enlace 2</a>
           </li>
         </ul>
       </div>

@@ -213,10 +213,10 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="https://www.leaseplango.es/blog/comparativa/citroen-c4-analisis-completo/">https://www.leaseplango.es/blog/comparativa/citroen-c4-analisis-completo/</a>
+            <a href="https://www.leaseplango.es/blog/comparativa/citroen-c4-analisis-completo/">Enlace 1</a>
           </li>
           <li>
-            <a href="http://www.revistadelmotor.es/2017/02/25/prueba-citroen-c4.html/">http://www.revistadelmotor.es/2017/02/25/prueba-citroen-c4.html/</a>
+            <a href="http://www.revistadelmotor.es/2017/02/25/prueba-citroen-c4.html/">Enlace 2</a>
           </li>
         </ul>
       </div>

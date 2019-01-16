@@ -1,4 +1,4 @@
-<?php $CURRENT_PAGE = "Noticia 6"; ?>
+<?php $CURRENT_PAGE = "Noticias"; ?>
 <?php $PAGE_TITLE = "Noticia Audi-A3"; ?>
 
 <?php include("../includes/a_config.php");?>

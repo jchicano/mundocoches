@@ -33,11 +33,11 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <?php if ($CURRENT_PAGE == "Index") { ?>
+          <?php if ($CURRENT_PAGE == "Index") { //Si la página es Index ?>
             <a class="nav-link" href="noticias/">Noticias</a>
-          <?php } else if ($CURRENT_PAGE == "Noticias") { ?>
+          <?php } else if ($CURRENT_PAGE == "Noticias") { //Si la página es Noticias ?>
             <a class="nav-link active js-scroll-trigger" href="#page-top">Noticias</a>
-          <?php } else if ($CURRENT_PAGE != "Noticias") { ?><!-- -->
+          <?php } else if ($CURRENT_PAGE != "Noticias") { ?><!-- Si la página no es ninguna de las anteriores-->
             <a class="nav-link" href="../noticias/">Noticias</a>
 					<?php } else { ?>
             <a class="nav-link" href="#">Noticias</a>

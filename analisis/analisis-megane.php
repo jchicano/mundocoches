@@ -225,10 +225,10 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="">https://www.topgear.es/pruebas/test/prueba-renault-megane-2016-tce-130-cv-dispuesto-todo-70224</a>
+            <a href="https://www.topgear.es/pruebas/test/prueba-renault-megane-2016-tce-130-cv-dispuesto-todo-70224">Enlace 1</a>
           </li>
           <li>
-            <a href="https://www.motormundial.es/renault-megane-premio-motor-mundial-coche-del-ano-2017/2017/02/07/">https://www.motormundial.es/renault-megane-premio-motor-mundial-coche-del-ano-2017/2017/02/07/</a>
+            <a href="https://www.motormundial.es/renault-megane-premio-motor-mundial-coche-del-ano-2017/2017/02/07/">Enlace 2</a>
           </li>
         </ul>
       </div>

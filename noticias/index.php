@@ -122,8 +122,12 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white"><a href="noticia-a3.php">Este es el precio del Audi A3</h4>
-                  <p class="mb-0 text-white-50">Click aquí para entrar en la noticia</a></p>
+                <a href="noticia-a3.php" class="enlace-blanco">
+                  <h4 class="text-white">Este es el precio del Audi A3</h4>
+                  <p class="mb-0 text-white-50">Click aquí para entrar en la noticia</p>
+                  </a>
+                  
+                  
                   <hr class="d-none d-lg-block mb-0 mr-0 text-lg-right">
                 </div>
               </div>

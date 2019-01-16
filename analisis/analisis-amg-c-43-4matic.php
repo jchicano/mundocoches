@@ -219,10 +219,10 @@
       <div class="col-lg-12">
         <ul>
           <li>
-            <a href="https://www.diariomotor.com/noticia/mercedes-amg-c-43-4matic-2018/">https://www.diariomotor.com/noticia/mercedes-amg-c-43-4matic-2018/</a>
+            <a href="https://www.diariomotor.com/noticia/mercedes-amg-c-43-4matic-2018/">Enlace 1</a>
           </li>
           <li>
-            <a href="https://www.autofacil.es/mercedes-benz/clase-c/2018/08/14/prueba-mercedes-amg-c-43/45850.html">https://www.autofacil.es/mercedes-benz/clase-c/2018/08/14/prueba-mercedes-amg-c-43/45850.html</a>
+            <a href="https://www.autofacil.es/mercedes-benz/clase-c/2018/08/14/prueba-mercedes-amg-c-43/45850.html">Enlace 2</a>
           </li>
         </ul>
       </div>

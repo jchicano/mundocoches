@@ -68,6 +68,12 @@
                     <td>Sin restricciones</td>
                 </tr>
                 <tr>
+                    <td>Imagenes de los coches en marcas/..</td>
+                    <td>marcas/..</td>
+                    <td>http://www.motor.es</td>
+                    <td>© Motor Internet S.L. Todos los derechos reservados. Todas las marcas registradas referenciadas son propiedad de sus respectivos dueños.</td>
+                </tr>
+                <tr>
                     <td>Resto de contenido</td>
                     <td>*</td>
                     <td>*</td>

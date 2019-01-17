@@ -19,7 +19,7 @@
   <div class="container">
     <?php if($CURRENT_PAGE == "Index") { ?>
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <img src="img/logo.png" alt="MundoCoches" width="149.42px" height="42.69px">
+      <img src="../img/logo.png" alt="MundoCoches" width="149.42px" height="42.69px">
     </a>
     <?php } else { ?>
     <a class="navbar-brand" href="../index.php">

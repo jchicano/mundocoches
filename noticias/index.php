@@ -3,11 +3,12 @@
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php");?>
+  
   <link href="../css/grayscale.css" rel="stylesheet">
 </head>
 <body>
 
-<?php include("../includes/navigation.php");?>
+<?php include("../includes/navigation.php"); ?>
 
 <!-- CONTENIDO -->
 

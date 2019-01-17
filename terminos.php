@@ -68,6 +68,60 @@
                     <td>Sin restricciones</td>
                 </tr>
                 <tr>
+                    <td>audi-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.carmag.co.za</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>bmw-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.hdwallpaper.nu</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>mercedes-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.pixabay.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>citroen-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.motorpasion.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>renault-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.carlist.my</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>volkswagen-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.thewire.in</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>dacia-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>https://www.eldesmarque.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>hyundai-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>http://www.car-brand-names.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
+                    <td>seat-logo.jpg</td>
+                    <td>marcas/index.php</td>
+                    <td>http://www.jgautomotive.com</td>
+                    <td>Sin restricciones</td>
+                </tr>
+                <tr>
                     <td>Imagenes de los coches en marcas/..</td>
                     <td>marcas/..</td>
                     <td>http://www.motor.es</td>

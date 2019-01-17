@@ -13,7 +13,7 @@
             <a href="juego1.html">Jesús D.</a>
         </li>
         <li>
-            <a href="#">Jaime C.</a>
+            <a href="juego2.html">Jaime C.</a>
         </li>
         <li>
             <a href="juego3.html">David A.</a>

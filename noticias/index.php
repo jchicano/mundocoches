@@ -46,7 +46,7 @@
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                  <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <a href="noticia-touran.php" class="enlace-blanco">
+                  <a href="noticia-dacia.php" class="enlace-blanco">
                   <h4 class="text-white">Dacia Duster 1.3 TCe y Media Nav Evolution</h4>
                   <p class="mb-0 text-white-50">Click aquí para entrar en la noticia</p>
                   </a>

@@ -17,7 +17,7 @@
   <div class="container bg-light">
       <section id="projects" class="projects-section bg-light">
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-           <div class="col-lg-7">
+           <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/merche.jpg" alt="">
           </div>
           <div class="col-lg-5">
@@ -39,7 +39,7 @@
       <!--Noticia 2 -->
       
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/daciaduster.jpg" alt="">
           </div>
           <div class="col-lg-5">
@@ -60,7 +60,7 @@
 
       <!--Noticia 3 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/hyundai-i30N.jpg" alt="">
           </div>
           <div class="col-lg-5">
@@ -82,7 +82,7 @@
 
       <!--Noticia 4 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/bmwm3.jpg" alt="">
           </div>
           <div class="col-lg-5">
@@ -104,7 +104,7 @@
 
       <!--Noticia 5 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/vw-touran.jpg" alt="">
           </div>
           <div class="col-lg-5">
@@ -126,7 +126,7 @@
 
       <!--Noticia 6 -->
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-7">
+          <div class="col-lg-6">
             <img class="img-fluid" src="../img/noticias/audi-a3.jpg" alt="">
           </div>
           <div class="col-lg-5">

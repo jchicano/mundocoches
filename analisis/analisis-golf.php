@@ -218,7 +218,20 @@
           </li>
         </ul>
       </div>
-      
+      <hr class="my-4 w-100">
+      <div class="col-lg-12">
+        <h3>Fuente(s)</h3>
+      </div>
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.motorpasion.com/pruebas-de-coches/volkswagen-golf-2017-prueba-contacto">Enlace 1</a>
+          </li>
+          <li>
+            <a href="https://www.km77.com/coches/volkswagen/golf/2017/5-puertas/informacion/volkswagen-golf-5p-2017-impresiones-de-conduccion">Enlace 2</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   </div>

@@ -206,7 +206,20 @@
           </li>
         </ul>
       </div>
-      
+      <hr class="my-4 w-100">
+      <div class="col-lg-12">
+        <h3>Fuente(s)</h3>
+      </div>
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.leaseplango.es/blog/comparativa/citroen-c4-analisis-completo/">Enlace 1</a>
+          </li>
+          <li>
+            <a href="http://www.revistadelmotor.es/2017/02/25/prueba-citroen-c4.html/">Enlace 2</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   </div>

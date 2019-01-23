@@ -19,7 +19,7 @@ $resultado = $con->query($sql);
 if($con->affected_rows){ //Devuelve 0 o un numero
     while($fila = $resultado->fetch_object()){
         $u = new Usuario($fila->id, $fila->email, $fila->pass, $fila->nombre, $fila->apellido1, $fila->apellido2, $fila->fecha_nac, $fila->pais, $fila->cod_postal, $fila->telefono, $fila->rol); //Nombre de las columnas de la tabla
-        $usuarios[] = clone($u); //Array de objetos de la clase Juegos
+        $usuarios[] = clone($u); //Array de objetos de la clase Usuario
     }
     $con->close();
     //return $usuarios;

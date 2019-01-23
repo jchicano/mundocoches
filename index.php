@@ -50,9 +50,16 @@
     <source src="videos/mundocoches-trailer.mp4" type="video/mp4">
     <source src="videos/mundocoches-trailer.webm" type="video/webm">
 </video>-->
-<div class="plyr__video-embed" id="player">
+<div class="ocultar-en-movil">
+<div class="plyr__video-embed " id="player">
     <iframe src="https://player.vimeo.com/video/306539258?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media" allowfullscreen allowtransparency allow="autoplay"></iframe>
 </div>
+</div>
+
+<!--En el caso de un dispositivo móvil el se muestra una imagen del reproductor enlazado al vídeo original-->
+<a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/306539258">
+  <img class="mostrar-en-movil img-fluid" src="img/videos/miniatura-trailer-movil.jpeg" alt="Tráiler de MundoCoches">
+</a>
 <!-- Fin video -->
 <!-- Comienzo script -->
     

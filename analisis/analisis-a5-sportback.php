@@ -232,7 +232,20 @@
           </li>
         </ul>
       </div>
-      
+      <hr class="my-4 w-100">
+      <div class="col-lg-12">
+        <h3>Fuente(s)</h3>
+      </div>
+      <div class="col-lg-12">
+        <ul>
+          <li>
+            <a href="https://www.topgear.es/pruebas/prueba-audi-a5-sportback-2017-99944">Enlace 1</a>
+          </li>
+          <li>
+            <a href="https://www.diariodesevilla.es/motor/prueba-audi-a5-sportback-2-tfsi-quattro-s-tronic-2017-novedades-motor_0_1157884773.html">Enlace 2</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <!--   -->
 

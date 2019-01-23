@@ -36,7 +36,6 @@
     .contenedor-dcha{
         padding-left: 0px !important;
     }
-
 }
 
 /* === CLASE PARA ELIMINAR LOS TITULOS EN LAS CABECEERAS CON IMAGENES === */
@@ -44,13 +43,12 @@
     .desaparecer-movil{
         display: none;
     }
-    .bajar-tamano-movil{ /*Clase para disminuir el tamaño del titulo h1 de la cabecera*/
+    .bajar-tamano-movil{ /* Clase para disminuir el tamaño del titulo h1 de la cabecera */
         font-size: 130% !important;
     }
-    .bajar-tamano-subtitulo-movil{/*Clase para disminuir el tamaño del subtitulo de la cabecera, se usa de momento solo en el index*/
+    .bajar-tamano-subtitulo-movil{/* Clase para disminuir el tamaño del subtitulo de la cabecera, se usa de momento solo en el index */
         font-size: 80% !important;
     }
-    
 }
 
 /* === ESTILO DEL BOTON DE SUSCRIPCION AL CORREO === */
@@ -62,3 +60,23 @@
 /*.plyr {
     border-radius: 4px;
 }*/
+
+/* === CLASES CREADAS PARA MOSTRAR U OCULTAR EL REPRODUCTOR DE VÍDEO DE LA PÁGINA PRINCIPAL DEPENDIENDO DEL DISPOSITIVO QUE SE USE === */
+.ocultar-en-movil{
+    display: inherit
+}
+.mostrar-en-movil{
+    display: none;
+}
+
+/* Si se activa el modo responsive lo que se mostraba ahora esta oculto */
+@media (max-width: 991px) { /* Pixeles del tamano lg */
+    .ocultar-en-movil{
+        display: none
+    }
+    .mostrar-en-movil{
+        display: inherit;
+        height: 100%;
+        width: 100%;
+    }
+}

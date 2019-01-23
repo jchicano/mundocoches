@@ -50,6 +50,9 @@ Términos legales extraídos de https://www.roberthalf.cl/terminos-y-condiciones
 Posibles formularios de Login y Registro: https://startbootstrap.com/snippets/login/ https://startbootstrap.com/snippets/registration-page/
 
 Sitemaps: https://neilpatel.com/es/blog/mapa-de-sitio-xml/
+
+
+
 <br><br>
 
 

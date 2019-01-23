@@ -2,3 +2,13 @@ Esta carpeta contiene los archivos *.sql usados en la base de datos, para así p
 Mantenerlo actualizado
 
 el prefijo de la BD es siempre b22_23036480_nombreBBDD
+
+---
+
+ALTER TABLE tbl_name DROP FOREIGN KEY fk_symbol;
+
+ALTER TABLE table_name
+    ADD CONSTRAINT fk_foreign_key_name
+    FOREIGN KEY (foreign_key_name)
+    REFERENCES target_table(target_key_name)
+    

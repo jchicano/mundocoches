@@ -5,11 +5,11 @@ el prefijo de la BD es siempre b22_23036480_nombreBBDD
 
 ---
 
-ALTER TABLE valoracion DROP FOREIGN KEY fk_articulo;
+ALTER TABLE valoracion DROP FOREIGN KEY fk_usuario;
 
 ALTER TABLE valoracion
-    ADD CONSTRAINT fk_articulo
-    FOREIGN KEY (id_articulo)
-    REFERENCES articulo(id)
+    ADD CONSTRAINT fk_usuario
+    FOREIGN KEY (id_usuario)
+    REFERENCES usuario(id)
     ON UPDATE CASCADE
     ON DELETE RESTRICT

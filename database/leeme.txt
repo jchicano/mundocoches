@@ -1,0 +1,2 @@
+Esta carpeta contiene los archivos *.sql usados en la base de datos, para así poder importarlos al servidor MySQL remoto.
+Mantenerlo actualizado

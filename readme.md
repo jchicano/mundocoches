@@ -47,9 +47,9 @@ https://github.com/sampotts/plyr<br>
 
 Términos legales extraídos de https://www.roberthalf.cl/terminos-y-condiciones-de-uso-de-sitio-web y https://www.coches.net/condiciones-de-uso/<br>
 
-Posibles formularios de Login y Registro: https://startbootstrap.com/snippets/login/ https://startbootstrap.com/snippets/registration-page/
+Posibles formularios de Login y Registro: https://startbootstrap.com/snippets/login/ https://startbootstrap.com/snippets/registration-page/<br>
 
-Sitemaps: https://neilpatel.com/es/blog/mapa-de-sitio-xml/
+Sitemaps: https://neilpatel.com/es/blog/mapa-de-sitio-xml/<br>
 
 
 

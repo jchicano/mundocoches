@@ -53,9 +53,18 @@ foreach ($usuarios as $usuario) {
 
     ?>
 
+<div class="row">
+<div class="col-lg-12">
 <form method="post">
   <textarea id="summernote" name="editordata"></textarea>
 </form>
+</div>
+</div>
+<button onclick="mostrar()">Mostrar</button>
+<br><br><br>
+<div id="cuadro" style="height:120px; width:210px; background-color: lightblue;"></div>
+
+
 
 
     <script>
@@ -70,6 +79,10 @@ foreach ($usuarios as $usuario) {
         ]
     });
       $('#summernote').summernote('fontName', 'Segoe UI');
+
+    function mostrar(){
+        alert($('#summernote').summernote('code'));
+    }
 
     </script>
 

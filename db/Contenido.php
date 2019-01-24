@@ -13,6 +13,7 @@ class Contenido {
         $this->url = $url;
         $this->titulo = $titulo;
         $this->fecha_publicacion = $fecha_publicacion;
+        $this->id_usuario_autor = $id_usuario_autor;
         $this->texto = $texto;
     }
     
@@ -27,7 +28,7 @@ class Contenido {
        
     
     public function __toString() {
-        return "ID: $this->$id, url: $this->$url, titulo: $this->$titulo, fecha_publicacion: $this->$fecha_publicacion, texto: $this->$texto";
+        return "ID: $this->$id, url: $this->$url, titulo: $this->$titulo, fecha_publicacion: $this->$fecha_publicacion, id_usuario_autor: $this->$id_usuario_autor, texto: $this->$texto";
     }
     
 }

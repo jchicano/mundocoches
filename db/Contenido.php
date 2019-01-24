@@ -9,7 +9,7 @@ class Contenido {
     private $texto;
     
     
-    public function __construct($id, $url, $titulo, $fecha_publicacion, $texto) {
+    public function __construct($id, $url, $titulo, $fecha_publicacion, $id_usuario_autor, $texto) {
         $this->id = $id;
         $this->url = $url;
         $this->titulo = $titulo;

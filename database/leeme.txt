@@ -17,3 +17,11 @@ ALTER TABLE valoracion
     ON UPDATE CASCADE
     ON DELETE RESTRICT
 
+(para la tabla contenido, que se guarde el autor)
+ALTER TABLE contenido
+    ADD CONSTRAINT fk_usuario_autor
+    FOREIGN KEY (id_usuario_autor)
+    REFERENCES usuario(id)
+    ON UPDATE CASCADE
+    ON DELETE RESTRICT
+

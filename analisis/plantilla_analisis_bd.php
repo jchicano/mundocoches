@@ -24,7 +24,11 @@ $CURRENT_PAGE = "Analisis extendido";
 $PAGE_TITLE = $c->titulo; //Sacado de la bd el titulo
 
 
-$str = substr($url, -16); //eliminamos la primera parte de la ruta
+$stringInicial = "/analisis/analisis-"; //String que queremos eliminar de la URL
+
+if(substr($url, 0, strlen($stringInicial)) === $stringInicial) //Calculamos la longitud de ese string y lo restamos
+    $str = substr($url, strlen($stringInicial));
+
 $str = basename($str, ".php"); //eliminamos la extension del archivo
 
 ?>
@@ -42,7 +46,8 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
 <body>
 
 <!--Texto de la pagina-->
-<?php echo $c->texto; ?>
+<?php //echo $c->texto; 
+echo "<h1>$str2</h1>"?>
 
 <!--Resto de scripts-->
 <?php include("../includes/navigation.php"); ?>

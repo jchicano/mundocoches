@@ -23,7 +23,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 $CURRENT_PAGE = "Analisis extendido";
 $PAGE_TITLE = $c->titulo; //Sacado de la bd el titulo
 
-//$url devuelve /analisis/analisis-a5-sportback.php 
+
 $str = substr($url, -16); //eliminamos la primera parte de la ruta
 $str = basename($str, ".php"); //eliminamos la extension del archivo
 

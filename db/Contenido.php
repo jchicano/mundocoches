@@ -5,6 +5,7 @@ class Contenido {
     private $url;
     private $titulo;
     private $fecha_publicacion;
+    private $id_usuario_autor;
     private $texto;
     
     

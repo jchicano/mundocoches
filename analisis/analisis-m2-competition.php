@@ -195,7 +195,7 @@
         </symbol>
       </svg>
       
-      <?php include("../includes/gallery-script.php");?>
+      
       
     </div>
     <!-- FIN GALERIA -->
@@ -265,6 +265,8 @@
     </div>
   </section>
   </div>
+
+<?php include("../includes/gallery-script.php");?>
 
 <?php include("../includes/footer.php");?>
 

@@ -47,8 +47,7 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
 <body>
 
 <!--Texto de la pagina-->
-<?php //echo $c->texto; 
-echo "<h1>$str2</h1>"?>
+<?php echo $c->texto;?>
 
 
 <!--Incluyo el autor del contenido-->

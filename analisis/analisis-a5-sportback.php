@@ -24,8 +24,12 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 $CURRENT_PAGE = "Analisis extendido";
 $PAGE_TITLE = $c->titulo; //Sacado de la bd el titulo
 
-//$url devuelve /analisis/analisis-a5-sportback.php 
-$str = substr($url, -16); //eliminamos la primera parte de la ruta
+
+$stringInicial = "/analisis/analisis-"; //String que queremos eliminar de la URL
+
+if(substr($url, 0, strlen($stringInicial)) === $stringInicial) //Calculamos la longitud de ese string y lo restamos
+    $str = substr($url, strlen($stringInicial));
+
 $str = basename($str, ".php"); //eliminamos la extension del archivo
 
 ?>

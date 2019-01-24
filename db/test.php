@@ -32,7 +32,7 @@
         $('#summernote').summernote({
             disableDragAndDrop: true,    // Deshabilitamos el Drag & Drop
             placeholder: 'write here...'// Custom placeholder
-        }); 
+        });
 
         function limpiar(){
             $('#summernote').summernote('code','');
@@ -95,7 +95,7 @@ foreach ($usuarios as $usuario) {
 </div>
 </div>
 </div>
-<button id="boton">Limpiar</button>
+<button class="btn btn-primary" id="boton">Limpiar</button>
 <br><br><br>
 <div id="cuadro" style="height:120px; width:210px; background-color: lightblue;"></div>
 

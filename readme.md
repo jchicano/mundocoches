@@ -51,6 +51,8 @@ Posibles formularios de Login y Registro: https://startbootstrap.com/snippets/lo
 
 Sitemaps: https://neilpatel.com/es/blog/mapa-de-sitio-xml/<br>
 
+Editor de texto WYSIWYG: https://summernote.org/deep-dive/#custom-toolbar-popover<br>
+
 
 
 <br><br>

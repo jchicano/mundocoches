@@ -109,19 +109,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
         </li>
-        <li class="nav-item">
-          <div class="dropdown">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-            <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-              <li><a href="#">HTML</a></li>
-              <li><a href="#">CSS</a></li>
-              <li><a href="#">JavaScript</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <li id="dropdownLoginLI" class="dropdown">
+        
+        <li id="dropdownLoginLI" class="dropdown nav-link">
             <button type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle"><i class="fas fa-user"></i> <span class="caret"></span></button>
             <ul class="dropdown-menu dropdown-menu-right mt-2">
                 <li class="px-3 py-2">

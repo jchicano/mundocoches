@@ -5,7 +5,7 @@ require_once("Usuario.php");
 //recogemos el id que hemos introducido en el formulario
 $id=isset($_GET['id'])?$_GET['id']:$_POST['id'];
 
-//crear conexión a la bd
+//Creamos la conexión a la BD
 $con = new Conexion();
 $con->set_charset("utf8"); //Establecemos la codificacion adecuada
 $sql = "SELECT * FROM usuario WHERE id=".$id;

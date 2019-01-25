@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/cookies.css"/>
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="js/cookies.js" type="text/javascript"></script>
+  <?php //setcookie("userId", 1, 0, "/");  /* expira cuando se cierre el navegador time()+3600 //PRODUCCION ELIMINAR, ES PROVISIONAL, DEBERIA CREARLA AL LOGUEAR EL USUARIO, LA COOKIE CONTIENE EL ID DEL USUARIO */ ?>
 </head>
 <body>
 

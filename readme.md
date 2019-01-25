@@ -53,9 +53,9 @@ Sitemaps: https://neilpatel.com/es/blog/mapa-de-sitio-xml/<br>
 
 Editor de texto WYSIWYG: https://summernote.org/deep-dive/#custom-toolbar-popover<br>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+Valoracion de contenidos: https://www.cssscript.com/accessible-star-rating-system-pure-css/<br>
+
+
 
 <br><br>
 

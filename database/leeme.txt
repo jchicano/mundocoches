@@ -28,3 +28,7 @@ ALTER TABLE contenido
     ON UPDATE CASCADE
     ON DELETE RESTRICT
 
+(establecemos como clave primaria las 2 claves ajenas)
+ALTER TABLE valoracion
+    ADD CONSTRAINT pk_id_usuario_id_contenido
+    PRIMARY KEY(id_usuario, id_contenido)

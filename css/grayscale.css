@@ -221,6 +221,16 @@
   margin-bottom: 5rem;
 }
 
+.politic-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(75%, rgba(255,255,255, 0.9)), to(rgba(255,255,255, 0.9)));
+  background: linear-gradient(to bottom, #FFFFFF 0%, rgba(255,255,255, 0.9) 75%, rgba(255,255,255, 0.9) 100%);
+}
+
+.politic-section p {
+  margin-bottom: 5rem;
+}
+
 .projects-section {
   padding: 10rem 0;
 }

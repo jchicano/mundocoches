@@ -4,10 +4,21 @@
 <head>
   <?php include("includes/head-tag-contents.php");?>
   <link rel="stylesheet" href="css/video.css">
+  <link rel="stylesheet" href="css/cookies.css"/>
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/cookies.js" type="text/javascript"></script>
 </head>
 <body>
 
 <?php include("includes/navigation.php");?>
+
+<div id="overbox3">
+  <div id="infobox3">
+    <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+      <a href="politica.php">Más información</a>
+      <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
+  </div>
+</div>
 
 <!-- CONTENIDO -->
 

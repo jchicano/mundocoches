@@ -63,6 +63,23 @@
     <!--Script para inicializar la valoracion-->
     <script src="rating-stars.js"></script>
     
+    <!--Script de prueba de AJAX-->
+    <script>
+        $(document).ready(function() {
+            $('#id').blur(function(){
+                // lo voy a hacer sin el método serialize() ya que solo vamos a enviar el id	
+                var datosFormulario={id : $("#id").val()};
+                $.getJSON('devuelveJsonUsuario.php',datosFormulario,procesarDatos);
+                //return false;
+            })
+                
+            function procesarDatos(datosJson){
+                $("#contenedor").html(datosJson.id+" "+datosJson.email+" "+datosJson.nombre);
+            }
+            
+        }); 
+    </script>
+
 </head>
 <body>
     <?php
@@ -112,7 +129,17 @@
 </div>
 <button class="btn btn-primary" id="boton">Limpiar</button>
 <button class="btn btn-primary" id="boton2">Obtener HTML</button>
-<br><br><br>
+
+<br><br><br><br><br>
+
+
+<form method="get" action="alta.php" id="formularioJson">
+<label for="id">ID (y luego quita el foco):</label>
+<input type="text" name="id" id="id">
+</form>
+<br>
+<div id="contenedor"></div>
+
 
 <br><br><br><br><br>
 

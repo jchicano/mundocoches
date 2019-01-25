@@ -62,6 +62,7 @@
     <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
     <!--Script para inicializar la valoracion-->
     <script src="rating-stars.js"></script>
+    
 </head>
 <body>
     <?php

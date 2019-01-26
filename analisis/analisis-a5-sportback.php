@@ -98,7 +98,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <div class="col-lg-4">
-        <span class="h5">Autor: </span><span class="h6"><?php echo $u->nombre ?></span>
+        <span class="h5">Autor: </span><span id="test" class="h6"><?php echo $u->nombre ?></span>
       </div>
       <div class="col-lg-4">
         <!-- Rating Stars Box -->
@@ -150,9 +150,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       <div class="col-lg-3">
       </div>
       <div class="col-lg-6">
-        <form method="post">
-          <textarea id="summernote" name="editordata" cols="30" rows="5"></textarea>
-        </form>
+        <div id="summernote"></div>
         <div class="text-center">
           <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Enviar</button>
         </div>
@@ -178,6 +176,15 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
         <!--//TODO añadir lista de comentarios con PHP, el que envie el usuario se mostrara en la siguiente recarga-->
+        <!--
+        Para la valoracion:
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span> 3 Estrellas
+
+        -->
       </div>
     </div>
     <!--Enlaces de prueba
@@ -192,7 +199,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 
 
 <!--Script para inicializar Summernote-->
-<script>
+<script> //PRUEBA
 $('#summernote').summernote({
       toolbar: [ //Personalizamos la barra de herramientas
           // [groupName, [list of button]]
@@ -227,7 +234,13 @@ $('#summernote').summernote({
   $('#btnLimpiar').on("click",limpiar);
   $('#btnEnviar').on("click",obtenerCodigo);
 </script>
-
+<!--
+<script>
+$(document).ready(function() {
+  $("#summernote").summernote();
+});
+</script>
+-->
 
 <!--Resto de scripts-->
 <?php include("../includes/navigation.php"); ?>

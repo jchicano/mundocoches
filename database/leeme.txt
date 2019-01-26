@@ -3,7 +3,7 @@ Mantenerlo actualizado
 
 el prefijo de la BD es siempre b22_23036480_nombreBBDD
 
-El rol de la base de datos va a ser entero(1) donde 1="administrador" 2="editor" 3="valorador".
+El rol de la base de datos va a ser entero(1) donde 1="administrador" 2="editor" 3="valorador". 0="nada" por defecto serán 0 y luego ya el admin en el backend lo cambiara
 Tener en cuenta que un administrador es también editor y valorados, un editor es también valorador y un valorado sólo es valorador.
 
 He utilizado el comentario '//PRODUCCION' para indiar parametros que cmabiarian en el entorno de produccion

@@ -49,8 +49,54 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
   <!--Script para inicializar la valoracion-->
   <script src="../js/rating-stars.js"></script>
 
-  <!--Script de AJAX para guardar la valoracion-->
-  <script></script>
+  <!----------------SCRIPTS PARA SUMMERNOTE CON BOOTSTRAP (NO BORRAR LOS DE BOOTSTRAP PORQUE PETA)---------------->
+    <!-- Stuff necessary for summernote -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
+    <script src="../js/summernote-es-ES.js"></script>
+
+    <!--Script para inicializar Summernote-->
+    <script>
+      $(document).ready(function() {
+          $('#summernote').summernote({
+              toolbar: [ //Personalizamos la barra de herramientas
+                  // [groupName, [list of button]]
+                  ['style', ['bold', 'italic', 'underline', 'clear']],
+                  ['font', ['Segoe UI']],
+                  //['fontsize', ['fontsize',16]],
+                  ['color', ['color']],
+                  ['para', ['ul', 'ol']],
+                  ['history', ['undo', 'redo']]
+              ],
+                  lang: 'es-ES', // Traducimos el hover de la barra de herramientas
+                  fontname: 'Segoe UI', // Establecemos la fuente de la guia de estilos
+                  disableDragAndDrop: true, // Deshabilitamos el Drag & Drop
+                  placeholder: 'Comienza a escribir...' // Custom placeholder
+          });
+          //$('#summernote').summernote('justifyFull'); // Justificamos todo por defecto
+
+
+          function limpiar(){
+              $('#summernote').summernote('code','');
+          }
+
+          //Para obtener el codigo HTML
+          //$('#summernote').summernote('code');
+          
+
+          function obtenerCodigo(){
+              let codigo = $('#summernote').summernote('code');
+              alert(codigo);
+          }
+
+          $('#boton').on("click",limpiar);
+          $('#boton2').on("click",obtenerCodigo);
+
+      });
+    </script>
 
 </head>
 <body>
@@ -76,12 +122,23 @@ if($con->affected_rows){ //Devuelve 0 o un numero
   $con->close();
 }
 ?>
+<!--Autor y valoracion del articulo-->
 <div class="container">
   <section id="scroll" class="projects-section bg-light reducirMargenSuperior">
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <hr class="my-4 w-100">
       <div class="col-lg-4">
         <h5>Autor: <?php echo $u->nombre ?></h5>
+      </div>
+      <div class="col-lg-4">
+        <h5>Tu nota</h5>
+      </div>
+      <div class="col-lg-4">
+        <h5>Nota media</h5>
+      </div>
+    </div>
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+      <div class="col-lg-4">
       </div>
       <div class="col-lg-4">
         <!-- Rating Stars Box -->
@@ -138,14 +195,13 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         </div>
       </div>
     </div>
+    <!--Enlaces de prueba
     <a href="../db/guardarValoracion.php?id=1&nota=5">guardarValoracionPrueba</a>
     <br>
     <a href="../db/obtenerValoracion.php">obtenerValoracionPrueba</a>
     <br>
     <a href="../db/obtenerValoracionMedia.php">obtenerValoracionMediaPrueba</a>
-    <br>
-    <h6>Contenedor que indica:</h6>
-    <div id="contenedor"></div>
+    <br>-->
   </section>
 </div>
 

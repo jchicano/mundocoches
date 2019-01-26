@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <!----------------SCRIPTS PARA SUMMERNOTE CON BOOTSTRAP (NO BORRAR LOS DE BOOTSTRAP PORQUE PETA)--------------------->
+    <!----------------SCRIPTS PARA SUMMERNOTE CON BOOTSTRAP (NO BORRAR LOS DE BOOTSTRAP PORQUE PETA)---------------->
     <!-- Stuff necessary for summernote -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

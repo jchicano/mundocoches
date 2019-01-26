@@ -58,46 +58,6 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
     <script src="../js/summernote-es-ES.js"></script>
 
-    <!--Script para inicializar Summernote-->
-    <script>
-      $(document).ready(function() {
-          $('#summernote').summernote({
-              toolbar: [ //Personalizamos la barra de herramientas
-                  // [groupName, [list of button]]
-                  ['style', ['bold', 'italic', 'underline', 'clear']],
-                  ['font', ['Segoe UI']],
-                  //['fontsize', ['fontsize',16]],
-                  ['color', ['color']],
-                  ['para', ['ul', 'ol']],
-                  ['history', ['undo', 'redo']]
-              ],
-                  lang: 'es-ES', // Traducimos el hover de la barra de herramientas
-                  fontname: 'Segoe UI', // Establecemos la fuente de la guia de estilos
-                  disableDragAndDrop: true, // Deshabilitamos el Drag & Drop
-                  placeholder: 'Comienza a escribir...' // Custom placeholder
-          });
-          //$('#summernote').summernote('justifyFull'); // Justificamos todo por defecto
-
-
-          function limpiar(){
-              $('#summernote').summernote('code','');
-          }
-
-          //Para obtener el codigo HTML
-          //$('#summernote').summernote('code');
-          
-
-          function obtenerCodigo(){
-              let codigo = $('#summernote').summernote('code');
-              alert(codigo);
-          }
-
-          $('#boton').on("click",limpiar);
-          $('#boton2').on("click",obtenerCodigo);
-
-      });
-    </script>
-
 </head>
 <body>
 
@@ -128,7 +88,6 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <hr class="my-4 w-100">
       <div class="col-lg-4">
-        <h5>Autor: <?php echo $u->nombre ?></h5>
       </div>
       <div class="col-lg-4">
         <h5>Tu nota</h5>
@@ -139,6 +98,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <div class="col-lg-4">
+        <span class="h5">Autor: </span><span class="h6"><?php echo $u->nombre ?></span>
       </div>
       <div class="col-lg-4">
         <!-- Rating Stars Box -->
@@ -185,6 +145,22 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         </div>
       </div>
     </div>
+
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-6">
+        <form method="post">
+          <textarea id="summernote" name="editordata" cols="30" rows="5"></textarea>
+        </form>
+        <div class="text-center">
+          <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Enviar</button>
+        </div>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <div class="col-lg-12">
         <div class='success-box' style="display:none">
@@ -193,6 +169,15 @@ if($con->affected_rows){ //Devuelve 0 o un numero
           <div class='text-message'></div>
           <div class='clearfix'></div>
         </div>
+      </div>
+    </div>
+    
+    <div class="row justify-content-left no-gutters mb-5 mb-lg-0 text-justify">
+      <h5>Comentarios:</h5>
+    </div>
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-12">
+        <!--//TODO añadir lista de comentarios con PHP, el que envie el usuario se mostrara en la siguiente recarga-->
       </div>
     </div>
     <!--Enlaces de prueba
@@ -204,6 +189,44 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <br>-->
   </section>
 </div>
+
+
+<!--Script para inicializar Summernote-->
+<script>
+$('#summernote').summernote({
+      toolbar: [ //Personalizamos la barra de herramientas
+          // [groupName, [list of button]]
+          ['history', ['undo', 'redo']],
+          ['style', ['bold', 'italic', 'underline', 'clear']],
+          ['font', ['Segoe UI']],
+          //['fontsize', ['fontsize',16]],
+          ['color', ['color']],
+          ['para', ['ul', 'ol']]
+          
+      ],
+          lang: 'es-ES', // Traducimos el hover de la barra de herramientas, hay que descargar el archivo JavaScript
+          fontname: 'Segoe UI', // Establecemos la fuente de la guia de estilos
+          disableDragAndDrop: true, // Deshabilitamos el Drag & Drop
+          placeholder: 'Escribe un comentario...', // Custom placeholder
+          height: 120
+  });
+  //$('#summernote').summernote('justifyFull'); // Justificamos todo por defecto
+
+  function limpiar(){
+      $('#summernote').summernote('code','');
+  }
+
+  //Para obtener el codigo HTML
+  //$('#summernote').summernote('code');
+  
+  function obtenerCodigo(){
+      let codigo = $('#summernote').summernote('code');
+      alert(codigo);
+  }
+
+  $('#btnLimpiar').on("click",limpiar);
+  $('#btnEnviar').on("click",obtenerCodigo);
+</script>
 
 
 <!--Resto de scripts-->

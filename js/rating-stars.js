@@ -20,11 +20,16 @@ $(document).ready(function(){
     });
   });
 
-
+  //Funcion para mostrar las estrellas votadas por el usuario logueado
   $('#stars li').ready(function(){ //Cuando se carga la lista hacemos una consulta en obtenerValoracion.php para obtener si han habido votaciones con este usuario
     var datos={};
     $.getJSON('../db/obtenerValoracion.php',datos,asignarValor);
-    var stars = $(this).parent().children('li.star');
+  });
+
+  //Funcion para mostrar la nota media votada por todos los usuarios
+  $('#starsMedia li').ready(function(){ //Cuando se carga la lista hacemos una consulta en obtenerValoracion.php para obtener si han habido votaciones con este usuario
+    var datos={};
+    $.getJSON('../db/obtenerValoracionMedia.php',datos,asignarValorMedio);
   });
   
   
@@ -79,7 +84,14 @@ function asignarValor(datosRespuesta){
   for (i = 1; i <= cantidadEstrellasVotadas; i++) {
     $("#"+i).addClass('selected');
   }
+}
 
+function asignarValorMedio(datosRespuesta){
+  var cantidadEstrellasVotadasMedia = parseInt(datosRespuesta);
+
+  for (i = 1; i <= cantidadEstrellasVotadasMedia; i++) {
+    $("#media"+i).addClass('selected');
+  }
 }
 
 function responseMessage(msg) {

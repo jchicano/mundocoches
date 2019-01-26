@@ -84,29 +84,49 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         <h5>Autor: <?php echo $u->nombre ?></h5>
       </div>
       <div class="col-lg-4">
-      <!-- Rating Stars Box -->
-      <div class='rating-stars text-center'>
-        <ul id='stars'>
-          <li id="1" class='star' data-value='1'>
-            <i class='fa fa-star fa-fw'></i>
-          </li>
-          <li id="2" class='star' data-value='2'>
-            <i class='fa fa-star fa-fw'></i>
-          </li>
-          <li id="3" class='star' data-value='3'>
-            <i class='fa fa-star fa-fw'></i>
-          </li>
-          <li id="4" class='star' data-value='4'>
-            <i class='fa fa-star fa-fw'></i>
-          </li>
-          <li id="5" class='star' data-value='5'>
-            <i class='fa fa-star fa-fw'></i>
-          </li>
-        </ul>
+        <!-- Rating Stars Box -->
+        <div class='rating-stars text-center'>
+          <ul id='stars'>
+            <li id="1" class='star' data-value='1'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="2" class='star' data-value='2'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="3" class='star' data-value='3'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="4" class='star' data-value='4'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="5" class='star' data-value='5'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+          </ul>
+        </div>
       </div>
-      
-      
-    </div>
+      <!--Valoración media-->
+      <div class="col-lg-4">
+        <div class='rating-stars text-center'>
+          <ul id='starsMedia'>
+            <li id="media1" class='star' data-value='1'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="media2" class='star' data-value='2'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="media3" class='star' data-value='3'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="media4" class='star' data-value='4'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+            <li id="media5" class='star' data-value='5'>
+              <i class='fa fa-star fa-fw'></i>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <div class="col-lg-12">
@@ -121,6 +141,8 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <a href="../db/guardarValoracion.php?id=1&nota=5">guardarValoracionPrueba</a>
     <br>
     <a href="../db/obtenerValoracion.php">obtenerValoracionPrueba</a>
+    <br>
+    <a href="../db/obtenerValoracionMedia.php">obtenerValoracionMediaPrueba</a>
     <br>
     <h6>Contenedor que indica:</h6>
     <div id="contenedor"></div>

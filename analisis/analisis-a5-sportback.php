@@ -38,6 +38,7 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <?php include("../includes/head-tag-contents.php"); ?>
   <link rel="stylesheet" href="../css/analisis/<?php echo $str ?>.css">
 
@@ -49,14 +50,10 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
   <!--Script para inicializar la valoracion-->
   <script src="../js/rating-stars.js"></script>
 
-  <!----------------SCRIPTS PARA SUMMERNOTE CON BOOTSTRAP (NO BORRAR LOS DE BOOTSTRAP PORQUE PETA)---------------->
-    <!-- Stuff necessary for summernote -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-bs4.js"></script>
-    <script src="../js/summernote-es-ES.js"></script>
+  <!--Hoja de estilos de Quill-->
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+  
 
 </head>
 <body>
@@ -150,7 +147,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       <div class="col-lg-3">
       </div>
       <div class="col-lg-6">
-        <div id="summernote"></div>
+        <div id="editor"></div>
         <div class="text-center">
           <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Enviar</button>
         </div>
@@ -187,60 +184,68 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         -->
       </div>
     </div>
-    <!--Enlaces de prueba
+    Enlaces de prueba
     <a href="../db/guardarValoracion.php?id=1&nota=5">guardarValoracionPrueba</a>
+    <br>
+    <a href="../db/guardarComentario.php?id=1&comentario=Comentario%20de%20prueba%20en%20la%20URL">guardarComentarioPrueba</a>
     <br>
     <a href="../db/obtenerValoracion.php">obtenerValoracionPrueba</a>
     <br>
     <a href="../db/obtenerValoracionMedia.php">obtenerValoracionMediaPrueba</a>
-    <br>-->
+    <br>
   </section>
 </div>
 
 
-<!--Script para inicializar Summernote-->
-<script> //PRUEBA
-$('#summernote').summernote({
-      toolbar: [ //Personalizamos la barra de herramientas
-          // [groupName, [list of button]]
-          ['history', ['undo', 'redo']],
-          ['style', ['bold', 'italic', 'underline', 'clear']],
-          ['font', ['Segoe UI']],
-          //['fontsize', ['fontsize',16]],
-          ['color', ['color']],
-          ['para', ['ul', 'ol']]
-          
-      ],
-          lang: 'es-ES', // Traducimos el hover de la barra de herramientas, hay que descargar el archivo JavaScript
-          fontname: 'Segoe UI', // Establecemos la fuente de la guia de estilos
-          disableDragAndDrop: true, // Deshabilitamos el Drag & Drop
-          placeholder: 'Escribe un comentario...', // Custom placeholder
-          height: 120
-  });
-  //$('#summernote').summernote('justifyFull'); // Justificamos todo por defecto
+<!-- Include the Quill library -->
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 
-  function limpiar(){
-      $('#summernote').summernote('code','');
-  }
-
-  //Para obtener el codigo HTML
-  //$('#summernote').summernote('code');
-  
-  function obtenerCodigo(){
-      let codigo = $('#summernote').summernote('code');
-      alert(codigo);
-  }
-
-  $('#btnLimpiar').on("click",limpiar);
-  $('#btnEnviar').on("click",obtenerCodigo);
-</script>
-<!--
+<!-- Initialize Quill editor -->
 <script>
-$(document).ready(function() {
-  $("#summernote").summernote();
+  //Modificamos la barra de tareas
+  var toolbarOptions = [
+  ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
+  [{ 'align': [] }],
+  ['blockquote', /*'code-block'*/],
+
+  //[{ 'header': 1 }, { 'header': 2 }],               // custom button values
+  ['clean'],                                         // remove formatting button
+  [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+  //[{ 'script': 'sub'}, { 'script': 'super' }],      // superscript/subscript
+  [{ 'indent': '-1'}, { 'indent': '+1' }],          // outdent/indent
+  //[{ 'direction': 'rtl' }],                         // text direction
+
+  //[{ 'size': ['small', false, 'large', 'huge'] }],  // custom dropdown
+  //[{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+
+  [{ 'color': [] }, { 'background': [] }]          // dropdown with defaults from theme
+  //[{ 'font': [] }],
+];
+
+var quill = new Quill('#editor', {
+  modules: {
+    toolbar: toolbarOptions
+  },
+  theme: 'snow'
 });
+
+
+
+function quillGetHTML(inputDelta) {
+    var tempCont = document.createElement("div");
+    (new Quill(tempCont)).setContents(inputDelta);
+    return tempCont.getElementsByClassName("ql-editor")[0].innerHTML;
+}
+
+$("#btnEnviar").on("click", function(){
+  var deltaContent = quill.getContents();
+  var htmlText = quillGetHTML(deltaContent);
+  alert(htmlText);
+});
+
+
 </script>
--->
+
 
 <!--Resto de scripts-->
 <?php include("../includes/navigation.php"); ?>

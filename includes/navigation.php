@@ -122,18 +122,24 @@
                             <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
                         </div>
-                        <div class="text-center">
-                            <small>or</small>
-                        </div>
+                        
+                        <hr>
 
                         <div class="form-group">
-                            <button id="googleSignInBtn" class="btn-google">SIGN IN WITH GOOGLE</button>
+                            <button id="googleSignInBtn" class="btn-google"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
                         </div>
                         
                         <div class="form-group text-center">
-                            <small><a href="#" data-toggle="modal" data-target="#modalPassword">Forgot password?</a></small>
+                        <?php if ($CURRENT_PAGE == "Index") { ?>
+                          <small><a href="registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
+                        <?php } else { ?>
+                          <small><a href="../registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
+                        <?php
+                          }
+                        ?>
+                            
                         </div>
                     </form>
                 </li>

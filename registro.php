@@ -29,7 +29,7 @@
         <div class="card-body">
             <h5 class="card-title text-center">Registrarse</h5>
             <p style="font-size: 12px;">Los campos con el símbolo * son obligatorios</p>
-            <form class="form-signin">
+            <form action="" method="post" class="form-signin">
             <div class="form-label-group"> <!-- Usuario -->
                 <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
                 <label for="inputUserame">Nombre de usuario *</label>
@@ -83,8 +83,6 @@
             </div>
 
             <hr>
-
-            
 
             <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Registrarse</button>
 

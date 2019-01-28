@@ -34,7 +34,7 @@ $resultado = $con->query($sql);
 if($con->affected_rows && $con->errno == 0){
     echo 1;
 }
-else { //Entraría aquí si se produce el error 1602 para las claves duplicadas
+else { //Entraría aquí si se produce el error 1602 para las claves duplicadas porque ya hay un registro con el id de usuario y de articulo
     $sql = "UPDATE valoracion
     SET nota = $nota
     WHERE id_usuario=$idUsuario && id_contenido=$idArticuloActual";

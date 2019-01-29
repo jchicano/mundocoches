@@ -55,6 +55,8 @@ Editor de texto WYSIWYG: https://summernote.org/deep-dive/#custom-toolbar-popove
 
 Valoracion de contenidos: https://codepen.io/depy/pen/vEWWdw<br>
 
+Estilo comentarios: https://bootsnipp.com/snippets/7Nj38<br>
+
 
 
 

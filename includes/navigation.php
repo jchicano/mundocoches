@@ -119,7 +119,7 @@
                             <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="text" required="">
                         </div>
                         <div class="form-group">
-                            <input id="passwordInput" placeholder="Password" class="form-control form-control-sm" type="text" required="">
+                            <input id="passwordInput" placeholder="Contraseña" class="form-control form-control-sm" type="text" required="">
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>

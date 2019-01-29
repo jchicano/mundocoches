@@ -81,7 +81,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 ?>
 <!--Autor y valoracion del articulo-->
 <div class="container">
-  <section id="scroll" class="projects-section bg-light reducirMargenSuperior">
+  <section id="scroll" class="projects-section bg-light reducirMargenSuperior" style="margin-bottom:-130px">
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <hr class="my-4 w-100">
       <div class="col-lg-4">
@@ -141,7 +141,18 @@ if($con->affected_rows){ //Devuelve 0 o un numero
           </ul>
         </div>
       </div>
+      <div class="col-lg-12">
+        <div class='success-box' style="display:none">
+          <div class='clearfix'></div>
+          <img alt='tick image' width='32' src='data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MjYuNjY3IDQyNi42NjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQyNi42NjcgNDI2LjY2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM2QUMyNTk7IiBkPSJNMjEzLjMzMywwQzk1LjUxOCwwLDAsOTUuNTE0LDAsMjEzLjMzM3M5NS41MTgsMjEzLjMzMywyMTMuMzMzLDIxMy4zMzMgIGMxMTcuODI4LDAsMjEzLjMzMy05NS41MTQsMjEzLjMzMy0yMTMuMzMzUzMzMS4xNTcsMCwyMTMuMzMzLDB6IE0xNzQuMTk5LDMyMi45MThsLTkzLjkzNS05My45MzFsMzEuMzA5LTMxLjMwOWw2Mi42MjYsNjIuNjIyICBsMTQwLjg5NC0xNDAuODk4bDMxLjMwOSwzMS4zMDlMMTc0LjE5OSwzMjIuOTE4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K'/>
+          <div class='text-message'></div>
+          <div class='clearfix'></div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-3">
@@ -149,7 +160,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       <div class="col-lg-6">
         <div id="editor"></div>
         <div class="text-center">
-          <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Enviar</button>
+          <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Comentar</button>
         </div>
       </div>
       <div class="col-lg-3">
@@ -157,17 +168,18 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     </div>
 
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
-      <div class="col-lg-12">
-        <div class='success-box' style="display:none">
+      
+        <div class="col-lg-12">
+        <div class='fail-box' style="display:none">
           <div class='clearfix'></div>
-          <img alt='tick image' width='32' src='data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MjYuNjY3IDQyNi42NjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQyNi42NjcgNDI2LjY2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM2QUMyNTk7IiBkPSJNMjEzLjMzMywwQzk1LjUxOCwwLDAsOTUuNTE0LDAsMjEzLjMzM3M5NS41MTgsMjEzLjMzMywyMTMuMzMzLDIxMy4zMzMgIGMxMTcuODI4LDAsMjEzLjMzMy05NS41MTQsMjEzLjMzMy0yMTMuMzMzUzMzMS4xNTcsMCwyMTMuMzMzLDB6IE0xNzQuMTk5LDMyMi45MThsLTkzLjkzNS05My45MzFsMzEuMzA5LTMxLjMwOWw2Mi42MjYsNjIuNjIyICBsMTQwLjg5NC0xNDAuODk4bDMxLjMwOSwzMS4zMDlMMTc0LjE5OSwzMjIuOTE4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K'/>
+          <img alt='error image' width='32' src='https://image.flaticon.com/icons/svg/291/291202.svg'/>
           <div class='text-message'></div>
           <div class='clearfix'></div>
         </div>
       </div>
     </div>
     
-    <div class="row justify-content-left no-gutters mb-5 mb-lg-0 text-justify">
+    <div class="row justify-content-left no-gutters mb-5 mb-lg-0 text-justify" style="margin-top: 150px; margin-bottom: 150px;">
       <h5>Comentarios:</h5>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
@@ -202,46 +214,11 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 
 <!-- Initialize Quill editor -->
 <script>
-  //Modificamos la barra de tareas
-  var toolbarOptions = [
-  ['bold', 'italic', 'underline', 'strike'],        // toggled buttons
-  [{ 'align': [] }],
-  ['blockquote', /*'code-block'*/],
-
-  //[{ 'header': 1 }, { 'header': 2 }],               // custom button values
-  ['clean'],                                         // remove formatting button
-  [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-  //[{ 'script': 'sub'}, { 'script': 'super' }],      // superscript/subscript
-  [{ 'indent': '-1'}, { 'indent': '+1' }],          // outdent/indent
-  //[{ 'direction': 'rtl' }],                         // text direction
-
-  //[{ 'size': ['small', false, 'large', 'huge'] }],  // custom dropdown
-  //[{ 'header': [1, 2, 3, 4, 5, 6, false] }],
-
-  [{ 'color': [] }, { 'background': [] }]          // dropdown with defaults from theme
-  //[{ 'font': [] }],
-];
-
-var quill = new Quill('#editor', {
-  modules: {
-    toolbar: toolbarOptions
-  },
-  theme: 'snow'
-});
+  
 
 
 
-function quillGetHTML(inputDelta) {
-    var tempCont = document.createElement("div");
-    (new Quill(tempCont)).setContents(inputDelta);
-    return tempCont.getElementsByClassName("ql-editor")[0].innerHTML;
-}
 
-$("#btnEnviar").on("click", function(){
-  var deltaContent = quill.getContents();
-  var htmlText = quillGetHTML(deltaContent);
-  alert(htmlText);
-});
 
 
 </script>

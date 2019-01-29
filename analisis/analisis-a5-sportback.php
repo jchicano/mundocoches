@@ -38,7 +38,6 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <?php include("../includes/head-tag-contents.php"); ?>
   <link rel="stylesheet" href="../css/analisis/<?php echo $str ?>.css">
 
@@ -167,20 +166,27 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       </div>
     </div>
 
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
-      
-        <div class="col-lg-12">
-        <div class='fail-box' style="display:none">
-          <div class='clearfix'></div>
-          <img alt='error image' width='32' src='https://image.flaticon.com/icons/svg/291/291202.svg'/>
-          <div class='text-message'></div>
-          <div class='clearfix'></div>
+    <!-- The Modal -->
+    <div class="modal fade" id="modalComentario">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+        
+          <!-- Modal body -->
+          <div class="modal-body text-center">
+            <span class="h6">Comentario añadido correctamente</span>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+          </div>
+          
         </div>
       </div>
     </div>
     
     <div class="row justify-content-left no-gutters mb-5 mb-lg-0 text-justify" style="margin-top: 150px; margin-bottom: 150px;">
-      <h5>Comentarios:</h5>
+      <h5>Comentarios:</h5><!--quitar justificacion de texto y demas?-->
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
@@ -223,6 +229,8 @@ if($con->affected_rows){ //Devuelve 0 o un numero
 
 </script>
 
+
+<script src="../js/comentario.js"></script>
 
 <!--Resto de scripts-->
 <?php include("../includes/navigation.php"); ?>

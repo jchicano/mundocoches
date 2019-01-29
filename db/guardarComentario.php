@@ -4,7 +4,7 @@ require_once("Usuario.php");
 require_once("Contenido.php");
 
 //Guardamos el id de usuario logueado
-$idUsuario = isset($_GET['id'])?$_GET['id']:$_POST['id'];
+//$idUsuario = isset($_GET['id'])?$_GET['id']:$_POST['id'];
 $idUsuario = 1; //PRODUCCION esta puesto id usuario fijo
 
 //Guardamos la URL de la pagina anterior, para saber a que analisis nos referimos
@@ -33,20 +33,20 @@ $sql = "UPDATE valoracion
 $resultado = $con->query($sql);
 
 if($con->affected_rows && $con->errno == 0){
-    echo 1;
+    //echo 1;
     //echo '{"correcto": "1"}';
+    $jsondata['correcto'] = "insertado";
 }
 else { //Entraría aquí si no existe ninguna valoracion con el usuario actual en el articulo actual
-    /*$sql = "UPDATE valoracion
-    SET nota = $nota
-    WHERE id_usuario=$idUsuario && id_contenido=$idArticuloActual";
-    $resultado = $con->query($sql);*/
-    /*if($con->affected_rows && $con->errno == 0){ //Devuelve 0 o un numero
-        echo 1;
+    $jsondata['correcto'] = "comentarioRepetido";
+
+    $sql = "SELECT *
+    FROM valoracion
+    WHERE id_usuario = $idUsuario && id_contenido = $idArticuloActual";
+    $resultado = $con->query($sql);
+    if($con->affected_rows == 0){
+        $jsondata['correcto'] = "noValorado";
     }
-    else{*/
-        //echo '{"correcto": "0"}';
-        echo 0;
-    //}
 }
+echo json_encode($jsondata);
 $con->close();

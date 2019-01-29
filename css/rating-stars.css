@@ -1,5 +1,6 @@
 .success-box {
-  margin:50px 0;
+  /*margin:50px 0;*/
+  margin: 0;
   padding:10px 10px;
   border:1px solid #eee;
   background:#f9f9f9;

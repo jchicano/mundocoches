@@ -31,8 +31,8 @@ $(document).ready(function(){
     var datos={};
     $.getJSON('../db/obtenerValoracionMedia.php',datos,asignarValorMedio);
   });
-  
-  
+
+
   /* 2. Action to perform on click */
   $('#stars li').on('click', function(){
     //if(onStar == 0) //Si no se ha modificado

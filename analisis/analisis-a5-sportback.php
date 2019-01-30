@@ -18,8 +18,8 @@ if($con->affected_rows){ //Devuelve 0 o un numero
   while($fila = $resultado->fetch_object()){
       $c = new Contenido($fila->id, $fila->url, $fila->titulo, $fila->fecha_publicacion, $fila->id_usuario_autor, $fila->texto); //Nombre de las columnas de la tabla
   }
-  $con->close();
 }
+$con->close();
 
 $CURRENT_PAGE = "Analisis extendido";
 $PAGE_TITLE = $c->titulo; //Sacado de la bd el titulo

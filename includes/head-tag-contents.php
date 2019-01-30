@@ -6,8 +6,8 @@
 <title><?php print $PAGE_TITLE;?></title>
 
 <?php if ($CURRENT_PAGE == "Index") { ?>
-	<meta name="description" content="" />
-	<meta name="keywords" content="" /> 
+	<meta name="description" content="Esta es la web de MundoCoches" />
+	<meta name="keywords" content="coches" /> 
 <?php } ?>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -78,5 +78,4 @@
 
 <!-- Icono de usuario del menu-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
 <script src="//netdna.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>

@@ -45,14 +45,20 @@ $str = basename($str, ".php"); //eliminamos la extension del archivo
 
   <!--Para la valoracion-->
   <link rel="stylesheet" href="../css/rating-stars.css">
-  <link rel='stylesheet' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--Script para inicializar la valoracion-->
   <script src="../js/rating-stars.js"></script>
 
   <!--Hoja de estilos de Quill-->
   <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
 
+  <!-- Include the Quill library -->
+  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
   
+  <!--Estilos para la sección de comentarios-->
+  <link rel="stylesheet" href="../css/comentario.css">
+  <!--Script para la sección de comentarios-->
+  <script src="../js/comentario.js"></script>
 
 </head>
 <body>
@@ -84,61 +90,84 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <hr class="my-4 w-100">
       <div class="col-lg-4">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <span class="h5">Autor:&nbsp;</span><span><?php echo $u->nombre ?></span>
+        </div>
       </div>
       <div class="col-lg-4">
-        <h5>Tu nota</h5>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <h5>Tu nota</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <!-- Rating Stars Box -->
+            <div class='rating-stars text-center'>
+              <ul id='stars'>
+                <li id="1" class='star' data-value='1'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="2" class='star' data-value='2'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="3" class='star' data-value='3'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="4" class='star' data-value='4'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="5" class='star' data-value='5'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="col-lg-4">
-        <h5>Nota media</h5>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <h5>Nota media</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <!--Valoración media-->
+            <div class='rating-stars text-center'>
+              <ul id='starsMedia'>
+                <li id="media1" class='star' data-value='1'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media2" class='star' data-value='2'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media3" class='star' data-value='3'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media4" class='star' data-value='4'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media5" class='star' data-value='5'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
       <div class="col-lg-4">
-        <span class="h5">Autor: </span><span id="test" class="h6"><?php echo $u->nombre ?></span>
+        
       </div>
       <div class="col-lg-4">
-        <!-- Rating Stars Box -->
-        <div class='rating-stars text-center'>
-          <ul id='stars'>
-            <li id="1" class='star' data-value='1'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="2" class='star' data-value='2'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="3" class='star' data-value='3'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="4" class='star' data-value='4'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="5" class='star' data-value='5'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-          </ul>
-        </div>
+        
+        
       </div>
       <!--Valoración media-->
       <div class="col-lg-4">
-        <div class='rating-stars text-center'>
-          <ul id='starsMedia'>
-            <li id="media1" class='star' data-value='1'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="media2" class='star' data-value='2'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="media3" class='star' data-value='3'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="media4" class='star' data-value='4'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-            <li id="media5" class='star' data-value='5'>
-              <i class='fa fa-star fa-fw'></i>
-            </li>
-          </ul>
-        </div>
+        
       </div>
       <div class="col-lg-12">
         <div class='success-box' style="display:none">
@@ -150,9 +179,8 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         </div>
       </div>
     </div>
-
-
-
+</div>
+<div class="container">
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-3">
       </div>
@@ -165,44 +193,94 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       <div class="col-lg-3">
       </div>
     </div>
-
-    <!-- The Modal -->
-    <div class="modal fade" id="modalComentario">
-      <div class="modal-dialog modal-md">
-        <div class="modal-content">
-        
-          <!-- Modal body -->
-          <div class="modal-body text-center">
-            <span class="h6">Comentario añadido correctamente</span>
-          </div>
-          
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
-          </div>
-          
-        </div>
+    <div class="row justify-content no-gutters mb-5 mb-lg-0 text-justify" style="margin-top: 150px; margin-bottom: 150px;">
+      <hr class="my-4 w-100">
+      <div class="col-lg-12" style="margin-bottom: 30px;">
+        <span class="h3" style="margin-right: 25px;">Comentarios</span><span><a href="#cajaComentarios" id="enlaceMostrar" data-toggle="collapse">Mostrar</a></span>
       </div>
-    </div>
-    
-    <div class="row justify-content-left no-gutters mb-5 mb-lg-0 text-justify" style="margin-top: 150px; margin-bottom: 150px;">
-      <h5>Comentarios:</h5><!--quitar justificacion de texto y demas?-->
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-        <!--//TODO añadir lista de comentarios con PHP, el que envie el usuario se mostrara en la siguiente recarga-->
-        <!--
-        Para la valoracion:
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span> 3 Estrellas
+        <div id="cajaComentarios" class="collapse">
+          <?php
+          require_once("../db/Comentario.php");
 
-        -->
+          $con = new Conexion();
+          $con->set_charset("utf8"); //Establecemos la codificacion adecuada
+          $sql = "SELECT usuario.nombre, usuario.rol, valoracion.nota, valoracion.comentario
+                  FROM valoracion,usuario
+                  WHERE usuario.id=valoracion.id_usuario && valoracion.id_contenido=$c->id"; //PRODUCCION modificar con variable de sesion con el id del usuario 
+          $resultado = $con->query($sql);
+          if($con->affected_rows){ //Devuelve 0 o un numero
+            while($fila = $resultado->fetch_object()){
+              $comment = new Comentario($fila->nombre, $fila->rol, $fila->nota, $fila->comentario); //Nombre de las columnas de la tabla
+              $comentarios[] = clone($comment); //Array de objetos de la clase Comentario
+            }
+          }
+          $con->close();
+          //print_r($comentarios);
+          
+          foreach ($comentarios as $key => $comentario) {
+            if($comentario->rol_usuario == "1"){
+              $rol = "Administrador";
+            }
+            else if($comentario->rol_usuario == "2"){
+              $rol = "Editor";
+            }
+            else if($comentario->rol_usuario == "3"){
+              $rol = "Valorador";
+            }
+            else{
+              $rol = "Visitante";
+            }
+            echo "<div class='panel panel-white post panel-shadow'>";
+            echo "<div class='post-heading'>";
+            echo "<div class='pull-left meta'>";
+            echo "<div class='title h5'>";
+            echo "<b>$comentario->nombre_usuario</b> publicó un comentario.";
+            echo "</div>";
+            echo "<h6 class='text-muted time'>$rol</h6>";
+            echo "</div>";
+            echo "</div>";
+            echo "<div style='padding: 0px 15px'>";
+            //echo "<p>";
+            
+            for($i=1;$i<=(int)$comentario->nota_contenido;$i++){ //Imprimo la cantidad de estrellas coloreadas segun la nota
+              echo "<span style='color:#FF912C;' class='fa fa-star'></span>";
+            }
+            for($i;$i<=5;$i++){ //Imprimo la cantidad de estrellas restantes por colorear
+              echo "<span class='fa fa-star'></span>";
+            }
+
+            //echo "</p>";
+            echo "</div>";
+            echo "<div class='post-description'>";
+            echo "<span>$comentario->comentario_contenido</span>";
+            echo "</div>";
+            echo "</div>";
+          }
+          ?>
+          <!--<div class="panel panel-white post panel-shadow">
+            <div class="post-heading">
+              <div class="pull-left meta">
+                <div class="title h5">
+                  <b>Ryan Haywood</b> publicó un comentario.
+                </div>
+                  <h6 class="text-muted time">Rol del usuario. Modificar clase Comentario</h6>
+              </div>
+              <div style="padding: 0px 15px">
+                Estrellas
+              </div>
+            </div> 
+            <div class="post-description">
+              <p>Texto del comentario</p>
+            </div>
+          </div>-->
+            
+        </div>
       </div>
     </div>
-    Enlaces de prueba
+    <!--Enlaces de prueba
     <a href="../db/guardarValoracion.php?id=1&nota=5">guardarValoracionPrueba</a>
     <br>
     <a href="../db/guardarComentario.php?id=1&comentario=Comentario%20de%20prueba%20en%20la%20URL">guardarComentarioPrueba</a>
@@ -210,27 +288,35 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     <a href="../db/obtenerValoracion.php">obtenerValoracionPrueba</a>
     <br>
     <a href="../db/obtenerValoracionMedia.php">obtenerValoracionMediaPrueba</a>
-    <br>
+    <br>-->
   </section>
+  <section id="scroll" class="projects-section bg-light" style="margin-top: -200px;"></section>
 </div>
 
 
-<!-- Include the Quill library -->
-<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
-
-<!-- Initialize Quill editor -->
-<script>
-  
 
 
 
+  <!-- The Modal -->
+  <div class="modal fade" id="modalComentario">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      
+        <!-- Modal body -->
+        <div class="modal-body text-center">
+          <span id="modalComentarioMensaje" class="h6"></span>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
 
 
-
-</script>
-
-
-<script src="../js/comentario.js"></script>
 
 <!--Resto de scripts-->
 <?php include("../includes/navigation.php"); ?>

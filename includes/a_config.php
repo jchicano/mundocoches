@@ -16,9 +16,9 @@
 			$CURRENT_PAGE = "Accesorios"; 
 			$PAGE_TITLE = "MundoCoches | Accesorios";
 			break;
-		case "/bd/test.php":
-			$CURRENT_PAGE = "Accesorios"; 
-			$PAGE_TITLE = "TEST";
+		case "/gestionUsuarios.php":
+			$CURRENT_PAGE = "Gestion"; 
+			$PAGE_TITLE = "Gestión de usuarios";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";

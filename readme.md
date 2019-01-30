@@ -57,6 +57,8 @@ Valoracion de contenidos: https://codepen.io/depy/pen/vEWWdw<br>
 
 Estilo comentarios: https://bootsnipp.com/snippets/7Nj38<br>
 
+Pagina de gestion de usuarios: https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=user-management-data-table https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=order-details-table-with-search-filter https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=table-with-add-and-delete-row-feature<br>
+
 
 
 

@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="css/registro.css">
   <link rel="stylesheet" href="css/captcha.css">
 
-  <script src='https://www.google.com/recaptcha/api.js?render=6LfW4o0UAAAAAGzY6YfZAeBbqoJ1jIl15VxzgyIx'></script>
-  <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6LfW4o0UAAAAAGzY6YfZAeBbqoJ1jIl15VxzgyIx', {action: 'action_name'})
-            .then(function(token) {
-            // Verifica el token en el servidor.
-            });
-        });
-  </script>
 
 </head>
 <body>

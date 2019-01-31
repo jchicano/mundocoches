@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <!--Tabla-->
-                <table class="table table-striped table-hover table-responsive-lg">
+                <table class="table table-striped table-hover table-responsive-xl">
                     <thead class="thead-light">
                         <tr>
                             <th>ID</th>
@@ -112,8 +112,8 @@
             <div class="table-wrapper">
                 <div class="table-title">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <h2><b>Edición</b> del usuario ID: 1</h2>
+                        <div class="col-lg-12">
+                            <h2><b>Edición</b> del usuario ID: <span id="idUsuarioSeleccionado">1</span></h2>
                         </div>
                     </div>
                 </div>

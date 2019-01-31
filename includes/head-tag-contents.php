@@ -10,6 +10,7 @@
 	<meta name="keywords" content="coches" /> 
 <?php } ?>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- De Boilerplate -->
 <meta name="description" content="Esta es la página web de MundoCoches">

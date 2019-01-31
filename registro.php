@@ -65,9 +65,31 @@
                 <input type="date" name="inputDate" id="inputDate" class="form-control" placeholder="Date" required>
                 <label for="inputDate">Fecha de nacimiento *</label>
             </div>
-            
+
             <div class="form-label-group"> <!-- País -->
-                <input type="text" name="inputCountry" id="inputCountry" class="form-control" placeholder="Country" required>
+                <select name="inputCountry" id="inputCountry" class="form-control" placeholder="Country" required>
+                    <option value="argentina">Argentina</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="chile">Chile</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="costarica">Costa Rica</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="elsalvador">El Salvador</option>
+                    <option value="espanya">España</option>
+                    <option value="guatemala">Guatemala</option>
+                    <option value="guinea">Guinea Ecuatorial</option>
+                    <option value="honduras">Honduras</option>
+                    <option value="mexico">México</option>
+                    <option value="nicaragua">Nicaragua</option>
+                    <option value="panama">Panamá</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="peru">Perú</option>
+                    <option value="prico">Puerto Rico</option>
+                    <option value="rdominic">Rep. Dominicana</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="venezuela">Venezuela</option>
+                </select>
                 <label for="inputCountry">País *</label>
             </div>
 

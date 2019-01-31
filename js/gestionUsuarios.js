@@ -25,7 +25,7 @@
             cuerpoTabla.append("<td>"+value.email+"</td>");
             cuerpoTabla.append("<td>"+value.nombre+"</td>");
             cuerpoTabla.append("<td>"+value.apellido1+"</td>");
-            cuerpoTabla.append("<td>"+value.fecha_nac+"</td>");
+            cuerpoTabla.append("<td>"+value.pais+"</td>");
 
             if(value.rol == "1"){
                 var rol = "<span class='status text-danger'>&bull;</span> Admin";
@@ -39,7 +39,7 @@
             else var rol = "<span class='status text-muted'>&bull;</span> Visitante";
 
             cuerpoTabla.append("<td>"+rol+"</td>");
-            cuerpoTabla.append("<td><a id='"+idEditar+"' href='#' class='view' title='Editar usuario' data-toggle='tooltip'><i class='fas fa-user-edit'></i></a>&nbsp;<a id='"+idBorrar+"' href='#' class='view' title='Borrar usuario' data-toggle='tooltip'><i class='fas fa-trash'></i></a></td>");
+            cuerpoTabla.append("<td><span id='"+idEditar+"' class='view' title='Editar usuario' data-toggle='tooltip'><i class='fas fa-user-edit'></i></span>&nbsp;<span id='"+idBorrar+"'  class='view' title='Borrar usuario' data-toggle='tooltip'><i class='fas fa-trash'></i></span></td>");
             cuerpoTabla.append("</tr>");
             //alert(value.id);
 
@@ -47,10 +47,15 @@
             $("#"+idEditar).tooltip();
             $("#"+idBorrar).tooltip();
 
-            //
-            //$("#"+idEditar).click(alert("click en editar"));
+            //Añado un listener de click a cada icono para saber a que usuario nos referimos
+            $("#"+idEditar).on("click",function(){
+                console.log("click en editar: "+idEditar)
+            });
+            $("#"+idBorrar).on("click",function(){
+                console.log("click en borrar: "+idBorrar)
+            });
         });
-        
+        $("#cantidadResultados").text(data.cantidadResultados);
         
     })
     .fail(function(jqXHR, textStatus, errorThrown) {

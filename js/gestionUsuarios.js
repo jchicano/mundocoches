@@ -49,10 +49,51 @@
 
             //Añado un listener de click a cada icono para saber a que usuario nos referimos
             $("#"+idEditar).on("click",function(){
-                console.log("click en editar: "+idEditar)
+                console.log("click en editar: "+idEditar);
+                $.ajax({
+                    // En data puedes utilizar un objeto JSON, un array o un query string
+                    data: null,
+                    //Cambiar a type: POST si necesario
+                    type: "GET",
+                    // Formato de datos que se espera en la respuesta
+                    dataType: "json",
+                    // URL a la que se enviará la solicitud Ajax
+                    url: "../db/.php",
+                })
+                .done(function(data) {
+                    
+                })
+                .fail(function(jqXHR, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                });
             });
+            ////////HAGO PRIMERO EL DE BORRAR:
             $("#"+idBorrar).on("click",function(){
-                console.log("click en borrar: "+idBorrar)
+                console.log("click en borrar: "+idBorrar);
+                $.ajax({
+                    // En data puedes utilizar un objeto JSON, un array o un query string
+                    data: {idUsuario: idBorrar.replace('borrar','')}, //Le paso un string con el id de usuario, he tenido que borrar el comienzo del id del elemento HTML
+                    //Cambiar a type: POST si necesario
+                    type: "GET",
+                    // Formato de datos que se espera en la respuesta
+                    dataType: "json",
+                    // URL a la que se enviará la solicitud Ajax
+                    url: "../db/borrarUsuario.php",
+                })
+                .done(function(data) {
+                    //alert("Correcto: "+data.correcto);
+                    //Poner modal
+                    if(data.correcto == true){
+                        console.log("bien");
+                        location.reload(true);
+                    }
+                    else{
+                        console.log("mal");
+                    }
+                })
+                .fail(function(jqXHR, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                });
             });
         });
         $("#cantidadResultados").text(data.cantidadResultados);

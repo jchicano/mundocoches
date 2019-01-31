@@ -9,6 +9,13 @@ require_once("Usuario.php");
 //Creamos la conexión a la BD
 $con = new Conexion();
 $con->set_charset("utf8"); //Establecemos la codificacion adecuada
+
+$sql = "SELECT COUNT(*) FROM usuario"; //Seleccionamos la cuenta para mostrar la cantidad de resultados
+$resultado = $con->query($sql);
+$fila = $resultado->fetch_array();
+$jsondata['cantidadResultados'] = $fila[0];
+
+
 $sql = "SELECT * FROM usuario";
 $resultado = $con->query($sql);
 
@@ -18,7 +25,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         $usuarios[] = $fila; //Nombre de las columnas de la tabla
     }
     //print_r($usuarios);
-    $jsondata['usuarios'] = &$usuarios;
+    $jsondata['usuarios'] = $usuarios;
     echo json_encode($jsondata);
     //echo json_decode($json_encode($jsondata));
 

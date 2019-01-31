@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 28-01-2019 a las 08:40:28
+-- Tiempo de generación: 31-01-2019 a las 10:47:27
 -- Versión del servidor: 10.1.36-MariaDB
 -- Versión de PHP: 7.2.11
 
@@ -75,7 +75,9 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`id`, `email`, `pass`, `nombre`, `apellido1`, `apellido2`, `fecha_nac`, `pais`, `cod_postal`, `telefono`, `rol`) VALUES
 (1, 'mundocoches@mail.com', 'admin', 'Administrador', 'Admin', NULL, '2019-01-23', 'España', '14900', '957957957', 1),
-(2, 'caca@mail.com', 'caca', 'caca', 'cacapellido', 'cacapellido2', '2019-01-25', 'Portugal', '14900', '957000000', 0);
+(2, 'caca@mail.com', 'caca', 'caca', 'cacapellido', 'cacapellido2', '2019-01-25', 'Portugal', '14900', '957000000', 0),
+(3, 'editor@editor.com', 'editor', 'editor', 'editor', NULL, '2019-01-30', 'Españita', '14000', '7878', 2),
+(4, 'valorador@valorador.com', 'valorador', 'valorador', 'valorador', NULL, '2019-01-30', 'Francia', '43', '43', 3);
 
 -- --------------------------------------------------------
 
@@ -86,7 +88,7 @@ INSERT INTO `usuario` (`id`, `email`, `pass`, `nombre`, `apellido1`, `apellido2`
 CREATE TABLE `valoracion` (
   `id_usuario` int(5) NOT NULL,
   `id_contenido` int(5) NOT NULL,
-  `nota` int(1) NOT NULL,
+  `nota` int(1) DEFAULT NULL,
   `comentario` longtext COLLATE utf8_spanish_ci
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -95,7 +97,7 @@ CREATE TABLE `valoracion` (
 --
 
 INSERT INTO `valoracion` (`id_usuario`, `id_contenido`, `nota`, `comentario`) VALUES
-(1, 1, 2, 'Prueba1'),
+(1, 1, 2, '<p><br></p>'),
 (2, 1, 4, 'prueba en phpmyadmin');
 
 --
@@ -138,7 +140,7 @@ ALTER TABLE `contenido`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Restricciones para tablas volcadas

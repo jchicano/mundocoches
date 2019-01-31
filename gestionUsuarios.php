@@ -30,7 +30,7 @@
                 <!--Filtro-->
                 <div class="table-filter">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <!--<div class="col-lg-3">
                             <div class="show-entries">
                                 <span>Mostrar</span>
                                 <select class="form-control">
@@ -41,22 +41,12 @@
                                 </select>
                                 <span>filas</span>
                             </div>
-                        </div>
-                        <div class="col-lg-9">
+                        </div>-->
+                        <div class="col-lg-12">
                             <button type="button" class="btn btn-light"><i class="fa fa-search"></i></button>
                             <div class="filter-group">
                                 <label>Nombre</label>
                                 <input type="text" class="form-control">
-                            </div>
-                            <div class="filter-group">
-                                <label>País</label>
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>España</option>
-                                    <option>Portugal</option>
-                                    <option>Francia</option>
-                                    <option>Otro</option>
-                                </select>
                             </div>
                             <div class="filter-group">
                                 <label>Rol</label>
@@ -68,19 +58,29 @@
                                     <option>Visitante</option>
                                 </select>
                             </div>
-                            <i class="fa fa-filter filter-icon"></i>
+                            <div class="filter-group">
+                                <i class="fa fa-filter filter-icon"></i>
+                                <label>País</label>
+                                <select class="form-control">
+                                    <option>Todos</option>
+                                    <option>España</option>
+                                    <option>Francia</option>
+                                    <option>Portugal</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!--Tabla-->
-                <table class="table table-hover table-responsive-lg">
+                <table class="table table-striped table-hover table-responsive-lg">
                     <thead class="thead-light">
                         <tr>
                             <th>ID</th>
                             <th>Email</th>
                             <th>Nombre</th>
                             <th>1<sup>er</sup> Apellido</th>					
-                            <th>Fecha de nacimiento</th>
+                            <th>País</th>
                             <th>Rol</th>					
                             <th>Acción</th>	
                         </tr>
@@ -91,8 +91,8 @@
                 </table>
                 <!--Paginas-->
                 <div class="clearfix">
-                    <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
-                    <ul class="pagination">
+                    <div class="hint-text">Mostrando <b id="cantidadResultados">0</b> resultados</div>
+                    <!--<ul class="pagination">
                         <li class="page-item disabled"><a href="#">Previous</a></li>
                         <li class="page-item active"><a href="#" class="page-link">1</a></li>
                         <li class="page-item"><a href="#" class="page-link">2</a></li>
@@ -102,7 +102,7 @@
                         <li class="page-item"><a href="#" class="page-link">6</a></li>
                         <li class="page-item"><a href="#" class="page-link">7</a></li>
                         <li class="page-item"><a href="#" class="page-link">Next</a></li>
-                    </ul>
+                    </ul>-->
                 </div>
             </div>
         </section>

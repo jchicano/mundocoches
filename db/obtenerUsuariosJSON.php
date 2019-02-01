@@ -10,12 +10,6 @@ require_once("Usuario.php");
 $con = new Conexion();
 $con->set_charset("utf8"); //Establecemos la codificacion adecuada
 
-$sql = "SELECT COUNT(*) FROM usuario"; //Seleccionamos la cuenta para mostrar la cantidad de resultados
-$resultado = $con->query($sql);
-$fila = $resultado->fetch_array();
-$jsondata['cantidadResultados'] = $fila[0];
-
-
 $sql = "SELECT * FROM usuario";
 $resultado = $con->query($sql);
 

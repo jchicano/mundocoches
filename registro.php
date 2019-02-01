@@ -43,7 +43,7 @@
                 <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Contraseña *</label>
                 <span id="campoOK"></span>
-                <p style="font-size: 12px;">La contraseña debe incluir al menos estos carácteres: [$%&€]</p>
+                <p style="font-size: 12px;">La contraseña debe incluir al menos uno de estos carácteres: [$%&€@!]</p>
             </div>
 
             <hr>

@@ -69,7 +69,7 @@
             </div>
 
             <div class="form-label-group"> <!-- País -->
-                <select name="inputCountry" id="inputCountry" class="form-control" placeholder="Country" required>
+                <select name="inputCountry" id="inputCountry" class="custom-select" placeholder="Country" required>
                     <option value="España">España</option>
                     <option value="Francia">Francia</option>
                     <option value="Portugal">Portugal</option>

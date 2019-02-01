@@ -1,10 +1,10 @@
 .capbox {
-	background-color: #92D433;
-	border: #B3E272 0px solid;
-	border-width: 0px 12px 0px 0px;
+	background-color: #222A42;
+	border: #3A435C 0px solid;
+	border-width: 8px 8px 8px 8px;
 	display: inline-block;
 	*display: inline; zoom: 1; /* PARA IE7-8 */
-	padding: 8px 40px 8px 8px;
+	padding: 8px 20px 8px 17px;
 	}
 
 .capbox-inner {

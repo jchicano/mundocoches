@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/registro.css">
   <link rel="stylesheet" href="css/captcha.css">
   <script src="js/registro.js"></script>
-
+  
 </head>
 <body>
 
@@ -33,16 +33,20 @@
         <div class="card-body">
             <h5 class="card-title text-center">Registrarse</h5>
             <p style="font-size: 12px;">Los campos con el símbolo (*) son obligatorios</p>
+
+            <hr>
+
             <form action="" method="post" class="form-signin"  onsubmit="return checkform(this);">
             <div class="form-label-group"> <!-- Email -->
                 <input type="email" name="inputEmail" id="inputEmail" class="form-control" max="50" placeholder="Email address" required>
                 <label for="inputEmail">Email *</label>
+                <span id="campoOKemail"></span>
             </div>
 
             <div class="form-label-group"> <!-- Contraseña -->
                 <input type="password" name="inputPassword" id="inputPassword" class="form-control" max="50" placeholder="Password" required>
                 <label for="inputPassword">Contraseña *</label>
-                <span id="campoOK"></span><br>
+                <span id="campoOKpass"></span><br>
                 <span style="font-size: 12px;">La contraseña debe incluir al menos una minúscula,</span>
                 <p style="font-size: 12px;">una mayúscula y uno de estos carácteres: [$%&€@!]</p>
             </div>
@@ -180,6 +184,34 @@
     </div>
     </section>
   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalComentario">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      
+        <!-- Contenido del modal -->
+        <div class="modal-body text-center">
+          <span id="modalComentarioMensaje" class="h6"></span>
+        </div>
+        
+        <!-- Pie del modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para activar el modal al registrarse correctamente --> 
+  <?php if(isset($show_modal) && $show_modal){ ?>
+        <script>
+            $("#modalComentarioMensaje").text("Te has registrado correctamente.");
+            $("#modalComentario").modal();;    
+        </script>
+    <?php } ?>
+
 </body>
 
 <?php include("includes/footer.php");?>

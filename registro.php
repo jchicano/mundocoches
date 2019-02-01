@@ -42,8 +42,9 @@
             <div class="form-label-group"> <!-- Contraseña -->
                 <input type="password" name="inputPassword" id="inputPassword" class="form-control" max="50" placeholder="Password" required>
                 <label for="inputPassword">Contraseña *</label>
-                <span id="campoOK"></span>
-                <p style="font-size: 12px;">La contraseña debe incluir al menos uno de estos carácteres: [$%&€@!]</p>
+                <span id="campoOK"></span><br>
+                <span style="font-size: 12px;">La contraseña debe incluir al menos una minúscula,</span>
+                <p style="font-size: 12px;">una mayúscula y uno de estos carácteres: [$%&€@!]</p>
             </div>
 
             <hr>

@@ -7,7 +7,7 @@
                 const campo = evt.target,
                     valido = document.getElementById('campoOK'),
                     
-                    regex = /^(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*[$%&€]/;
+                    regex = /^(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*[$%&€@!]/;
 
                 //Se muestra un texto válido/inválido a modo de ejemplo
                 if (regex.test(campo.value)) {

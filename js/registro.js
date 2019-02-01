@@ -11,10 +11,11 @@
 
                 //Se muestra un texto válido/inválido a modo de ejemplo
                 if (regex.test(campo.value)) {
-                    $('campoOK').addClass('errorPass');
+                    $("#inputPassword").addClass("green-border");
                     valido.innerText = "Contraseña válida";
                     console.log("Estoy en el if");
                 } else {
+                    $("#inputPassword").addClass("red-border");
                     valido.innerText = "Contraseña no válida";
                     console.log("Estoy en el else");
                 }

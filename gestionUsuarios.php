@@ -18,7 +18,6 @@
                 <div class="table-title">
                     <div class="row">
                         <div class="col-lg-4">
-        Tabla hover no funciona
                             <h2><b>Gestión</b> de usuarios</h2>
                         </div>
                         <div class="col-lg-8">
@@ -43,12 +42,13 @@
                             </div>
                         </div>-->
                         <div class="col-lg-12">
-                            <button type="button" class="btn btn-light"><i class="fa fa-search"></i></button>
+                            <!--button type="button" class="btn btn-light"><i class="fa fa-search"></i></button>-->
                             <div class="filter-group">
-                                <label>Nombre</label>
-                                <input type="text" class="form-control">
+                                <i class="fa fa-filter filter-icon"></i>
+                                <label>Filtro global</label>
+                                <input id="filtroNombre" type="text" class="form-control">
                             </div>
-                            <div class="filter-group">
+                            <!--<div class="filter-group">
                                 <label>Rol</label>
                                 <select class="form-control">
                                     <option>Cualquiera</option>
@@ -59,24 +59,23 @@
                                 </select>
                             </div>
                             <div class="filter-group">
-                                <i class="fa fa-filter filter-icon"></i>
+                                
                                 <label>País</label>
-                                <select class="form-control">
-                                    <option>Todos</option>
-                                    <option>España</option>
-                                    <option>Francia</option>
-                                    <option>Portugal</option>
-                                    <option>Otro</option>
+                                <select id="filtroPais" class="form-control">
+                                    <option value="[España,Francia,Portual,Otro]">Todos</option>
+                                    <option value="España">España</option>
+                                    <option value="Francia">Francia</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Otro">Otro</option>
                                 </select>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
                 <!--Tabla-->
-                <table class="table table-striped table-hover table-responsive-xl">
+                <table id="mainTable" class="table table-striped table-hover table-responsive-xl">
                     <thead class="thead-light">
                         <tr>
-                            <th>ID</th>
                             <th>Email</th>
                             <th>Nombre</th>
                             <th>1<sup>er</sup> Apellido</th>					

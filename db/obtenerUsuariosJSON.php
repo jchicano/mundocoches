@@ -2,17 +2,30 @@
 require_once("Conexion.php");
 require_once("Usuario.php");
 
-//recogemos el id que hemos introducido en el formulario
+//Si hay parametro, recogemos el id que nos han pasado
 //$id=isset($_GET['id'])?$_GET['id']:$_POST['id'];
-//$id=1;
+if(isset($_GET['id'])){
+    $id=$_GET['id'];
+}
+else if(isset($_POST['id'])){
+    $id=$_POST['id'];
+}
+else $id=null;
+
 
 //Creamos la conexión a la BD
 $con = new Conexion();
 $con->set_charset("utf8"); //Establecemos la codificacion adecuada
 
-$sql = "SELECT * FROM usuario";
-$resultado = $con->query($sql);
-
+if($id==null){
+    $sql = "SELECT * FROM usuario";
+    $resultado = $con->query($sql);
+}
+else{
+    $sql = "SELECT * FROM usuario
+            WHERE id=$id";
+    $resultado = $con->query($sql);
+}
 
 if($con->affected_rows){ //Devuelve 0 o un numero
     while($fila = $resultado->fetch_assoc()){

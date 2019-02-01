@@ -88,13 +88,7 @@
 
             <hr>
 
-            <button class="btn btn-lg btn-primary btn-block text-uppercase" name="registrarse" type="submit" >Registrarse</button>
-
-            <hr class="my-4">
-            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" disabled><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
-            
             <!-- INICIO CAPTCHA -->
-            <hr>
 
             <div class="capbox">
 
@@ -108,8 +102,13 @@
                 </div>
             </div>
 
-            <br><br>
+            <br><hr>
             <!-- FIN CAPTCHA -->
+
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" name="registrarse" type="submit" >Registrarse</button>
+
+            <hr class="my-4">
+            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" disabled><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
             </form>
 

@@ -35,12 +35,12 @@
             <p style="font-size: 12px;">Los campos con el símbolo (*) son obligatorios</p>
             <form action="" method="post" class="form-signin"  onsubmit="return checkform(this);">
             <div class="form-label-group"> <!-- Email -->
-                <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required>
+                <input type="email" name="inputEmail" id="inputEmail" class="form-control" max="50" placeholder="Email address" required>
                 <label for="inputEmail">Email *</label>
             </div>
 
             <div class="form-label-group"> <!-- Contraseña -->
-                <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" name="inputPassword" id="inputPassword" class="form-control" max="50" placeholder="Password" required>
                 <label for="inputPassword">Contraseña *</label>
                 <span id="campoOK"></span>
                 <p style="font-size: 12px;">La contraseña debe incluir al menos uno de estos carácteres: [$%&€@!]</p>
@@ -49,17 +49,17 @@
             <hr>
 
             <div class="form-label-group"> <!-- Nombre -->
-                <input type="text" name="inputName" id="inputName" class="form-control" placeholder="Name" required>
+                <input type="text" name="inputName" id="inputName" class="form-control" placeholder="Name" max="50" required>
                 <label for="inputName">Nombre *</label>
             </div>
 
             <div class="form-label-group"> <!-- Apellido 1 -->
-                <input type="text" name="inputSurname1" id="inputSurname1" class="form-control" placeholder="Surname1" required>
+                <input type="text" name="inputSurname1" id="inputSurname1" class="form-control" max="50" placeholder="Surname1" required>
                 <label for="inputSurname1">Apellido 1 *</label>
             </div>
 
             <div class="form-label-group"> <!-- Apellido 2 -->
-                <input type="text" name="inputSurname2" id="inputSurname2" class="form-control" placeholder="Surname2">
+                <input type="text" name="inputSurname2" id="inputSurname2" class="form-control" max="50" placeholder="Surname2">
                 <label for="inputSurname2">Apellido 2</label>
             </div>
 
@@ -79,12 +79,12 @@
             </div>
 
             <div class="form-label-group"> <!-- Código postal -->
-                <input type="text" name="inputZipcode" id="inputZipcode" class="form-control" placeholder="Zipcode" required>
+                <input type="text" name="inputZipcode" id="inputZipcode" class="form-control" placeholder="Zipcode" max="5" required>
                 <label for="inputZipcode">Código postal *</label>
             </div>
 
             <div class="form-label-group"> <!-- Teléfono -->
-                <input type="text" name="inputMobile" id="inputMobile" class="form-control" placeholder="Mobile" required>
+                <input type="text" name="inputMobile" id="inputMobile" class="form-control" placeholder="Mobile" max="12" required>
                 <label for="inputMobile">Teléfono *</label>
             </div>
 

@@ -13,6 +13,9 @@ body{
 html {
     height: 100%;/*Lo establecemos al 100 para que sirva y se vea la magen quitando zoom junto con background-size: 100% 100%; del body*/
 }
+.red-border{
+    border: 1px solid red !important;
+}
 .table-wrapper {
     background: #fff;
     padding: 20px 25px;
@@ -47,7 +50,7 @@ html {
 .table-title .btn i {
     float: left;
     font-size: 21px;
-    margin-right: 5px;
+    /*margin-right: 5px;*/
 }
 .table-title .btn span {
     float: left;

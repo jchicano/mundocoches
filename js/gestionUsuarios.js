@@ -32,6 +32,7 @@
 
                 let cuerpoTabla = $("#cuerpoTabla");
                 cuerpoTabla.append("<tr>"+
+                "<th scope='col'>"+value.id+"</th>"+
                 "<td>"+value.email+"</td>"+
                 "<td>"+value.nombre+"</td>"+
                 "<td>"+value.apellido1+"</td>"+
@@ -47,33 +48,41 @@
 
                 //Añado un listener de click a cada icono para saber a que usuario nos referimos
                 $("#"+idEditar).on("click",function(){
-                    console.log("click en editar: "+idEditar);
+                    //console.log("click en editar: "+idEditar);
+                    $(".segundaSeccion").show();
+                    $("#cabeceraSegundaTabla").html('<b>Edición</b> del usuario ID: <span id="idUsuarioSeleccionado">'+idEditar.replace('editar','')+'</span>');
                     $.ajax({
                         // En data puedes utilizar un objeto JSON, un array o un query string
-                        data: null,
+                        data: {idUsuario: idEditar.replace('editar','')},//Le paso un string con el id de usuario, he tenido que borrar el comienzo del id del elemento HTML
                         //Cambiar a type: POST si necesario
-                        type: "GET",
+                        type: "POST",
                         // Formato de datos que se espera en la respuesta
                         dataType: "json",
                         // URL a la que se enviará la solicitud Ajax
-                        url: "../db/.php",
+                        url: "../db/obtenerUsuariosJSON.php",
                     })
                     .done(function(data) {
-                        
+                        //TODO
                     })
                     .fail(function(jqXHR, textStatus, errorThrown) {
                         console.log(errorThrown);
                     });
                 });
-                ////////HAGO PRIMERO EL DE BORRAR:
+                ////////////////////////////////////////////////
                 $("#"+idBorrar).on("click",function(){
-                    console.log("click en borrar: "+idBorrar);
-                    $(this).parents("tr").remove(); //Elminiamos el elemento HTML para que el usuario vea que se ha eliminado
+                    //console.log("click en borrar: "+idBorrar);
+
+                    //Elimino el globo del tooltip para que no se bugee
+                    $(".tooltip-inner").remove();
+                    $(".arrow").remove();
+                    //Elminiamos el elemento HTML para que el usuario vea que se ha eliminado
+                    $(this).parents("tr").remove();
+                    
                     $.ajax({
                         // En data puedes utilizar un objeto JSON, un array o un query string
                         data: {idUsuario: idBorrar.replace('borrar','')}, //Le paso un string con el id de usuario, he tenido que borrar el comienzo del id del elemento HTML
                         //Cambiar a type: POST si necesario
-                        type: "GET",
+                        type: "POST",
                         // Formato de datos que se espera en la respuesta
                         dataType: "json",
                         // URL a la que se enviará la solicitud Ajax
@@ -81,13 +90,15 @@
                     })
                     .done(function(data) {
                         //alert("Correcto: "+data.correcto);
-                        //Poner modal
-                        if(data.correcto == true){
-                            console.log("bien");
+                        //Poner modal?
+                        if(data.correcto){
+                            console.log("Usuario borrado");
+                            $("#cantidadResultados").text(parseInt($("#cantidadResultados").text())-1);
+                            
                             //location.reload(true);
                         }
                         else{
-                            console.log("mal");
+                            console.log("Se ha producido un error al borrar el usuario");
                         }
                     })
                     .fail(function(jqXHR, textStatus, errorThrown) {
@@ -102,6 +113,12 @@
             console.log(errorThrown);
         });
 
+        $("#btnAnadirUsuario").on("click",function(){
+            //console.log("click en Añadir Usuario");
+            $(".segundaSeccion").show();
+            $("#cabeceraSegundaTabla").html('<b>Añadir</b> un usuario');
+        });
+
         //Inicializamos el tooltip
         $('[data-toggle="tooltip"]').tooltip();
 
@@ -110,10 +127,52 @@
             var value = $(this).val().toLowerCase();
             $("#mainTable >tbody >tr").filter(function() {
                 $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
-                $("#cantidadResultados").text($('#mainTable >tbody >tr').length);
+                let contadorColumnasVisibles = 0;
+                $("#mainTable >tbody >tr:not(:hidden)").each(function(){contadorColumnasVisibles++});
+                $("#cantidadResultados").text(contadorColumnasVisibles);
             });
             
         });
+
+        //Cuando carga la página escondo segunda tabla
+        $(".segundaSeccion").hide();
+
+        //Añado listener al boton de cerrar la segunda seccion
+        $("#btnCerrarSegundaSeccion").on("click", function() {
+            $(".segundaSeccion").hide();
+        });
+
+        //Compruebo que el correo no exista en la BD al quitar el foco del input
+        $("#email").on("blur",function(){
+            //console.log("Quitado el foco en email"+$(this).val());
+            $.ajax({
+                // En data puedes utilizar un objeto JSON, un array o un query string
+                data: {email: $(this).val()}, //Le paso el contenido del input
+                //Cambiar a type: POST si necesario
+                type: "POST",
+                // Formato de datos que se espera en la respuesta
+                dataType: "json",
+                // URL a la que se enviará la solicitud Ajax
+                url: "../db/comprobarEmailUsuario.php",
+            })
+            .done(function(data) {
+                //alert("Correcto: "+data.correcto);
+                //Poner modal?
+                if(data.existe){
+                    //Señalar que email ya existe
+                    $("#btnInsertarUsuario").attr("disabled", "disabled");
+                    $("#email").addClass("red-border");
+                }
+                else{
+                    $("#btnInsertarUsuario").removeAttr("disabled");
+                    $("#email").removeClass("red-border");
+                }
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                console.log(errorThrown);
+            });
+        });
+
 
         //Función para filtrar los resultados de la tabla al levantar una tecla, no usada
         /*$("#filtroNombre").keyup(function() {

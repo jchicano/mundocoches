@@ -8,15 +8,6 @@
   <link rel="stylesheet" href="css/registro.css">
   <link rel="stylesheet" href="css/captcha.css">
 
-  <script src='https://www.google.com/recaptcha/api.js?render=6LfW4o0UAAAAAGzY6YfZAeBbqoJ1jIl15VxzgyIx'></script>
-  <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('6LfW4o0UAAAAAGzY6YfZAeBbqoJ1jIl15VxzgyIx', {action: 'action_name'})
-            .then(function(token) {
-            // Verifica el token en el servidor.
-            });
-        });
-  </script>
 
 </head>
 <body>
@@ -74,9 +65,14 @@
                 <input type="date" name="inputDate" id="inputDate" class="form-control" placeholder="Date" required>
                 <label for="inputDate">Fecha de nacimiento *</label>
             </div>
-            
+
             <div class="form-label-group"> <!-- País -->
-                <input type="text" name="inputCountry" id="inputCountry" class="form-control" placeholder="Country" required>
+                <select name="inputCountry" id="inputCountry" class="form-control" placeholder="Country" required>
+                    <option value="España">España</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Otro">Otro</option>
+                </select>
                 <label for="inputCountry">País *</label>
             </div>
 
@@ -92,13 +88,7 @@
 
             <hr>
 
-            <button class="btn btn-lg btn-primary btn-block text-uppercase" name="registrarse" type="submit" >Registrarse</button>
-
-            <hr class="my-4">
-            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" disabled><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
-            
             <!-- INICIO CAPTCHA -->
-            <hr>
 
             <div class="capbox">
 
@@ -112,8 +102,13 @@
                 </div>
             </div>
 
-            <br><br>
+            <br><hr>
             <!-- FIN CAPTCHA -->
+
+            <button class="btn btn-lg btn-primary btn-block text-uppercase" name="registrarse" type="submit" >Registrarse</button>
+
+            <hr class="my-4">
+            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" disabled><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
             </form>
 

@@ -120,94 +120,115 @@
                         </div>
                     </div>
                 </div>
-                <!---->
+                <!--Fin cabecera-->
                 <div class="row">
                     <div class="col-lg-12">
-                    <form action="#" method="POST">
-                        <div class="form-group row">
-                        <label for="email" class="col-4 col-form-label">Email*</label> 
-                            <div class="col-8">
-                                <input id="email" name="email" placeholder="Email" required="required" class="form-control here" type="email" max="50">
+                        <form action="#" method="POST"> <!-- //TODO Cambiar a que archivo se envia segun si esta editando o añadiendo. Comprobar a la hora de pulsar en editar si contraseña no tiene contenido, no actualizo todos los compos, pero si tiene relleno el valor inserto en todos los campos-->
+                            <div class="form-group row">
+                            <label for="email" class="col-4 col-form-label">Email*</label> 
+                                <div class="col-8">
+                                    <input id="email" name="email" placeholder="Email" required="required" class="form-control here" type="email" max="50">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="contrasena" class="col-4 col-form-label">Contraseña*</label> 
-                            <div class="col-8">
-                                <input id="contrasena" name="contrasena" placeholder="Contraseña" required="required" class="form-control here" type="password" max="50">
+                            <div class="form-group row">
+                                <label for="contrasena" class="col-4 col-form-label">Contraseña*</label> 
+                                <div class="col-8">
+                                    <input id="contrasena" name="contrasena" placeholder="Contraseña" required="required" class="form-control here" type="password" max="50">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="nombre" class="col-4 col-form-label">Nombre</label> 
-                            <div class="col-8">
-                                <input id="nombre" name="nombre" placeholder="Nombre" required="required" class="form-control here" type="text" max="50">
+                            <div class="form-group row">
+                                <label for="nombre" class="col-4 col-form-label">Nombre*</label> 
+                                <div class="col-8">
+                                    <input id="nombre" name="nombre" placeholder="Nombre" required="required" class="form-control here" type="text" max="50">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="primerApellido" class="col-4 col-form-label">Primer Apellido</label> 
-                            <div class="col-8">
-                                <input id="primerApellido" name="primerApellido" placeholder="Primer Apellido" required="required" class="form-control here" type="text" max="50">
+                            <div class="form-group row">
+                                <label for="primerApellido" class="col-4 col-form-label">Primer Apellido*</label> 
+                                <div class="col-8">
+                                    <input id="primerApellido" name="primerApellido" placeholder="Primer Apellido" required="required" class="form-control here" type="text" max="50">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="segundoApellido" class="col-4 col-form-label">Segundo Apellido</label> 
-                            <div class="col-8">
-                                <input id="segundoApellido" name="segundoApellido" placeholder="Segundo Apellido" class="form-control here" type="text" max="50">
+                            <div class="form-group row">
+                                <label for="segundoApellido" class="col-4 col-form-label">Segundo Apellido</label> 
+                                <div class="col-8">
+                                    <input id="segundoApellido" name="segundoApellido" placeholder="Segundo Apellido" class="form-control here" type="text" max="50">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="fechaNacimiento" class="col-4 col-form-label">Fecha de nacimiento</label> 
-                            <div class="col-8">
-                                <input id="fechaNacimiento" name="Fecha de nacimiento" placeholder="Nombre" required="required" class="form-control here" type="date">
+                            <div class="form-group row">
+                                <label for="fechaNacimiento" class="col-4 col-form-label">Fecha de nacimiento*</label> 
+                                <div class="col-8">
+                                    <input id="fechaNacimiento" name="Fecha de nacimiento" placeholder="Nombre" required="required" class="form-control here" type="date">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="pais" class="col-4 col-form-label">País</label>
-                            <div class="col-8">
-                                <select  id="pais" name="pais" class="custom-select">
-                                    <option value="España">España</option>
-                                    <option value="Francia">Francia</option>
-                                    <option value="Portugal">Portugal</option>
-                                    <option value="Otro">Otro</option>
-                                </select>
+                            <div class="form-group row">
+                                <label for="pais" class="col-4 col-form-label">País*</label>
+                                <div class="col-8">
+                                    <select  id="pais" name="pais" class="custom-select">
+                                        <option value="España">España</option>
+                                        <option value="Francia">Francia</option>
+                                        <option value="Portugal">Portugal</option>
+                                        <option value="Otro">Otro</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="codigoPostal" class="col-4 col-form-label">Código Postal</label> 
-                            <div class="col-8">
-                                <input id="codigoPostal" name="codigoPostal" placeholder="Código Postal" required="required" class="form-control here" type="text" max="5">
+                            <div class="form-group row">
+                                <label for="codigoPostal" class="col-4 col-form-label">Código Postal*</label> 
+                                <div class="col-8">
+                                    <input id="codigoPostal" name="codigoPostal" placeholder="Código Postal" required="required" class="form-control here" type="text" max="5">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="telefono" class="col-4 col-form-label">Teléfono</label> 
-                            <div class="col-8">
-                                <input id="telefono" name="telefono" placeholder="Teléfono" required="required" class="form-control here" type="text" max="12">
+                            <div class="form-group row">
+                                <label for="telefono" class="col-4 col-form-label">Teléfono*</label> 
+                                <div class="col-8">
+                                    <input id="telefono" name="telefono" placeholder="Teléfono" required="required" class="form-control here" type="text" max="12">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="rol" class="col-4 col-form-label">Rol</label> 
-                            <div class="col-8">
-                                <select id="rol" name="role" class="custom-select">
-                                    <option value="1">Admin</option>
-                                    <option value="2">Editor</option>
-                                    <option value="3">Valorador</option>
-                                    <option value="0">Visitante</option>
-                                </select>
+                            <div class="form-group row">
+                                <label for="rol" class="col-4 col-form-label">Rol*</label> 
+                                <div class="col-8">
+                                    <select id="rol" name="role" class="custom-select">
+                                        <option value="0">Visitante</option>
+                                        <option value="3">Valorador</option>
+                                        <option value="2">Editor</option>
+                                        <option value="1">Admin</option>
+                                    </select>
+                                </div>
+                            </div> 
+                            <div class="form-group row">
+                                <div class="offset-4 col-8">
+                                <button id="btnInsertarUsuario" name="btnInsertarUsuario" type="button" class="btn btn-light">Añadir usuario</button>
+                                </div>
                             </div>
-                        </div> 
-                        <div class="form-group row">
-                            <div class="offset-4 col-8">
-                            <button id="btnInsertarUsuario" name="submit" type="submit" class="btn btn-light">Añadir usuario</button>
-                            </div>
-                        </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <a href="db/obtenerUsuariosJSON.php">obtenerUsuariosJSON</a>
+        <a href="db/obtenerUsuariosJSON.php?idUsuario=5">obtenerUsuariosJSON</a>
         <br>
         <a href="db/comprobarEmailUsuario.php?email=mundocoches@mail.com">comprobarEmailUsuario</a>
+        <br>
+        <a href='db/editarUsuario.php?jsonDatos={"id":50}'>editarUsuario</a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="modalComentario">
+        <div class="modal-dialog modal-md">
+        <div class="modal-content">
+        
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+            <span id="modalComentarioMensaje" class="h6"></span>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+            </div>
+            
+        </div>
+        </div>
     </div>
 
 <?php include("includes/body-tag-contents.php");?>

@@ -4,11 +4,11 @@ require_once("Usuario.php");
 
 //Si hay parametro, recogemos el id que nos han pasado
 //$id=isset($_GET['id'])?$_GET['id']:$_POST['id'];
-if(isset($_GET['id'])){
-    $id=$_GET['id'];
+if(isset($_GET['idUsuario'])){
+    $id=$_GET['idUsuario'];
 }
-else if(isset($_POST['id'])){
-    $id=$_POST['id'];
+else if(isset($_POST['idUsuario'])){
+    $id=$_POST['idUsuario'];
 }
 else $id=null;
 

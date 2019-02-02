@@ -49,8 +49,12 @@
                 //Añado un listener de click a cada icono para saber a que usuario nos referimos
                 $("#"+idEditar).on("click",function(){
                     //console.log("click en editar: "+idEditar);
+                    $("#btnInsertarUsuario").removeAttr("disabled");
+                    $("#email").removeClass("red-border");
                     $(".segundaSeccion").show();
                     $("#cabeceraSegundaTabla").html('<b>Edición</b> del usuario ID: <span id="idUsuarioSeleccionado">'+idEditar.replace('editar','')+'</span>');
+                    ventanaActual = $("#cabeceraSegundaTabla").text();
+
                     $.ajax({
                         // En data puedes utilizar un objeto JSON, un array o un query string
                         data: {idUsuario: idEditar.replace('editar','')},//Le paso un string con el id de usuario, he tenido que borrar el comienzo del id del elemento HTML
@@ -62,7 +66,84 @@
                         url: "../db/obtenerUsuariosJSON.php",
                     })
                     .done(function(data) {
-                        //TODO
+                        //TODO al insertarlo hacer un append tambien en la tabla
+                        //console.log(data.usuarios[0]); //Muestro el JSON
+                        let usuario = data.usuarios[0];
+                        $("#email[type=email]").val(usuario.email);
+                        $("#contrasena").removeAttr("required");
+                        $("#nombre").val(usuario.nombre);
+                        $("#primerApellido").val(usuario.apellido1);
+                        $("#segundoApellido").val(usuario.apellido2);
+                        $("#fechaNacimiento").val(usuario.fecha_nac);
+                        $("#pais").val(usuario.pais);
+                        $("#codigoPostal").val(usuario.cod_postal);
+                        $("#telefono").val(usuario.telefono);
+                        $("#rol").val(usuario.rol);
+                        $("#btnInsertarUsuario").text("actualizar usuario");
+
+                        //Cuando se haga click en el boton de actualizar usuario
+                        $("#btnInsertarUsuario").on("click",function(){
+                            //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
+                            //TODO comprobar contraseña y añadir clase, al igual que con el email, creando tambien una variable de ventana actual (usar la que ya tengo) y comprobando si esta en editar o no y ya requerirla y marcar el campo en rojo
+                            //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
+                            if($("#contrasena").val() == ""){
+                                var jsonDatos = `{
+                                    "id" : "`+idEditar.replace('editar','')+`",
+                                    "email" : "`+$("#email").val()+`",
+                                    "nombre" : "`+$("#nombre").val()+`",
+                                    "primerApellido": "`+$("#primerApellido").val()+`",
+                                    "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                    "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                    "pais": "`+$("#pais").val()+`",
+                                    "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                    "telefono": "`+$("#telefono").val()+`",
+                                    "rol": "`+$("#rol").val()+`"
+                                    }`;
+                            }
+                            else{
+                                var jsonDatos = `{
+                                    "id" : "`+idEditar.replace('editar','')+`",
+                                    "email" : "`+$("#email").val()+`",
+                                    "contrasena" : "`+$("#contrasena").val()+`",
+                                    "nombre" : "`+$("#nombre").val()+`",
+                                    "primerApellido": "`+$("#primerApellido").val()+`",
+                                    "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                    "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                    "pais": "`+$("#pais").val()+`",
+                                    "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                    "telefono": "`+$("#telefono").val()+`",
+                                    "rol": "`+$("#rol").val()+`"
+                                    }`;
+                            }
+                            //console.log("JSON:");
+                            //console.log(JSON.parse(jsonDatos));
+                            $.ajax({
+                                // En data puedes utilizar un objeto JSON, un array o un query string
+                                data: JSON.parse(jsonDatos),
+                                //Cambiar a type: POST si necesario
+                                type: "POST",
+                                // Formato de datos que se espera en la respuesta
+                                dataType: "json",
+                                // URL a la que se enviará la solicitud Ajax
+                                url: "../db/editarUsuario.php",
+                            })
+                            .done(function(data) {
+                                //alert("Correcto: "+data.correcto);
+                                //Poner modal?
+                                //console.log(data);
+                                if(data.correcto){
+                                    $("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
+                                    $("#modalComentario").modal();
+                                }
+                                else{
+                                    $("#modalComentarioMensaje").text("Se ha producido un error al actualizar el usuario.");
+                                    $("#modalComentario").modal();
+                                }
+                            })
+                            .fail(function(jqXHR, textStatus, errorThrown) {
+                                console.log(errorThrown);
+                            });
+                        });
                     })
                     .fail(function(jqXHR, textStatus, errorThrown) {
                         console.log(errorThrown);
@@ -71,6 +152,10 @@
                 ////////////////////////////////////////////////
                 $("#"+idBorrar).on("click",function(){
                     //console.log("click en borrar: "+idBorrar);
+
+                    if(ventanaActual != "Añadir un usuario"){
+                        $(".segundaSeccion").hide();
+                    }
 
                     //Elimino el globo del tooltip para que no se bugee
                     $(".tooltip-inner").remove();
@@ -92,13 +177,15 @@
                         //alert("Correcto: "+data.correcto);
                         //Poner modal?
                         if(data.correcto){
-                            console.log("Usuario borrado");
+                            $("#modalComentarioMensaje").text("Usuario borrado correctamente.");
+                            $("#modalComentario").modal();
                             $("#cantidadResultados").text(parseInt($("#cantidadResultados").text())-1);
                             
                             //location.reload(true);
                         }
                         else{
-                            console.log("Se ha producido un error al borrar el usuario");
+                            $("#modalComentarioMensaje").text("Se ha producido un error al borrar el usuario.");
+                            $("#modalComentario").modal();
                         }
                     })
                     .fail(function(jqXHR, textStatus, errorThrown) {
@@ -113,10 +200,25 @@
             console.log(errorThrown);
         });
 
+        //Cuando el usuario hace click en el boton de arriba de Añadir un usuario
         $("#btnAnadirUsuario").on("click",function(){
             //console.log("click en Añadir Usuario");
-            $(".segundaSeccion").show();
             $("#cabeceraSegundaTabla").html('<b>Añadir</b> un usuario');
+            $("#email[type=email]").val("");
+            $("#contrasena").attr("required", "required");
+            $("#nombre").val("");
+            $("#primerApellido").val("");
+            $("#segundoApellido").val("");
+            $("#fechaNacimiento").val("");
+            $("#pais").val("España");
+            $("#codigoPostal").val("");
+            $("#telefono").val("");
+            $("#rol").val("0");
+            $("#btnInsertarUsuario").text("añadir usuario");
+
+            ventanaActual = $("#cabeceraSegundaTabla").text();
+
+            $(".segundaSeccion").show();
         });
 
         //Inicializamos el tooltip
@@ -156,9 +258,8 @@
                 url: "../db/comprobarEmailUsuario.php",
             })
             .done(function(data) {
-                //alert("Correcto: "+data.correcto);
                 //Poner modal?
-                if(data.existe){
+                if(data.existe && ventanaActual == "Añadir un usuario"){
                     //Señalar que email ya existe
                     $("#btnInsertarUsuario").attr("disabled", "disabled");
                     $("#email").addClass("red-border");
@@ -172,7 +273,6 @@
                 console.log(errorThrown);
             });
         });
-
 
         //Función para filtrar los resultados de la tabla al levantar una tecla, no usada
         /*$("#filtroNombre").keyup(function() {

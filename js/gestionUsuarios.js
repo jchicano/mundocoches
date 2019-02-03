@@ -286,6 +286,10 @@
                     $("#btnInsertarUsuario").attr("disabled", "disabled");
                     $("#email").addClass("red-border");
                 }
+                else{
+                    $("#btnInsertarUsuario").removeAttr("disabled");
+                    $("#email").removeClass("red-border");
+                }
 
             })
             .fail(function(jqXHR, textStatus, errorThrown) {

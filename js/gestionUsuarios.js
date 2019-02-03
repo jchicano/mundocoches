@@ -83,11 +83,10 @@
 
                         //Cuando se haga click en el boton de actualizar usuario
                         $("#btnInsertarUsuario").on("click",function(){
+                            //TODO problema: al insertar hace un update del ultimo usuario, hay que meter todo lo de abajo en un IF
                             //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
-                            //TODO comprobar contraseña y añadir clase, al igual que con el email, creando tambien una variable de ventana actual (usar la que ya tengo) y comprobando si esta en editar o no y ya requerirla y marcar el campo en rojo
-                            //TODO problema: al editar un usuario no valida los campos
                             //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
-                            if($("#contrasena").val() == ""){
+                            if($("#contrasena").val() == "" && ventanaActual == "Edición del Usuario ID: "+idEditar.replace('editar','')){ //TODO ultimo argumento añadido nuevo y no he comprobado que funcione correctamente
                                 var jsonDatos = `{
                                     "id" : "`+idEditar.replace('editar','')+`",
                                     "email" : "`+$("#email").val()+`",
@@ -130,7 +129,6 @@
                             })
                             .done(function(data) {
                                 //alert("Correcto: "+data.correcto);
-                                //Poner modal?
                                 //console.log(data);
                                 if(data.correcto){
                                     $("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
@@ -176,7 +174,6 @@
                     })
                     .done(function(data) {
                         //alert("Correcto: "+data.correcto);
-                        //Poner modal?
                         if(data.correcto){
                             $("#modalComentarioMensaje").text("Usuario borrado correctamente.");
                             $("#modalComentario").modal();
@@ -207,6 +204,7 @@
             $("#cabeceraSegundaTabla").html('<b>Añadir</b> un usuario');
             $("#email[type=email]").val("");
             $("#contrasena").attr("required", "required");
+            $("#contrasena").val("");
             $("#nombre").val("");
             $("#primerApellido").val("");
             $("#segundoApellido").val("");
@@ -216,6 +214,7 @@
             $("#telefono").val("");
             $("#rol").val("0");
             $("#btnInsertarUsuario").text("añadir usuario");
+            $("#btnInsertarUsuario").attr("disabled", "disabled");
 
             ventanaActual = $("#cabeceraSegundaTabla").text();
 
@@ -259,7 +258,6 @@
                 url: "../db/comprobarEmailUsuario.php",
             })
             .done(function(data) {
-                //Poner modal?
                 /*$('input').blur(function(event) {
                     event.target.checkValidity();
                 }).bind('invalid', function(event) {
@@ -306,10 +304,34 @@
                 $("#btnInsertarUsuario").attr("disabled", "disabled");
                 $("#email").addClass("red-border");
             }
-        }).bind('invalid', function(event) {
-            setTimeout(function() { $(event.target).focus();}, 50);
+        }).bind('invalid', function(event) { //Le volvemos a poner el foco al campo email
+            //setTimeout(function() { $(event.target).focus();}, 50);
         });
 
+        //Comprobación del campo contraseña
+        $("#contrasena").on("keyup", function(event){
+            // Expresión regular que debe de cumplir la contraseña
+            var regex = /^(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*[$%&€@!]/;
+            //Se muestra un texto válido/no válido a modo de ejemplo
+            if (regex.test(event.target.value) && event.target.value.length >= 6) {
+                $("#btnInsertarUsuario").removeAttr("disabled");
+                $("#contrasena").removeClass("red-border");
+                $("#contrasena").addClass("green-border");
+                //console.log("Se cumple contraseña");
+            }
+            else {
+                $("#btnInsertarUsuario").attr("disabled", "disabled");
+                $('#contrasena').removeClass("green-border");
+                $("#contrasena").addClass("red-border");
+                //console.log("No se cumple contraseña");
+            }
+            //Si dejan el campo vacío significa que no van a cambiar la contraseña y por lo tanto no aplicamos ningun estilo
+            if(event.target.value == ""){
+                $("#btnInsertarUsuario").removeAttr("disabled");
+                $("#contrasena").removeClass("red-border");
+                $("#contrasena").removeClass("green-border");
+            }
+        });
 
         //Función para filtrar los resultados de la tabla al levantar una tecla, no usada
         /*$("#filtroNombre").keyup(function() {

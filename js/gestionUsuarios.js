@@ -85,6 +85,7 @@
                         $("#btnInsertarUsuario").on("click",function(){
                             //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
                             //TODO comprobar contraseña y añadir clase, al igual que con el email, creando tambien una variable de ventana actual (usar la que ya tengo) y comprobando si esta en editar o no y ya requerirla y marcar el campo en rojo
+                            //TODO problema: al editar un usuario no valida los campos
                             //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
                             if($("#contrasena").val() == ""){
                                 var jsonDatos = `{
@@ -259,7 +260,12 @@
             })
             .done(function(data) {
                 //Poner modal?
-                if(data.existe && ventanaActual == "Añadir un usuario"){
+                /*$('input').blur(function(event) {
+                    event.target.checkValidity();
+                }).bind('invalid', function(event) {
+                    setTimeout(function() { $(event.target).focus();}, 50);
+                });
+                if(data.existe && ventanaActual == "Añadir un usuario"){ //|| data.existe && TODO problema que valide, pero no puedo poner type submit al boton
                     //Señalar que email ya existe
                     $("#btnInsertarUsuario").attr("disabled", "disabled");
                     $("#email").addClass("red-border");
@@ -268,11 +274,38 @@
                     $("#btnInsertarUsuario").removeAttr("disabled");
                     $("#email").removeClass("red-border");
                 }
+                */
+                //console.log("data.existe: "+data.existe); //true si existe en la BD, por lo que no deja continuar
+                //console.log("yaExisteElEmail: "+yaExisteElEmail);
+                //console.log("data.idUsuario: "+data.idUsuario);
+                //console.log("ventanaActual: "+ventanaActual.replace('Edición del usuario ID: ',''));
+                if(data.existe && data.idUsuario != ventanaActual.replace('Edición del usuario ID: ','')){ //Compruebo si existe en la BD y no es del usuario que estamos editando
+                    //console.log("existe en la BD y no es de este usuario");
+                    $("#modalComentarioMensaje").text("Ya existe un usuario con ese email.");
+                    $("#modalComentario").modal();
+                    $("#btnInsertarUsuario").attr("disabled", "disabled");
+                    $("#email").addClass("red-border");
+                }
+
             })
             .fail(function(jqXHR, textStatus, errorThrown) {
                 console.log(errorThrown);
             });
+        })
+
+        //Le pongo también que al quitar el foco del input del email compruebe la validez por HTML5
+        $('#email').blur(function(event) {
+            if(!event.target.checkValidity()){
+                //console.log("email no valido");
+                $("#modalComentarioMensaje").text("Introduce un email válido.");
+                $("#modalComentario").modal();
+                $("#btnInsertarUsuario").attr("disabled", "disabled");
+                $("#email").addClass("red-border");
+            }
+        }).bind('invalid', function(event) {
+            setTimeout(function() { $(event.target).focus();}, 50);
         });
+
 
         //Función para filtrar los resultados de la tabla al levantar una tecla, no usada
         /*$("#filtroNombre").keyup(function() {

@@ -21,7 +21,7 @@
                         </div>
                         <div class="col-lg-8">
                             <button href="#" id="btnAnadirUsuario" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Añadir un usuario a la lista"><i class="fas fa-plus-circle"></i> <span>Añadir un usuario</span></button>
-                            <!--<button href="#" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Refrescar la lista de usuarios"><i class="fas fa-sync-alt"></i> <span>Refrescar</span></button>-->
+                            <button href="#" onclick="location.reload(true);" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Refrescar la lista de usuarios"><i class="fas fa-sync-alt"></i> <span>Refrescar</span></button>
                         </div>
                     </div>
                 </div>

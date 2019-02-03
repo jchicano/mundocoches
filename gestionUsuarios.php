@@ -196,7 +196,7 @@
                             </div> 
                             <div class="form-group row">
                                 <div class="offset-4 col-8">
-                                <button id="btnInsertarUsuario" name="btnInsertarUsuario" type="button" class="btn btn-light">Añadir usuario</button>
+                                <button id="btnInsertarUsuario" name="btnInsertarUsuario" onsubmit="return false;" type="button" class="btn btn-light">Añadir usuario</button>
                                 </div>
                             </div>
                         </form>

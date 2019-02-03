@@ -14,7 +14,9 @@ $sql = "SELECT * FROM usuario
 $resultado = $con->query($sql);
 
 if($con->affected_rows){ //Devuelve 0 o un numero
+    $fila = $resultado->fetch_object();
     $jsondata['existe'] = true;
+    $jsondata['idUsuario'] = $fila->id;
     echo json_encode($jsondata);
     $con->close();
 }

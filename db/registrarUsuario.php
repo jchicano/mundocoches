@@ -13,6 +13,7 @@ if(isset($_REQUEST["registrarse"])){
     // Guardamos los datos del registro en variables
     $email = $_POST["inputEmail"];
     $password = $_POST["inputPassword"];
+    $password = md5($password);
     $name = $_POST["inputName"];
     $surname1 = $_POST["inputSurname1"];
     $surname2 = $_POST["inputSurname2"];

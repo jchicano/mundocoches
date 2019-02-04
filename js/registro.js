@@ -30,7 +30,7 @@
             // === Comprobación del email ===
 
             //Compruebo que el correo no exista en la BD al quitar el foco del input
-            $("#inputEmail").on("blur",function(){
+            $("#inputEmail").on("blur change",function(){
                 //console.log("Quitado el foco en email"+$(this).val());
                 $.ajax({
                     // En data puedes utilizar un objeto JSON, un array o un query string

@@ -69,7 +69,7 @@
                         url: "../db/obtenerUsuariosJSON.php",
                     })
                     .done(function(data) {
-                        //TODO problema: al insertarlo hacer un append tambien en la tabla?
+                        //TODO mejora: al insertarlo hacer un append tambien en la tabla?
                         //console.log(data.usuarios[0]); //Muestro el JSON
                         let usuario = data.usuarios[0];
                         $("#email[type=email]").val(usuario.email);
@@ -86,13 +86,11 @@
 
                         //Cuando se haga click en el boton de actualizar usuario
                         $("#btnInsertarUsuario").on("click",function(){
-                            //TODO problema: al insertar hace un update del ultimo usuario, hay que meter todo lo de abajo en un IF
-                            //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
                             //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
-                            console.log("click en boton de abajo dentro de editar");
+                            //console.log("click en boton de abajo dentro de editar");
                             if($(this).text() == "actualizar usuario"){
-                                console.log("actualizando usuario...");
-                                if($("#contrasena").val() == ""){ // && ventanaActual == "Edición del Usuario ID: "+idEditar.replace('editar','') //TODO ultimo argumento añadido nuevo y no he comprobado que funcione correctamente
+                                //console.log("actualizando usuario...");
+                                if($("#contrasena").val() == ""){
                                     var jsonDatos = `{
                                         "id" : "`+idEditar.replace('editar','')+`",
                                         "email" : "`+$("#email").val()+`",
@@ -150,7 +148,7 @@
                                 });
                             }
                             else if($(this).text() == "añadir usuario"){
-                                console.log("añadiendo usuario...");
+                                //console.log("añadiendo usuario...");
                                 $('#formulario *').not("#segundoApellido").filter(':input').each(function(){ //Recorro todos los inputs del formulario excepto el segundo apellido
                                     //console.log($(this).attr("id"));
                                     if($(this).val() == ""){
@@ -170,7 +168,7 @@
                                     $("#btnInsertarUsuario").removeAttr("disabled");
                                 }*/
                                 if(camposRellenos){
-                                    console.log("campos rellenos y listos para insertar");
+                                    //console.log("campos rellenos y listos para insertar");
                                     $("#btnInsertarUsuario").removeAttr("disabled");
                                     if($("#segundoApellido").val() == ""){
                                         var jsonDatos = `{
@@ -201,9 +199,9 @@
                                             "rol": "`+$("#rol").val()+`"
                                             }`;
                                     }
-                                    console.log("camposRellenos: "+camposRellenos);
-                                    console.log("JSON de añadir:");
-                                    console.log(JSON.parse(jsonDatos));
+                                    //console.log("camposRellenos: "+camposRellenos);
+                                    //console.log("JSON de añadir:");
+                                    //console.log(JSON.parse(jsonDatos));
                                     $.ajax({
                                         // En data puedes utilizar un objeto JSON, un array o un query string
                                         data: JSON.parse(jsonDatos),
@@ -235,7 +233,6 @@
                                     $("#modalComentarioMensaje").text("Rellena todos los campos correctamente.");
                                     $("#modalComentario").modal();
                                 }
-                                console.log("llega aqui");
                             }
                         });
                     })
@@ -317,21 +314,19 @@
 
             //Cuando se haga click en el boton de añadir usuario
             $("#btnInsertarUsuario").on("click",function(){
-                //TODO problema: al insertar hace un update del ultimo usuario, hay que meter todo lo de abajo en un IF
-                //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
                 //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
-                console.log("click en boton de abajo dentro de añadir");
+                //console.log("click en boton de abajo dentro de añadir");
                 if($(this).text() == "añadir usuario"){ //CODIGO VIEJO MALO
-                    console.log("añadiendo usuario...");
+                    //console.log("añadiendo usuario...");
                     $('#formulario *').not("#segundoApellido, #btnInsertarUsuario").filter(':input').each(function(){ //Recorro todos los inputs del formulario excepto el segundo apellido y el propio boton de insertar
                         camposRellenos = true;
                         if($(this).val() == ""){
-                            console.log($(this).attr("id")+ " esta vacio");
+                            //console.log($(this).attr("id")+ " esta vacio");
                             camposRellenos = false;
                         }
                     });
                     if(camposRellenos){
-                        console.log("campos rellenos y listos para insertar");
+                        //console.log("campos rellenos y listos para insertar");
                         $("#btnInsertarUsuario").removeAttr("disabled");
                         if($("#segundoApellido").val() == ""){
                             var jsonDatos = `{
@@ -360,10 +355,10 @@
                                 "rol": "`+$("#rol").val()+`"
                                 }`;
                         }
-                        console.log("camposRellenos: "+camposRellenos);
-                        console.log("JSON de añadir bueno:");
-                        console.log(JSON.parse(jsonDatos));
-                        $.ajax({ //TODO PETA AQUI
+                        //console.log("camposRellenos: "+camposRellenos);
+                        //console.log("JSON de añadir bueno:");
+                        //console.log(JSON.parse(jsonDatos));
+                        $.ajax({
                             // En data puedes utilizar un objeto JSON, un array o un query string
                             data: JSON.parse(jsonDatos),
                             //data: {"email": "bonobo@mail.com"},
@@ -385,7 +380,7 @@
                                 $("#modalComentarioMensaje").text("Se ha producido un error al añadir el usuario.");
                                 $("#modalComentario").modal();
                             }
-                            console.log(data);
+                            //console.log(data);
                         })
                         .fail(function(jqXHR, textStatus, errorThrown) {
                             console.log(errorThrown);

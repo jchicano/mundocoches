@@ -51,6 +51,9 @@
                     //console.log("click en editar: "+idEditar);
                     $("#btnInsertarUsuario").removeAttr("disabled");
                     $("#email").removeClass("red-border");
+                    $("#contrasena").val("");
+                    $("#email").removeClass("red-border");
+                    $("#email").removeClass("green-border");
                     $(".segundaSeccion").show();
                     $("#cabeceraSegundaTabla").html('<b>Edición</b> del usuario ID: <span id="idUsuarioSeleccionado">'+idEditar.replace('editar','')+'</span>');
                     ventanaActual = $("#cabeceraSegundaTabla").text();
@@ -66,7 +69,7 @@
                         url: "../db/obtenerUsuariosJSON.php",
                     })
                     .done(function(data) {
-                        //TODO al insertarlo hacer un append tambien en la tabla
+                        //TODO problema: al insertarlo hacer un append tambien en la tabla?
                         //console.log(data.usuarios[0]); //Muestro el JSON
                         let usuario = data.usuarios[0];
                         $("#email[type=email]").val(usuario.email);
@@ -86,62 +89,154 @@
                             //TODO problema: al insertar hace un update del ultimo usuario, hay que meter todo lo de abajo en un IF
                             //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
                             //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
-                            if($("#contrasena").val() == "" && ventanaActual == "Edición del Usuario ID: "+idEditar.replace('editar','')){ //TODO ultimo argumento añadido nuevo y no he comprobado que funcione correctamente
-                                var jsonDatos = `{
-                                    "id" : "`+idEditar.replace('editar','')+`",
-                                    "email" : "`+$("#email").val()+`",
-                                    "nombre" : "`+$("#nombre").val()+`",
-                                    "primerApellido": "`+$("#primerApellido").val()+`",
-                                    "segundoApellido": "`+$("#segundoApellido").val()+`",
-                                    "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
-                                    "pais": "`+$("#pais").val()+`",
-                                    "codigoPostal": "`+$("#codigoPostal").val()+`",
-                                    "telefono": "`+$("#telefono").val()+`",
-                                    "rol": "`+$("#rol").val()+`"
-                                    }`;
-                            }
-                            else{
-                                var jsonDatos = `{
-                                    "id" : "`+idEditar.replace('editar','')+`",
-                                    "email" : "`+$("#email").val()+`",
-                                    "contrasena" : "`+$("#contrasena").val()+`",
-                                    "nombre" : "`+$("#nombre").val()+`",
-                                    "primerApellido": "`+$("#primerApellido").val()+`",
-                                    "segundoApellido": "`+$("#segundoApellido").val()+`",
-                                    "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
-                                    "pais": "`+$("#pais").val()+`",
-                                    "codigoPostal": "`+$("#codigoPostal").val()+`",
-                                    "telefono": "`+$("#telefono").val()+`",
-                                    "rol": "`+$("#rol").val()+`"
-                                    }`;
-                            }
-                            //console.log("JSON:");
-                            //console.log(JSON.parse(jsonDatos));
-                            $.ajax({
-                                // En data puedes utilizar un objeto JSON, un array o un query string
-                                data: JSON.parse(jsonDatos),
-                                //Cambiar a type: POST si necesario
-                                type: "POST",
-                                // Formato de datos que se espera en la respuesta
-                                dataType: "json",
-                                // URL a la que se enviará la solicitud Ajax
-                                url: "../db/editarUsuario.php",
-                            })
-                            .done(function(data) {
-                                //alert("Correcto: "+data.correcto);
-                                //console.log(data);
-                                if(data.correcto){
-                                    $("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
-                                    $("#modalComentario").modal();
+                            console.log("click en boton de abajo dentro de editar");
+                            if($(this).text() == "actualizar usuario"){
+                                console.log("actualizando usuario...");
+                                if($("#contrasena").val() == ""){ // && ventanaActual == "Edición del Usuario ID: "+idEditar.replace('editar','') //TODO ultimo argumento añadido nuevo y no he comprobado que funcione correctamente
+                                    var jsonDatos = `{
+                                        "id" : "`+idEditar.replace('editar','')+`",
+                                        "email" : "`+$("#email").val()+`",
+                                        "nombre" : "`+$("#nombre").val()+`",
+                                        "primerApellido": "`+$("#primerApellido").val()+`",
+                                        "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                        "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                        "pais": "`+$("#pais").val()+`",
+                                        "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                        "telefono": "`+$("#telefono").val()+`",
+                                        "rol": "`+$("#rol").val()+`"
+                                        }`;
                                 }
                                 else{
-                                    $("#modalComentarioMensaje").text("Se ha producido un error al actualizar el usuario.");
+                                    var jsonDatos = `{
+                                        "id" : "`+idEditar.replace('editar','')+`",
+                                        "email" : "`+$("#email").val()+`",
+                                        "contrasena" : "`+$("#contrasena").val()+`",
+                                        "nombre" : "`+$("#nombre").val()+`",
+                                        "primerApellido": "`+$("#primerApellido").val()+`",
+                                        "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                        "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                        "pais": "`+$("#pais").val()+`",
+                                        "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                        "telefono": "`+$("#telefono").val()+`",
+                                        "rol": "`+$("#rol").val()+`"
+                                        }`;
+                                }
+                                //console.log("JSON:");
+                                //console.log(JSON.parse(jsonDatos));
+                                $.ajax({
+                                    // En data puedes utilizar un objeto JSON, un array o un query string
+                                    data: JSON.parse(jsonDatos),
+                                    //Cambiar a type: POST si necesario
+                                    type: "POST",
+                                    // Formato de datos que se espera en la respuesta
+                                    dataType: "json",
+                                    // URL a la que se enviará la solicitud Ajax
+                                    url: "../db/editarUsuario.php",
+                                })
+                                .done(function(data) {
+                                    //alert("Correcto: "+data.correcto);
+                                    //console.log(data);
+                                    if(data.correcto){
+                                        $("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
+                                        $("#modalComentario").modal();
+                                    }
+                                    else{
+                                        $("#modalComentarioMensaje").text("Se ha producido un error al actualizar el usuario.");
+                                        $("#modalComentario").modal();
+                                    }
+                                })
+                                .fail(function(jqXHR, textStatus, errorThrown) {
+                                    console.log(errorThrown);
+                                });
+                            }
+                            else if($(this).text() == "añadir usuario"){
+                                console.log("añadiendo usuario...");
+                                $('#formulario *').not("#segundoApellido").filter(':input').each(function(){ //Recorro todos los inputs del formulario excepto el segundo apellido
+                                    //console.log($(this).attr("id"));
+                                    if($(this).val() == ""){
+                                        camposRellenos = false;
+                                    }
+                                    else{
+                                        camposRellenos = true;
+                                    }
+                                    if($("#segundoApellido").val() == ""){ //Ignoro si esta relleno o no el segundo apellido
+                                        camposRellenos = true;
+                                    }
+                                });
+                                /*if($("#email").val()=="" || $("#contrasena").val()=="" || $("#nombre").val()=="" || $("#primerApellido").val()=="" || $("#fechaNacimiento").val()=="" || $("#pais").val()=="" || $("#codigoPostal").val()=="" || $("#telefono").val()=="" || $("#rol").val()=="" ){
+                                    $("#btnInsertarUsuario").attr("disabled", "disabled");
+                                }
+                                else{
+                                    $("#btnInsertarUsuario").removeAttr("disabled");
+                                }*/
+                                if(camposRellenos){
+                                    console.log("campos rellenos y listos para insertar");
+                                    $("#btnInsertarUsuario").removeAttr("disabled");
+                                    if($("#segundoApellido").val() == ""){
+                                        var jsonDatos = `{
+                                            "id" : "`+idEditar.replace('editar','')+`",
+                                            "email" : "`+$("#email").val()+`",
+                                            "contrasena" : "`+$("#contrasena").val()+`",
+                                            "nombre" : "`+$("#nombre").val()+`",
+                                            "primerApellido": "`+$("#primerApellido").val()+`",
+                                            "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                            "pais": "`+$("#pais").val()+`",
+                                            "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                            "telefono": "`+$("#telefono").val()+`",
+                                            "rol": "`+$("#rol").val()+`"
+                                            }`;
+                                    }
+                                    else{
+                                        var jsonDatos = `{
+                                            "id" : "`+idEditar.replace('editar','')+`",
+                                            "email" : "`+$("#email").val()+`",
+                                            "contrasena" : "`+$("#contrasena").val()+`",
+                                            "nombre" : "`+$("#nombre").val()+`",
+                                            "primerApellido": "`+$("#primerApellido").val()+`",
+                                            "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                            "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                            "pais": "`+$("#pais").val()+`",
+                                            "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                            "telefono": "`+$("#telefono").val()+`",
+                                            "rol": "`+$("#rol").val()+`"
+                                            }`;
+                                    }
+                                    console.log("camposRellenos: "+camposRellenos);
+                                    console.log("JSON de añadir:");
+                                    console.log(JSON.parse(jsonDatos));
+                                    $.ajax({
+                                        // En data puedes utilizar un objeto JSON, un array o un query string
+                                        data: JSON.parse(jsonDatos),
+                                        //Cambiar a type: POST si necesario
+                                        type: "POST",
+                                        // Formato de datos que se espera en la respuesta
+                                        dataType: "json",
+                                        // URL a la que se enviará la solicitud Ajax
+                                        url: "../db/insertarUsuario.php",
+                                    })
+                                    .done(function(data) {
+                                        //alert("Correcto: "+data.correcto);
+                                        //console.log(data);
+                                        if(data.correcto){
+                                            $("#modalComentarioMensaje").text("Usuario añadido correctamente.");
+                                            $("#modalComentario").modal();
+                                        }
+                                        else{
+                                            $("#modalComentarioMensaje").text("Se ha producido un error al añadir el usuario.");
+                                            $("#modalComentario").modal();
+                                        }
+                                    })
+                                    .fail(function(jqXHR, textStatus, errorThrown) {
+                                        console.log(errorThrown);
+                                    });
+                                }
+                                else{
+                                    $("#btnInsertarUsuario").attr("disabled", "disabled");
+                                    $("#modalComentarioMensaje").text("Rellena todos los campos correctamente.");
                                     $("#modalComentario").modal();
                                 }
-                            })
-                            .fail(function(jqXHR, textStatus, errorThrown) {
-                                console.log(errorThrown);
-                            });
+                                console.log("llega aqui");
+                            }
                         });
                     })
                     .fail(function(jqXHR, textStatus, errorThrown) {
@@ -152,9 +247,9 @@
                 $("#"+idBorrar).on("click",function(){
                     //console.log("click en borrar: "+idBorrar);
 
-                    if(ventanaActual != "Añadir un usuario"){
-                        $(".segundaSeccion").hide();
-                    }
+                    //if(ventanaActual != "Añadir un usuario"){
+                    $(".segundaSeccion").hide();
+                    //}
 
                     //Elimino el globo del tooltip para que no se bugee
                     $(".tooltip-inner").remove();
@@ -219,6 +314,90 @@
             ventanaActual = $("#cabeceraSegundaTabla").text();
 
             $(".segundaSeccion").show();
+
+            //Cuando se haga click en el boton de añadir usuario
+            $("#btnInsertarUsuario").on("click",function(){
+                //TODO problema: al insertar hace un update del ultimo usuario, hay que meter todo lo de abajo en un IF
+                //TODO comprobar si el campo de la contraseña esta lleno o no y poner alguna bandera o algo
+                //Compruebo si el campo contraseña esta vacio y creo el objeto JSON dependiendo si tiene contenido o no
+                console.log("click en boton de abajo dentro de añadir");
+                if($(this).text() == "añadir usuario"){ //CODIGO VIEJO MALO
+                    console.log("añadiendo usuario...");
+                    $('#formulario *').not("#segundoApellido, #btnInsertarUsuario").filter(':input').each(function(){ //Recorro todos los inputs del formulario excepto el segundo apellido y el propio boton de insertar
+                        camposRellenos = true;
+                        if($(this).val() == ""){
+                            console.log($(this).attr("id")+ " esta vacio");
+                            camposRellenos = false;
+                        }
+                    });
+                    if(camposRellenos){
+                        console.log("campos rellenos y listos para insertar");
+                        $("#btnInsertarUsuario").removeAttr("disabled");
+                        if($("#segundoApellido").val() == ""){
+                            var jsonDatos = `{
+                                "email" : "`+$("#email").val()+`",
+                                "contrasena" : "`+$("#contrasena").val()+`",
+                                "nombre" : "`+$("#nombre").val()+`",
+                                "primerApellido": "`+$("#primerApellido").val()+`",
+                                "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                "pais": "`+$("#pais").val()+`",
+                                "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                "telefono": "`+$("#telefono").val()+`",
+                                "rol": "`+$("#rol").val()+`"
+                                }`;
+                        }
+                        else{
+                            var jsonDatos = `{
+                                "email" : "`+$("#email").val()+`",
+                                "contrasena" : "`+$("#contrasena").val()+`",
+                                "nombre" : "`+$("#nombre").val()+`",
+                                "primerApellido": "`+$("#primerApellido").val()+`",
+                                "segundoApellido": "`+$("#segundoApellido").val()+`",
+                                "fechaNacimiento": "`+$("#fechaNacimiento").val()+`",
+                                "pais": "`+$("#pais").val()+`",
+                                "codigoPostal": "`+$("#codigoPostal").val()+`",
+                                "telefono": "`+$("#telefono").val()+`",
+                                "rol": "`+$("#rol").val()+`"
+                                }`;
+                        }
+                        console.log("camposRellenos: "+camposRellenos);
+                        console.log("JSON de añadir bueno:");
+                        console.log(JSON.parse(jsonDatos));
+                        $.ajax({ //TODO PETA AQUI
+                            // En data puedes utilizar un objeto JSON, un array o un query string
+                            data: JSON.parse(jsonDatos),
+                            //data: {"email": "bonobo@mail.com"},
+                            //Cambiar a type: POST si necesario
+                            type: "POST",
+                            // Formato de datos que se espera en la respuesta
+                            dataType: "json",
+                            // URL a la que se enviará la solicitud Ajax
+                            url: "../db/insertarUsuario.php",
+                        })
+                        .done(function(data) {
+                            //alert("Correcto: "+data.correcto);
+                            //console.log(data);
+                            if(data.correcto){
+                                $("#modalComentarioMensaje").text("Usuario añadido correctamente.");
+                                $("#modalComentario").modal();
+                            }
+                            else{
+                                $("#modalComentarioMensaje").text("Se ha producido un error al añadir el usuario.");
+                                $("#modalComentario").modal();
+                            }
+                            console.log(data);
+                        })
+                        .fail(function(jqXHR, textStatus, errorThrown) {
+                            console.log(errorThrown);
+                        });
+                    }
+                    else{
+                        $("#btnInsertarUsuario").attr("disabled", "disabled");
+                        $("#modalComentarioMensaje").text("Rellena todos los campos correctamente.");
+                        $("#modalComentario").modal();
+                    }
+                }
+            });
         });
 
         //Inicializamos el tooltip
@@ -263,7 +442,7 @@
                 }).bind('invalid', function(event) {
                     setTimeout(function() { $(event.target).focus();}, 50);
                 });
-                if(data.existe && ventanaActual == "Añadir un usuario"){ //|| data.existe && TODO problema que valide, pero no puedo poner type submit al boton
+                if(data.existe && ventanaActual == "Añadir un usuario"){ //|| data.existe && 
                     //Señalar que email ya existe
                     $("#btnInsertarUsuario").attr("disabled", "disabled");
                     $("#email").addClass("red-border");

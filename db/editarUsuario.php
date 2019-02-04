@@ -42,9 +42,9 @@ $con = new Conexion();
 $con->set_charset("utf8"); //Establecemos la codificacion adecuada
 
 if($contrasenaIntroducida){
-    $contrasena2 = md5($contrasena);
+    $contrasena = md5($contrasena);
     $sql = "UPDATE usuario
-            SET email='$email', pass='$contrasena2', nombre='$nombre', apellido1='$primerApellido', apellido2='$segundoApellido', fecha_nac='$fechaNacimiento', pais='$pais', cod_postal='$codigoPostal', telefono='$telefono', rol='$rol'
+            SET email='$email', pass='$contrasena', nombre='$nombre', apellido1='$primerApellido', apellido2='$segundoApellido', fecha_nac='$fechaNacimiento', pais='$pais', cod_postal='$codigoPostal', telefono='$telefono', rol='$rol'
             WHERE id=$id";
 }
 else{

@@ -123,7 +123,7 @@
                 <!--Fin cabecera-->
                 <div class="row">
                     <div class="col-lg-12">
-                        <form action="#" method="POST"> <!-- //TODO Cambiar a que archivo se envia segun si esta editando o añadiendo. Comprobar a la hora de pulsar en editar si contraseña no tiene contenido, no actualizo todos los compos, pero si tiene relleno el valor inserto en todos los campos-->
+                        <form id="formulario" action="#" method="POST">
                             <div class="form-group row">
                             <label for="email" class="col-4 col-form-label">Email*</label> 
                                 <div class="col-8">
@@ -209,6 +209,8 @@
         <a href="db/comprobarEmailUsuario.php?email=mundocoches@mail.com">comprobarEmailUsuario</a>
         <br>
         <a href='db/editarUsuario.php?jsonDatos={"id":50}'>editarUsuario</a>
+        <br>
+        <a href='db/insertarUsuario.php?jsonDatos={"email":"bonobo@mail.com"}'>insertarUsuario</a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
 

@@ -14,8 +14,17 @@
 </div>
 -->
 
+<script src="../js/loginDemo.js"></script>
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+
+<span id="idUserLogin" style="display: none;"><?php if(isset($_SESSION["idUser"])) echo $_SESSION["idUser"]; ?></span>
+<span id="nombreUserLogin" sytle="display: none;"><?php if(isset($_SESSION["nombreUser"])) echo $_SESSION["nombreUser"]; ?></span>
+<span id="rolUserLogin" style="display: none;"><?php if(isset($_SESSION["rolUser"])) echo $_SESSION["rolUser"]; ?></span>
+
+
+
   <div class="container">
     <?php if($CURRENT_PAGE == "Index") { ?>
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -109,22 +118,26 @@
         <li class="nav-item dropdown" id="dropdownLoginLI">
           <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle"><i class="fas fa-user"></i> <span class="caret"></span></button>
           <ul class="dropdown-menu dropdown-menu-right mt-2">
+                <?php if(!isset($_SESSION["idUser"]) && !isset($_SESSION["nombreUser"]) && !isset($_SESSION["rolUser"])) { ?>
                 <li class="px-3 py-2">
                     <form class="form" role="form" action="" method="post">
+                        <span style="color: red;" id="loginError"></span>
                         <div class="form-group">
                             <input id="emailInput" placeholder="Email" class="form-control form-control-sm" type="email" required="">
                         </div>
                         <div class="form-group">
                             <input id="passwordInput" placeholder="Contraseña" class="form-control form-control-sm" type="password" required="">
                         </div>
+                        <input type="hidden" name="loginCorrecto" id="loginCorrecto">
                         <div class="form-group">
-                            <button type="submit" name="iniciarsesion" class="btn btn-primary btn-block">Iniciar sesión</button>
+                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Iniciar sesión</button>
                         </div>
+                        
                         
                         <hr>
 
                         <div class="form-group">
-                            <button id="googleSignInBtn" class="btn btn-danger"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
+                            <button id="googleSignInBtn" class="btn btn-danger" style="white-space: normal; width:300px;"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
                         </div>
                         
                         <div class="form-group text-center">
@@ -139,9 +152,58 @@
                         </div>
                     </form>
                 </li>
+
+                <?php } else { ?>
+
+                <li class="px-3 py-2">
+                    <form class="form" role="form" action="" method="post">
+                        <div class="form-group">
+                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Cerrar sesion</button>
+                        </div>    
+
+                        <hr>
+
+                        <div class="form-group">
+                            <button id="googleSignInBtn" class="btn btn-danger" style="white-space: normal; width:300px;"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
+                        </div>
+                        
+                        <div class="form-group text-center">
+                        <?php if ($CURRENT_PAGE == "Index") { ?>
+                          <small><a href="registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
+                        <?php } else { ?>
+                          <small><a href="../registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
+                        <?php
+                          }
+                        ?>
+                            
+                        </div>
+                    </form>
+                </li>
+
+                <?php } ?>
+                
             </ul>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<!-- The Modal -->
+<div class="modal fade" id="modalLogin">
+        <div class="modal-dialog modal-md">
+        <div class="modal-content">
+        
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+            <span id="modalLoginComentarioMensaje" class="h6"></span>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+            </div>
+            
+        </div>
+        </div>
+    </div>

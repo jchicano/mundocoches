@@ -3,10 +3,10 @@
     // Jquery onload function.
     $(document).ready(function(){
       // Your JS code.
-        $("#botonLogin").on("click", function(){
+        $("#botonLogin").on("submit", function(){
             var jsonDatos = `{
-                                "email" : "`+$("#email").val()+`",
-                                "contrasena" : "`+$("#contrasena").val()+`"
+                                "email" : "`+$("#emailInput").val()+`",
+                                "password" : "`+$("#passwordInput").val()+`"
                             }`;
             $.ajax({
                 // En data puedes utilizar un objeto JSON, un array o un query string
@@ -16,20 +16,29 @@
                 // Formato de datos que se espera en la respuesta
                 dataType: "json",
                 // URL a la que se enviará la solicitud Ajax
-                url: "../db/editarUsuario.php",
+                url: "../db/loginUsuarioJSON.php",
             })
             .done(function(data) {
                 //alert("Correcto: "+data.correcto);
                 //console.log(data);
                 if(data.correcto){
-                    $("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
-                    $("#modalComentario").modal();
+                    $("#loginCorrecto").attr("value", true);
+                    //$("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
+                    //$("#modalComentario").modal();
+                    $("#loginError").text(" "); // Elimina el mensaje de error si lo hubiera
+                    console.log(data.id);
+                    $("#idUserLogin").text(data.id);
+                    console.log(data.nombre);
+                    $("#nombreUserLogin").text(data.nombre);
+                    console.log(data.rol);
+                    $("#rolUserLogin").text(data.rol);
                 }
                 else{
-                    $("#modalComentarioMensaje").text("Se ha producido un error al actualizar el usuario.");
-                    $("#modalComentario").modal();
+                    $("#loginCorrecto").attr("value", false);
+                    $("#loginError").text("Email o contraseña incorrecto");
+                    console.log("ELSE - Email o contraseña incorrecto");
                 }
-                console.log(data.existe); //undefined
+                console.log(data); //undefined
             })
             .fail(function(jqXHR, textStatus, errorThrown) {
                 console.log(errorThrown);

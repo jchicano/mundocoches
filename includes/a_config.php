@@ -1,6 +1,12 @@
 <?php
 
-session_start();
+if(isset($_REQUEST["loginCorrecto"])){
+	if($_REQUEST["loginCorrecto"]){
+		session_start();
+	}
+}
+
+
 
 	switch ($_SERVER["SCRIPT_NAME"]) {
 		case "/noticias/index.php":

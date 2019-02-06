@@ -1,6 +1,6 @@
 .capbox {
 	background-color: #222A42;
-	border: #3A435C 0px solid;
+	border: #222A42 0px solid;
 	border-width: 8px 8px 8px 8px;
 	display: inline-block;
 	*display: inline; zoom: 1; /* PARA IE7-8 */

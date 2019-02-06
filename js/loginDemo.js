@@ -3,7 +3,7 @@
     // Jquery onload function.
     $(document).ready(function(){
       // Your JS code.
-        $("#botonLogin").on("submit", function(){
+        $("#botonLogin").on("click", function(){
             var jsonDatos = `{
                                 "email" : "`+$("#emailInput").val()+`",
                                 "password" : "`+$("#passwordInput").val()+`"
@@ -26,12 +26,13 @@
                     //$("#modalComentarioMensaje").text("Usuario actualizado correctamente.");
                     //$("#modalComentario").modal();
                     $("#loginError").text(" "); // Elimina el mensaje de error si lo hubiera
-                    console.log(data.id);
+                    //console.log(data.id);
                     $("#idUserLogin").text(data.id);
-                    console.log(data.nombre);
+                    //console.log(data.nombre);
                     $("#nombreUserLogin").text(data.nombre);
-                    console.log(data.rol);
+                    //alert("Sesion ID: " + data.sesionid);
                     $("#rolUserLogin").text(data.rol);
+                    //window.location.replace(window.location.href);
                 }
                 else{
                     $("#loginCorrecto").attr("value", false);

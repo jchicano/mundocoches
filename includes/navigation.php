@@ -166,7 +166,7 @@
         
         <!-- Boton Login una vez logeado -->
         <li class="nav-item dropdown" id="dropdownLoginLI">
-          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle"><span class="caret"><?php echo $_SESSION["nombreUser"]; ?></span></button>
+          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn nav-link js-scroll-trigger btn-outline-secondary dropdown-toggle"><span class="caret"><?php echo $_SESSION["nombreUser"]; ?></span></button>
           <ul class="dropdown-menu dropdown-menu-right mt-2">
                 <li class="px-3 py-2">
                     <form class="form" role="form" action="/cerrarSesion.php" method="post">
@@ -220,6 +220,6 @@
 <?php if(isset($show_modal) && $show_modal){ ?>
     <script>
         $("#modalLoginComentarioMensaje").text("Email o contraseña incorrecta.");
-        $("#modalLogin").modal();;    
+        $("#modalLogin").modal(); 
     </script>
 <?php } ?>

@@ -125,7 +125,7 @@
         <!-- Boton Login sin logearse nadie -->
         <?php if(!isset($_SESSION["idUser"]) && !isset($_SESSION["nombreUser"]) && !isset($_SESSION["rolUser"])) { ?>
         <li class="nav-item dropdown" id="dropdownLoginLI">
-          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle"><i class="fas fa-user"></i> <span class="caret"></span></button>
+          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn nav-link js-scroll-trigger btn-outline-secondary dropdown-toggle"><i class="fas fa-user"></i> <span class="caret"></span></button>
           <ul class="dropdown-menu dropdown-menu-right mt-2">
                 <li class="px-3 py-2">
                     <form class="form" role="form" action="" method="post">

@@ -1,10 +1,10 @@
 <?php
 
-if(isset($_REQUEST["loginCorrecto"])){
-	if($_REQUEST["loginCorrecto"]){
-		session_start();
-	}
-}
+//if(isset($_REQUEST["loginCorrecto"])){
+//	if($_REQUEST["loginCorrecto"]){
+//		session_start();
+//	}
+//}
 
 
 
@@ -28,6 +28,18 @@ if(isset($_REQUEST["loginCorrecto"])){
 		case "/gestionUsuarios.php":
 			$CURRENT_PAGE = "Gestion"; 
 			$PAGE_TITLE = "Gestión de usuarios";
+			break;
+		case "/registro.php":
+			$CURRENT_PAGE = "Registro"; 
+			$PAGE_TITLE = "Registrarse";
+			break;
+		case "/politica.php":
+			$CURRENT_PAGE = "Política de privacidad"; 
+			$PAGE_TITLE = "Política de privacidad";
+			break;
+		case "/terminos.php":
+			$CURRENT_PAGE = "Términos legales"; 
+			$PAGE_TITLE = "Términos legales";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";

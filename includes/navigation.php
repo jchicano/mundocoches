@@ -170,26 +170,19 @@
           <ul class="dropdown-menu dropdown-menu-right mt-2">
                 <li class="px-3 py-2">
                     <form class="form" role="form" action="/cerrarSesion.php" method="post">
+                        <?php if($_SESSION["rolUser"] == 1) { ?>
+                        <div class="form-group">
+                          <a href="/gestionUsuarios.php" id="botonGestion" name="botonGestion" class="btn btn-primary btn-block">Gestionar usuarios</a>
+                        </div>
+                        <hr>
+
+                        <?php } ?>
+                        
                         <div class="form-group">
                             <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Cerrar sesión</button>
                         </div>
               
-                        <hr>
-
-                        <div class="form-group">
-                            <button id="googleSignInBtn" class="btn btn-danger" style="white-space: normal; width:300px;"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
-                        </div>
                         
-                        <div class="form-group text-center">
-                        <?php if ($CURRENT_PAGE == "Index") { ?>
-                          <small><a href="registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
-                        <?php } else { ?>
-                          <small><a href="../registro.php">¿No tienes cuenta? ¡Regístrate!</a></small>
-                        <?php
-                          }
-                        ?>
-                            
-                        </div>
                     </form>
                 </li>
             </ul>
@@ -203,7 +196,7 @@
   </div>
 </nav>
 
-<!-- The Modal -->
+<!-- Modal -->
 <div class="modal fade" id="modalLogin">
         <div class="modal-dialog modal-md">
         <div class="modal-content">
@@ -221,3 +214,12 @@
         </div>
         </div>
     </div>
+
+
+<!-- Script para activar el modal al intentar iniciar sesión si el email o la contraseña son incorrectos --> 
+<?php if(isset($show_modal) && $show_modal){ ?>
+    <script>
+        $("#modalLoginComentarioMensaje").text("Email o contraseña incorrecta.");
+        $("#modalLogin").modal();;    
+    </script>
+<?php } ?>

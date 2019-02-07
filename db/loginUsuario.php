@@ -21,7 +21,7 @@ if(isset($_REQUEST["botonLogin"])){
     $resultado = $con->query($sql);
 
 
-    if($con->affected_rows){ //Devuelve 0 o un numero
+    if($con->affected_rows){ //Devuelve 0 o un numeros
         $fila = $resultado->fetch_object();
 
         // Creación de variables de sesión
@@ -32,8 +32,10 @@ if(isset($_REQUEST["botonLogin"])){
         $con->close();
     }
     else{
-        $message = "Email o contraseña errónea";
-        echo "<script type='text/javascript'>alert('$message');</script>";
+        //$message = "Email o contraseña errónea";
+        //echo "<script type='text/javascript'>alert('$message');</script>";
+
+        $show_modal = true; // Activamos el modal
         $con->close();
     }
 

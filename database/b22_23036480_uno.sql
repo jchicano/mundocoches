@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 04-02-2019 a las 12:43:27
+-- Tiempo de generación: 08-02-2019 a las 10:11:52
 -- Versión del servidor: 10.1.36-MariaDB
 -- Versión de PHP: 7.2.11
 
@@ -76,9 +76,8 @@ CREATE TABLE `usuario` (
 INSERT INTO `usuario` (`id`, `email`, `pass`, `nombre`, `apellido1`, `apellido2`, `fecha_nac`, `pais`, `cod_postal`, `telefono`, `rol`) VALUES
 (1, 'mundocoches@mail.com', 'a43c27c2babefd68df8a694900f30a1c', 'Administrador', 'Admin', 'Admin123@', '2001-01-01', 'España', '14900', '957111222', 1),
 (2, 'correo@dominio.com', 'caca', 'Nombre2', 'Primer Apellido', 'Segundo Apellido', '2019-02-18', 'España', '14900', '957111222', 0),
-(3, 'editor@editor.com', 'editor', 'editor', 'editor', NULL, '2019-01-30', 'España', '14000', '7878', 2),
-(4, 'valorador@valorador.com', 'valorador', 'valorador', 'valorador', NULL, '2019-01-30', 'Francia', '43', '43', 3),
-(5, 'test', 'test', 'test', 'test', 'test', '2019-02-04', 'España', 'test', 'test', 0);
+(3, 'editor@editor.com', '7eb669ed3f81161e840801785bc95e7f', 'editor', 'editor', '', '2019-01-30', 'España', '14000', '7878', 2),
+(4, 'valorador@valorador.com', 'valorador', 'valorador2', 'valorador', '', '2019-01-30', 'Francia', '43', '43', 3);
 
 -- --------------------------------------------------------
 
@@ -98,8 +97,10 @@ CREATE TABLE `valoracion` (
 --
 
 INSERT INTO `valoracion` (`id_usuario`, `id_contenido`, `nota`, `comentario`) VALUES
-(1, 1, 4, '<p>muy polludo</p>'),
-(2, 1, 4, 'prueba en phpmyadmin');
+(1, 1, 2, '<p>test</p>'),
+(1, 5, 3, '<p>Muy bueno</p>'),
+(2, 1, 4, 'prueba en phpmyadmin'),
+(3, 1, 5, '<p>He iniciado sesion con una cuenta con un rol <strong>superior</strong></p>');
 
 --
 -- Índices para tablas volcadas
@@ -141,7 +142,7 @@ ALTER TABLE `contenido`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Restricciones para tablas volcadas

@@ -22,6 +22,10 @@ if($con->affected_rows){ //Devuelve 0 o un numero
     $jsondata['nombre'] = $fila->nombre;
     $jsondata['rol'] = $fila->rol;
     session_start();
+    $_SESSION["idUser"] = $fila->id;
+    $_SESSION["nomrbeUser"] = $fila->nombre;
+    $_SESSION["rolUser"] = $fila->rol;
+    //$jsondata['sesionid'] = $_SESSION["idUser"];
     echo json_encode($jsondata);
     $con->close();
 }

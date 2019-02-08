@@ -102,6 +102,9 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         </div>
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
           <div class="col-lg-12">
+            <?php if(!isset($_SESSION['idUser']) || $_SESSION['rolUser'] == "0"){ ?>
+            <p class="text-muted">Aguráte de haber iniciado sesión con una cuenta con un rol superior.</p>
+            <?php }else{ ?>
             <!-- Rating Stars Box -->
             <div class='rating-stars text-center'>
               <ul id='stars'>
@@ -122,6 +125,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
                 </li>
               </ul>
             </div>
+            <?php } ?>
           </div>
         </div>
       </div>

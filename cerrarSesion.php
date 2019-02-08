@@ -2,7 +2,13 @@
 
 session_start();
 
-$pagActual = $_SESSION['pagActual']; // Recogemos la página actual en la que está el usuario
+if(isset($_SESSION['pagActual'])){
+    $pagActual = $_SESSION['pagActual']; // Recogemos la página actual en la que está el usuario
+} else {
+    $pagActual = '/index.php';
+}
+
+
 
 session_unset();
 

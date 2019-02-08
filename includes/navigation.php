@@ -218,7 +218,7 @@
 
 
 <!-- Script para activar el modal al intentar iniciar sesión si el email o la contraseña son incorrectos --> 
-<?php if(isset($show_modal) && $show_modal){ ?>
+<?php if(isset($show_modalLogin) && $show_modalLogin){ ?>
     <script>
         $("#modalLoginComentarioMensaje").text("Email o contraseña incorrecta.");
         $("#modalLogin").modal(); 

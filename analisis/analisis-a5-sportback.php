@@ -102,8 +102,8 @@ if($con->affected_rows){ //Devuelve 0 o un numero
         </div>
         <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
           <div class="col-lg-12">
-            <?php if(!isset($_SESSION['idUser']) || $_SESSION['rolUser'] == "0"){ ?>
-            <p class="text-muted">Aguráte de haber iniciado sesión con una cuenta con un rol superior.</p>
+            <?php if(!isset($_SESSION['rolUser']) || $_SESSION['rolUser'] == "0"){ ?>
+            <p class="text-muted">Asegúrate de haber iniciado sesión con una cuenta con un rol superior.</p>
             <?php }else{ ?>
             <!-- Rating Stars Box -->
             <div class='rating-stars text-center'>
@@ -221,48 +221,51 @@ if($con->affected_rows){ //Devuelve 0 o un numero
               $comentarios[] = clone($comment); //Array de objetos de la clase Comentario
             }
           }
-          $con->close();
-          //print_r($comentarios);
           
-          foreach ($comentarios as $key => $comentario) {
-            if($comentario->rol_usuario == "1"){
-              $rol = "Administrador";
+          //print_r($comentarios);
+          if($con->affected_rows){
+            $con->close();
+            foreach ($comentarios as $key => $comentario) {
+              if($comentario->rol_usuario == "1"){
+                $rol = "Administrador";
+              }
+              else if($comentario->rol_usuario == "2"){
+                $rol = "Editor";
+              }
+              else if($comentario->rol_usuario == "3"){
+                $rol = "Valorador";
+              }
+              else{
+                $rol = "Visitante";
+              }
+              echo "<div class='panel panel-white post panel-shadow'>";
+              echo "<div class='post-heading'>";
+              echo "<div class='pull-left meta'>";
+              echo "<div class='title h5'>";
+              echo "<b>$comentario->nombre_usuario</b> publicó un comentario.";
+              echo "</div>";
+              echo "<h6 class='text-muted time'>$rol</h6>";
+              echo "</div>";
+              echo "</div>";
+              echo "<div style='padding: 0px 15px'>";
+              //echo "<p>";
+              
+              for($i=1;$i<=(int)$comentario->nota_contenido;$i++){ //Imprimo la cantidad de estrellas coloreadas segun la nota
+                echo "<span style='color:#FF912C;' class='fa fa-star'></span>";
+              }
+              for($i;$i<=5;$i++){ //Imprimo la cantidad de estrellas restantes por colorear
+                echo "<span class='fa fa-star'></span>";
+              }
+  
+              //echo "</p>";
+              echo "</div>";
+              echo "<div class='post-description'>";
+              echo "<span>$comentario->comentario_contenido</span>";
+              echo "</div>";
+              echo "</div>";
             }
-            else if($comentario->rol_usuario == "2"){
-              $rol = "Editor";
-            }
-            else if($comentario->rol_usuario == "3"){
-              $rol = "Valorador";
-            }
-            else{
-              $rol = "Visitante";
-            }
-            echo "<div class='panel panel-white post panel-shadow'>";
-            echo "<div class='post-heading'>";
-            echo "<div class='pull-left meta'>";
-            echo "<div class='title h5'>";
-            echo "<b>$comentario->nombre_usuario</b> publicó un comentario.";
-            echo "</div>";
-            echo "<h6 class='text-muted time'>$rol</h6>";
-            echo "</div>";
-            echo "</div>";
-            echo "<div style='padding: 0px 15px'>";
-            //echo "<p>";
-            
-            for($i=1;$i<=(int)$comentario->nota_contenido;$i++){ //Imprimo la cantidad de estrellas coloreadas segun la nota
-              echo "<span style='color:#FF912C;' class='fa fa-star'></span>";
-            }
-            for($i;$i<=5;$i++){ //Imprimo la cantidad de estrellas restantes por colorear
-              echo "<span class='fa fa-star'></span>";
-            }
-
-            //echo "</p>";
-            echo "</div>";
-            echo "<div class='post-description'>";
-            echo "<span>$comentario->comentario_contenido</span>";
-            echo "</div>";
-            echo "</div>";
           }
+          
           ?>
           <!--<div class="panel panel-white post panel-shadow">
             <div class="post-heading">

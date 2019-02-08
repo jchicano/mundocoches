@@ -1,240 +1,332 @@
-<?php $CURRENT_PAGE = "Analisis extendido"; ?>
-<?php $PAGE_TITLE = "Análisis | Volkswagen Golf"; ?>
+<?php
+
+require_once("../db/Conexion.php");
+require_once("../db/Contenido.php");
+require_once("../db/Usuario.php");
+
+//Guardamos la URL de la página actual
+$url = $_SERVER["REQUEST_URI"];
+
+//Conexion y consulta
+$con = new Conexion();
+$con->set_charset("utf8"); //Establecemos la codificacion adecuada
+$sql = "SELECT *
+        FROM contenido
+        WHERE url='$url'";
+$resultado = $con->query($sql);
+if($con->affected_rows){ //Devuelve 0 o un numero
+  while($fila = $resultado->fetch_object()){
+      $c = new Contenido($fila->id, $fila->url, $fila->titulo, $fila->fecha_publicacion, $fila->id_usuario_autor, $fila->texto); //Nombre de las columnas de la tabla
+  }
+}
+$con->close();
+
+$CURRENT_PAGE = "Analisis extendido";
+$PAGE_TITLE = $c->titulo; //Sacado de la bd el titulo
+
+
+$stringInicial = "/analisis/analisis-"; //String que queremos eliminar de la URL
+
+if(substr($url, 0, strlen($stringInicial)) === $stringInicial) //Calculamos la longitud de ese string y lo restamos
+    $str = substr($url, strlen($stringInicial));
+
+$str = basename($str, ".php"); //eliminamos la extension del archivo
+
+?>
+
 
 <!DOCTYPE html>
 <html>
 <head>
   <?php include("../includes/head-tag-contents.php"); ?>
-  <link rel="stylesheet" href="../css/analisis/golf.css">
+  <link rel="stylesheet" href="../css/analisis/<?php echo $str ?>.css">
 
   <link rel="stylesheet" href="../css/analisis/galeria-imagenes.css">
+
+  <!--Para la valoracion-->
+  <link rel="stylesheet" href="../css/rating-stars.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Script para inicializar la valoracion-->
+  <script src="../js/rating-stars.js"></script>
+
+  <!--Hoja de estilos de Quill-->
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+
+  <!-- Include the Quill library -->
+  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+  
+  <!--Estilos para la sección de comentarios-->
+  <link rel="stylesheet" href="../css/comentario.css">
+  <!--Script para la sección de comentarios-->
+  <script src="../js/comentario.js"></script>
 
 </head>
 <body>
 
-<?php include("../includes/navigation.php"); ?>
 
-<!-- CONTENIDO -->
+<!--Texto de la pagina-->
+<?php echo $c->texto; ?>
 
-<body class="bg-light"><!--Modificado-->
-  <header class="masthead-golf">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 bajar-tamano-movil">Volkswagen Golf</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-        <a href="#scroll" class="js-scroll-trigger">
-          <i class="fa fa-chevron-circle-down" style="font-size:48px;color:gainsboro"></i>
-        </a>
-      </div>
-    </div>
-  </header>
-  <div class="container bg-light">
 
-  <section id="scroll" class="projects-section bg-light">
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
-      <div class="col-lg-12">
-        <h2>Un compacto lleno de talento</h2>
-      </div>
-      <div class="col-lg-8 contenedor-izda">
-        <p>
-          No se puede negar que <a href="../marcas/renault.php">Renault</a> ha echado el resto y más en esta cuarta generación de su
-          berlina media Megane en carrocería 5 puertas, un coche con vocación de triunfador, fabricado en España (Palencia) con una
-          importante ganancia en calidad y tecnología. Diseño, confort, funcionalidad, versatilidad, prestaciones y una gama muy
-          completa y bien equipado tecnológicamente, junto a una <b>seguridad</b> activa y pasiva de primer nivel, han sido armas
-          suficientes para que este automóvil nos enamore. Un coche convincente y con muy buena relación precio/equipamiento,
-          pudiéndose decir que es bastante buena.
-        </p>
+<!--Incluyo el autor del contenido-->
+<?php
+//Conexion y consulta
+$con = new Conexion();
+$con->set_charset("utf8"); //Establecemos la codificacion adecuada
+$sql = "SELECT *
+        FROM usuario,contenido
+        WHERE contenido.id_usuario_autor=usuario.id";
+$resultado = $con->query($sql);
+if($con->affected_rows){ //Devuelve 0 o un numero
+  while($fila = $resultado->fetch_object()){
+      $u = new Usuario($fila->id, $fila->email, $fila->pass, $fila->nombre, $fila->apellido1, $fila->apellido2, $fila->fecha_nac, $fila->pais, $fila->cod_postal, $fila->telefono, $fila->rol); //Nombre de las columnas de la tabla
+    }
+  $con->close();
+}
+?>
+<!--Autor y valoracion del articulo-->
+<div class="container">
+  <section id="scroll" class="projects-section bg-light reducirMargenSuperior" style="margin-bottom:-130px">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+      <hr class="my-4 w-100">
+      <div class="col-lg-4">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <span class="h5">Autor:&nbsp;</span><span><?php echo $u->nombre ?></span>
+        </div>
       </div>
       <div class="col-lg-4">
-        <!--Tabla informativa-->
-        <table class="table table-sm">
-          <thead>
-            <tr>
-              <th class="text-center" colspan="2" scope="col">Renault Megane</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Combustible</td>
-              <td class="text-right">Diésel</td>
-            </tr>
-            <tr>
-              <td> Nº cilindros</td>
-              <td class="text-right">4</td>
-            </tr>
-            <tr>
-              <td>Cambio</td>
-              <td class="text-right">Manual</td>
-            </tr>
-            <tr>
-              <td>Nº plazas</td>
-              <td class="text-right">5</td>
-            </tr>
-            <tr>
-              <td>Tracción</td>
-              <td class="text-right">Delantera</td>
-            </tr>
-          </tbody>
-        </table>
-        <a href="../marcas/megane.php">Más información...</a>
-        <!---->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <h5>Tu nota</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <?php if(!isset($_SESSION['rolUser']) || $_SESSION['rolUser'] == "0"){ ?>
+            <p class="text-muted">Asegúrate de haber iniciado sesión con una cuenta con un rol superior.</p>
+            <?php }else{ ?>
+            <!-- Rating Stars Box -->
+            <div class='rating-stars text-center'>
+              <ul id='stars'>
+                <li id="1" class='star' data-value='1'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="2" class='star' data-value='2'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="3" class='star' data-value='3'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="4" class='star' data-value='4'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="5" class='star' data-value='5'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+              </ul>
+            </div>
+            <?php } ?>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <div class="col-lg-12">
-        <h2>Exterior e interior</h2>
-      </div>
-      <div class="col-lg-12">
-        <p>
-          Si el nuevo Renault Mégane convence por fuera, por dentro también ha logrado seducirnos. Está entre los más amplios de su
-          categoría y el diseño es atractivo, con buenos materiales en líneas generales (algunos plásticos de la consola central
-          desentonan). El habitáculo ha sido completamente rediseñado e incorpora nuevas tecnologías, como la posibilidad de elegir
-          entre cinco ambientes luminosos, que se reflejarán tanto en la consola central como en los paneles de puertas delanteras
-          y traseras y al cuadro de instrumentos.
-        </p>
-        <p>
-          También destaca el sistema R Link 2 con una pantalla de 8,7 pulgadas situada en posición vertical, ya empleada en el Espace y el <a href="../marcas/talisman.php">Talismán</a>. Desde esa gran pantalla, que está rodeada por un marco en negro mate, donde se llegan a apreciar las huellas de los dedos, se controlan las funciones de la radio y el climatizador, acciones algo engorrosas porque necesitas realizar más acciones que si se hiciera mediante botones. Entre las muchas funciones que incluye también está el Multi Sense, un selector de perfiles de conducción que permite configurar diferentes parámetros del vehículo a nuestro antojo, como la respuesta del motor, la dureza de la dirección, o el sonido.
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify caja-texto">
-      <div class="col-lg-6">
-        <div class="card text-center w-100 "><!-- class:float-left -->
-            <img class="card-img-top" src="../img/analisis/c4_interior.jpg" alt="Instrumentacion digital">
-            <div class="card-body">
-              <p class="card-text">Este coche viene muy bien equipado.</p>
+      <div class="col-lg-4">
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <h5>Nota media</h5>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+          <div class="col-lg-12">
+            <!--Valoración media-->
+            <div class='rating-stars text-center'>
+              <ul id='starsMedia'>
+                <li id="media1" class='star' data-value='1'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media2" class='star' data-value='2'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media3" class='star' data-value='3'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media4" class='star' data-value='4'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li id="media5" class='star' data-value='5'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+              </ul>
             </div>
           </div>
-      </div>
-      <div class="col-lg-6 contenedor-dcha">
-        <p>
-          Dispone de cuatro modos predeterminados: Eco, Neutro, Confort y Sport, además de uno personalizable. Sin lugar a dudas en
-          la prueba del Renault Mégane se ha podido comprobar que el más divertido es el modo Sport (como casi siempre), en el que
-          desde el primer momento notas una sensibilidad del acelerador mucho más acentuada y un tacto de dirección que me gusta
-          mucho más que por ejemplo la del modo Confort.
-        </p>
-        <p>
-          Entre las <b>múltiples opciones y acabados</b> del Renault Mégane me ha sorprendido gratamente el equipamiento que puede
-          llevar, como la apertura sin llave y sin botón, solo por proximidad, aviso por cambio de carril, head-up display e,
-          incluso, ¡función masaje!. Todo un lujo para un coche de su categoría y segmento.
-        </p>
+        </div>
       </div>
     </div>
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify separar-arriba">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-center">
+      <div class="col-lg-4">
+        
+      </div>
+      <div class="col-lg-4">
+        
+        
+      </div>
+      <!--Valoración media-->
+      <div class="col-lg-4">
+        
+      </div>
       <div class="col-lg-12">
-        <p>
-          En carretera, la potencia es suficiente para mover con alegría al nuevo Renault Mégane. Pese a haber crecido en tamaño y en
-          equipamiento, su peso es idéntico al de la generación anterior (el bastidor es 90 kg más ligero gracias al uso de aceros de
-          alta resistencia y aleaciones ligeras). El cambio tiene un selector con unos recorridos correctos y suficiente precisión y
-          unas marchas tirando a largas para reducir el consumo. De todos modos, gracias al turbo, el motor tiene suficiente par como
-          para mantener unas recuperaciones aceptables.
-        </p>
+        <div class='success-box' style="display:none">
+          <div class='clearfix'></div>
+          <img alt='tick image' width='32' src='data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MjYuNjY3IDQyNi42NjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQyNi42NjcgNDI2LjY2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM2QUMyNTk7IiBkPSJNMjEzLjMzMywwQzk1LjUxOCwwLDAsOTUuNTE0LDAsMjEzLjMzM3M5NS41MTgsMjEzLjMzMywyMTMuMzMzLDIxMy4zMzMgIGMxMTcuODI4LDAsMjEzLjMzMy05NS41MTQsMjEzLjMzMy0yMTMuMzMzUzMzMS4xNTcsMCwyMTMuMzMzLDB6IE0xNzQuMTk5LDMyMi45MThsLTkzLjkzNS05My45MzFsMzEuMzA5LTMxLjMwOWw2Mi42MjYsNjIuNjIyICBsMTQwLjg5NC0xNDAuODk4bDMxLjMwOSwzMS4zMDlMMTc0LjE5OSwzMjIuOTE4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K'/>
+          <div class='text-message'></div>
+          <div class='clearfix'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
+      <div class="col-lg-3">
+      </div>
+      <div class="col-lg-6">
+        <div id="editor"></div>
+        <div class="text-center">
+          <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Comentar</button>
+        </div>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+    <div class="row justify-content no-gutters mb-5 mb-lg-0 text-justify" style="margin-top: 150px; margin-bottom: 150px;">
+      <hr class="my-4 w-100">
+      <div class="col-lg-12" style="margin-bottom: 30px;">
+        <span class="h3" style="margin-right: 25px;">Comentarios</span><span><a href="#cajaComentarios" id="enlaceMostrar" data-toggle="collapse">Mostrar</a></span>
       </div>
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-12">
-        <h2>Conclusión</h2>
-      </div>
-      <div class="col-lg-12">
-        <p>
-          En definitiva, <a href="../marcas/renault.php">Renault</a> entra de lleno a luchar con los mejores compactos del mercado
-          sin el menor complejo y se desmarca con un producto muy competitivo. Si estás pensando en cambiar de coche y buscas uno
-          del segmento C (compactos) deberías tenerlo entre tus candidatos, junto con el <a href="../marcas/leon.php">Seat León</a>
-          o el mismísimo <a href="../marcas/golf.php">Volkswagen Golf</a>.
-        </p>
-      </div>
-    </div>
-    <hr class="my-4 w-100">
-    <!-- INICIO GALERIA -->
-    <div class="gallery">
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-1.jpg" alt="" />
-            <!--<figcaption>Daytona Beach <small>United States</small></figcaption>-->
-          </figure>
-        </div>
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-2.jpg" alt="" />
-            <!--<figcaption>Russia, gorod Severomorsk <small>Russia</small></figcaption>-->
-          </figure>
-        </div>
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-3.jpg" alt="" />
-            <!--<figcaption>Bad Pyrmont <small>Deutschland</small></figcaption>-->
-          </figure>
-        </div>
-      </div>
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-4.jpg" alt="" />
-            <!--<figcaption>Yellowstone National Park <small>United States</small></figcaption>-->
-          </figure>
-        </div>
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-5.jpg" alt="" />
-            <!--<figcaption>Quiraing, Portree <small>United Kingdom</small></figcaption>-->
-          </figure>
-        </div>
-        <div class="col-lg-4">
-          <figure>
-            <img src="../img/analisis/gallery/megane-6.jpg" alt="" />
-            <!--<figcaption>Highlands <small>United States</small></figcaption>-->
-          </figure>
-        </div>
-      </div>
+        <div id="cajaComentarios" class="collapse">
+          <?php
+          require_once("../db/Comentario.php");
 
-      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none;">
-        <symbol id="close" viewBox="0 0 18 18">
-          <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M9,0.493C4.302,0.493,0.493,4.302,0.493,9S4.302,17.507,9,17.507
-            S17.507,13.698,17.507,9S13.698,0.493,9,0.493z M12.491,11.491c0.292,0.296,0.292,0.773,0,1.068c-0.293,0.295-0.767,0.295-1.059,0
-            l-2.435-2.457L6.564,12.56c-0.292,0.295-0.766,0.295-1.058,0c-0.292-0.295-0.292-0.772,0-1.068L7.94,9.035L5.435,6.507
-            c-0.292-0.295-0.292-0.773,0-1.068c0.293-0.295,0.766-0.295,1.059,0l2.504,2.528l2.505-2.528c0.292-0.295,0.767-0.295,1.059,0
-            s0.292,0.773,0,1.068l-2.505,2.528L12.491,11.491z"/>
-        </symbol>
-      </svg>
-      
-      
-      
+          $con = new Conexion();
+          $con->set_charset("utf8"); //Establecemos la codificacion adecuada
+          $sql = "SELECT usuario.nombre, usuario.rol, valoracion.nota, valoracion.comentario
+                  FROM valoracion,usuario
+                  WHERE usuario.id=valoracion.id_usuario && valoracion.id_contenido=$c->id"; //PRODUCCION modificar con variable de sesion con el id del usuario 
+          $resultado = $con->query($sql);
+          if($con->affected_rows){ //Devuelve 0 o un numero
+            while($fila = $resultado->fetch_object()){
+              $comment = new Comentario($fila->nombre, $fila->rol, $fila->nota, $fila->comentario); //Nombre de las columnas de la tabla
+              $comentarios[] = clone($comment); //Array de objetos de la clase Comentario
+            }
+          }
+          
+          //print_r($comentarios);
+          if($con->affected_rows){
+            $con->close();
+            foreach ($comentarios as $key => $comentario) {
+              if($comentario->rol_usuario == "1"){
+                $rol = "Administrador";
+              }
+              else if($comentario->rol_usuario == "2"){
+                $rol = "Editor";
+              }
+              else if($comentario->rol_usuario == "3"){
+                $rol = "Valorador";
+              }
+              else{
+                $rol = "Visitante";
+              }
+              echo "<div class='panel panel-white post panel-shadow'>";
+              echo "<div class='post-heading'>";
+              echo "<div class='pull-left meta'>";
+              echo "<div class='title h5'>";
+              echo "<b>$comentario->nombre_usuario</b> publicó un comentario.";
+              echo "</div>";
+              echo "<h6 class='text-muted time'>$rol</h6>";
+              echo "</div>";
+              echo "</div>";
+              echo "<div style='padding: 0px 15px'>";
+              //echo "<p>";
+              
+              for($i=1;$i<=(int)$comentario->nota_contenido;$i++){ //Imprimo la cantidad de estrellas coloreadas segun la nota
+                echo "<span style='color:#FF912C;' class='fa fa-star'></span>";
+              }
+              for($i;$i<=5;$i++){ //Imprimo la cantidad de estrellas restantes por colorear
+                echo "<span class='fa fa-star'></span>";
+              }
+  
+              //echo "</p>";
+              echo "</div>";
+              echo "<div class='post-description'>";
+              echo "<span>$comentario->comentario_contenido</span>";
+              echo "</div>";
+              echo "</div>";
+            }
+          }
+          
+          ?>
+          <!--<div class="panel panel-white post panel-shadow">
+            <div class="post-heading">
+              <div class="pull-left meta">
+                <div class="title h5">
+                  <b>Ryan Haywood</b> publicó un comentario.
+                </div>
+                  <h6 class="text-muted time">Rol del usuario. Modificar clase Comentario</h6>
+              </div>
+              <div style="padding: 0px 15px">
+                Estrellas
+              </div>
+            </div> 
+            <div class="post-description">
+              <p>Texto del comentario</p>
+            </div>
+          </div>-->
+            
+        </div>
+      </div>
     </div>
-    <!-- FIN GALERIA -->
-
-    <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
-      <hr class="my-4 w-100">
-      <div class="col-lg-12">
-        <h3>Relacionado</h3>
-      </div>
-      <div class="col-lg-12">
-        <ul>
-          <li>
-            <a href="../noticias/">Más noticias...</a>
-          </li>
-          <li>
-            <a href="../analisis/">Más análisis...</a>
-          </li>
-        </ul>
-      </div>
-      <hr class="my-4 w-100">
-      <div class="col-lg-12">
-        <h3>Fuente(s)</h3>
-      </div>
-      <div class="col-lg-12">
-        <ul>
-          <li>
-            <a href="https://www.motorpasion.com/pruebas-de-coches/volkswagen-golf-2017-prueba-contacto">Enlace 1</a>
-          </li>
-          <li>
-            <a href="https://www.km77.com/coches/volkswagen/golf/2017/5-puertas/informacion/volkswagen-golf-5p-2017-impresiones-de-conduccion">Enlace 2</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <!--Enlaces de prueba
+    <a href="../db/guardarValoracion.php?id=1&nota=5">guardarValoracionPrueba</a>
+    <br>
+    <a href="../db/guardarComentario.php?id=1&comentario=Comentario%20de%20prueba%20en%20la%20URL">guardarComentarioPrueba</a>
+    <br>
+    <a href="../db/obtenerValoracion.php">obtenerValoracionPrueba</a>
+    <br>
+    <a href="../db/obtenerValoracionMedia.php">obtenerValoracionMediaPrueba</a>
+    <br>-->
   </section>
+  <section id="scroll" class="projects-section bg-light" style="margin-top: -200px;"></section>
+</div>
+
+
+
+
+
+  <!-- The Modal -->
+  <div class="modal fade" id="modalComentario">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      
+        <!-- Modal body -->
+        <div class="modal-body text-center">
+          <span id="modalComentarioMensaje" class="h6"></span>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cerrar</button>
+        </div>
+        
+      </div>
+    </div>
   </div>
+
+
+
+<!--Resto de scripts-->
+<?php include("../includes/navigation.php"); ?>
 
 <?php include("../includes/gallery-script.php");?>
 
@@ -244,3 +336,4 @@
 
 </body>
 </html>
+

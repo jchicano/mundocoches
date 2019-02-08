@@ -3,6 +3,12 @@
 <html>
 <head>
     <?php include("includes/head-tag-contents.php");?>
+    <?php
+        if(!isset($_SESSION['rolUser']) || $_SESSION['rolUser'] != "1"){
+            header("Location: index.php");
+            echo "<p>No eres Administrador. Redirigiendo a la página de <a href='index.php'>inicio</a></p>";
+        }
+    ?>
     <link rel="stylesheet" href="css/gestionUsuarios.css">
     <script src="js/gestionUsuarios.js"></script>
 </head>
@@ -204,14 +210,14 @@
                 </div>
             </div>
         </section>
-        <a href="db/obtenerUsuariosJSON.php?idUsuario=5">obtenerUsuariosJSON</a>
+        <!--<a href="db/obtenerUsuariosJSON.php?idUsuario=5">obtenerUsuariosJSON</a>
         <br>
         <a href="db/comprobarEmailUsuario.php?email=mundocoches@mail.com">comprobarEmailUsuario</a>
         <br>
         <a href='db/editarUsuario.php?jsonDatos={"id":50}'>editarUsuario</a>
         <br>
         <a href='db/insertarUsuario.php?jsonDatos={"email":"bonobo@mail.com"}'>insertarUsuario</a>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>-->
     </div>
 
     <!-- The Modal -->

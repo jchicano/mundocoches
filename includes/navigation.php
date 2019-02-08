@@ -177,7 +177,8 @@
                         <hr>
 
                         <?php } ?>
-                        
+                        <!-- Variable de sesión que guarda/sobreescribe la página actual para cuando cierra sesión el usuario -->
+                        <?php $_SESSION["pagActual"] = $_SERVER["PHP_SELF"];?>
                         <div class="form-group">
                             <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Cerrar sesión</button>
                         </div>

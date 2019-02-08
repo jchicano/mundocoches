@@ -4,7 +4,11 @@ require_once("Contenido.php");
 
 //Guardamos el id de usuario logueado
 //$idUsuario = isset($_GET['id'])?$_GET['id']:$_POST['id'];
-$idUsuario = 1; //PRODUCCION esta puesto id usuario fijo
+if(!isset($_SESSION['idUser'])){
+    echo 0;
+    die;
+}
+else $idUsuario = $_SESSION['idUser']; //PRODUCCION_OLD esta puesto id usuario fijo
 
 //Guardamos la URL de la pagina anterior, para saber a que analisis nos referimos
 $urlPaginaAnteriorIncorrecta = $_SERVER['HTTP_REFERER'];

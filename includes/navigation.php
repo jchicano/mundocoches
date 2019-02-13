@@ -138,13 +138,13 @@
                         </div>
                         <input type="hidden" name="loginCorrecto" id="loginCorrecto">
                         <div class="form-group">
-                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Iniciar sesión</button>
+                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block quitarMayus">Iniciar sesión</button>
                         </div>
               
                         <hr>
 
                         <div class="form-group">
-                            <button id="googleSignInBtn" class="btn btn-danger" style="white-space: normal; width:300px;" disabled><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
+                            <button id="googleSignInBtn" class="btn btn-danger quitarMayus" style="white-space: normal; width:300px;" disabled><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
                         </div>
                         
                         <div class="form-group text-center">
@@ -166,20 +166,21 @@
         
         <!-- Boton Login una vez logeado -->
         <li class="nav-item dropdown" id="dropdownLoginLI">
-          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn nav-link js-scroll-trigger btn-outline-secondary dropdown-toggle"><span class="caret"><?php echo $_SESSION["nombreUser"]; ?></span></button>
+          <button style="padding:12px; margin-top:10px;" type="button" id="dropdownMenu1" data-toggle="dropdown" class="btn nav-link js-scroll-trigger quitarMayus btn-outline-secondary dropdown-toggle"><span class="caret"><?php echo $_SESSION["nombreUser"]; ?></span></button>
           <ul class="dropdown-menu dropdown-menu-right mt-2">
                 <li class="px-3 py-2">
                     <form class="form" role="form" action="/cerrarSesion.php" method="post">
                         <?php if($_SESSION["rolUser"] == 1) { ?>
                         <div class="form-group">
-                          <a href="/gestionUsuarios.php" id="botonGestion" name="botonGestion" class="btn btn-primary btn-block">Gestionar usuarios</a>
+                          <a href="/gestionUsuarios.php" id="botonGestion" name="botonGestion" class="btn btn-primary btn-block quitarMayus">Gestionar usuarios</a>
                         </div>
                         <hr>
 
                         <?php } ?>
-                        
+                        <!-- Variable de sesión que guarda/sobreescribe la página actual para cuando cierra sesión el usuario -->
+                        <?php $_SESSION["pagActual"] = $_SERVER["PHP_SELF"];?>
                         <div class="form-group">
-                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block">Cerrar sesión</button>
+                            <button type="submit" id="botonLogin" name="botonLogin" class="btn btn-primary btn-block quitarMayus">Cerrar sesión</button>
                         </div>
               
                         
@@ -217,7 +218,7 @@
 
 
 <!-- Script para activar el modal al intentar iniciar sesión si el email o la contraseña son incorrectos --> 
-<?php if(isset($show_modal) && $show_modal){ ?>
+<?php if(isset($show_modalLogin) && $show_modalLogin){ ?>
     <script>
         $("#modalLoginComentarioMensaje").text("Email o contraseña incorrecta.");
         $("#modalLogin").modal(); 

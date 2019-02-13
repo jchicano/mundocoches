@@ -218,8 +218,9 @@
             $("#modalComentario").modal();;    
         </script>
     <?php } ?>
-
+    <script>startApp();</script>
 </body>
+
 
 <?php include("includes/footer.php");?>
 

@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/captcha.css">
   <script src="js/registro.js"></script>
   <script src="https://apis.google.com/js/api:client.js"></script>
-  <script type="text/javascript" src="google-signin.js"></script>
   
 </head>
 <body>
@@ -218,6 +217,8 @@
             $("#modalComentario").modal();;    
         </script>
     <?php } ?>
+    <script type="text/javascript" src="google-signin.js"></script>
+  
     <script>startApp();</script>
 
 

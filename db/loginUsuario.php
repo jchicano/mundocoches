@@ -35,7 +35,7 @@ if(isset($_REQUEST["botonLogin"])){
         //$message = "Email o contraseña errónea";
         //echo "<script type='text/javascript'>alert('$message');</script>";
 
-        $show_modal = true; // Activamos el modal
+        $show_modalLogin = true; // Activamos el modal
         $con->close();
     }
 

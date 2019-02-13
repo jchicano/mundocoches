@@ -2,6 +2,14 @@
 
 session_start();
 
+if(isset($_SESSION['pagActual'])){
+    $pagActual = $_SESSION['pagActual']; // Recogemos la página actual en la que está el usuario
+} else {
+    $pagActual = '/index.php';
+}
+
+
+
 session_unset();
 
 session_destroy();
@@ -13,7 +21,7 @@ unset($_SESSION["idUser"]);
 unset($_SESSION["nombreUser"]);
 unset($_SESSION["rolUser"]);*/
 
-header("Location: index.php");
+header("Location: ".$pagActual); // Redirigimos a la actual página
 
 echo "<p>Redirigiendo a la página de <a href='index.php'>inicio de MundoCoches</a></p>";
 

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/registro.css">
   <link rel="stylesheet" href="css/captcha.css">
   <script src="js/registro.js"></script>
+  <script src="https://apis.google.com/js/api:client.js"></script>
+  <script type="text/javascript" src="google-signin.js"></script>
   
 </head>
 <body>
@@ -115,9 +117,13 @@
             <button class="btn btn-lg btn-primary btn-block text-uppercase" id="btnregistrarse" name="registrarse" type="submit" disabled>Registrarse</button>
 
             <hr class="my-4">
-            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" disabled><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
+            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" onclick="startApp()"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
+
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
             </form>
+            
+
 
             <script type="text/javascript">
 

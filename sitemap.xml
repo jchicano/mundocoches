@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://mundocoches.byethost22.com/</loc>
+    <lastmod>2019-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://mundocoches.byethost22.com/noticias/</loc>
+     <lastmod>2019-01-18</lastmod>
+     <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://mundocoches.byethost22.com/marcas/</loc>
+    <lastmod>2019-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>http://mundocoches.byethost22.com/accesorios/</loc>
+    <lastmod>2019-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+
+</urlset>

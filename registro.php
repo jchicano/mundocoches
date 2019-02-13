@@ -117,12 +117,12 @@
             <button class="btn btn-lg btn-primary btn-block text-uppercase" id="btnregistrarse" name="registrarse" type="submit" disabled>Registrarse</button>
 
             <hr class="my-4">
-            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" id="googleSignInBtn"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
             </form>
-            
+            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" id="googleSignInBtn"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
+
             <button id="logoff" >Cerrar sesion</button>
             
 

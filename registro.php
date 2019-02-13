@@ -121,11 +121,10 @@
 
             <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
-            <a href="#" onclick="signOut();">Sign out</a>
-
             </form>
             
-
+            <button id="logoff" >Cerrar sesion</button>
+            
 
             <script type="text/javascript">
 

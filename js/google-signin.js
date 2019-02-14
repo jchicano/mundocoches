@@ -35,14 +35,14 @@ if (auth2.isSignedIn.get()){
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail());
   document.getElementById('inputEmail').innerHTML = profile.getEmail();
-  document.getElementById('dropdownLogoutMenu1').innerHTML= auth2.currentUser.get().getBasicProfile().getName();
-  document.getElementById('dropdownLoginLI').style.display = 'none';
-  document.getElementById('dropdownLogoutLI').style.display = 'block';
+  //document.getElementById('dropdownLogoutMenu1').innerHTML= auth2.currentUser.get().getBasicProfile().getName();
+  //document.getElementById('dropdownLoginLI').style.display = 'none';
+  //document.getElementById('dropdownLogoutLI').style.display = 'block';
 
 }else{
   console.log('Not signed in.');
-  document.getElementById('dropdownLogoutLI').style.display = 'none';
-  document.getElementById('dropdownLoginLI').style.display = 'block';
+  //document.getElementById('dropdownLogoutLI').style.display = 'none';
+  //document.getElementById('dropdownLoginLI').style.display = 'block';
 }
 }
 

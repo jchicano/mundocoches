@@ -35,6 +35,7 @@ if (auth2.isSignedIn.get()){
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail());
   document.getElementById('inputEmail').value = profile.getEmail();
+  document.getElementById('googleSignInBtn').setAttribute("disabled", "");
   //document.getElementById('dropdownLogoutMenu1').innerHTML= auth2.currentUser.get().getBasicProfile().getName();
   //document.getElementById('dropdownLoginLI').style.display = 'none';
   //document.getElementById('dropdownLogoutLI').style.display = 'block';

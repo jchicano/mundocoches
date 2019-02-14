@@ -91,4 +91,4 @@ session_start();
 <link rel="stylesheet" href="/css/registro.css">
 
 <script src="https://apis.google.com/js/api:client.js"></script>
-<script type="text/javascript" src="google-signin.js"></script>
+<script type="text/javascript" src="/js/google-signin.js"></script>

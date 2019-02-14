@@ -10,7 +10,7 @@
 .capbox-inner {
 	font: bold 11px 'Varela Round', sans-serif;
 	color: #000000;
-	background-color: #DBF3BA;
+	background-color: #d9d9d9;
 	margin: 5px auto 0px auto;
 	padding: 3px;
 	-moz-border-radius: 4px;
@@ -20,10 +20,12 @@
 
 #CaptchaDiv {
 	/*font-family: 'Varela Round', sans-serif;*/
-	font: bold 17px verdana, 'Varela Round', sans-serif;
+	font: bold 30px verdana, 'Hanalei', cursive;
+	font-family: 'Hanalei', cursive;
 	font-style: italic;
+	text-decoration: underline overline line-through black;
 	color: #000000;
-	background-color: #FFFFFF;
+	background-color: #d9d9d9;
 	padding: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -31,3 +33,4 @@
 	}
 
 #CaptchaInput { margin: 1px 0px 1px 0px; width: 135px; }
+

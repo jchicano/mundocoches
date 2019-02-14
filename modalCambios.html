@@ -1,0 +1,52 @@
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+
+<div class="modal fade" id="myModal">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-body">
+            <h4>Cambios en nuestra Web</h4>
+                    M U C H O S
+          </div>
+
+          <div class="modal-footer">
+               <!-- Incluir la clase 'nothanks' en los botones -->
+            <button class="btn btn-danger nothanksC" data-dismiss="modal" aria-hidden="true">Cerrar</button>
+          </div>
+      </div><!-- /.modal-content -->
+   </div><!-- /.modal-dialog -->
+ </div><!-- /.modal -->
+  
+<script>
+   // Pantalla modal retardada + Cookie al hacer clic
+   $(document).ready(function() {
+  
+   // Si no hay una cookie con nuestro nombre elegido (por ejemplo, no_thanksC) ...
+   if ($.cookie("no_thanksC") == null) {
+
+      // Show the modal, with delay func.
+      $('#myModal').appendTo("body");
+      function show_modal(){
+         $('#myModal').modal();
+      }
+  
+      // Establecer función de retardo tiempo en milisegundos
+      window.setTimeout(show_modal, 3000);
+   }
+  
+   // Al hacer clic en la clase especificada (por ejemplo, 'nothanksC'), active la cookie, que caduca en 30 días
+   $(".nothanksC").click(function() {
+        $.cookie('no_thanks', 'true', { expires: 36500, path: '/' });
+
+        /*PARA HACER LA PRUEBA A 5 SEGUNDOS*/
+        /*var date = new Date();
+        date.setTime(date.getTime() + (5 * 1000));
+        $.cookie('no_thanksC', 'true', { expires: date});*/
+      });
+   });
+</script>

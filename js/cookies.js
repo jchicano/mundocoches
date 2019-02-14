@@ -18,7 +18,7 @@ function GetCookie(name) {
 
 function aceptar_cookies(){
     var expire=new Date();
-    expire=new Date(expire.getTime()+7776000000);
+    expire=new Date(expire.getTime()+36500);
     document.cookie="cookies_surestao=aceptada; expires="+expire;
 
     var visit=GetCookie("cookies_surestao");
@@ -33,7 +33,7 @@ jQuery(function() {
 	    $('#overbox3').toggle();
     } else {
 	    var expire=new Date();
-	    expire=new Date(expire.getTime()+7776000000);
+	    expire=new Date(expire.getTime()+36500);
 	    document.cookie="cookies_surestao=aceptada; expires="+expire;
 	}
 

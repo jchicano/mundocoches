@@ -224,7 +224,9 @@
 
 <?php include("includes/body-tag-contents.php");?>
 
-<?php include("ejem.html");?>
+<?php include("modalSugerencia.html");?>
+
+<?php include("modalCambios.html");?>
 
 </body>
 

@@ -29,12 +29,12 @@ if (auth2.isSignedIn.get()){
   console.log('ID: ' + profile.getId());
   console.log('Full Name: ' + profile.getName());
   console.log('Given Name: ' + profile.getGivenName()); // Nombre
-  document.getElementById('inputName').innerHTML = profile.getGivenName();
+  document.getElementById('inputName').value = profile.getGivenName();
   console.log('Family Name: ' + profile.getFamilyName()); // Apellido/s
-  document.getElementById('inputSurname1').innerHTML = profile.getFamilyName();
+  document.getElementById('inputSurname1').value = profile.getFamilyName();
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail());
-  document.getElementById('inputEmail').innerHTML = profile.getEmail();
+  document.getElementById('inputEmail').value = profile.getEmail();
   //document.getElementById('dropdownLogoutMenu1').innerHTML= auth2.currentUser.get().getBasicProfile().getName();
   //document.getElementById('dropdownLoginLI').style.display = 'none';
   //document.getElementById('dropdownLogoutLI').style.display = 'block';

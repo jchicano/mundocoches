@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/video.css">
   <link rel="stylesheet" href="css/cookies.css"/>
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-	<script src="js/cookies.js" type="text/javascript"></script>
+  <script src="js/cookies.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -223,6 +223,8 @@
 <?php include("includes/footer.php");?>
 
 <?php include("includes/body-tag-contents.php");?>
+
+<?php include("ejem.html");?>
 
 </body>
 

@@ -125,7 +125,7 @@
             </form>
             <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" id="googleSignInBtn"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
-            <button id="logoff" >Cerrar sesion</button>
+            <button id="logoff" onclick="signOut()">Cerrar sesion</button>
 
             <script type="text/javascript">
 

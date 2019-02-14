@@ -24,6 +24,7 @@ function attachSignin(element) {
 
 var signinChanged = function (val) {
 console.log('Signin state changed to ', val);
+document.getElementById('googleSignInBtn').removeAttribute('disabled');
 if (auth2.isSignedIn.get()){
   var profile = auth2.currentUser.get().getBasicProfile();
   console.log('ID: ' + profile.getId());
@@ -42,6 +43,7 @@ if (auth2.isSignedIn.get()){
 
 }else{
   console.log('Not signed in.');
+  document.getElementById('googleSignInBtn').removeAttribute('disabled');
   //document.getElementById('dropdownLogoutLI').style.display = 'none';
   //document.getElementById('dropdownLoginLI').style.display = 'block';
 }

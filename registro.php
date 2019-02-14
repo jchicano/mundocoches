@@ -221,7 +221,7 @@
     <?php } ?>
     <script type="text/javascript" src="google-signin.js"></script>
   
-    <script>startApp();</script>
+    
 
 
 

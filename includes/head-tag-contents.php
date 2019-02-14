@@ -89,6 +89,5 @@ session_start();
 <script src="//netdna.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/css/registro.css">
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-
-<meta name="google-signin-client_id" content="690558520272-cmjb5scmdhejckaulq177kl6fmj8k0i1.apps.googleusercontent.com">
+<script src="https://apis.google.com/js/api:client.js"></script>
+<script type="text/javascript" src="google-signin.js"></script>

@@ -120,10 +120,11 @@
 
             <hr class="my-4">
 
-            <div class="g-signin2" data-onsuccess="onSignIn"></div>
+            <!-- Div adquirido de Google para el Login
+            <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
+            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" id="googleSignInBtn"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
             </form>
-            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit" id="googleSignInBtn"><i class="fab fa-google mr-2"></i> Iniciar sesión con Google</button>
 
             <button id="logoff" onclick="signOut()">Cerrar sesion</button>
 

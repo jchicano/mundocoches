@@ -1,4 +1,4 @@
-// ====== JS para el botón Google en REGISTRO ====== //
+// ====== JS para el botón Google en INICIO DE SESIÓN ====== //
 var startApp = function() {
   gapi.load('auth2', function(){
     // Retrieve the singleton for the GoogleAuth library and set up the client.
@@ -8,7 +8,7 @@ var startApp = function() {
       // Request scopes in addition to 'profile' and 'email'
       //scope: 'additional_scope'
     });
-    attachSignin(document.getElementById('googleSignInBtn'));        
+    attachSignin(document.getElementById('googleSignInBtn2'));        
   });
 }
 
@@ -25,26 +25,21 @@ function attachSignin(element) {
 
 var signinChanged = function (val) {
 console.log('Signin state changed to ', val);
-document.getElementById('googleSignInBtn').removeAttribute('disabled');
 if (auth2.isSignedIn.get()){
   var profile = auth2.currentUser.get().getBasicProfile();
   console.log('ID: ' + profile.getId());
   console.log('Full Name: ' + profile.getName());
   console.log('Given Name: ' + profile.getGivenName()); // Nombre
-  document.getElementById('inputName').value = profile.getGivenName();
   console.log('Family Name: ' + profile.getFamilyName()); // Apellido/s
-  document.getElementById('inputSurname1').value = profile.getFamilyName();
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail());
-  document.getElementById('inputEmail').value = profile.getEmail();
-  document.getElementById('googleSignInBtn').setAttribute("disabled", "");
+  document.getElementById('emailInput').value = profile.getEmail();
   //document.getElementById('dropdownLogoutMenu1').innerHTML= auth2.currentUser.get().getBasicProfile().getName();
   //document.getElementById('dropdownLoginLI').style.display = 'none';
   //document.getElementById('dropdownLogoutLI').style.display = 'block';
 
 }else{
   console.log('Not signed in.');
-  document.getElementById('googleSignInBtn').removeAttribute('disabled');
   //document.getElementById('dropdownLogoutLI').style.display = 'none';
   //document.getElementById('dropdownLoginLI').style.display = 'block';
 }

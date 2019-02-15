@@ -144,7 +144,7 @@
                         <hr>
 
                         <div class="form-group">
-                            <button id="googleSignInBtnOld" class="btn btn-danger quitarMayus" style="white-space: normal; width:300px;" disabled><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
+                            <button type="button" id="googleSignInBtn2" class="btn btn-danger quitarMayus" style="white-space: normal; width:300px;"><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
                         </div>
                         
                         <div class="form-group text-center">

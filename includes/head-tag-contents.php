@@ -92,5 +92,6 @@ session_start();
 
 <script src="https://apis.google.com/js/api:client.js"></script>
 <script type="text/javascript" src="/js/google-signin.js"></script>
+<script type="text/javascript" src="/js/google-signin2.js"></script>
 
 

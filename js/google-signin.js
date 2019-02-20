@@ -1,3 +1,4 @@
+// ====== JS para el botón Google en REGISTRO ====== //
 var startApp = function() {
   gapi.load('auth2', function(){
     // Retrieve the singleton for the GoogleAuth library and set up the client.

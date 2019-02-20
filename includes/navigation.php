@@ -143,9 +143,9 @@
               
                         <hr>
 
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <button id="googleSignInBtnOld" class="btn btn-danger quitarMayus" style="white-space: normal; width:300px;" disabled><i class="fab fa-google mr-2"></i>Iniciar sesión con Google</button>
-                        </div>
+                        </div>-->
                         
                         <div class="form-group text-center">
                         <?php if ($CURRENT_PAGE == "Index") { ?>

@@ -1,8 +1,6 @@
 # www.robotstxt.org/
+Sitemap: http://www.example.com/sitemap.xml
 
 # Allow crawling of all content
 User-agent: *
 Disallow:
-
-
-Sitemap: http://www.example.com/sitemap.xml

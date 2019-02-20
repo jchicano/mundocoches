@@ -101,9 +101,9 @@
           ?>
         </li>
         <?php if ($CURRENT_PAGE == "Index") { ?>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
-        </li>
+        </li>-->
         <!--<li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#projects">Reciente</a>
         </li>-->
@@ -111,9 +111,9 @@
           <a class="nav-link js-scroll-trigger" href="#signup">Contacto</a>
         </li>
         <?php } else { ?>
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="../index.php#about">Nosotros</a>
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="../index.php#signup">Contacto</a>
         </li>

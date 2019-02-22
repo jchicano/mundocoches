@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- A5 Sportback -->
         <a href="a5_sportback.php">
-          <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg">
+          <img class="img-fluid" src="../img/analisis/audi_a5_sportback.jpg" alt="A5 Sportback">
           <div class="letrero">A5 Sportback</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- A7 Sportback -->
         <a href="a7_sportback.php">
-          <img class="img-fluid" src="../img/marcas/audi_a7_sportback_01.jpg">
+          <img class="img-fluid" src="../img/marcas/audi_a7_sportback_01.jpg" alt="A7 Sportback">
           <div class="letrero">A7 Sportback</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- R8 Coupe -->
         <a href="r8_coupe.php">
-          <img class="img-fluid" src="../img/marcas/audi_r8_coupe_01.jpg">
+          <img class="img-fluid" src="../img/marcas/audi_r8_coupe_01.jpg" alt="R8 Coupe">
           <div class="letrero">R8 Coupe</div>
         </a>
       </div>

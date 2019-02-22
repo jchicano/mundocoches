@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- Ibiza -->
         <a href="ibiza.php">
-          <img class="img-fluid" src="../img/marcas/seat-ibiza-01.jpg">
+          <img class="img-fluid" src="../img/marcas/seat-ibiza-01.jpg" alt="Ibiza">
           <div class="letrero">Ibiza</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Leon -->
         <a href="leon.php">
-          <img class="img-fluid" src="../img/marcas/seat-leon-01.jpg">
+          <img class="img-fluid" src="../img/marcas/seat-leon-01.jpg" alt="Leon">
           <div class="letrero">Leon</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Ateca -->
         <a href="ateca.php">
-          <img class="img-fluid" src="../img/marcas/seat-ateca-01.jpg">
+          <img class="img-fluid" src="../img/marcas/seat-ateca-01.jpg" alt="Ateca">
           <div class="letrero">Ateca</div>
         </a>
       </div>

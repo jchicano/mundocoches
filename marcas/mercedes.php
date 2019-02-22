@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- AMG C 43 4MATIC -->
         <a href="amg_c43.php">
-          <img class="img-fluid" src="../img/analisis/merche.jpg">
+          <img class="img-fluid" src="../img/analisis/merche.jpg" alt="AMG C43 4MATIC">
           <div class="letrero">AMG C 43 4MATIC</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Clase A 180 -->
         <a href="clase_a180.php">
-          <img class="img-fluid" src="../img/marcas/mercedes-clase-a180-01.jpg">
+          <img class="img-fluid" src="../img/marcas/mercedes-clase-a180-01.jpg" alt="Clase A 180">
           <div class="letrero">Clase A 180</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Clase GLA 180 -->
         <a href="clase_gla180.php">
-          <img class="img-fluid" src="../img/marcas/mercedes-clase-gla180-01.jpg">
+          <img class="img-fluid" src="../img/marcas/mercedes-clase-gla180-01.jpg" alt="Clase GLA 180">
           <div class="letrero">Clase GLA 180</div>
         </a>
       </div>

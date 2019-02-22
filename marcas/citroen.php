@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- C4 -->
         <a href="c4.php">
-          <img class="img-fluid" src="../img/marcas/citroen-c4-01.jpg">
+          <img class="img-fluid" src="../img/marcas/citroen-c4-01.jpg" alt="C4">
           <div class="letrero">C4</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- C4 CACTUS -->
         <a href="c4_cactus.php">
-          <img class="img-fluid" src="../img/marcas/citroen-c4-cactus-01.jpg">
+          <img class="img-fluid" src="../img/marcas/citroen-c4-cactus-01.jpg" alt="C4 Cactus">
           <div class="letrero">C4 Cactus</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- c3 -->
         <a href="c3.php">
-          <img class="img-fluid" src="../img/marcas/citroen-c3-01.jpg">
+          <img class="img-fluid" src="../img/marcas/citroen-c3-01.jpg" alt="C3">
           <div class="letrero">C3</div>
         </a>
       </div>

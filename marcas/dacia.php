@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- Duster -->
         <a href="duster.php">
-          <img class="img-fluid" src="../img/marcas/dacia-duster-01.jpg">
+          <img class="img-fluid" src="../img/marcas/dacia-duster-01.jpg" alt="Duster">
           <div class="letrero">Duster</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Sandero -->
         <a href="sandero.php">
-          <img class="img-fluid" src="../img/marcas/dacia-sandero-01.jpg">
+          <img class="img-fluid" src="../img/marcas/dacia-sandero-01.jpg" alt="Sandero">
           <div class="letrero">Sandero</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Logan -->
         <a href="logan.php">
-          <img class="img-fluid" src="../img/marcas/dacia-logan-01.jpg">
+          <img class="img-fluid" src="../img/marcas/dacia-logan-01.jpg" alt="Logan">
           <div class="letrero">Logan</div>
         </a>
       </div>

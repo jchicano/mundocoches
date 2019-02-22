@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- i20 -->
         <a href="i20.php">
-          <img class="img-fluid" src="../img/marcas/hyundai-i20-01.jpg">
+          <img class="img-fluid" src="../img/marcas/hyundai-i20-01.jpg" alt="i20">
           <div class="letrero">i20</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- i30 -->
         <a href="i30.php">
-          <img class="img-fluid" src="../img/marcas/hyundai-i30-01.jpg">
+          <img class="img-fluid" src="../img/marcas/hyundai-i30-01.jpg" alt="i30">
           <div class="letrero">i30</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- i40 -->
         <a href="i40.php">
-          <img class="img-fluid" src="../img/marcas/hyundai-i40-01.jpg">
+          <img class="img-fluid" src="../img/marcas/hyundai-i40-01.jpg" alt="i40">
           <div class="letrero">i40</div>
         </a>
       </div>

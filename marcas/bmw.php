@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- M2 Competition -->
         <a href="m2_competition.php">
-          <img class="img-fluid" src="../img/analisis/bmw_m2_competition.jpg">
+          <img class="img-fluid" src="../img/analisis/bmw_m2_competition.jpg" alt="M2 Competition">
           <div class="letrero">M2 Competition</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- M3 -->
         <a href="m3.php">
-          <img class="img-fluid" src="../img/marcas/bmw-m3-01.jpg">
+          <img class="img-fluid" src="../img/marcas/bmw-m3-01.jpg" alt="M3">
           <div class="letrero">M3</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- M5 -->
         <a href="m5.php">
-          <img class="img-fluid" src="../img/marcas/bmw-m5-01.jpg">
+          <img class="img-fluid" src="../img/marcas/bmw-m5-01.jpg" alt="M5">
           <div class="letrero">M5</div>
         </a>
       </div>

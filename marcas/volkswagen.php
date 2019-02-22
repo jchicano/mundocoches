@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- Golf -->
         <a href="golf.php">
-          <img class="img-fluid" src="../img/marcas/volkswagen-golf-01.jpg">
+          <img class="img-fluid" src="../img/marcas/volkswagen-golf-01.jpg" alt="Golf">
           <div class="letrero">Golf</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Passat -->
         <a href="passat.php">
-          <img class="img-fluid" src="../img/marcas/volkswagen-passat-01.jpg">
+          <img class="img-fluid" src="../img/marcas/volkswagen-passat-01.jpg" alt="Passat">
           <div class="letrero">Passat</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Polo -->
         <a href="polo.php">
-          <img class="img-fluid" src="../img/marcas/volkswagen-polo-01.jpg">
+          <img class="img-fluid" src="../img/marcas/volkswagen-polo-01.jpg" alt="Polo">
           <div class="letrero">Polo</div>
         </a>
       </div>

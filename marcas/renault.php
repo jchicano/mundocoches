@@ -45,21 +45,21 @@
       <div class="col-md-4">
         <!-- Megane -->
         <a href="megane.php">
-          <img class="img-fluid" src="../img/marcas/renault-megane-01.jpg">
+          <img class="img-fluid" src="../img/marcas/renault-megane-01.jpg" alt="Megane">
           <div class="letrero">Megane</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Clio -->
         <a href="clio.php">
-          <img class="img-fluid" src="../img/marcas/renault-clio-01.jpg">
+          <img class="img-fluid" src="../img/marcas/renault-clio-01.jpg" alt="Clio">
           <div class="letrero">Clio</div>
         </a>
       </div>
       <div class="col-md-4">
         <!-- Talismán -->
         <a href="talisman.php">
-          <img class="img-fluid" src="../img/marcas/renault-talisman-01.jpg">
+          <img class="img-fluid" src="../img/marcas/renault-talisman-01.jpg" alt="Talisman">
           <div class="letrero">Talismán</div>
         </a>
       </div>

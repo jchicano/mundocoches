@@ -191,7 +191,7 @@ if($con->affected_rows){ //Devuelve 0 o un numero
       <div class="col-lg-6">
         <div id="editor"></div>
         <div class="text-center">
-          <button style="margin-top: 5px" class="btn btn-primary text-center" id="btnEnviar">Comentar</button>
+          <button style="margin-top: 5px" alt="Comentar" class="btn btn-primary text-center" id="btnEnviar">Comentar</button>
         </div>
       </div>
       <div class="col-lg-3">

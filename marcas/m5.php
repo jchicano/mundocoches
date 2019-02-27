@@ -30,7 +30,7 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-6 text-center">
-        <img class="img-fluid margen w-100" src="../img/marcas/bmw-m5-ft.jpg">
+        <img class="img-fluid margen w-100" src="../img/marcas/bmw-m5-ft.jpg" alt="M5">
       </div>
       <div class="col-lg-6 text-center">
         <br><h2 class="text-dark text-center">Ficha técnica</h2>

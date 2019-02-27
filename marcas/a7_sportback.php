@@ -31,7 +31,7 @@
     </div>
     <div class="row justify-content-center no-gutters mb-5 mb-lg-0 text-justify">
       <div class="col-lg-6 text-center">
-        <img class="img-fluid margen w-100" src="../img/marcas/audi-a7-sportback-ft.jpg">
+        <img class="img-fluid margen w-100" src="../img/marcas/audi-a7-sportback-ft.jpg" alt="A7 Sportback">
       </div>
       <div class="col-lg-6 text-center">
         <br><h2 class="text-dark text-center">Ficha técnica</h2>

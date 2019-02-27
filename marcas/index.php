@@ -43,19 +43,19 @@
         <div class="col-md-4">
           <!-- Audi -->
           <a href="audi.php">
-            <img class="img-fluid" src="../img/marcas/audi-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/audi-logo.jpg" alt="Audi">
           </a>
         </div>
         <div class="col-md-4">
           <!-- BMW -->
           <a href="bmw.php">
-            <img class="img-fluid" src="../img/marcas/bmw-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/bmw-logo.jpg" alt="BMW">
           </a>
         </div>
         <div class="col-md-4">
           <!-- Mercedes-Benz -->
           <a href="mercedes.php">
-            <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/mercedes-logo.jpg" alt="Mercedes Benz">
           </a>
         </div>
       </div>
@@ -76,19 +76,19 @@
         <div class="col-md-4">
           <!-- Citroën -->
           <a href="citroen.php">
-            <img class="img-fluid" src="../img/marcas/citroen-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/citroen-logo.jpg" alt="Citroen">
           </a>
         </div>
         <div class="col-md-4">
           <!-- Renault -->
           <a href="renault.php">
-            <img class="img-fluid" src="../img/marcas/renault-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/renault-logo.jpg" alt="Renault">
           </a>
         </div>
         <div class="col-md-4">
           <!-- Volkswagen -->
           <a href="volkswagen.php">
-            <img class="img-fluid" src="../img/marcas/vw-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/vw-logo.jpg" alt="Volkswagen">
           </a>
         </div>
       </div>
@@ -109,19 +109,19 @@
         <div class="col-md-4">
           <!-- Dacia -->
           <a href="dacia.php">
-            <img class="img-fluid" src="../img/marcas/dacia-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/dacia-logo.jpg" alt="Dacia">
           </a>
         </div>
         <div class="col-md-4">
           <!-- Hyundai -->
           <a href="hyundai.php">
-            <img class="img-fluid" src="../img/marcas/hyundai-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/hyundai-logo.jpg" alt="Hyundai">
           </a>
         </div>
         <div class="col-md-4">
           <!-- SEAT -->
           <a href="seat.php">
-            <img class="img-fluid" src="../img/marcas/seat-logo.jpg">
+            <img class="img-fluid" src="../img/marcas/seat-logo.jpg" alt="SEAT">
           </a>
         </div>
       </div>
